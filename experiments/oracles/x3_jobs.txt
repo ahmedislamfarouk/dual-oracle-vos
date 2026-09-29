@@ -1,0 +1,18 @@
+# TAG|script|precondition-file|extra env
+x3_mose_o4_q3|c4_x3.py|-|ROOT=$HOME/ow_vis/x3data/mose_sub/train MAXF=60 ORACLE=4 OSEEDS=3 OFRAMES=quartile
+x3_mose_o4_r3a|c4_x3.py|-|ROOT=$HOME/ow_vis/x3data/mose_sub/train MAXF=60 ORACLE=4 OSEEDS=3 OFRAMES=random RSEED=1
+x3_mose_tide|tide_x3.py|-|ROOT=$HOME/ow_vis/x3data/mose_sub/train MAXF=60 SPREAD=0 SWEEP=0 COVER_MAX=0.5
+x3_yt_o4_b1|c4_x3.py|-|ROOT=$HOME/ytvos2019/valid MAXF=9999 ORACLE=4 OSEEDS=1 OFRAMES=best VIDLIST=$HOME/ow_vis/x3data/late89.txt
+x3_yt_o4_b3|c4_x3.py|-|ROOT=$HOME/ytvos2019/valid MAXF=9999 ORACLE=4 OSEEDS=3 OFRAMES=best VIDLIST=$HOME/ow_vis/x3data/late89.txt
+x3_yt_tide|tide_x3.py|-|ROOT=$HOME/ytvos2019/valid MAXF=9999 SPREAD=0 SWEEP=0 COVER_MAX=0.5 VIDLIST=$HOME/ow_vis/x3data/late89.txt
+x3_mose_o4_q1|c4_x3.py|-|ROOT=$HOME/ow_vis/x3data/mose_sub/train MAXF=60 ORACLE=4 OSEEDS=1 OFRAMES=quartile
+x3_mose_o4_mid1|c4_x3.py|-|ROOT=$HOME/ow_vis/x3data/mose_sub/train MAXF=60 ORACLE=4 OSEEDS=1 OFRAMES=mid
+x3_mose_o4_r3b|c4_x3.py|-|ROOT=$HOME/ow_vis/x3data/mose_sub/train MAXF=60 ORACLE=4 OSEEDS=3 OFRAMES=random RSEED=2
+x3_dv_tide|tide_x3.py|$HOME/ow_vis/x3data/DAVIS_READY|ROOT=$HOME/ow_vis/x3data/davis_val30 MAXF=9999 SPREAD=0 SWEEP=0 COVER_MAX=0.5
+x3_yt_o4_q3|c4_x3.py|-|ROOT=$HOME/ytvos2019/valid MAXF=9999 ORACLE=4 OSEEDS=3 OFRAMES=quartile VIDLIST=$HOME/ow_vis/x3data/late89.txt
+x3_lvos_tide|tide_x3.py|$HOME/ow_vis/x3data/LVOS_READY|ROOT=$HOME/ow_vis/x3data/lvos_valid MAXF=100 SPREAD=1 SWEEP=0 COVER_MAX=0.5
+x3_lvos_o4_b1|c4_x3.py|$HOME/ow_vis/x3data/LVOS_READY|ROOT=$HOME/ow_vis/x3data/lvos_valid MAXF=100 SPREAD=1 ORACLE=4 OSEEDS=1 OFRAMES=best
+x3_lvos_o4_b3|c4_x3.py|$HOME/ow_vis/x3data/LVOS_READY|ROOT=$HOME/ow_vis/x3data/lvos_valid MAXF=100 SPREAD=1 ORACLE=4 OSEEDS=3 OFRAMES=best
+x3_mose_o4_b1|c4_x3.py|-|ROOT=$HOME/ow_vis/x3data/mose_sub/train MAXF=60 ORACLE=4 OSEEDS=1 OFRAMES=best
+x3_mose_o4_b3|c4_x3.py|-|ROOT=$HOME/ow_vis/x3data/mose_sub/train MAXF=60 ORACLE=4 OSEEDS=3 OFRAMES=best
+x3_mose_tide07|tide_x3.py|-|ROOT=$HOME/ow_vis/x3data/mose_sub/train MAXF=60 SPREAD=0 SWEEP=0 COVER_MAX=0.7
