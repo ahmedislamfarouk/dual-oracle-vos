@@ -1,0 +1,280 @@
+{
+  "backbone": "large",
+  "per_seq": {
+    "bike-packing": {
+      "JF_greedy": 0.8826,
+      "JF_bij": 0.8826,
+      "fps_frames": 0.942,
+      "fps_frameobj": 65.01,
+      "n_frames": 69,
+      "n_boxes": 69,
+      "prop_s": 73.24
+    },
+    "blackswan": {
+      "JF_greedy": 0.9431,
+      "JF_bij": 0.9431,
+      "fps_frames": 10.075,
+      "fps_frameobj": 10.07,
+      "n_frames": 50,
+      "n_boxes": 1,
+      "prop_s": 4.96
+    },
+    "bmx-trees": {
+      "JF_greedy": 0.7973,
+      "JF_bij": 0.7973,
+      "fps_frames": 8.017,
+      "fps_frameobj": 24.05,
+      "n_frames": 80,
+      "n_boxes": 3,
+      "prop_s": 9.98
+    },
+    "breakdance": {
+      "JF_greedy": 0.9555,
+      "JF_bij": 0.9555,
+      "fps_frames": 0.832,
+      "fps_frameobj": 66.54,
+      "n_frames": 84,
+      "n_boxes": 80,
+      "prop_s": 100.99
+    },
+    "camel": {
+      "JF_greedy": 0.9688,
+      "JF_bij": 0.9688,
+      "fps_frames": 8.092,
+      "fps_frameobj": 16.18,
+      "n_frames": 90,
+      "n_boxes": 2,
+      "prop_s": 11.12
+    },
+    "car-roundabout": {
+      "JF_greedy": 0.9641,
+      "JF_bij": 0.9641,
+      "fps_frames": 0.967,
+      "fps_frameobj": 66.75,
+      "n_frames": 75,
+      "n_boxes": 69,
+      "prop_s": 77.53
+    },
+    "car-shadow": {
+      "JF_greedy": 0.9628,
+      "JF_bij": 0.9628,
+      "fps_frames": 1.412,
+      "fps_frameobj": 67.76,
+      "n_frames": 40,
+      "n_boxes": 48,
+      "prop_s": 28.34
+    },
+    "cows": {
+      "JF_greedy": 0.9374,
+      "JF_bij": 0.9374,
+      "fps_frames": 10.371,
+      "fps_frameobj": 10.37,
+      "n_frames": 104,
+      "n_boxes": 1,
+      "prop_s": 10.03
+    },
+    "dance-twirl": {
+      "JF_greedy": 0.9279,
+      "JF_bij": 0.9279,
+      "fps_frames": 0.695,
+      "fps_frameobj": 68.15,
+      "n_frames": 90,
+      "n_boxes": 98,
+      "prop_s": 129.41
+    },
+    "dog": {
+      "JF_greedy": 0.9507,
+      "JF_bij": 0.9507,
+      "fps_frames": 10.52,
+      "fps_frameobj": 10.52,
+      "n_frames": 60,
+      "n_boxes": 1,
+      "prop_s": 5.7
+    },
+    "dogs-jump": {
+      "JF_greedy": 0.9426,
+      "JF_bij": 0.9426,
+      "fps_frames": 8.21,
+      "fps_frameobj": 24.63,
+      "n_frames": 66,
+      "n_boxes": 3,
+      "prop_s": 8.04
+    },
+    "drift-chicane": {
+      "JF_greedy": 0.9249,
+      "JF_bij": 0.9249,
+      "fps_frames": 0.846,
+      "fps_frameobj": 69.4,
+      "n_frames": 52,
+      "n_boxes": 82,
+      "prop_s": 61.44
+    },
+    "drift-straight": {
+      "JF_greedy": 0.9472,
+      "JF_bij": 0.9472,
+      "fps_frames": 0.91,
+      "fps_frameobj": 68.27,
+      "n_frames": 50,
+      "n_boxes": 75,
+      "prop_s": 54.93
+    },
+    "goat": {
+      "JF_greedy": 0.9187,
+      "JF_bij": 0.9187,
+      "fps_frames": 10.447,
+      "fps_frameobj": 10.45,
+      "n_frames": 90,
+      "n_boxes": 1,
+      "prop_s": 8.62
+    },
+    "gold-fish": {
+      "JF_greedy": 0.5882,
+      "JF_bij": 0.5802,
+      "fps_frames": 3.498,
+      "fps_frameobj": 48.97,
+      "n_frames": 78,
+      "n_boxes": 14,
+      "prop_s": 22.3
+    },
+    "horsejump-high": {
+      "JF_greedy": 0.8759,
+      "JF_bij": 0.8759,
+      "fps_frames": 3.882,
+      "fps_frameobj": 50.46,
+      "n_frames": 50,
+      "n_boxes": 13,
+      "prop_s": 12.88
+    },
+    "india": {
+      "JF_greedy": 0.7425,
+      "JF_bij": 0.7425,
+      "fps_frames": 0.679,
+      "fps_frameobj": 66.53,
+      "n_frames": 81,
+      "n_boxes": 98,
+      "prop_s": 119.31
+    },
+    "judo": {
+      "JF_greedy": 0.8926,
+      "JF_bij": 0.8926,
+      "fps_frames": 0.793,
+      "fps_frameobj": 71.35,
+      "n_frames": 34,
+      "n_boxes": 90,
+      "prop_s": 42.89
+    },
+    "kite-surf": {
+      "JF_greedy": 0.4978,
+      "JF_bij": 0.434,
+      "fps_frames": 7.229,
+      "fps_frameobj": 28.92,
+      "n_frames": 50,
+      "n_boxes": 4,
+      "prop_s": 6.92
+    },
+    "lab-coat": {
+      "JF_greedy": 0.5719,
+      "JF_bij": 0.5492,
+      "fps_frames": 2.982,
+      "fps_frameobj": 56.66,
+      "n_frames": 47,
+      "n_boxes": 19,
+      "prop_s": 15.76
+    },
+    "libby": {
+      "JF_greedy": 0.9286,
+      "JF_bij": 0.9286,
+      "fps_frames": 10.204,
+      "fps_frameobj": 10.2,
+      "n_frames": 49,
+      "n_boxes": 1,
+      "prop_s": 4.8
+    },
+    "loading": {
+      "JF_greedy": 0.6595,
+      "JF_bij": 0.6595,
+      "fps_frames": 1.84,
+      "fps_frameobj": 64.41,
+      "n_frames": 50,
+      "n_boxes": 35,
+      "prop_s": 27.17
+    },
+    "mbike-trick": {
+      "JF_greedy": 0.8907,
+      "JF_bij": 0.8907,
+      "fps_frames": 9.086,
+      "fps_frameobj": 18.17,
+      "n_frames": 79,
+      "n_boxes": 2,
+      "prop_s": 8.69
+    },
+    "motocross-jump": {
+      "JF_greedy": 0.9033,
+      "JF_bij": 0.9033,
+      "fps_frames": 7.159,
+      "fps_frameobj": 28.64,
+      "n_frames": 40,
+      "n_boxes": 4,
+      "prop_s": 5.59
+    },
+    "paragliding-launch": {
+      "JF_greedy": 0.3772,
+      "JF_bij": 0.3762,
+      "fps_frames": 5.619,
+      "fps_frameobj": 39.33,
+      "n_frames": 80,
+      "n_boxes": 7,
+      "prop_s": 14.24
+    },
+    "parkour": {
+      "JF_greedy": 0.9494,
+      "JF_bij": 0.9494,
+      "fps_frames": 8.154,
+      "fps_frameobj": 24.46,
+      "n_frames": 100,
+      "n_boxes": 3,
+      "prop_s": 12.26
+    },
+    "pigs": {
+      "JF_greedy": 0.9247,
+      "JF_bij": 0.9247,
+      "fps_frames": 6.584,
+      "fps_frameobj": 32.92,
+      "n_frames": 79,
+      "n_boxes": 5,
+      "prop_s": 12.0
+    },
+    "scooter-black": {
+      "JF_greedy": 0.8905,
+      "JF_bij": 0.8905,
+      "fps_frames": 0.721,
+      "fps_frameobj": 71.37,
+      "n_frames": 43,
+      "n_boxes": 99,
+      "prop_s": 59.65
+    },
+    "shooting": {
+      "JF_greedy": 0.6438,
+      "JF_bij": 0.6438,
+      "fps_frames": 2.434,
+      "fps_frameobj": 60.84,
+      "n_frames": 40,
+      "n_boxes": 25,
+      "prop_s": 16.44
+    },
+    "soapbox": {
+      "JF_greedy": 0.6562,
+      "JF_bij": 0.6562,
+      "fps_frames": 0.841,
+      "fps_frameobj": 68.1,
+      "n_frames": 99,
+      "n_boxes": 81,
+      "prop_s": 117.76
+    }
+  },
+  "mean_JF_greedy": 0.8339,
+  "mean_JF_bij": 0.8307,
+  "mean_fps_frames": 4.8014,
+  "total_prop_s": 1083.0,
+  "n_seqs": 30
+}

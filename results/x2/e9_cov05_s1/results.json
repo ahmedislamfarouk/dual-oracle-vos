@@ -1,0 +1,2837 @@
+{
+  "config": {
+    "ROOT": "/tmp/mose_sub/train",
+    "TAG": "e9_cov05_s1",
+    "MAXF": 60,
+    "MAXVIDS": 0,
+    "COVER_MAX": 0.5,
+    "SPREAD": "0",
+    "DISC_PERSIST_MIN": 0.7,
+    "DISC_COMMIT_COVER_MAX": 0.3,
+    "n": 59
+  },
+  "summary": {
+    "base": {
+      "greedy": 0.5376617694739504,
+      "commit_bij": 0.49721865300574186,
+      "prec": 0.2875188358320484,
+      "rec": 0.5306295399515738,
+      "ntrk": 20.88135593220339,
+      "ncommit": 8.779661016949152,
+      "Rstrict": 0.5306295399515738,
+      "Qstrict": 0.46922648912709175
+    },
+    "tide": {
+      "greedy": 0.6701326582839842,
+      "commit_bij": 0.6222170228733619,
+      "prec": 0.2286678995375275,
+      "rec": 0.7006860371267152,
+      "ntrk": 40.71186440677966,
+      "ncommit": 15.016949152542374,
+      "Rstrict": 0.7006860371267152,
+      "Qstrict": 0.590619626707969
+    },
+    "tideg": {
+      "greedy": 0.6442192069004632,
+      "commit_bij": 0.6069337227548461,
+      "prec": 0.2796389684039235,
+      "rec": 0.6667877320419694,
+      "ntrk": 26.559322033898304,
+      "ncommit": 11.94915254237288,
+      "Rstrict": 0.6667877320419694,
+      "Qstrict": 0.5650222547353837
+    },
+    "tidep": {
+      "greedy": 0.6442192069004632,
+      "commit_bij": 0.607254914392417,
+      "prec": 0.2796389684039235,
+      "rec": 0.6667877320419694,
+      "ntrk": 26.559322033898304,
+      "ncommit": 11.94915254237288,
+      "Rstrict": 0.6667877320419694,
+      "Qstrict": 0.5650222547353837
+    },
+    "tidep_go": {
+      "greedy": 0.6701326582839842,
+      "commit_bij": 0.6352719348278648,
+      "prec": 0.20502911771586724,
+      "rec": 0.7600080710250202,
+      "ntrk": 40.71186440677966,
+      "ncommit": 17.559322033898304,
+      "Rstrict": 0.7600080710250202,
+      "Qstrict": 0.6132202294676471
+    },
+    "tidec": {
+      "greedy": 0.6501865087404252,
+      "commit_bij": 0.6040557734587064,
+      "prec": 0.27431336600815004,
+      "rec": 0.658313155770783,
+      "ntrk": 28.23728813559322,
+      "ncommit": 11.11864406779661,
+      "Rstrict": 0.658313155770783,
+      "Qstrict": 0.5667690546086025
+    },
+    "tidec_p": {
+      "greedy": 0.6501865087404252,
+      "commit_bij": 0.6090269630614897,
+      "prec": 0.2858490337302585,
+      "rec": 0.6922114608555288,
+      "ntrk": 28.23728813559322,
+      "ncommit": 11.220338983050848,
+      "Rstrict": 0.6922114608555288,
+      "Qstrict": 0.574986245769628
+    },
+    "c_0.3": {
+      "greedy": 0.6511579796613864,
+      "commit_bij": 0.6051700362022487,
+      "prec": 0.27314004235489775,
+      "rec": 0.6667877320419694,
+      "ntrk": 29.423728813559322,
+      "ncommit": 11.508474576271187,
+      "Rstrict": 0.6667877320419694,
+      "Qstrict": 0.5648551279004058
+    },
+    "c_0.5": {
+      "greedy": 0.6501865087404252,
+      "commit_bij": 0.6040557734587064,
+      "prec": 0.27431336600815004,
+      "rec": 0.658313155770783,
+      "ntrk": 28.23728813559322,
+      "ncommit": 11.11864406779661,
+      "Rstrict": 0.658313155770783,
+      "Qstrict": 0.5667690546086025
+    },
+    "c_0.7": {
+      "greedy": 0.6374383067726669,
+      "commit_bij": 0.5974705679867067,
+      "prec": 0.2852739014709625,
+      "rec": 0.6498385794995966,
+      "ntrk": 26.593220338983052,
+      "ncommit": 10.457627118644067,
+      "Rstrict": 0.6498385794995966,
+      "Qstrict": 0.5583984777070042
+    },
+    "off_frame0": {
+      "disc_hits": 10,
+      "f0_hits": 80,
+      "disc_Q": 0.8317910378960297,
+      "f0_Q": 0.8064258082923376
+    }
+  },
+  "per_seq": {
+    "002b4dce": {
+      "base": {
+        "greedy": 0.9003,
+        "commit_bij": 0.9003,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 3,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9003
+      },
+      "tide": {
+        "greedy": 0.9003,
+        "commit_bij": 0.9003,
+        "prec": 0.2,
+        "rec": 1.0,
+        "ntrk": 43,
+        "ncommit": 10,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9003
+      },
+      "tideg": {
+        "greedy": 0.9003,
+        "commit_bij": 0.9003,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 3,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9003
+      },
+      "tidep": {
+        "greedy": 0.9003,
+        "commit_bij": 0.9003,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 3,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9003
+      },
+      "n_disc": 40,
+      "n_gated": 0,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "006e6b64": {
+      "base": {
+        "greedy": 0.3109,
+        "commit_bij": 0.3109,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 67,
+        "ncommit": 34,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.5436,
+        "commit_bij": 0.5234,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 161,
+        "ncommit": 74,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.5436,
+        "commit_bij": 0.5234,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 92,
+        "ncommit": 50,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.5436,
+        "commit_bij": 0.5234,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 92,
+        "ncommit": 50,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 94,
+      "n_gated": 25,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "00aec1e5": {
+      "base": {
+        "greedy": 0.5227,
+        "commit_bij": 0.5227,
+        "prec": 0.0588,
+        "rec": 1.0,
+        "ntrk": 49,
+        "ncommit": 17,
+        "Rstrict": 1.0,
+        "Qstrict": 0.5227
+      },
+      "tide": {
+        "greedy": 0.5227,
+        "commit_bij": 0.5227,
+        "prec": 0.0556,
+        "rec": 1.0,
+        "ntrk": 58,
+        "ncommit": 18,
+        "Rstrict": 1.0,
+        "Qstrict": 0.5227
+      },
+      "tideg": {
+        "greedy": 0.5227,
+        "commit_bij": 0.5227,
+        "prec": 0.0588,
+        "rec": 1.0,
+        "ntrk": 49,
+        "ncommit": 17,
+        "Rstrict": 1.0,
+        "Qstrict": 0.5227
+      },
+      "tidep": {
+        "greedy": 0.5227,
+        "commit_bij": 0.5227,
+        "prec": 0.0588,
+        "rec": 1.0,
+        "ntrk": 49,
+        "ncommit": 17,
+        "Rstrict": 1.0,
+        "Qstrict": 0.5227
+      },
+      "n_disc": 9,
+      "n_gated": 0,
+      "ngt": 1,
+      "nframe": 6
+    },
+    "013103f6": {
+      "base": {
+        "greedy": 0.954,
+        "commit_bij": 0.954,
+        "prec": 0.0333,
+        "rec": 1.0,
+        "ntrk": 57,
+        "ncommit": 30,
+        "Rstrict": 1.0,
+        "Qstrict": 0.954
+      },
+      "tide": {
+        "greedy": 0.954,
+        "commit_bij": 0.954,
+        "prec": 0.0303,
+        "rec": 1.0,
+        "ntrk": 64,
+        "ncommit": 33,
+        "Rstrict": 1.0,
+        "Qstrict": 0.954
+      },
+      "tideg": {
+        "greedy": 0.954,
+        "commit_bij": 0.954,
+        "prec": 0.0312,
+        "rec": 1.0,
+        "ntrk": 61,
+        "ncommit": 32,
+        "Rstrict": 1.0,
+        "Qstrict": 0.954
+      },
+      "tidep": {
+        "greedy": 0.954,
+        "commit_bij": 0.954,
+        "prec": 0.0312,
+        "rec": 1.0,
+        "ntrk": 61,
+        "ncommit": 32,
+        "Rstrict": 1.0,
+        "Qstrict": 0.954
+      },
+      "n_disc": 7,
+      "n_gated": 4,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "01e3cec8": {
+      "base": {
+        "greedy": 0.5895,
+        "commit_bij": 0.5282,
+        "prec": 0.3333,
+        "rec": 0.6667,
+        "ntrk": 16,
+        "ncommit": 6,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7475
+      },
+      "tide": {
+        "greedy": 0.5895,
+        "commit_bij": 0.5186,
+        "prec": 0.25,
+        "rec": 0.6667,
+        "ntrk": 28,
+        "ncommit": 8,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7332
+      },
+      "tideg": {
+        "greedy": 0.5895,
+        "commit_bij": 0.5282,
+        "prec": 0.25,
+        "rec": 0.6667,
+        "ntrk": 22,
+        "ncommit": 8,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7475
+      },
+      "tidep": {
+        "greedy": 0.5895,
+        "commit_bij": 0.5282,
+        "prec": 0.25,
+        "rec": 0.6667,
+        "ntrk": 22,
+        "ncommit": 8,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7475
+      },
+      "n_disc": 12,
+      "n_gated": 6,
+      "ngt": 3,
+      "nframe": 60
+    },
+    "028f6f64": {
+      "base": {
+        "greedy": 0.5243,
+        "commit_bij": 0.5136,
+        "prec": 0.5,
+        "rec": 0.6667,
+        "ntrk": 11,
+        "ncommit": 4,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7704
+      },
+      "tide": {
+        "greedy": 0.5243,
+        "commit_bij": 0.5325,
+        "prec": 0.4,
+        "rec": 0.6667,
+        "ntrk": 13,
+        "ncommit": 5,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7704
+      },
+      "tideg": {
+        "greedy": 0.5243,
+        "commit_bij": 0.5325,
+        "prec": 0.4,
+        "rec": 0.6667,
+        "ntrk": 13,
+        "ncommit": 5,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7704
+      },
+      "tidep": {
+        "greedy": 0.5243,
+        "commit_bij": 0.5325,
+        "prec": 0.4,
+        "rec": 0.6667,
+        "ntrk": 13,
+        "ncommit": 5,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7704
+      },
+      "n_disc": 2,
+      "n_gated": 2,
+      "ngt": 3,
+      "nframe": 36
+    },
+    "02b72b8d": {
+      "base": {
+        "greedy": 0.3307,
+        "commit_bij": 0.1883,
+        "prec": 0.25,
+        "rec": 0.2,
+        "ntrk": 10,
+        "ncommit": 4,
+        "Rstrict": 0.2,
+        "Qstrict": 0.8971
+      },
+      "tide": {
+        "greedy": 0.5049,
+        "commit_bij": 0.3692,
+        "prec": 0.1333,
+        "rec": 0.4,
+        "ntrk": 27,
+        "ncommit": 15,
+        "Rstrict": 0.4,
+        "Qstrict": 0.8768
+      },
+      "tideg": {
+        "greedy": 0.4851,
+        "commit_bij": 0.3658,
+        "prec": 0.1429,
+        "rec": 0.4,
+        "ntrk": 22,
+        "ncommit": 14,
+        "Rstrict": 0.4,
+        "Qstrict": 0.8683
+      },
+      "tidep": {
+        "greedy": 0.4851,
+        "commit_bij": 0.3681,
+        "prec": 0.1429,
+        "rec": 0.4,
+        "ntrk": 22,
+        "ncommit": 14,
+        "Rstrict": 0.4,
+        "Qstrict": 0.8683
+      },
+      "n_disc": 17,
+      "n_gated": 12,
+      "ngt": 5,
+      "nframe": 60
+    },
+    "02deca50": {
+      "base": {
+        "greedy": 0.6322,
+        "commit_bij": 0.6294,
+        "prec": 0.75,
+        "rec": 0.75,
+        "ntrk": 8,
+        "ncommit": 4,
+        "Rstrict": 0.75,
+        "Qstrict": 0.6604
+      },
+      "tide": {
+        "greedy": 0.6322,
+        "commit_bij": 0.6288,
+        "prec": 0.6,
+        "rec": 0.75,
+        "ntrk": 14,
+        "ncommit": 5,
+        "Rstrict": 0.75,
+        "Qstrict": 0.6596
+      },
+      "tideg": {
+        "greedy": 0.6322,
+        "commit_bij": 0.6294,
+        "prec": 0.75,
+        "rec": 0.75,
+        "ntrk": 8,
+        "ncommit": 4,
+        "Rstrict": 0.75,
+        "Qstrict": 0.6604
+      },
+      "tidep": {
+        "greedy": 0.6322,
+        "commit_bij": 0.6294,
+        "prec": 0.75,
+        "rec": 0.75,
+        "ntrk": 8,
+        "ncommit": 4,
+        "Rstrict": 0.75,
+        "Qstrict": 0.6604
+      },
+      "n_disc": 6,
+      "n_gated": 0,
+      "ngt": 4,
+      "nframe": 55
+    },
+    "033130b2": {
+      "base": {
+        "greedy": 0.5622,
+        "commit_bij": 0.2273,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 26,
+        "ncommit": 10,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.5622,
+        "commit_bij": 0.2273,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 30,
+        "ncommit": 13,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.5622,
+        "commit_bij": 0.2273,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 28,
+        "ncommit": 12,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.5622,
+        "commit_bij": 0.2273,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 28,
+        "ncommit": 12,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 4,
+      "n_gated": 2,
+      "ngt": 1,
+      "nframe": 22
+    },
+    "035359e5": {
+      "base": {
+        "greedy": 0.6538,
+        "commit_bij": 0.6074,
+        "prec": 0.75,
+        "rec": 0.75,
+        "ntrk": 13,
+        "ncommit": 4,
+        "Rstrict": 0.75,
+        "Qstrict": 0.8076
+      },
+      "tide": {
+        "greedy": 0.6898,
+        "commit_bij": 0.6898,
+        "prec": 0.2,
+        "rec": 0.75,
+        "ntrk": 36,
+        "ncommit": 15,
+        "Rstrict": 0.75,
+        "Qstrict": 0.8576
+      },
+      "tideg": {
+        "greedy": 0.6725,
+        "commit_bij": 0.6523,
+        "prec": 0.375,
+        "rec": 0.75,
+        "ntrk": 22,
+        "ncommit": 8,
+        "Rstrict": 0.75,
+        "Qstrict": 0.8076
+      },
+      "tidep": {
+        "greedy": 0.6725,
+        "commit_bij": 0.6523,
+        "prec": 0.375,
+        "rec": 0.75,
+        "ntrk": 22,
+        "ncommit": 8,
+        "Rstrict": 0.75,
+        "Qstrict": 0.8076
+      },
+      "n_disc": 23,
+      "n_gated": 9,
+      "ngt": 4,
+      "nframe": 24
+    },
+    "03692b14": {
+      "base": {
+        "greedy": 0.911,
+        "commit_bij": 0.911,
+        "prec": 0.1,
+        "rec": 1.0,
+        "ntrk": 44,
+        "ncommit": 20,
+        "Rstrict": 1.0,
+        "Qstrict": 0.911
+      },
+      "tide": {
+        "greedy": 0.911,
+        "commit_bij": 0.911,
+        "prec": 0.0909,
+        "rec": 1.0,
+        "ntrk": 51,
+        "ncommit": 22,
+        "Rstrict": 1.0,
+        "Qstrict": 0.911
+      },
+      "tideg": {
+        "greedy": 0.911,
+        "commit_bij": 0.911,
+        "prec": 0.0952,
+        "rec": 1.0,
+        "ntrk": 45,
+        "ncommit": 21,
+        "Rstrict": 1.0,
+        "Qstrict": 0.911
+      },
+      "tidep": {
+        "greedy": 0.911,
+        "commit_bij": 0.911,
+        "prec": 0.0952,
+        "rec": 1.0,
+        "ntrk": 45,
+        "ncommit": 21,
+        "Rstrict": 1.0,
+        "Qstrict": 0.911
+      },
+      "n_disc": 7,
+      "n_gated": 1,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "03c99e83": {
+      "base": {
+        "greedy": 0.7553,
+        "commit_bij": 0.7297,
+        "prec": 0.75,
+        "rec": 0.75,
+        "ntrk": 13,
+        "ncommit": 4,
+        "Rstrict": 0.75,
+        "Qstrict": 0.8112
+      },
+      "tide": {
+        "greedy": 0.7553,
+        "commit_bij": 0.7297,
+        "prec": 0.75,
+        "rec": 0.75,
+        "ntrk": 13,
+        "ncommit": 4,
+        "Rstrict": 0.75,
+        "Qstrict": 0.8112
+      },
+      "tideg": {
+        "greedy": 0.7553,
+        "commit_bij": 0.7297,
+        "prec": 0.75,
+        "rec": 0.75,
+        "ntrk": 13,
+        "ncommit": 4,
+        "Rstrict": 0.75,
+        "Qstrict": 0.8112
+      },
+      "tidep": {
+        "greedy": 0.7553,
+        "commit_bij": 0.7297,
+        "prec": 0.75,
+        "rec": 0.75,
+        "ntrk": 13,
+        "ncommit": 4,
+        "Rstrict": 0.75,
+        "Qstrict": 0.8112
+      },
+      "n_disc": 0,
+      "n_gated": 0,
+      "ngt": 4,
+      "nframe": 36
+    },
+    "03e5f069": {
+      "base": {
+        "greedy": 0.6068,
+        "commit_bij": 0.6068,
+        "prec": 0.2,
+        "rec": 1.0,
+        "ntrk": 21,
+        "ncommit": 10,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6068
+      },
+      "tide": {
+        "greedy": 0.6068,
+        "commit_bij": 0.6068,
+        "prec": 0.1538,
+        "rec": 1.0,
+        "ntrk": 31,
+        "ncommit": 13,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6068
+      },
+      "tideg": {
+        "greedy": 0.6068,
+        "commit_bij": 0.6068,
+        "prec": 0.1667,
+        "rec": 1.0,
+        "ntrk": 24,
+        "ncommit": 12,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6068
+      },
+      "tidep": {
+        "greedy": 0.6068,
+        "commit_bij": 0.6068,
+        "prec": 0.1667,
+        "rec": 1.0,
+        "ntrk": 24,
+        "ncommit": 12,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6068
+      },
+      "n_disc": 10,
+      "n_gated": 3,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "046ed4f4": {
+      "base": {
+        "greedy": 0.2545,
+        "commit_bij": 0.2545,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 11,
+        "ncommit": 3,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.3501,
+        "commit_bij": 0.2875,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 26,
+        "ncommit": 7,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.2545,
+        "commit_bij": 0.2545,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 16,
+        "ncommit": 5,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.2545,
+        "commit_bij": 0.2545,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 16,
+        "ncommit": 5,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 15,
+      "n_gated": 5,
+      "ngt": 1,
+      "nframe": 44
+    },
+    "051052d8": {
+      "base": {
+        "greedy": 0.8533,
+        "commit_bij": 0.8533,
+        "prec": 0.1429,
+        "rec": 1.0,
+        "ntrk": 18,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8533
+      },
+      "tide": {
+        "greedy": 0.9142,
+        "commit_bij": 0.9142,
+        "prec": 0.1111,
+        "rec": 1.0,
+        "ntrk": 24,
+        "ncommit": 9,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9142
+      },
+      "tideg": {
+        "greedy": 0.8533,
+        "commit_bij": 0.8533,
+        "prec": 0.1429,
+        "rec": 1.0,
+        "ntrk": 18,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8533
+      },
+      "tidep": {
+        "greedy": 0.8533,
+        "commit_bij": 0.8533,
+        "prec": 0.1429,
+        "rec": 1.0,
+        "ntrk": 18,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8533
+      },
+      "n_disc": 6,
+      "n_gated": 0,
+      "ngt": 1,
+      "nframe": 43
+    },
+    "055fca57": {
+      "base": {
+        "greedy": 0.795,
+        "commit_bij": 0.7431,
+        "prec": 1.0,
+        "rec": 0.8333,
+        "ntrk": 10,
+        "ncommit": 5,
+        "Rstrict": 0.8333,
+        "Qstrict": 0.8917
+      },
+      "tide": {
+        "greedy": 0.795,
+        "commit_bij": 0.773,
+        "prec": 0.625,
+        "rec": 0.8333,
+        "ntrk": 15,
+        "ncommit": 8,
+        "Rstrict": 0.8333,
+        "Qstrict": 0.8917
+      },
+      "tideg": {
+        "greedy": 0.795,
+        "commit_bij": 0.7434,
+        "prec": 0.8333,
+        "rec": 0.8333,
+        "ntrk": 11,
+        "ncommit": 6,
+        "Rstrict": 0.8333,
+        "Qstrict": 0.8917
+      },
+      "tidep": {
+        "greedy": 0.795,
+        "commit_bij": 0.7434,
+        "prec": 0.8333,
+        "rec": 0.8333,
+        "ntrk": 11,
+        "ncommit": 6,
+        "Rstrict": 0.8333,
+        "Qstrict": 0.8917
+      },
+      "n_disc": 5,
+      "n_gated": 1,
+      "ngt": 6,
+      "nframe": 60
+    },
+    "05a7d84d": {
+      "base": {
+        "greedy": 0.2479,
+        "commit_bij": 0.2507,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 21,
+        "ncommit": 7,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.2479,
+        "commit_bij": 0.2507,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 38,
+        "ncommit": 16,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.2479,
+        "commit_bij": 0.2507,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 29,
+        "ncommit": 12,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.2479,
+        "commit_bij": 0.2507,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 29,
+        "ncommit": 12,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 17,
+      "n_gated": 8,
+      "ngt": 1,
+      "nframe": 30
+    },
+    "06273084": {
+      "base": {
+        "greedy": 0.531,
+        "commit_bij": 0.296,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 19,
+        "ncommit": 5,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.531,
+        "commit_bij": 0.1697,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 81,
+        "ncommit": 19,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.531,
+        "commit_bij": 0.296,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 19,
+        "ncommit": 5,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.531,
+        "commit_bij": 0.296,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 19,
+        "ncommit": 5,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 62,
+      "n_gated": 0,
+      "ngt": 1,
+      "nframe": 27
+    },
+    "06772c9a": {
+      "base": {
+        "greedy": 0.5872,
+        "commit_bij": 0.5872,
+        "prec": 0.0435,
+        "rec": 1.0,
+        "ntrk": 45,
+        "ncommit": 23,
+        "Rstrict": 1.0,
+        "Qstrict": 0.5872
+      },
+      "tide": {
+        "greedy": 0.5872,
+        "commit_bij": 0.5872,
+        "prec": 0.037,
+        "rec": 1.0,
+        "ntrk": 70,
+        "ncommit": 27,
+        "Rstrict": 1.0,
+        "Qstrict": 0.5872
+      },
+      "tideg": {
+        "greedy": 0.5872,
+        "commit_bij": 0.5872,
+        "prec": 0.0417,
+        "rec": 1.0,
+        "ntrk": 46,
+        "ncommit": 24,
+        "Rstrict": 1.0,
+        "Qstrict": 0.5872
+      },
+      "tidep": {
+        "greedy": 0.5872,
+        "commit_bij": 0.5872,
+        "prec": 0.0417,
+        "rec": 1.0,
+        "ntrk": 46,
+        "ncommit": 24,
+        "Rstrict": 1.0,
+        "Qstrict": 0.5872
+      },
+      "n_disc": 25,
+      "n_gated": 1,
+      "ngt": 1,
+      "nframe": 23
+    },
+    "06ad78e0": {
+      "base": {
+        "greedy": 0.7085,
+        "commit_bij": 0.7085,
+        "prec": 0.1111,
+        "rec": 1.0,
+        "ntrk": 22,
+        "ncommit": 9,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7085
+      },
+      "tide": {
+        "greedy": 0.8824,
+        "commit_bij": 0.8824,
+        "prec": 0.0714,
+        "rec": 1.0,
+        "ntrk": 43,
+        "ncommit": 14,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8824
+      },
+      "tideg": {
+        "greedy": 0.7085,
+        "commit_bij": 0.7085,
+        "prec": 0.1,
+        "rec": 1.0,
+        "ntrk": 25,
+        "ncommit": 10,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7085
+      },
+      "tidep": {
+        "greedy": 0.7085,
+        "commit_bij": 0.7085,
+        "prec": 0.1,
+        "rec": 1.0,
+        "ntrk": 25,
+        "ncommit": 10,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7085
+      },
+      "n_disc": 21,
+      "n_gated": 3,
+      "ngt": 1,
+      "nframe": 35
+    },
+    "06ebc138": {
+      "base": {
+        "greedy": 0.1786,
+        "commit_bij": 0.0414,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 19,
+        "ncommit": 9,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.7215,
+        "commit_bij": 0.7215,
+        "prec": 0.0417,
+        "rec": 1.0,
+        "ntrk": 66,
+        "ncommit": 24,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7215
+      },
+      "tideg": {
+        "greedy": 0.7215,
+        "commit_bij": 0.7215,
+        "prec": 0.05,
+        "rec": 1.0,
+        "ntrk": 46,
+        "ncommit": 20,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7215
+      },
+      "tidep": {
+        "greedy": 0.7215,
+        "commit_bij": 0.7215,
+        "prec": 0.05,
+        "rec": 1.0,
+        "ntrk": 46,
+        "ncommit": 20,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7215
+      },
+      "n_disc": 47,
+      "n_gated": 27,
+      "ngt": 1,
+      "nframe": 22
+    },
+    "073baf48": {
+      "base": {
+        "greedy": 0.3879,
+        "commit_bij": 0.2241,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 19,
+        "ncommit": 7,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.3879,
+        "commit_bij": 0.2205,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 31,
+        "ncommit": 11,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.3879,
+        "commit_bij": 0.2241,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 21,
+        "ncommit": 8,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.3879,
+        "commit_bij": 0.2241,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 21,
+        "ncommit": 8,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 12,
+      "n_gated": 2,
+      "ngt": 1,
+      "nframe": 58
+    },
+    "07779415": {
+      "base": {
+        "greedy": 0.6393,
+        "commit_bij": 0.6393,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 50,
+        "ncommit": 25,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.6393,
+        "commit_bij": 0.6393,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 80,
+        "ncommit": 45,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.6393,
+        "commit_bij": 0.6393,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 63,
+        "ncommit": 35,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.6393,
+        "commit_bij": 0.6393,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 63,
+        "ncommit": 35,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 30,
+      "n_gated": 13,
+      "ngt": 1,
+      "nframe": 26
+    },
+    "07b5d86c": {
+      "base": {
+        "greedy": 0.778,
+        "commit_bij": 0.778,
+        "prec": 0.6,
+        "rec": 1.0,
+        "ntrk": 14,
+        "ncommit": 10,
+        "Rstrict": 1.0,
+        "Qstrict": 0.778
+      },
+      "tide": {
+        "greedy": 0.8103,
+        "commit_bij": 0.8111,
+        "prec": 0.4286,
+        "rec": 1.0,
+        "ntrk": 28,
+        "ncommit": 14,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8111
+      },
+      "tideg": {
+        "greedy": 0.778,
+        "commit_bij": 0.778,
+        "prec": 0.5,
+        "rec": 1.0,
+        "ntrk": 17,
+        "ncommit": 12,
+        "Rstrict": 1.0,
+        "Qstrict": 0.778
+      },
+      "tidep": {
+        "greedy": 0.778,
+        "commit_bij": 0.778,
+        "prec": 0.5,
+        "rec": 1.0,
+        "ntrk": 17,
+        "ncommit": 12,
+        "Rstrict": 1.0,
+        "Qstrict": 0.778
+      },
+      "n_disc": 14,
+      "n_gated": 3,
+      "ngt": 6,
+      "nframe": 60
+    },
+    "08a5c662": {
+      "base": {
+        "greedy": 0.8735,
+        "commit_bij": 0.8735,
+        "prec": 0.1,
+        "rec": 1.0,
+        "ntrk": 35,
+        "ncommit": 20,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8735
+      },
+      "tide": {
+        "greedy": 0.8735,
+        "commit_bij": 0.8735,
+        "prec": 0.0769,
+        "rec": 1.0,
+        "ntrk": 48,
+        "ncommit": 26,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8735
+      },
+      "tideg": {
+        "greedy": 0.8735,
+        "commit_bij": 0.8735,
+        "prec": 0.0909,
+        "rec": 1.0,
+        "ntrk": 38,
+        "ncommit": 22,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8735
+      },
+      "tidep": {
+        "greedy": 0.8735,
+        "commit_bij": 0.8735,
+        "prec": 0.0909,
+        "rec": 1.0,
+        "ntrk": 38,
+        "ncommit": 22,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8735
+      },
+      "n_disc": 13,
+      "n_gated": 3,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "093d3d93": {
+      "base": {
+        "greedy": 0.1484,
+        "commit_bij": 0.1212,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 5,
+        "ncommit": 1,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.8663,
+        "commit_bij": 0.8663,
+        "prec": 0.2,
+        "rec": 1.0,
+        "ntrk": 33,
+        "ncommit": 5,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8663
+      },
+      "tideg": {
+        "greedy": 0.8663,
+        "commit_bij": 0.8663,
+        "prec": 0.25,
+        "rec": 1.0,
+        "ntrk": 8,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8663
+      },
+      "tidep": {
+        "greedy": 0.8663,
+        "commit_bij": 0.8663,
+        "prec": 0.25,
+        "rec": 1.0,
+        "ntrk": 8,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8663
+      },
+      "n_disc": 28,
+      "n_gated": 3,
+      "ngt": 1,
+      "nframe": 20
+    },
+    "0a43a414": {
+      "base": {
+        "greedy": 0.7826,
+        "commit_bij": 0.7812,
+        "prec": 0.2,
+        "rec": 1.0,
+        "ntrk": 30,
+        "ncommit": 5,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7812
+      },
+      "tide": {
+        "greedy": 0.7863,
+        "commit_bij": 0.7863,
+        "prec": 0.0588,
+        "rec": 1.0,
+        "ntrk": 66,
+        "ncommit": 17,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7863
+      },
+      "tideg": {
+        "greedy": 0.7826,
+        "commit_bij": 0.7812,
+        "prec": 0.125,
+        "rec": 1.0,
+        "ntrk": 38,
+        "ncommit": 8,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7812
+      },
+      "tidep": {
+        "greedy": 0.7826,
+        "commit_bij": 0.7812,
+        "prec": 0.125,
+        "rec": 1.0,
+        "ntrk": 38,
+        "ncommit": 8,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7812
+      },
+      "n_disc": 36,
+      "n_gated": 8,
+      "ngt": 1,
+      "nframe": 33
+    },
+    "0a8d7b41": {
+      "base": {
+        "greedy": 0.7372,
+        "commit_bij": 0.7372,
+        "prec": 0.1667,
+        "rec": 1.0,
+        "ntrk": 20,
+        "ncommit": 6,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7372
+      },
+      "tide": {
+        "greedy": 0.7372,
+        "commit_bij": 0.7372,
+        "prec": 0.1429,
+        "rec": 1.0,
+        "ntrk": 30,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7372
+      },
+      "tideg": {
+        "greedy": 0.7372,
+        "commit_bij": 0.7372,
+        "prec": 0.1667,
+        "rec": 1.0,
+        "ntrk": 20,
+        "ncommit": 6,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7372
+      },
+      "tidep": {
+        "greedy": 0.7372,
+        "commit_bij": 0.7372,
+        "prec": 0.1667,
+        "rec": 1.0,
+        "ntrk": 20,
+        "ncommit": 6,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7372
+      },
+      "n_disc": 10,
+      "n_gated": 0,
+      "ngt": 1,
+      "nframe": 44
+    },
+    "0ab68ba2": {
+      "base": {
+        "greedy": 0.7474,
+        "commit_bij": 0.7474,
+        "prec": 0.1111,
+        "rec": 1.0,
+        "ntrk": 14,
+        "ncommit": 9,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7474
+      },
+      "tide": {
+        "greedy": 0.7474,
+        "commit_bij": 0.7474,
+        "prec": 0.0909,
+        "rec": 1.0,
+        "ntrk": 30,
+        "ncommit": 11,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7474
+      },
+      "tideg": {
+        "greedy": 0.7474,
+        "commit_bij": 0.7474,
+        "prec": 0.1,
+        "rec": 1.0,
+        "ntrk": 19,
+        "ncommit": 10,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7474
+      },
+      "tidep": {
+        "greedy": 0.7474,
+        "commit_bij": 0.7474,
+        "prec": 0.1,
+        "rec": 1.0,
+        "ntrk": 19,
+        "ncommit": 10,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7474
+      },
+      "n_disc": 16,
+      "n_gated": 5,
+      "ngt": 1,
+      "nframe": 8
+    },
+    "0ab807b4": {
+      "base": {
+        "greedy": 0.1606,
+        "commit_bij": 0.135,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 38,
+        "ncommit": 10,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.7771,
+        "commit_bij": 0.7743,
+        "prec": 0.0357,
+        "rec": 1.0,
+        "ntrk": 91,
+        "ncommit": 28,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7743
+      },
+      "tideg": {
+        "greedy": 0.1606,
+        "commit_bij": 0.135,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 59,
+        "ncommit": 22,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.1606,
+        "commit_bij": 0.1516,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 59,
+        "ncommit": 22,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 53,
+      "n_gated": 21,
+      "ngt": 1,
+      "nframe": 19
+    },
+    "0b02886a": {
+      "base": {
+        "greedy": 0.8582,
+        "commit_bij": 0.8582,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 3,
+        "ncommit": 3,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8582
+      },
+      "tide": {
+        "greedy": 0.8582,
+        "commit_bij": 0.8582,
+        "prec": 0.75,
+        "rec": 1.0,
+        "ntrk": 4,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8582
+      },
+      "tideg": {
+        "greedy": 0.8582,
+        "commit_bij": 0.8582,
+        "prec": 0.75,
+        "rec": 1.0,
+        "ntrk": 4,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8582
+      },
+      "tidep": {
+        "greedy": 0.8582,
+        "commit_bij": 0.8582,
+        "prec": 0.75,
+        "rec": 1.0,
+        "ntrk": 4,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8582
+      },
+      "n_disc": 1,
+      "n_gated": 1,
+      "ngt": 3,
+      "nframe": 30
+    },
+    "0b4b662c": {
+      "base": {
+        "greedy": 0.5733,
+        "commit_bij": 0.5733,
+        "prec": 1.0,
+        "rec": 0.6667,
+        "ntrk": 2,
+        "ncommit": 2,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.8599
+      },
+      "tide": {
+        "greedy": 0.8856,
+        "commit_bij": 0.8167,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 6,
+        "ncommit": 3,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8167
+      },
+      "tideg": {
+        "greedy": 0.873,
+        "commit_bij": 0.873,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 3,
+        "ncommit": 3,
+        "Rstrict": 1.0,
+        "Qstrict": 0.873
+      },
+      "tidep": {
+        "greedy": 0.873,
+        "commit_bij": 0.873,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 3,
+        "ncommit": 3,
+        "Rstrict": 1.0,
+        "Qstrict": 0.873
+      },
+      "n_disc": 4,
+      "n_gated": 1,
+      "ngt": 3,
+      "nframe": 60
+    },
+    "0b787263": {
+      "base": {
+        "greedy": 0.6126,
+        "commit_bij": 0.5108,
+        "prec": 0.2,
+        "rec": 0.6667,
+        "ntrk": 17,
+        "ncommit": 10,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7554
+      },
+      "tide": {
+        "greedy": 0.6475,
+        "commit_bij": 0.4451,
+        "prec": 0.1538,
+        "rec": 0.6667,
+        "ntrk": 32,
+        "ncommit": 13,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.6551
+      },
+      "tideg": {
+        "greedy": 0.6126,
+        "commit_bij": 0.5108,
+        "prec": 0.1818,
+        "rec": 0.6667,
+        "ntrk": 21,
+        "ncommit": 11,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7554
+      },
+      "tidep": {
+        "greedy": 0.6126,
+        "commit_bij": 0.5108,
+        "prec": 0.1818,
+        "rec": 0.6667,
+        "ntrk": 21,
+        "ncommit": 11,
+        "Rstrict": 0.6667,
+        "Qstrict": 0.7554
+      },
+      "n_disc": 15,
+      "n_gated": 4,
+      "ngt": 3,
+      "nframe": 60
+    },
+    "0ba9c5ad": {
+      "base": {
+        "greedy": 0.2583,
+        "commit_bij": 0.25,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 25,
+        "ncommit": 12,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.3333,
+        "commit_bij": 0.25,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 57,
+        "ncommit": 20,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.2583,
+        "commit_bij": 0.25,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 35,
+        "ncommit": 17,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.2583,
+        "commit_bij": 0.25,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 35,
+        "ncommit": 17,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 32,
+      "n_gated": 10,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0c13e1e7": {
+      "base": {
+        "greedy": 0.5056,
+        "commit_bij": 0.5187,
+        "prec": 0.25,
+        "rec": 0.5,
+        "ntrk": 5,
+        "ncommit": 4,
+        "Rstrict": 0.5,
+        "Qstrict": 0.8995
+      },
+      "tide": {
+        "greedy": 0.9171,
+        "commit_bij": 0.9117,
+        "prec": 0.2857,
+        "rec": 1.0,
+        "ntrk": 9,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9117
+      },
+      "tideg": {
+        "greedy": 0.9117,
+        "commit_bij": 0.9117,
+        "prec": 0.2857,
+        "rec": 1.0,
+        "ntrk": 8,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9117
+      },
+      "tidep": {
+        "greedy": 0.9117,
+        "commit_bij": 0.9117,
+        "prec": 0.2857,
+        "rec": 1.0,
+        "ntrk": 8,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9117
+      },
+      "n_disc": 4,
+      "n_gated": 3,
+      "ngt": 2,
+      "nframe": 36
+    },
+    "0d1fe009": {
+      "base": {
+        "greedy": 0.6751,
+        "commit_bij": 0.6736,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 5,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6736
+      },
+      "tide": {
+        "greedy": 0.6751,
+        "commit_bij": 0.5901,
+        "prec": 0.5,
+        "rec": 1.0,
+        "ntrk": 11,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.5901
+      },
+      "tideg": {
+        "greedy": 0.6751,
+        "commit_bij": 0.6736,
+        "prec": 0.6667,
+        "rec": 1.0,
+        "ntrk": 6,
+        "ncommit": 3,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6736
+      },
+      "tidep": {
+        "greedy": 0.6751,
+        "commit_bij": 0.6736,
+        "prec": 0.6667,
+        "rec": 1.0,
+        "ntrk": 6,
+        "ncommit": 3,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6736
+      },
+      "n_disc": 6,
+      "n_gated": 1,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "0d4d88f6": {
+      "base": {
+        "greedy": 0.4459,
+        "commit_bij": 0.2297,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 59,
+        "ncommit": 6,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.4459,
+        "commit_bij": 0.2297,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 92,
+        "ncommit": 10,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.4459,
+        "commit_bij": 0.2297,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 83,
+        "ncommit": 9,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.4459,
+        "commit_bij": 0.2297,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 83,
+        "ncommit": 9,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 33,
+      "n_gated": 24,
+      "ngt": 1,
+      "nframe": 37
+    },
+    "0d6e7177": {
+      "base": {
+        "greedy": 0.6494,
+        "commit_bij": 0.0795,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 29,
+        "ncommit": 13,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.6494,
+        "commit_bij": 0.1023,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 46,
+        "ncommit": 20,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.6494,
+        "commit_bij": 0.0795,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 41,
+        "ncommit": 19,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.6494,
+        "commit_bij": 0.0795,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 41,
+        "ncommit": 19,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 17,
+      "n_gated": 12,
+      "ngt": 1,
+      "nframe": 44
+    },
+    "0d8d30ae": {
+      "base": {
+        "greedy": 0.025,
+        "commit_bij": 0.025,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 8,
+        "ncommit": 6,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.7741,
+        "commit_bij": 0.7741,
+        "prec": 0.0714,
+        "rec": 1.0,
+        "ntrk": 28,
+        "ncommit": 14,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7741
+      },
+      "tideg": {
+        "greedy": 0.7741,
+        "commit_bij": 0.7741,
+        "prec": 0.0833,
+        "rec": 1.0,
+        "ntrk": 15,
+        "ncommit": 12,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7741
+      },
+      "tidep": {
+        "greedy": 0.7741,
+        "commit_bij": 0.7741,
+        "prec": 0.0833,
+        "rec": 1.0,
+        "ntrk": 15,
+        "ncommit": 12,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7741
+      },
+      "n_disc": 20,
+      "n_gated": 7,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0dc1b78c": {
+      "base": {
+        "greedy": 0.5231,
+        "commit_bij": 0.5231,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 27,
+        "ncommit": 9,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.6208,
+        "commit_bij": 0.6208,
+        "prec": 0.0625,
+        "rec": 1.0,
+        "ntrk": 62,
+        "ncommit": 16,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6208
+      },
+      "tideg": {
+        "greedy": 0.5231,
+        "commit_bij": 0.5231,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 33,
+        "ncommit": 13,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.5231,
+        "commit_bij": 0.5231,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 33,
+        "ncommit": 13,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 35,
+      "n_gated": 6,
+      "ngt": 1,
+      "nframe": 44
+    },
+    "0e4aeed9": {
+      "base": {
+        "greedy": 0.8457,
+        "commit_bij": 0.8442,
+        "prec": 0.625,
+        "rec": 1.0,
+        "ntrk": 12,
+        "ncommit": 8,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8442
+      },
+      "tide": {
+        "greedy": 0.8493,
+        "commit_bij": 0.8424,
+        "prec": 0.4545,
+        "rec": 1.0,
+        "ntrk": 27,
+        "ncommit": 11,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8424
+      },
+      "tideg": {
+        "greedy": 0.8457,
+        "commit_bij": 0.8442,
+        "prec": 0.5556,
+        "rec": 1.0,
+        "ntrk": 15,
+        "ncommit": 9,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8442
+      },
+      "tidep": {
+        "greedy": 0.8457,
+        "commit_bij": 0.8442,
+        "prec": 0.5556,
+        "rec": 1.0,
+        "ntrk": 15,
+        "ncommit": 9,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8442
+      },
+      "n_disc": 15,
+      "n_gated": 3,
+      "ngt": 5,
+      "nframe": 33
+    },
+    "0e843fc8": {
+      "base": {
+        "greedy": 0.0374,
+        "commit_bij": 0.0372,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 5,
+        "ncommit": 2,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.7899,
+        "commit_bij": 0.7935,
+        "prec": 0.25,
+        "rec": 1.0,
+        "ntrk": 21,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7935
+      },
+      "tideg": {
+        "greedy": 0.7899,
+        "commit_bij": 0.7935,
+        "prec": 0.25,
+        "rec": 1.0,
+        "ntrk": 19,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7935
+      },
+      "tidep": {
+        "greedy": 0.7899,
+        "commit_bij": 0.7935,
+        "prec": 0.25,
+        "rec": 1.0,
+        "ntrk": 19,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7935
+      },
+      "n_disc": 16,
+      "n_gated": 14,
+      "ngt": 1,
+      "nframe": 27
+    },
+    "0f5255e1": {
+      "base": {
+        "greedy": 0.0,
+        "commit_bij": 0.0274,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 16,
+        "ncommit": 3,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.0228,
+        "commit_bij": 0.0236,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 23,
+        "ncommit": 4,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.0,
+        "commit_bij": 0.0274,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 19,
+        "ncommit": 4,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.0,
+        "commit_bij": 0.0274,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 19,
+        "ncommit": 4,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 7,
+      "n_gated": 3,
+      "ngt": 2,
+      "nframe": 7
+    },
+    "0f809e41": {
+      "base": {
+        "greedy": 0.0,
+        "commit_bij": 0.0,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 1,
+        "ncommit": 1,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.943,
+        "commit_bij": 0.943,
+        "prec": 0.5,
+        "rec": 1.0,
+        "ntrk": 4,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.943
+      },
+      "tideg": {
+        "greedy": 0.943,
+        "commit_bij": 0.943,
+        "prec": 0.5,
+        "rec": 1.0,
+        "ntrk": 4,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.943
+      },
+      "tidep": {
+        "greedy": 0.943,
+        "commit_bij": 0.943,
+        "prec": 0.5,
+        "rec": 1.0,
+        "ntrk": 4,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.943
+      },
+      "n_disc": 3,
+      "n_gated": 3,
+      "ngt": 1,
+      "nframe": 26
+    },
+    "0fc00006": {
+      "base": {
+        "greedy": 0.7967,
+        "commit_bij": 0.7967,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 1,
+        "ncommit": 1,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7967
+      },
+      "tide": {
+        "greedy": 0.7967,
+        "commit_bij": 0.7967,
+        "prec": 0.5,
+        "rec": 1.0,
+        "ntrk": 2,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7967
+      },
+      "tideg": {
+        "greedy": 0.7967,
+        "commit_bij": 0.7967,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 1,
+        "ncommit": 1,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7967
+      },
+      "tidep": {
+        "greedy": 0.7967,
+        "commit_bij": 0.7967,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 1,
+        "ncommit": 1,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7967
+      },
+      "n_disc": 1,
+      "n_gated": 0,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "100edaef": {
+      "base": {
+        "greedy": 0.0,
+        "commit_bij": 0.0,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 7,
+        "ncommit": 6,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.1745,
+        "commit_bij": 0.1688,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 17,
+        "ncommit": 12,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.1745,
+        "commit_bij": 0.1688,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 16,
+        "ncommit": 12,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.1745,
+        "commit_bij": 0.1688,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 16,
+        "ncommit": 12,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 10,
+      "n_gated": 9,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "103166c7": {
+      "base": {
+        "greedy": 0.8345,
+        "commit_bij": 0.8345,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 2,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8345
+      },
+      "tide": {
+        "greedy": 0.8542,
+        "commit_bij": 0.8542,
+        "prec": 0.6667,
+        "rec": 1.0,
+        "ntrk": 11,
+        "ncommit": 3,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8542
+      },
+      "tideg": {
+        "greedy": 0.8345,
+        "commit_bij": 0.8345,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 2,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8345
+      },
+      "tidep": {
+        "greedy": 0.8345,
+        "commit_bij": 0.8345,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 2,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8345
+      },
+      "n_disc": 9,
+      "n_gated": 0,
+      "ngt": 2,
+      "nframe": 40
+    },
+    "103df575": {
+      "base": {
+        "greedy": 0.299,
+        "commit_bij": 0.2286,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 50,
+        "ncommit": 6,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.4471,
+        "commit_bij": 0.2599,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 95,
+        "ncommit": 11,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.299,
+        "commit_bij": 0.2452,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 55,
+        "ncommit": 9,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.299,
+        "commit_bij": 0.2452,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 55,
+        "ncommit": 9,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 45,
+      "n_gated": 5,
+      "ngt": 2,
+      "nframe": 40
+    },
+    "106d33db": {
+      "base": {
+        "greedy": 0.7858,
+        "commit_bij": 0.7858,
+        "prec": 0.6667,
+        "rec": 0.8571,
+        "ntrk": 16,
+        "ncommit": 9,
+        "Rstrict": 0.8571,
+        "Qstrict": 0.8221
+      },
+      "tide": {
+        "greedy": 0.8096,
+        "commit_bij": 0.8045,
+        "prec": 0.5455,
+        "rec": 0.8571,
+        "ntrk": 44,
+        "ncommit": 11,
+        "Rstrict": 0.8571,
+        "Qstrict": 0.8439
+      },
+      "tideg": {
+        "greedy": 0.7858,
+        "commit_bij": 0.7858,
+        "prec": 0.6667,
+        "rec": 0.8571,
+        "ntrk": 16,
+        "ncommit": 9,
+        "Rstrict": 0.8571,
+        "Qstrict": 0.8221
+      },
+      "tidep": {
+        "greedy": 0.7858,
+        "commit_bij": 0.7858,
+        "prec": 0.6667,
+        "rec": 0.8571,
+        "ntrk": 16,
+        "ncommit": 9,
+        "Rstrict": 0.8571,
+        "Qstrict": 0.8221
+      },
+      "n_disc": 28,
+      "n_gated": 0,
+      "ngt": 7,
+      "nframe": 40
+    },
+    "110da3cf": {
+      "base": {
+        "greedy": 0.0,
+        "commit_bij": 0.0,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 8,
+        "ncommit": 3,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.1152,
+        "commit_bij": 0.1152,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 31,
+        "ncommit": 16,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.0506,
+        "commit_bij": 0.0506,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 24,
+        "ncommit": 14,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.0506,
+        "commit_bij": 0.0506,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 24,
+        "ncommit": 14,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 23,
+      "n_gated": 16,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "111e0a5c": {
+      "base": {
+        "greedy": 0.8681,
+        "commit_bij": 0.8687,
+        "prec": 0.7143,
+        "rec": 1.0,
+        "ntrk": 15,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8687
+      },
+      "tide": {
+        "greedy": 0.8685,
+        "commit_bij": 0.8681,
+        "prec": 0.7143,
+        "rec": 1.0,
+        "ntrk": 40,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8681
+      },
+      "tideg": {
+        "greedy": 0.8681,
+        "commit_bij": 0.8687,
+        "prec": 0.7143,
+        "rec": 1.0,
+        "ntrk": 15,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8687
+      },
+      "tidep": {
+        "greedy": 0.8681,
+        "commit_bij": 0.8687,
+        "prec": 0.7143,
+        "rec": 1.0,
+        "ntrk": 15,
+        "ncommit": 7,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8687
+      },
+      "n_disc": 25,
+      "n_gated": 0,
+      "ngt": 5,
+      "nframe": 60
+    },
+    "1143b3fe": {
+      "base": {
+        "greedy": 0.1475,
+        "commit_bij": 0.1475,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 34,
+        "ncommit": 15,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.9407,
+        "commit_bij": 0.9407,
+        "prec": 0.0526,
+        "rec": 1.0,
+        "ntrk": 42,
+        "ncommit": 19,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9407
+      },
+      "tideg": {
+        "greedy": 0.9407,
+        "commit_bij": 0.9407,
+        "prec": 0.0556,
+        "rec": 1.0,
+        "ntrk": 38,
+        "ncommit": 18,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9407
+      },
+      "tidep": {
+        "greedy": 0.9407,
+        "commit_bij": 0.9407,
+        "prec": 0.0556,
+        "rec": 1.0,
+        "ntrk": 38,
+        "ncommit": 18,
+        "Rstrict": 1.0,
+        "Qstrict": 0.9407
+      },
+      "n_disc": 8,
+      "n_gated": 4,
+      "ngt": 1,
+      "nframe": 31
+    },
+    "115adda4": {
+      "base": {
+        "greedy": 0.1929,
+        "commit_bij": 0.1929,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 4,
+        "ncommit": 4,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.6446,
+        "commit_bij": 0.6166,
+        "prec": 0.0667,
+        "rec": 1.0,
+        "ntrk": 28,
+        "ncommit": 15,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6166
+      },
+      "tideg": {
+        "greedy": 0.6446,
+        "commit_bij": 0.6166,
+        "prec": 0.0769,
+        "rec": 1.0,
+        "ntrk": 18,
+        "ncommit": 13,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6166
+      },
+      "tidep": {
+        "greedy": 0.6446,
+        "commit_bij": 0.6166,
+        "prec": 0.0769,
+        "rec": 1.0,
+        "ntrk": 18,
+        "ncommit": 13,
+        "Rstrict": 1.0,
+        "Qstrict": 0.6166
+      },
+      "n_disc": 24,
+      "n_gated": 14,
+      "ngt": 1,
+      "nframe": 32
+    },
+    "118a067e": {
+      "base": {
+        "greedy": 0.0046,
+        "commit_bij": 0.0046,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 5,
+        "ncommit": 2,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tide": {
+        "greedy": 0.0046,
+        "commit_bij": 0.0046,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 8,
+        "ncommit": 3,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tideg": {
+        "greedy": 0.0046,
+        "commit_bij": 0.0046,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 7,
+        "ncommit": 3,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "tidep": {
+        "greedy": 0.0046,
+        "commit_bij": 0.0046,
+        "prec": 0.0,
+        "rec": 0.0,
+        "ntrk": 7,
+        "ncommit": 3,
+        "Rstrict": 0.0,
+        "Qstrict": 0.0
+      },
+      "n_disc": 3,
+      "n_gated": 2,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "11cdeb64": {
+      "base": {
+        "greedy": 0.7982,
+        "commit_bij": 0.7982,
+        "prec": 0.2,
+        "rec": 1.0,
+        "ntrk": 11,
+        "ncommit": 5,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7982
+      },
+      "tide": {
+        "greedy": 0.7955,
+        "commit_bij": 0.795,
+        "prec": 0.0526,
+        "rec": 1.0,
+        "ntrk": 77,
+        "ncommit": 19,
+        "Rstrict": 1.0,
+        "Qstrict": 0.795
+      },
+      "tideg": {
+        "greedy": 0.7982,
+        "commit_bij": 0.7982,
+        "prec": 0.2,
+        "rec": 1.0,
+        "ntrk": 11,
+        "ncommit": 5,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7982
+      },
+      "tidep": {
+        "greedy": 0.7982,
+        "commit_bij": 0.7982,
+        "prec": 0.2,
+        "rec": 1.0,
+        "ntrk": 11,
+        "ncommit": 5,
+        "Rstrict": 1.0,
+        "Qstrict": 0.7982
+      },
+      "n_disc": 66,
+      "n_gated": 0,
+      "ngt": 1,
+      "nframe": 28
+    },
+    "12099d59": {
+      "base": {
+        "greedy": 0.7408,
+        "commit_bij": 0.623,
+        "prec": 0.0625,
+        "rec": 1.0,
+        "ntrk": 36,
+        "ncommit": 16,
+        "Rstrict": 1.0,
+        "Qstrict": 0.623
+      },
+      "tide": {
+        "greedy": 0.7408,
+        "commit_bij": 0.623,
+        "prec": 0.0588,
+        "rec": 1.0,
+        "ntrk": 38,
+        "ncommit": 17,
+        "Rstrict": 1.0,
+        "Qstrict": 0.623
+      },
+      "tideg": {
+        "greedy": 0.7408,
+        "commit_bij": 0.623,
+        "prec": 0.0625,
+        "rec": 1.0,
+        "ntrk": 36,
+        "ncommit": 16,
+        "Rstrict": 1.0,
+        "Qstrict": 0.623
+      },
+      "tidep": {
+        "greedy": 0.7408,
+        "commit_bij": 0.623,
+        "prec": 0.0625,
+        "rec": 1.0,
+        "ntrk": 36,
+        "ncommit": 16,
+        "Rstrict": 1.0,
+        "Qstrict": 0.623
+      },
+      "n_disc": 2,
+      "n_gated": 0,
+      "ngt": 1,
+      "nframe": 4
+    },
+    "1291276c": {
+      "base": {
+        "greedy": 0.8294,
+        "commit_bij": 0.8261,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 8,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8261
+      },
+      "tide": {
+        "greedy": 0.8322,
+        "commit_bij": 0.829,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 17,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.829
+      },
+      "tideg": {
+        "greedy": 0.8294,
+        "commit_bij": 0.8261,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 8,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8261
+      },
+      "tidep": {
+        "greedy": 0.8294,
+        "commit_bij": 0.8261,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 8,
+        "ncommit": 2,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8261
+      },
+      "n_disc": 9,
+      "n_gated": 0,
+      "ngt": 2,
+      "nframe": 25
+    },
+    "12a5d0d7": {
+      "base": {
+        "greedy": 0.8943,
+        "commit_bij": 0.8274,
+        "prec": 0.0444,
+        "rec": 1.0,
+        "ntrk": 88,
+        "ncommit": 45,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8274
+      },
+      "tide": {
+        "greedy": 0.8943,
+        "commit_bij": 0.8274,
+        "prec": 0.0222,
+        "rec": 1.0,
+        "ntrk": 154,
+        "ncommit": 90,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8274
+      },
+      "tideg": {
+        "greedy": 0.8943,
+        "commit_bij": 0.8274,
+        "prec": 0.0294,
+        "rec": 1.0,
+        "ntrk": 114,
+        "ncommit": 68,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8274
+      },
+      "tidep": {
+        "greedy": 0.8943,
+        "commit_bij": 0.8274,
+        "prec": 0.0294,
+        "rec": 1.0,
+        "ntrk": 114,
+        "ncommit": 68,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8274
+      },
+      "n_disc": 66,
+      "n_gated": 26,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "12fdc864": {
+      "base": {
+        "greedy": 0.8561,
+        "commit_bij": 0.8501,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 5,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8501
+      },
+      "tide": {
+        "greedy": 0.8561,
+        "commit_bij": 0.8501,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 7,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8501
+      },
+      "tideg": {
+        "greedy": 0.8561,
+        "commit_bij": 0.8501,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 5,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8501
+      },
+      "tidep": {
+        "greedy": 0.8561,
+        "commit_bij": 0.8501,
+        "prec": 1.0,
+        "rec": 1.0,
+        "ntrk": 5,
+        "ncommit": 4,
+        "Rstrict": 1.0,
+        "Qstrict": 0.8501
+      },
+      "n_disc": 2,
+      "n_gated": 0,
+      "ngt": 4,
+      "nframe": 42
+    }
+  }
+}

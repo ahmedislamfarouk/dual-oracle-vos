@@ -1,0 +1,4895 @@
+{
+  "config": {
+    "ROOT": "/tmp/mose_sub/train",
+    "TAG": "instr_mose",
+    "MAXF": 60,
+    "MAXVIDS": 0
+  },
+  "summary": {
+    "n": 118,
+    "greedy": 0.5469099511932072,
+    "commit_bij": 0.5102664602834458,
+    "precision": 0.2794657170863866,
+    "recall": 0.539225181598063,
+    "mean_tracks": 21.39830508474576,
+    "mean_commit": 9.177966101694915,
+    "mean_gt": 2.2457627118644066,
+    "stage_counts": {
+      "N": 265,
+      "A": 188,
+      "B": 164,
+      "C": 143
+    },
+    "stage_rates": {
+      "R_proposal": 0.7094339622641509,
+      "R_prop_given_proposal": 0.8723404255319149,
+      "R_commit_given_prop": 0.8719512195121951,
+      "R_committed": 0.539622641509434
+    }
+  },
+  "per_seq": {
+    "001ca3cb": {
+      "greedy": 0.9246,
+      "commit_bij": 0.9246,
+      "prec": 0.167,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.9246,
+      "ntrk": 19,
+      "ncommit": 12,
+      "ngt": 2,
+      "nframe": 36,
+      "per_obj": [
+        {
+          "J": 0.9138,
+          "F": 0.9124
+        },
+        {
+          "J": 0.9339,
+          "F": 0.9382
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "002b4dce": {
+      "greedy": 0.9003,
+      "commit_bij": 0.9003,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.9003,
+      "ntrk": 3,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9697,
+          "F": 0.7138
+        },
+        {
+          "J": 0.9793,
+          "F": 0.9382
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "00501424": {
+      "greedy": 0.8663,
+      "commit_bij": 0.8663,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 5,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8663,
+      "ntrk": 5,
+      "ncommit": 5,
+      "ngt": 5,
+      "nframe": 45,
+      "per_obj": [
+        {
+          "J": 0.9133,
+          "F": 0.9425
+        },
+        {
+          "J": 0.8646,
+          "F": 0.9082
+        },
+        {
+          "J": 0.7107,
+          "F": 0.8084
+        },
+        {
+          "J": 0.8892,
+          "F": 0.9222
+        },
+        {
+          "J": 0.8156,
+          "F": 0.8884
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 5,
+      "stageA": 5,
+      "stageB": 4,
+      "stageC": 4
+    },
+    "006e6b64": {
+      "greedy": 0.3109,
+      "commit_bij": 0.3109,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 2,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 67,
+      "ncommit": 34,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.4517,
+          "F": 0.416
+        },
+        {
+          "J": 0.0374,
+          "F": 0.3384
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 2,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "009acc1a": {
+      "greedy": 0.8748,
+      "commit_bij": 0.8682,
+      "prec": 0.333,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8682,
+      "ntrk": 8,
+      "ncommit": 3,
+      "ngt": 1,
+      "nframe": 3,
+      "per_obj": [
+        {
+          "J": 0.9455,
+          "F": 0.7908
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "00aec1e5": {
+      "greedy": 0.5227,
+      "commit_bij": 0.5227,
+      "prec": 0.059,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.5227,
+      "ntrk": 49,
+      "ncommit": 17,
+      "ngt": 1,
+      "nframe": 6,
+      "per_obj": [
+        {
+          "J": 0.5277,
+          "F": 0.5177
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "00e92ab4": {
+      "greedy": 0.5587,
+      "commit_bij": 0.4565,
+      "prec": 0.154,
+      "rec": 0.667,
+      "nmatch": 3,
+      "Rstrict": 0.6667,
+      "Qstrict": 0.6812,
+      "ntrk": 30,
+      "ncommit": 13,
+      "ngt": 3,
+      "nframe": 34,
+      "per_obj": [
+        {
+          "J": 0.0138,
+          "F": 0.0
+        },
+        {
+          "J": 0.519,
+          "F": 0.6514
+        },
+        {
+          "J": 0.74,
+          "F": 0.8146
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 3,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "013103f6": {
+      "greedy": 0.954,
+      "commit_bij": 0.954,
+      "prec": 0.033,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.954,
+      "ntrk": 57,
+      "ncommit": 30,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9726,
+          "F": 0.9353
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0165667b": {
+      "greedy": 0.0301,
+      "commit_bij": 0.0301,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 30,
+      "ncommit": 11,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0005,
+          "F": 0.0597
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "01e3cec8": {
+      "greedy": 0.5895,
+      "commit_bij": 0.5282,
+      "prec": 0.333,
+      "rec": 0.667,
+      "nmatch": 3,
+      "Rstrict": 0.6667,
+      "Qstrict": 0.7475,
+      "ntrk": 16,
+      "ncommit": 6,
+      "ngt": 3,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8793,
+          "F": 0.7157
+        },
+        {
+          "J": 0.5528,
+          "F": 0.8424
+        },
+        {
+          "J": 0.1188,
+          "F": 0.0601
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 3,
+      "stageA": 3,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "02221fb0": {
+      "greedy": 0.9403,
+      "commit_bij": 0.9403,
+      "prec": 0.222,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.9403,
+      "ntrk": 15,
+      "ncommit": 9,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.971,
+          "F": 0.9589
+        },
+        {
+          "J": 0.8631,
+          "F": 0.9684
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "028f6f64": {
+      "greedy": 0.5243,
+      "commit_bij": 0.5136,
+      "prec": 0.5,
+      "rec": 0.667,
+      "nmatch": 2,
+      "Rstrict": 0.6667,
+      "Qstrict": 0.7704,
+      "ntrk": 11,
+      "ncommit": 4,
+      "ngt": 3,
+      "nframe": 36,
+      "per_obj": [
+        {
+          "J": 0.8007,
+          "F": 0.693
+        },
+        {
+          "J": 0.8448,
+          "F": 0.7429
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 3,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "02a236b4": {
+      "greedy": 0.2994,
+      "commit_bij": 0.0415,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 21,
+      "ncommit": 5,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0026,
+          "F": 0.0805
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "02b72b8d": {
+      "greedy": 0.3307,
+      "commit_bij": 0.1883,
+      "prec": 0.25,
+      "rec": 0.2,
+      "nmatch": 3,
+      "Rstrict": 0.2,
+      "Qstrict": 0.8971,
+      "ntrk": 10,
+      "ncommit": 4,
+      "ngt": 5,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.884,
+          "F": 0.9102
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.0004,
+          "F": 0.0617
+        },
+        {
+          "J": 0.0001,
+          "F": 0.0269
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 5,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "02de2f2a": {
+      "greedy": 0.6516,
+      "commit_bij": 0.6516,
+      "prec": 0.143,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.6516,
+      "ntrk": 44,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8791,
+          "F": 0.4241
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "02deca50": {
+      "greedy": 0.6322,
+      "commit_bij": 0.6294,
+      "prec": 0.75,
+      "rec": 0.75,
+      "nmatch": 4,
+      "Rstrict": 0.75,
+      "Qstrict": 0.6604,
+      "ntrk": 8,
+      "ncommit": 4,
+      "ngt": 4,
+      "nframe": 55,
+      "per_obj": [
+        {
+          "J": 0.8724,
+          "F": 0.8716
+        },
+        {
+          "J": 0.6753,
+          "F": 0.7032
+        },
+        {
+          "J": 0.4983,
+          "F": 0.5744
+        },
+        {
+          "J": 0.5582,
+          "F": 0.2816
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 4,
+      "stageA": 4,
+      "stageB": 3,
+      "stageC": 3
+    },
+    "03012cfd": {
+      "greedy": 0.946,
+      "commit_bij": 0.946,
+      "prec": 0.034,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.946,
+      "ntrk": 57,
+      "ncommit": 29,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9568,
+          "F": 0.9352
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "033130b2": {
+      "greedy": 0.5622,
+      "commit_bij": 0.2273,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 26,
+      "ncommit": 10,
+      "ngt": 1,
+      "nframe": 22,
+      "per_obj": [
+        {
+          "J": 0.4545,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 0
+    },
+    "033333fd": {
+      "greedy": 0.8055,
+      "commit_bij": 0.7427,
+      "prec": 0.714,
+      "rec": 0.833,
+      "nmatch": 6,
+      "Rstrict": 0.8333,
+      "Qstrict": 0.8672,
+      "ntrk": 22,
+      "ncommit": 7,
+      "ngt": 6,
+      "nframe": 50,
+      "per_obj": [
+        {
+          "J": 0.9623,
+          "F": 0.9062
+        },
+        {
+          "J": 0.9534,
+          "F": 0.9366
+        },
+        {
+          "J": 0.24,
+          "F": 0.0
+        },
+        {
+          "J": 0.8958,
+          "F": 0.9461
+        },
+        {
+          "J": 0.6833,
+          "F": 0.5466
+        },
+        {
+          "J": 0.8893,
+          "F": 0.9522
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 6,
+      "stageA": 6,
+      "stageB": 6,
+      "stageC": 5
+    },
+    "035359e5": {
+      "greedy": 0.6538,
+      "commit_bij": 0.6074,
+      "prec": 0.75,
+      "rec": 0.75,
+      "nmatch": 4,
+      "Rstrict": 0.75,
+      "Qstrict": 0.8076,
+      "ntrk": 13,
+      "ncommit": 4,
+      "ngt": 4,
+      "nframe": 24,
+      "per_obj": [
+        {
+          "J": 0.7891,
+          "F": 0.6828
+        },
+        {
+          "J": 0.7672,
+          "F": 0.7242
+        },
+        {
+          "J": 0.9249,
+          "F": 0.9572
+        },
+        {
+          "J": 0.0039,
+          "F": 0.0103
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 4,
+      "stageA": 3,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "0367af42": {
+      "greedy": 0.8302,
+      "commit_bij": 0.8302,
+      "prec": 0.111,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8302,
+      "ntrk": 15,
+      "ncommit": 9,
+      "ngt": 1,
+      "nframe": 27,
+      "per_obj": [
+        {
+          "J": 0.8791,
+          "F": 0.7814
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "03692b14": {
+      "greedy": 0.911,
+      "commit_bij": 0.911,
+      "prec": 0.1,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.911,
+      "ntrk": 44,
+      "ncommit": 20,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9144,
+          "F": 0.9582
+        },
+        {
+          "J": 0.8476,
+          "F": 0.9236
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "03c21af7": {
+      "greedy": 0.8878,
+      "commit_bij": 0.8878,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 4,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8878,
+      "ntrk": 4,
+      "ncommit": 4,
+      "ngt": 4,
+      "nframe": 36,
+      "per_obj": [
+        {
+          "J": 0.9528,
+          "F": 0.9571
+        },
+        {
+          "J": 0.9004,
+          "F": 0.9248
+        },
+        {
+          "J": 0.8226,
+          "F": 0.88
+        },
+        {
+          "J": 0.8048,
+          "F": 0.8597
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 4,
+      "stageA": 4,
+      "stageB": 4,
+      "stageC": 4
+    },
+    "03c99e83": {
+      "greedy": 0.7553,
+      "commit_bij": 0.7297,
+      "prec": 0.75,
+      "rec": 0.75,
+      "nmatch": 4,
+      "Rstrict": 0.75,
+      "Qstrict": 0.8112,
+      "ntrk": 13,
+      "ncommit": 4,
+      "ngt": 4,
+      "nframe": 36,
+      "per_obj": [
+        {
+          "J": 0.9177,
+          "F": 0.8515
+        },
+        {
+          "J": 0.7835,
+          "F": 0.8008
+        },
+        {
+          "J": 0.9306,
+          "F": 0.583
+        },
+        {
+          "J": 0.4759,
+          "F": 0.4949
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        }
+      ],
+      "stageN": 4,
+      "stageA": 4,
+      "stageB": 4,
+      "stageC": 3
+    },
+    "03e0f9b8": {
+      "greedy": 0.0554,
+      "commit_bij": 0.082,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 2,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 16,
+      "ncommit": 5,
+      "ngt": 2,
+      "nframe": 45,
+      "per_obj": [
+        {
+          "J": 0.0156,
+          "F": 0.1616
+        },
+        {
+          "J": 0.0068,
+          "F": 0.1439
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 2,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "03e5f069": {
+      "greedy": 0.6068,
+      "commit_bij": 0.6068,
+      "prec": 0.2,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.6068,
+      "ntrk": 21,
+      "ncommit": 10,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.705,
+          "F": 0.4008
+        },
+        {
+          "J": 0.6311,
+          "F": 0.6903
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "0442a954": {
+      "greedy": 0.7819,
+      "commit_bij": 0.7819,
+      "prec": 0.038,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7819,
+      "ntrk": 89,
+      "ncommit": 52,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.7858,
+          "F": 0.6346
+        },
+        {
+          "J": 0.7951,
+          "F": 0.9122
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "046ed4f4": {
+      "greedy": 0.2545,
+      "commit_bij": 0.2545,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 11,
+      "ncommit": 3,
+      "ngt": 1,
+      "nframe": 44,
+      "per_obj": [
+        {
+          "J": 0.183,
+          "F": 0.326
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "04ae7a6b": {
+      "greedy": 0.6391,
+      "commit_bij": 0.5327,
+      "prec": 0.375,
+      "rec": 0.5,
+      "nmatch": 6,
+      "Rstrict": 0.5,
+      "Qstrict": 0.8429,
+      "ntrk": 27,
+      "ncommit": 8,
+      "ngt": 6,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9621,
+          "F": 0.9255
+        },
+        {
+          "J": 0.9105,
+          "F": 0.9075
+        },
+        {
+          "J": 0.4035,
+          "F": 0.661
+        },
+        {
+          "J": 0.5312,
+          "F": 0.8203
+        },
+        {
+          "J": 0.1167,
+          "F": 0.0
+        },
+        {
+          "J": 0.1202,
+          "F": 0.0341
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        }
+      ],
+      "stageN": 6,
+      "stageA": 4,
+      "stageB": 3,
+      "stageC": 2
+    },
+    "051052d8": {
+      "greedy": 0.8533,
+      "commit_bij": 0.8533,
+      "prec": 0.143,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8533,
+      "ntrk": 18,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 43,
+      "per_obj": [
+        {
+          "J": 0.8695,
+          "F": 0.8372
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "0558d0ed": {
+      "greedy": 0.5645,
+      "commit_bij": 0.5581,
+      "prec": 0.174,
+      "rec": 0.571,
+      "nmatch": 7,
+      "Rstrict": 0.5714,
+      "Qstrict": 0.7822,
+      "ntrk": 47,
+      "ncommit": 23,
+      "ngt": 7,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8742,
+          "F": 0.847
+        },
+        {
+          "J": 0.8871,
+          "F": 0.8412
+        },
+        {
+          "J": 0.8187,
+          "F": 0.8623
+        },
+        {
+          "J": 0.1673,
+          "F": 0.2275
+        },
+        {
+          "J": 0.5704,
+          "F": 0.5565
+        },
+        {
+          "J": 0.0333,
+          "F": 0.0
+        },
+        {
+          "J": 0.4568,
+          "F": 0.6702
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 7,
+      "stageA": 4,
+      "stageB": 4,
+      "stageC": 4
+    },
+    "055fca57": {
+      "greedy": 0.795,
+      "commit_bij": 0.7431,
+      "prec": 1.0,
+      "rec": 0.833,
+      "nmatch": 5,
+      "Rstrict": 0.8333,
+      "Qstrict": 0.8917,
+      "ntrk": 10,
+      "ncommit": 5,
+      "ngt": 6,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8415,
+          "F": 0.8317
+        },
+        {
+          "J": 0.9499,
+          "F": 0.9396
+        },
+        {
+          "J": 0.948,
+          "F": 0.9155
+        },
+        {
+          "J": 0.8652,
+          "F": 0.8541
+        },
+        {
+          "J": 0.9027,
+          "F": 0.8686
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 6,
+      "stageA": 4,
+      "stageB": 4,
+      "stageC": 4
+    },
+    "056e4786": {
+      "greedy": 0.0921,
+      "commit_bij": 0.0871,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 22,
+      "ncommit": 10,
+      "ngt": 1,
+      "nframe": 6,
+      "per_obj": [
+        {
+          "J": 0.0329,
+          "F": 0.1413
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "05a7d84d": {
+      "greedy": 0.2479,
+      "commit_bij": 0.2507,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 21,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 30,
+      "per_obj": [
+        {
+          "J": 0.4671,
+          "F": 0.0343
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "05ed1023": {
+      "greedy": 0.4075,
+      "commit_bij": 0.2974,
+      "prec": 1.0,
+      "rec": 0.333,
+      "nmatch": 1,
+      "Rstrict": 0.3333,
+      "Qstrict": 0.8922,
+      "ntrk": 2,
+      "ncommit": 1,
+      "ngt": 3,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.9278,
+          "F": 0.8565
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 3,
+      "stageA": 2,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "06273084": {
+      "greedy": 0.531,
+      "commit_bij": 0.296,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 19,
+      "ncommit": 5,
+      "ngt": 1,
+      "nframe": 27,
+      "per_obj": [
+        {
+          "J": 0.4628,
+          "F": 0.1293
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0644075b": {
+      "greedy": 0.0012,
+      "commit_bij": 0.0012,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 5,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0024
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "06772c9a": {
+      "greedy": 0.5872,
+      "commit_bij": 0.5872,
+      "prec": 0.043,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.5872,
+      "ntrk": 45,
+      "ncommit": 23,
+      "ngt": 1,
+      "nframe": 23,
+      "per_obj": [
+        {
+          "J": 0.54,
+          "F": 0.6344
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "069f6a2a": {
+      "greedy": 0.7547,
+      "commit_bij": 0.7547,
+      "prec": 0.021,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7547,
+      "ntrk": 68,
+      "ncommit": 47,
+      "ngt": 1,
+      "nframe": 49,
+      "per_obj": [
+        {
+          "J": 0.6225,
+          "F": 0.8869
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "06ad78e0": {
+      "greedy": 0.7085,
+      "commit_bij": 0.7085,
+      "prec": 0.111,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7085,
+      "ntrk": 22,
+      "ncommit": 9,
+      "ngt": 1,
+      "nframe": 35,
+      "per_obj": [
+        {
+          "J": 0.8134,
+          "F": 0.6035
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "06ea172e": {
+      "greedy": 0.5436,
+      "commit_bij": 0.4013,
+      "prec": 0.214,
+      "rec": 0.25,
+      "nmatch": 10,
+      "Rstrict": 0.25,
+      "Qstrict": 0.6684,
+      "ntrk": 42,
+      "ncommit": 14,
+      "ngt": 12,
+      "nframe": 40,
+      "per_obj": [
+        {
+          "J": 0.8757,
+          "F": 0.5835
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.5,
+          "F": 0.0
+        },
+        {
+          "J": 0.2528,
+          "F": 0.3209
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.4944,
+          "F": 0.7034
+        },
+        {
+          "J": 0.47,
+          "F": 0.5245
+        },
+        {
+          "J": 0.609,
+          "F": 0.7534
+        },
+        {
+          "J": 0.5367,
+          "F": 0.6518
+        },
+        {
+          "J": 0.4965,
+          "F": 0.7105
+        },
+        {
+          "J": 0.0672,
+          "F": 0.2453
+        },
+        {
+          "J": 0.3528,
+          "F": 0.4836
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 12,
+      "stageA": 11,
+      "stageB": 6,
+      "stageC": 1
+    },
+    "06ebc138": {
+      "greedy": 0.1786,
+      "commit_bij": 0.0414,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 19,
+      "ncommit": 9,
+      "ngt": 1,
+      "nframe": 22,
+      "per_obj": [
+        {
+          "J": 0.0455,
+          "F": 0.0374
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "072e7b3f": {
+      "greedy": 0.4938,
+      "commit_bij": 0.3758,
+      "prec": 0.5,
+      "rec": 0.25,
+      "nmatch": 2,
+      "Rstrict": 0.25,
+      "Qstrict": 0.8786,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 4,
+      "nframe": 36,
+      "per_obj": [
+        {
+          "J": 0.8204,
+          "F": 0.9367
+        },
+        {
+          "J": 0.452,
+          "F": 0.797
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 4,
+      "stageA": 4,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "073baf48": {
+      "greedy": 0.3879,
+      "commit_bij": 0.2241,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 19,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 58,
+      "per_obj": [
+        {
+          "J": 0.4483,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0770ad03": {
+      "greedy": 0.8662,
+      "commit_bij": 0.8662,
+      "prec": 0.375,
+      "rec": 1.0,
+      "nmatch": 3,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8662,
+      "ntrk": 15,
+      "ncommit": 8,
+      "ngt": 3,
+      "nframe": 41,
+      "per_obj": [
+        {
+          "J": 0.9613,
+          "F": 0.9629
+        },
+        {
+          "J": 0.8472,
+          "F": 0.525
+        },
+        {
+          "J": 0.9503,
+          "F": 0.9502
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 3,
+      "stageA": 3,
+      "stageB": 3,
+      "stageC": 3
+    },
+    "07779415": {
+      "greedy": 0.6393,
+      "commit_bij": 0.6393,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 50,
+      "ncommit": 25,
+      "ngt": 1,
+      "nframe": 26,
+      "per_obj": [
+        {
+          "J": 0.4315,
+          "F": 0.8471
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "07b00746": {
+      "greedy": 0.8909,
+      "commit_bij": 0.8909,
+      "prec": 0.333,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8909,
+      "ntrk": 3,
+      "ncommit": 3,
+      "ngt": 1,
+      "nframe": 48,
+      "per_obj": [
+        {
+          "J": 0.8396,
+          "F": 0.9421
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "07b5d86c": {
+      "greedy": 0.778,
+      "commit_bij": 0.778,
+      "prec": 0.6,
+      "rec": 1.0,
+      "nmatch": 6,
+      "Rstrict": 1.0,
+      "Qstrict": 0.778,
+      "ntrk": 14,
+      "ncommit": 10,
+      "ngt": 6,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9563,
+          "F": 0.7747
+        },
+        {
+          "J": 0.9,
+          "F": 0.9516
+        },
+        {
+          "J": 0.7924,
+          "F": 0.8751
+        },
+        {
+          "J": 0.7335,
+          "F": 0.8219
+        },
+        {
+          "J": 0.5956,
+          "F": 0.6191
+        },
+        {
+          "J": 0.5893,
+          "F": 0.7263
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 6,
+      "stageA": 6,
+      "stageB": 6,
+      "stageC": 5
+    },
+    "08746283": {
+      "greedy": 0.3379,
+      "commit_bij": 0.332,
+      "prec": 0.333,
+      "rec": 0.333,
+      "nmatch": 3,
+      "Rstrict": 0.3333,
+      "Qstrict": 0.8372,
+      "ntrk": 5,
+      "ncommit": 3,
+      "ngt": 3,
+      "nframe": 30,
+      "per_obj": [
+        {
+          "J": 0.8965,
+          "F": 0.7779
+        },
+        {
+          "J": 0.0004,
+          "F": 0.0505
+        },
+        {
+          "J": 0.2667,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 3,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "08a5c662": {
+      "greedy": 0.8735,
+      "commit_bij": 0.8735,
+      "prec": 0.1,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8735,
+      "ntrk": 35,
+      "ncommit": 20,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8208,
+          "F": 0.7571
+        },
+        {
+          "J": 0.9728,
+          "F": 0.9432
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "08ff419c": {
+      "greedy": 0.9037,
+      "commit_bij": 0.9037,
+      "prec": 0.25,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.9037,
+      "ntrk": 9,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8718,
+          "F": 0.9356
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "093d3d93": {
+      "greedy": 0.1484,
+      "commit_bij": 0.1212,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 5,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 20,
+      "per_obj": [
+        {
+          "J": 0.0502,
+          "F": 0.1922
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "09d305d1": {
+      "greedy": 0.4092,
+      "commit_bij": 0.4092,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 25,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 53,
+      "per_obj": [
+        {
+          "J": 0.4514,
+          "F": 0.3671
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0a43a414": {
+      "greedy": 0.7826,
+      "commit_bij": 0.7812,
+      "prec": 0.2,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7812,
+      "ntrk": 30,
+      "ncommit": 5,
+      "ngt": 1,
+      "nframe": 33,
+      "per_obj": [
+        {
+          "J": 0.73,
+          "F": 0.8325
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "0a7a3629": {
+      "greedy": 0.772,
+      "commit_bij": 0.772,
+      "prec": 0.083,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.772,
+      "ntrk": 22,
+      "ncommit": 12,
+      "ngt": 1,
+      "nframe": 15,
+      "per_obj": [
+        {
+          "J": 0.9879,
+          "F": 0.556
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "0a8d7b41": {
+      "greedy": 0.7372,
+      "commit_bij": 0.7372,
+      "prec": 0.167,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7372,
+      "ntrk": 20,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 44,
+      "per_obj": [
+        {
+          "J": 0.6856,
+          "F": 0.7887
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0ab42ab1": {
+      "greedy": 0.5827,
+      "commit_bij": 0.25,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 4,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.5,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 0
+    },
+    "0ab68ba2": {
+      "greedy": 0.7474,
+      "commit_bij": 0.7474,
+      "prec": 0.111,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7474,
+      "ntrk": 14,
+      "ncommit": 9,
+      "ngt": 1,
+      "nframe": 8,
+      "per_obj": [
+        {
+          "J": 0.8923,
+          "F": 0.6026
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "0ab75563": {
+      "greedy": 0.2986,
+      "commit_bij": 0.1976,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 14,
+      "ncommit": 5,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.3847,
+          "F": 0.0104
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0ab807b4": {
+      "greedy": 0.1606,
+      "commit_bij": 0.135,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 38,
+      "ncommit": 10,
+      "ngt": 1,
+      "nframe": 19,
+      "per_obj": [
+        {
+          "J": 0.0975,
+          "F": 0.1725
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0af03282": {
+      "greedy": 0.5104,
+      "commit_bij": 0.3637,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 25,
+      "ncommit": 8,
+      "ngt": 1,
+      "nframe": 19,
+      "per_obj": [
+        {
+          "J": 0.2974,
+          "F": 0.43
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 0
+    },
+    "0b02886a": {
+      "greedy": 0.8582,
+      "commit_bij": 0.8582,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 3,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8582,
+      "ntrk": 3,
+      "ncommit": 3,
+      "ngt": 3,
+      "nframe": 30,
+      "per_obj": [
+        {
+          "J": 0.9417,
+          "F": 0.8989
+        },
+        {
+          "J": 0.7387,
+          "F": 0.8255
+        },
+        {
+          "J": 0.8768,
+          "F": 0.8678
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 3,
+      "stageA": 3,
+      "stageB": 3,
+      "stageC": 3
+    },
+    "0b27d5f7": {
+      "greedy": 0.6579,
+      "commit_bij": 0.5992,
+      "prec": 0.556,
+      "rec": 0.833,
+      "nmatch": 6,
+      "Rstrict": 0.8333,
+      "Qstrict": 0.6928,
+      "ntrk": 45,
+      "ncommit": 9,
+      "ngt": 6,
+      "nframe": 54,
+      "per_obj": [
+        {
+          "J": 0.9732,
+          "F": 0.9482
+        },
+        {
+          "J": 0.6687,
+          "F": 0.7321
+        },
+        {
+          "J": 0.5028,
+          "F": 0.5798
+        },
+        {
+          "J": 0.6587,
+          "F": 0.7045
+        },
+        {
+          "J": 0.5039,
+          "F": 0.6557
+        },
+        {
+          "J": 0.0426,
+          "F": 0.22
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 6,
+      "stageA": 5,
+      "stageB": 4,
+      "stageC": 3
+    },
+    "0b4b662c": {
+      "greedy": 0.5733,
+      "commit_bij": 0.5733,
+      "prec": 1.0,
+      "rec": 0.667,
+      "nmatch": 2,
+      "Rstrict": 0.6667,
+      "Qstrict": 0.8599,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 3,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.8069,
+          "F": 0.8833
+        },
+        {
+          "J": 0.8709,
+          "F": 0.8785
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 3,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "0b5e5d29": {
+      "greedy": 0.8404,
+      "commit_bij": 0.8404,
+      "prec": 0.833,
+      "rec": 1.0,
+      "nmatch": 5,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8404,
+      "ntrk": 13,
+      "ncommit": 6,
+      "ngt": 5,
+      "nframe": 42,
+      "per_obj": [
+        {
+          "J": 0.8534,
+          "F": 0.8928
+        },
+        {
+          "J": 0.6821,
+          "F": 0.7582
+        },
+        {
+          "J": 0.8712,
+          "F": 0.9193
+        },
+        {
+          "J": 0.9434,
+          "F": 0.923
+        },
+        {
+          "J": 0.7289,
+          "F": 0.8317
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 5,
+      "stageA": 5,
+      "stageB": 5,
+      "stageC": 5
+    },
+    "0b787263": {
+      "greedy": 0.6126,
+      "commit_bij": 0.5108,
+      "prec": 0.2,
+      "rec": 0.667,
+      "nmatch": 3,
+      "Rstrict": 0.6667,
+      "Qstrict": 0.7554,
+      "ntrk": 17,
+      "ncommit": 10,
+      "ngt": 3,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8271,
+          "F": 0.7326
+        },
+        {
+          "J": 0.0014,
+          "F": 0.0419
+        },
+        {
+          "J": 0.802,
+          "F": 0.6599
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 3,
+      "stageA": 3,
+      "stageB": 2,
+      "stageC": 1
+    },
+    "0b99f522": {
+      "greedy": 0.6198,
+      "commit_bij": 0.6198,
+      "prec": 0.5,
+      "rec": 0.5,
+      "nmatch": 2,
+      "Rstrict": 0.5,
+      "Qstrict": 0.8143,
+      "ntrk": 4,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 30,
+      "per_obj": [
+        {
+          "J": 0.8222,
+          "F": 0.8063
+        },
+        {
+          "J": 0.4198,
+          "F": 0.4307
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "0ba9c5ad": {
+      "greedy": 0.2583,
+      "commit_bij": 0.25,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 25,
+      "ncommit": 12,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.5,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0be33bc1": {
+      "greedy": 0.0083,
+      "commit_bij": 0.0106,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 30,
+      "ncommit": 10,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0167,
+          "F": 0.0046
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0c13e1e7": {
+      "greedy": 0.5056,
+      "commit_bij": 0.5187,
+      "prec": 0.25,
+      "rec": 0.5,
+      "nmatch": 2,
+      "Rstrict": 0.5,
+      "Qstrict": 0.8995,
+      "ntrk": 5,
+      "ncommit": 4,
+      "ngt": 2,
+      "nframe": 36,
+      "per_obj": [
+        {
+          "J": 0.001,
+          "F": 0.2747
+        },
+        {
+          "J": 0.9247,
+          "F": 0.8743
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 2,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0d1575fe": {
+      "greedy": 0.6813,
+      "commit_bij": 0.6813,
+      "prec": 0.059,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.6813,
+      "ntrk": 54,
+      "ncommit": 17,
+      "ngt": 1,
+      "nframe": 14,
+      "per_obj": [
+        {
+          "J": 0.7104,
+          "F": 0.6521
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0d1fe009": {
+      "greedy": 0.6751,
+      "commit_bij": 0.6736,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.6736,
+      "ntrk": 5,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.7107,
+          "F": 0.6683
+        },
+        {
+          "J": 0.6977,
+          "F": 0.6175
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 2,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "0d31d3a6": {
+      "greedy": 0.0105,
+      "commit_bij": 0.0052,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 6,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 45,
+      "per_obj": [
+        {
+          "J": 0.0001,
+          "F": 0.0104
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0d4d88f6": {
+      "greedy": 0.4459,
+      "commit_bij": 0.2297,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 59,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 37,
+      "per_obj": [
+        {
+          "J": 0.4595,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0d4feda2": {
+      "greedy": 0.2486,
+      "commit_bij": 0.2486,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 7,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 25,
+      "per_obj": [
+        {
+          "J": 0.1781,
+          "F": 0.3192
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0d6e7177": {
+      "greedy": 0.6494,
+      "commit_bij": 0.0795,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 29,
+      "ncommit": 13,
+      "ngt": 1,
+      "nframe": 44,
+      "per_obj": [
+        {
+          "J": 0.1591,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 0
+    },
+    "0d876a65": {
+      "greedy": 0.9222,
+      "commit_bij": 0.9035,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.9035,
+      "ntrk": 5,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 55,
+      "per_obj": [
+        {
+          "J": 0.9189,
+          "F": 0.9299
+        },
+        {
+          "J": 0.8748,
+          "F": 0.8902
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "0d8d30ae": {
+      "greedy": 0.025,
+      "commit_bij": 0.025,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 8,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.05,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0d967fd1": {
+      "greedy": 0.2372,
+      "commit_bij": 0.2254,
+      "prec": 1.0,
+      "rec": 0.25,
+      "nmatch": 2,
+      "Rstrict": 0.25,
+      "Qstrict": 0.9017,
+      "ntrk": 4,
+      "ncommit": 2,
+      "ngt": 8,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.9419,
+          "F": 0.9066
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.8759,
+          "F": 0.8824
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 8,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "0dc1b78c": {
+      "greedy": 0.5231,
+      "commit_bij": 0.5231,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 27,
+      "ncommit": 9,
+      "ngt": 1,
+      "nframe": 44,
+      "per_obj": [
+        {
+          "J": 0.4416,
+          "F": 0.6046
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0e05fabe": {
+      "greedy": 0.125,
+      "commit_bij": 0.2824,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 85,
+      "ncommit": 38,
+      "ngt": 1,
+      "nframe": 32,
+      "per_obj": [
+        {
+          "J": 0.1506,
+          "F": 0.4143
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0e4aeed9": {
+      "greedy": 0.8457,
+      "commit_bij": 0.8442,
+      "prec": 0.625,
+      "rec": 1.0,
+      "nmatch": 5,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8442,
+      "ntrk": 12,
+      "ncommit": 8,
+      "ngt": 5,
+      "nframe": 33,
+      "per_obj": [
+        {
+          "J": 0.8802,
+          "F": 0.9134
+        },
+        {
+          "J": 0.7898,
+          "F": 0.8807
+        },
+        {
+          "J": 0.7525,
+          "F": 0.8575
+        },
+        {
+          "J": 0.7556,
+          "F": 0.8581
+        },
+        {
+          "J": 0.8129,
+          "F": 0.9409
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 5,
+      "stageA": 5,
+      "stageB": 5,
+      "stageC": 5
+    },
+    "0e7001dd": {
+      "greedy": 0.6297,
+      "commit_bij": 0.5913,
+      "prec": 0.667,
+      "rec": 0.667,
+      "nmatch": 2,
+      "Rstrict": 0.6667,
+      "Qstrict": 0.887,
+      "ntrk": 11,
+      "ncommit": 3,
+      "ngt": 3,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9278,
+          "F": 0.8317
+        },
+        {
+          "J": 0.9019,
+          "F": 0.8867
+        },
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 3,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "0e843fc8": {
+      "greedy": 0.0374,
+      "commit_bij": 0.0372,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 5,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 27,
+      "per_obj": [
+        {
+          "J": 0.0013,
+          "F": 0.0731
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0f3b1fcb": {
+      "greedy": 0.0,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 0,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 25,
+      "ncommit": 16,
+      "ngt": 1,
+      "nframe": 10,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0f5255e1": {
+      "greedy": 0.0,
+      "commit_bij": 0.0274,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 16,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 7,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0
+        },
+        {
+          "J": 0.0,
+          "F": 0.1096
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 2,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0f685e01": {
+      "greedy": 0.7533,
+      "commit_bij": 0.7533,
+      "prec": 0.6,
+      "rec": 1.0,
+      "nmatch": 3,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7533,
+      "ntrk": 10,
+      "ncommit": 5,
+      "ngt": 3,
+      "nframe": 34,
+      "per_obj": [
+        {
+          "J": 0.8495,
+          "F": 0.9284
+        },
+        {
+          "J": 0.5182,
+          "F": 0.8582
+        },
+        {
+          "J": 0.5007,
+          "F": 0.8646
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 3,
+      "stageA": 3,
+      "stageB": 3,
+      "stageC": 3
+    },
+    "0f809e41": {
+      "greedy": 0.0,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 0,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 26,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0f96e2d7": {
+      "greedy": 0.8491,
+      "commit_bij": 0.8491,
+      "prec": 0.1,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8491,
+      "ntrk": 20,
+      "ncommit": 10,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8433,
+          "F": 0.855
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "0fc00006": {
+      "greedy": 0.7967,
+      "commit_bij": 0.7967,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7967,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9416,
+          "F": 0.6519
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "0fdf67f7": {
+      "greedy": 0.1809,
+      "commit_bij": 0.1809,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 3,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 36,
+      "per_obj": [
+        {
+          "J": 0.3611,
+          "F": 0.0006
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "100edaef": {
+      "greedy": 0.0,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 0,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 7,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "100f6ecf": {
+      "greedy": 0.7428,
+      "commit_bij": 0.7427,
+      "prec": 0.667,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7427,
+      "ntrk": 5,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9473,
+          "F": 0.8892
+        },
+        {
+          "J": 0.5712,
+          "F": 0.5631
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "103166c7": {
+      "greedy": 0.8345,
+      "commit_bij": 0.8345,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8345,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 40,
+      "per_obj": [
+        {
+          "J": 0.7349,
+          "F": 0.8693
+        },
+        {
+          "J": 0.8473,
+          "F": 0.8863
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "103b3ca8": {
+      "greedy": 0.0006,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 0,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 1,
+      "ncommit": 0,
+      "ngt": 1,
+      "nframe": 55,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "103df575": {
+      "greedy": 0.299,
+      "commit_bij": 0.2286,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 2,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 50,
+      "ncommit": 6,
+      "ngt": 2,
+      "nframe": 40,
+      "per_obj": [
+        {
+          "J": 0.492,
+          "F": 0.1858
+        },
+        {
+          "J": 0.2266,
+          "F": 0.01
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 2,
+      "stageA": 1,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "10552818": {
+      "greedy": 0.207,
+      "commit_bij": 0.0661,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 10,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.008,
+          "F": 0.1242
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "106d33db": {
+      "greedy": 0.7858,
+      "commit_bij": 0.7858,
+      "prec": 0.667,
+      "rec": 0.857,
+      "nmatch": 7,
+      "Rstrict": 0.8571,
+      "Qstrict": 0.8221,
+      "ntrk": 16,
+      "ncommit": 9,
+      "ngt": 7,
+      "nframe": 40,
+      "per_obj": [
+        {
+          "J": 0.8214,
+          "F": 0.9532
+        },
+        {
+          "J": 0.8024,
+          "F": 0.9466
+        },
+        {
+          "J": 0.775,
+          "F": 0.9336
+        },
+        {
+          "J": 0.8146,
+          "F": 0.9475
+        },
+        {
+          "J": 0.5189,
+          "F": 0.7198
+        },
+        {
+          "J": 0.456,
+          "F": 0.6798
+        },
+        {
+          "J": 0.72,
+          "F": 0.9118
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        }
+      ],
+      "stageN": 7,
+      "stageA": 7,
+      "stageB": 6,
+      "stageC": 5
+    },
+    "1106f3a7": {
+      "greedy": 0.9186,
+      "commit_bij": 0.9186,
+      "prec": 0.4,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.9186,
+      "ntrk": 7,
+      "ncommit": 5,
+      "ngt": 2,
+      "nframe": 36,
+      "per_obj": [
+        {
+          "J": 0.9361,
+          "F": 0.8961
+        },
+        {
+          "J": 0.9255,
+          "F": 0.9167
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "110da3cf": {
+      "greedy": 0.0,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 0,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 8,
+      "ncommit": 3,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "111bb373": {
+      "greedy": 0.7004,
+      "commit_bij": 0.7004,
+      "prec": 0.125,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7004,
+      "ntrk": 22,
+      "ncommit": 8,
+      "ngt": 1,
+      "nframe": 34,
+      "per_obj": [
+        {
+          "J": 0.9447,
+          "F": 0.4561
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "111e0a5c": {
+      "greedy": 0.8681,
+      "commit_bij": 0.8687,
+      "prec": 0.714,
+      "rec": 1.0,
+      "nmatch": 5,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8687,
+      "ntrk": 15,
+      "ncommit": 7,
+      "ngt": 5,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8757,
+          "F": 0.9461
+        },
+        {
+          "J": 0.6025,
+          "F": 0.8412
+        },
+        {
+          "J": 0.8609,
+          "F": 0.93
+        },
+        {
+          "J": 0.8741,
+          "F": 0.9417
+        },
+        {
+          "J": 0.8632,
+          "F": 0.9517
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 5,
+      "stageA": 5,
+      "stageB": 5,
+      "stageC": 5
+    },
+    "112a2ef0": {
+      "greedy": 0.9349,
+      "commit_bij": 0.9349,
+      "prec": 0.125,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.9349,
+      "ntrk": 8,
+      "ncommit": 8,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9143,
+          "F": 0.9556
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "1143b3fe": {
+      "greedy": 0.1475,
+      "commit_bij": 0.1475,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 34,
+      "ncommit": 15,
+      "ngt": 1,
+      "nframe": 31,
+      "per_obj": [
+        {
+          "J": 0.0015,
+          "F": 0.2935
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "115348f9": {
+      "greedy": 0.907,
+      "commit_bij": 0.9038,
+      "prec": 0.667,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.9038,
+      "ntrk": 8,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 42,
+      "per_obj": [
+        {
+          "J": 0.9601,
+          "F": 0.8925
+        },
+        {
+          "J": 0.9011,
+          "F": 0.8616
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "115adda4": {
+      "greedy": 0.1929,
+      "commit_bij": 0.1929,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 4,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 32,
+      "per_obj": [
+        {
+          "J": 0.3125,
+          "F": 0.0732
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "115da184": {
+      "greedy": 0.821,
+      "commit_bij": 0.8026,
+      "prec": 0.75,
+      "rec": 1.0,
+      "nmatch": 9,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8026,
+      "ntrk": 21,
+      "ncommit": 12,
+      "ngt": 9,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8608,
+          "F": 0.898
+        },
+        {
+          "J": 0.9342,
+          "F": 0.5889
+        },
+        {
+          "J": 0.9007,
+          "F": 0.6791
+        },
+        {
+          "J": 0.9078,
+          "F": 0.5402
+        },
+        {
+          "J": 0.8228,
+          "F": 0.452
+        },
+        {
+          "J": 0.8678,
+          "F": 0.933
+        },
+        {
+          "J": 0.6114,
+          "F": 0.8631
+        },
+        {
+          "J": 0.8493,
+          "F": 0.9594
+        },
+        {
+          "J": 0.8253,
+          "F": 0.9526
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 9,
+      "stageA": 9,
+      "stageB": 9,
+      "stageC": 7
+    },
+    "118a067e": {
+      "greedy": 0.0046,
+      "commit_bij": 0.0046,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 5,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.0043,
+          "F": 0.0049
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "11c14893": {
+      "greedy": 0.6878,
+      "commit_bij": 0.3659,
+      "prec": 0.056,
+      "rec": 0.333,
+      "nmatch": 3,
+      "Rstrict": 0.3333,
+      "Qstrict": 0.8226,
+      "ntrk": 66,
+      "ncommit": 18,
+      "ngt": 3,
+      "nframe": 20,
+      "per_obj": [
+        {
+          "J": 0.7961,
+          "F": 0.849
+        },
+        {
+          "J": 0.05,
+          "F": 0.0
+        },
+        {
+          "J": 0.5,
+          "F": 0.0
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        }
+      ],
+      "stageN": 3,
+      "stageA": 3,
+      "stageB": 3,
+      "stageC": 1
+    },
+    "11cdeb64": {
+      "greedy": 0.7982,
+      "commit_bij": 0.7982,
+      "prec": 0.2,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.7982,
+      "ntrk": 11,
+      "ncommit": 5,
+      "ngt": 1,
+      "nframe": 28,
+      "per_obj": [
+        {
+          "J": 0.8734,
+          "F": 0.723
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "12099d59": {
+      "greedy": 0.7408,
+      "commit_bij": 0.623,
+      "prec": 0.062,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.623,
+      "ntrk": 36,
+      "ncommit": 16,
+      "ngt": 1,
+      "nframe": 4,
+      "per_obj": [
+        {
+          "J": 0.5139,
+          "F": 0.7322
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "1251a1c9": {
+      "greedy": 0.1408,
+      "commit_bij": 0.1408,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 16,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 58,
+      "per_obj": [
+        {
+          "J": 0.0486,
+          "F": 0.233
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "1291276c": {
+      "greedy": 0.8294,
+      "commit_bij": 0.8261,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8261,
+      "ntrk": 8,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 25,
+      "per_obj": [
+        {
+          "J": 0.8687,
+          "F": 0.8922
+        },
+        {
+          "J": 0.8907,
+          "F": 0.653
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "12a42fd9": {
+      "greedy": 0.5256,
+      "commit_bij": 0.5256,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 1,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 58,
+      "ncommit": 30,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.4521,
+          "F": 0.5991
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 0,
+      "stageC": 0
+    },
+    "12a5d0d7": {
+      "greedy": 0.8943,
+      "commit_bij": 0.8274,
+      "prec": 0.044,
+      "rec": 1.0,
+      "nmatch": 2,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8274,
+      "ntrk": 88,
+      "ncommit": 45,
+      "ngt": 2,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.8998,
+          "F": 0.9653
+        },
+        {
+          "J": 0.6259,
+          "F": 0.8184
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 2,
+      "stageA": 2,
+      "stageB": 2,
+      "stageC": 2
+    },
+    "12e509c2": {
+      "greedy": 0.9096,
+      "commit_bij": 0.9079,
+      "prec": 0.333,
+      "rec": 1.0,
+      "nmatch": 1,
+      "Rstrict": 1.0,
+      "Qstrict": 0.9079,
+      "ntrk": 34,
+      "ncommit": 3,
+      "ngt": 1,
+      "nframe": 60,
+      "per_obj": [
+        {
+          "J": 0.9509,
+          "F": 0.8649
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 1,
+      "stageA": 1,
+      "stageB": 1,
+      "stageC": 1
+    },
+    "12fdc864": {
+      "greedy": 0.8561,
+      "commit_bij": 0.8501,
+      "prec": 1.0,
+      "rec": 1.0,
+      "nmatch": 4,
+      "Rstrict": 1.0,
+      "Qstrict": 0.8501,
+      "ntrk": 5,
+      "ncommit": 4,
+      "ngt": 4,
+      "nframe": 42,
+      "per_obj": [
+        {
+          "J": 0.8891,
+          "F": 0.9343
+        },
+        {
+          "J": 0.8045,
+          "F": 0.8764
+        },
+        {
+          "J": 0.7617,
+          "F": 0.798
+        },
+        {
+          "J": 0.8372,
+          "F": 0.8994
+        }
+      ],
+      "stages": [
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": false
+        },
+        {
+          "a": true,
+          "b": true,
+          "c": true
+        }
+      ],
+      "stageN": 4,
+      "stageA": 4,
+      "stageB": 4,
+      "stageC": 3
+    },
+    "130fcdbe": {
+      "greedy": 0.0325,
+      "commit_bij": 0.0321,
+      "prec": 0.0,
+      "rec": 0.0,
+      "nmatch": 2,
+      "Rstrict": 0.0,
+      "Qstrict": 0.0,
+      "ntrk": 3,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 24,
+      "per_obj": [
+        {
+          "J": 0.0003,
+          "F": 0.0403
+        },
+        {
+          "J": 0.0051,
+          "F": 0.0828
+        }
+      ],
+      "stages": [
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        },
+        {
+          "a": false,
+          "b": false,
+          "c": false
+        }
+      ],
+      "stageN": 2,
+      "stageA": 0,
+      "stageB": 0,
+      "stageC": 0
+    }
+  }
+}

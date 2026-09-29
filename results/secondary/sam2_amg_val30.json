@@ -1,0 +1,192 @@
+{
+  "per_seq": {
+    "bike-packing": {
+      "J": 0.4712,
+      "F": 0.5973,
+      "JF": 0.5342,
+      "n_proposals": 24
+    },
+    "blackswan": {
+      "J": 0.9546,
+      "F": 0.9265,
+      "JF": 0.9406,
+      "n_proposals": 9
+    },
+    "bmx-trees": {
+      "J": 0.0002,
+      "F": 0.0478,
+      "JF": 0.024,
+      "n_proposals": 14
+    },
+    "breakdance": {
+      "J": 0.9626,
+      "F": 0.9513,
+      "JF": 0.957,
+      "n_proposals": 35
+    },
+    "camel": {
+      "J": 0.9696,
+      "F": 0.9622,
+      "JF": 0.9659,
+      "n_proposals": 14
+    },
+    "car-roundabout": {
+      "J": 0.9865,
+      "F": 0.9406,
+      "JF": 0.9635,
+      "n_proposals": 38
+    },
+    "car-shadow": {
+      "J": 0.9741,
+      "F": 0.9513,
+      "JF": 0.9627,
+      "n_proposals": 27
+    },
+    "cows": {
+      "J": 0.9506,
+      "F": 0.9256,
+      "JF": 0.9381,
+      "n_proposals": 14
+    },
+    "dance-twirl": {
+      "J": 0.9288,
+      "F": 0.9216,
+      "JF": 0.9252,
+      "n_proposals": 27
+    },
+    "dog": {
+      "J": 0.9492,
+      "F": 0.8871,
+      "JF": 0.9181,
+      "n_proposals": 7
+    },
+    "dogs-jump": {
+      "J": 0.9384,
+      "F": 0.9437,
+      "JF": 0.941,
+      "n_proposals": 7
+    },
+    "drift-chicane": {
+      "J": 0.9209,
+      "F": 0.9293,
+      "JF": 0.9251,
+      "n_proposals": 18
+    },
+    "drift-straight": {
+      "J": 0.9654,
+      "F": 0.9312,
+      "JF": 0.9483,
+      "n_proposals": 29
+    },
+    "goat": {
+      "J": 0.9292,
+      "F": 0.9023,
+      "JF": 0.9158,
+      "n_proposals": 31
+    },
+    "gold-fish": {
+      "J": 0.9327,
+      "F": 0.9263,
+      "JF": 0.9295,
+      "n_proposals": 21
+    },
+    "horsejump-high": {
+      "J": 0.0007,
+      "F": 0.0393,
+      "JF": 0.02,
+      "n_proposals": 32
+    },
+    "india": {
+      "J": 0.8443,
+      "F": 0.6454,
+      "JF": 0.7449,
+      "n_proposals": 28
+    },
+    "judo": {
+      "J": 0.9007,
+      "F": 0.8893,
+      "JF": 0.895,
+      "n_proposals": 34
+    },
+    "kite-surf": {
+      "J": 0.2834,
+      "F": 0.3904,
+      "JF": 0.3369,
+      "n_proposals": 5
+    },
+    "lab-coat": {
+      "J": 0.5683,
+      "F": 0.5747,
+      "JF": 0.5715,
+      "n_proposals": 14
+    },
+    "libby": {
+      "J": 0.9095,
+      "F": 0.9478,
+      "JF": 0.9287,
+      "n_proposals": 22
+    },
+    "loading": {
+      "J": 0.6486,
+      "F": 0.7191,
+      "JF": 0.6839,
+      "n_proposals": 37
+    },
+    "mbike-trick": {
+      "J": 0.5325,
+      "F": 0.5786,
+      "JF": 0.5555,
+      "n_proposals": 10
+    },
+    "motocross-jump": {
+      "J": 0.4728,
+      "F": 0.5475,
+      "JF": 0.5101,
+      "n_proposals": 10
+    },
+    "paragliding-launch": {
+      "J": 0.3153,
+      "F": 0.4342,
+      "JF": 0.3747,
+      "n_proposals": 12
+    },
+    "parkour": {
+      "J": 0.9519,
+      "F": 0.9507,
+      "JF": 0.9513,
+      "n_proposals": 24
+    },
+    "pigs": {
+      "J": 0.9296,
+      "F": 0.9148,
+      "JF": 0.9222,
+      "n_proposals": 14
+    },
+    "scooter-black": {
+      "J": 0.4779,
+      "F": 0.5286,
+      "JF": 0.5033,
+      "n_proposals": 25
+    },
+    "shooting": {
+      "J": 0.4039,
+      "F": 0.4591,
+      "JF": 0.4315,
+      "n_proposals": 13
+    },
+    "soapbox": {
+      "J": 0.0775,
+      "F": 0.1815,
+      "JF": 0.1295,
+      "n_proposals": 15
+    }
+  },
+  "mean_J": 0.705,
+  "mean_F": 0.7182,
+  "mean_JF": 0.7116,
+  "n_seqs": 30,
+  "total_s": 2337.8,
+  "model": "sam2-large-amg",
+  "points_per_side": 16,
+  "max_proposals": 60
+}

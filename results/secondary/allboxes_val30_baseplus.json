@@ -1,0 +1,252 @@
+{
+  "per_seq": {
+    "bike-packing": {
+      "J": 0.8023,
+      "F": 0.8311,
+      "JF": 0.8167,
+      "n_boxes": 69,
+      "n_unknown": 48,
+      "n_known": 21
+    },
+    "blackswan": {
+      "J": 0.9507,
+      "F": 0.9232,
+      "JF": 0.937,
+      "n_boxes": 1,
+      "n_unknown": 0,
+      "n_known": 1
+    },
+    "bmx-trees": {
+      "J": 0.6253,
+      "F": 0.8799,
+      "JF": 0.7526,
+      "n_boxes": 3,
+      "n_unknown": 1,
+      "n_known": 2
+    },
+    "breakdance": {
+      "J": 0.9614,
+      "F": 0.9492,
+      "JF": 0.9553,
+      "n_boxes": 80,
+      "n_unknown": 43,
+      "n_known": 37
+    },
+    "camel": {
+      "J": 0.973,
+      "F": 0.9659,
+      "JF": 0.9694,
+      "n_boxes": 2,
+      "n_unknown": 1,
+      "n_known": 1
+    },
+    "car-roundabout": {
+      "J": 0.9858,
+      "F": 0.9416,
+      "JF": 0.9637,
+      "n_boxes": 69,
+      "n_unknown": 51,
+      "n_known": 18
+    },
+    "car-shadow": {
+      "J": 0.9771,
+      "F": 0.9565,
+      "JF": 0.9668,
+      "n_boxes": 48,
+      "n_unknown": 38,
+      "n_known": 10
+    },
+    "cows": {
+      "J": 0.9726,
+      "F": 0.962,
+      "JF": 0.9673,
+      "n_boxes": 1,
+      "n_unknown": 0,
+      "n_known": 1
+    },
+    "dance-twirl": {
+      "J": 0.9325,
+      "F": 0.9283,
+      "JF": 0.9304,
+      "n_boxes": 98,
+      "n_unknown": 60,
+      "n_known": 38
+    },
+    "dog": {
+      "J": 0.9642,
+      "F": 0.9365,
+      "JF": 0.9503,
+      "n_boxes": 1,
+      "n_unknown": 0,
+      "n_known": 1
+    },
+    "dogs-jump": {
+      "J": 0.9437,
+      "F": 0.9495,
+      "JF": 0.9466,
+      "n_boxes": 3,
+      "n_unknown": 0,
+      "n_known": 3
+    },
+    "drift-chicane": {
+      "J": 0.9236,
+      "F": 0.9334,
+      "JF": 0.9285,
+      "n_boxes": 82,
+      "n_unknown": 62,
+      "n_known": 20
+    },
+    "drift-straight": {
+      "J": 0.9633,
+      "F": 0.9274,
+      "JF": 0.9453,
+      "n_boxes": 75,
+      "n_unknown": 58,
+      "n_known": 17
+    },
+    "goat": {
+      "J": 0.9305,
+      "F": 0.906,
+      "JF": 0.9183,
+      "n_boxes": 1,
+      "n_unknown": 0,
+      "n_known": 1
+    },
+    "gold-fish": {
+      "J": 0.5663,
+      "F": 0.62,
+      "JF": 0.5931,
+      "n_boxes": 14,
+      "n_unknown": 9,
+      "n_known": 5
+    },
+    "horsejump-high": {
+      "J": 0.8349,
+      "F": 0.9188,
+      "JF": 0.8768,
+      "n_boxes": 13,
+      "n_unknown": 11,
+      "n_known": 2
+    },
+    "india": {
+      "J": 0.8411,
+      "F": 0.6416,
+      "JF": 0.7413,
+      "n_boxes": 98,
+      "n_unknown": 55,
+      "n_known": 43
+    },
+    "judo": {
+      "J": 0.8846,
+      "F": 0.877,
+      "JF": 0.8808,
+      "n_boxes": 90,
+      "n_unknown": 75,
+      "n_known": 15
+    },
+    "kite-surf": {
+      "J": 0.413,
+      "F": 0.4611,
+      "JF": 0.4371,
+      "n_boxes": 4,
+      "n_unknown": 2,
+      "n_known": 2
+    },
+    "lab-coat": {
+      "J": 0.5653,
+      "F": 0.5662,
+      "JF": 0.5658,
+      "n_boxes": 19,
+      "n_unknown": 8,
+      "n_known": 11
+    },
+    "libby": {
+      "J": 0.9125,
+      "F": 0.9489,
+      "JF": 0.9307,
+      "n_boxes": 1,
+      "n_unknown": 0,
+      "n_known": 1
+    },
+    "loading": {
+      "J": 0.6467,
+      "F": 0.746,
+      "JF": 0.6964,
+      "n_boxes": 35,
+      "n_unknown": 25,
+      "n_known": 10
+    },
+    "mbike-trick": {
+      "J": 0.8775,
+      "F": 0.8993,
+      "JF": 0.8884,
+      "n_boxes": 2,
+      "n_unknown": 0,
+      "n_known": 2
+    },
+    "motocross-jump": {
+      "J": 0.9082,
+      "F": 0.8903,
+      "JF": 0.8993,
+      "n_boxes": 4,
+      "n_unknown": 3,
+      "n_known": 1
+    },
+    "paragliding-launch": {
+      "J": 0.3259,
+      "F": 0.4771,
+      "JF": 0.4015,
+      "n_boxes": 7,
+      "n_unknown": 3,
+      "n_known": 4
+    },
+    "parkour": {
+      "J": 0.9547,
+      "F": 0.9545,
+      "JF": 0.9546,
+      "n_boxes": 3,
+      "n_unknown": 1,
+      "n_known": 2
+    },
+    "pigs": {
+      "J": 0.9229,
+      "F": 0.9083,
+      "JF": 0.9156,
+      "n_boxes": 5,
+      "n_unknown": 3,
+      "n_known": 2
+    },
+    "scooter-black": {
+      "J": 0.8771,
+      "F": 0.8916,
+      "JF": 0.8843,
+      "n_boxes": 99,
+      "n_unknown": 40,
+      "n_known": 59
+    },
+    "shooting": {
+      "J": 0.6262,
+      "F": 0.6775,
+      "JF": 0.6518,
+      "n_boxes": 25,
+      "n_unknown": 24,
+      "n_known": 1
+    },
+    "soapbox": {
+      "J": 0.6289,
+      "F": 0.6715,
+      "JF": 0.6502,
+      "n_boxes": 81,
+      "n_unknown": 55,
+      "n_known": 26
+    }
+  },
+  "mean_J": 0.8231,
+  "mean_F": 0.838,
+  "mean_JF": 0.8305,
+  "n_seqs": 30,
+  "total_s": 3048.6,
+  "model": "sam2_base_plus+detr-resnet-50",
+  "unknown_threshold": 0.5,
+  "note": "all boxes incl known"
+}

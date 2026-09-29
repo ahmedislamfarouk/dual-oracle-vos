@@ -1,0 +1,292 @@
+{
+  "config": {
+    "PERSIST_MIN": 0.5,
+    "AREA_MAX": 0.5,
+    "DEDUP_IOU": 0.5,
+    "MAXF": 60,
+    "NSEQ": 30
+  },
+  "summary": {
+    "n": 30,
+    "oracle_jf": 0.837158035076972,
+    "commit_bij_jf": 0.8308274642842058,
+    "retention": 0.9924380218220279,
+    "precision": 0.5144309987521825,
+    "recall": 0.9066666666666666,
+    "mean_tracks": 34.43333333333333,
+    "mean_commit": 14.9,
+    "mean_gt": 2.033333333333333
+  },
+  "per_seq": {
+    "bike-packing": {
+      "oracle_jf": 0.879,
+      "commit_bij_jf": 0.8343,
+      "prec": 0.049,
+      "rec": 1.0,
+      "n_tracks": 69,
+      "n_commit": 41,
+      "n_gt": 2
+    },
+    "blackswan": {
+      "oracle_jf": 0.9434,
+      "commit_bij_jf": 0.9434,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 1,
+      "n_commit": 1,
+      "n_gt": 1
+    },
+    "bmx-trees": {
+      "oracle_jf": 0.8203,
+      "commit_bij_jf": 0.8203,
+      "prec": 0.667,
+      "rec": 1.0,
+      "n_tracks": 3,
+      "n_commit": 3,
+      "n_gt": 2
+    },
+    "breakdance": {
+      "oracle_jf": 0.9547,
+      "commit_bij_jf": 0.9547,
+      "prec": 0.022,
+      "rec": 1.0,
+      "n_tracks": 80,
+      "n_commit": 45,
+      "n_gt": 1
+    },
+    "camel": {
+      "oracle_jf": 0.9702,
+      "commit_bij_jf": 0.9702,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 2,
+      "n_commit": 1,
+      "n_gt": 1
+    },
+    "car-roundabout": {
+      "oracle_jf": 0.9621,
+      "commit_bij_jf": 0.9621,
+      "prec": 0.167,
+      "rec": 1.0,
+      "n_tracks": 69,
+      "n_commit": 6,
+      "n_gt": 1
+    },
+    "car-shadow": {
+      "oracle_jf": 0.9625,
+      "commit_bij_jf": 0.9625,
+      "prec": 0.059,
+      "rec": 1.0,
+      "n_tracks": 48,
+      "n_commit": 17,
+      "n_gt": 1
+    },
+    "cows": {
+      "oracle_jf": 0.9372,
+      "commit_bij_jf": 0.9372,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 1,
+      "n_commit": 1,
+      "n_gt": 1
+    },
+    "dance-twirl": {
+      "oracle_jf": 0.9196,
+      "commit_bij_jf": 0.9196,
+      "prec": 0.018,
+      "rec": 1.0,
+      "n_tracks": 98,
+      "n_commit": 55,
+      "n_gt": 1
+    },
+    "dog": {
+      "oracle_jf": 0.9507,
+      "commit_bij_jf": 0.9507,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 1,
+      "n_commit": 1,
+      "n_gt": 1
+    },
+    "dogs-jump": {
+      "oracle_jf": 0.9423,
+      "commit_bij_jf": 0.9423,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 3,
+      "n_commit": 3,
+      "n_gt": 3
+    },
+    "drift-chicane": {
+      "oracle_jf": 0.925,
+      "commit_bij_jf": 0.9248,
+      "prec": 0.029,
+      "rec": 1.0,
+      "n_tracks": 82,
+      "n_commit": 35,
+      "n_gt": 1
+    },
+    "drift-straight": {
+      "oracle_jf": 0.9471,
+      "commit_bij_jf": 0.947,
+      "prec": 0.5,
+      "rec": 1.0,
+      "n_tracks": 75,
+      "n_commit": 2,
+      "n_gt": 1
+    },
+    "goat": {
+      "oracle_jf": 0.9182,
+      "commit_bij_jf": 0.9182,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 1,
+      "n_commit": 1,
+      "n_gt": 1
+    },
+    "gold-fish": {
+      "oracle_jf": 0.5899,
+      "commit_bij_jf": 0.5599,
+      "prec": 0.75,
+      "rec": 0.6,
+      "n_tracks": 14,
+      "n_commit": 4,
+      "n_gt": 5
+    },
+    "horsejump-high": {
+      "oracle_jf": 0.876,
+      "commit_bij_jf": 0.876,
+      "prec": 0.5,
+      "rec": 1.0,
+      "n_tracks": 13,
+      "n_commit": 4,
+      "n_gt": 2
+    },
+    "india": {
+      "oracle_jf": 0.8234,
+      "commit_bij_jf": 0.8234,
+      "prec": 0.071,
+      "rec": 1.0,
+      "n_tracks": 98,
+      "n_commit": 42,
+      "n_gt": 3
+    },
+    "judo": {
+      "oracle_jf": 0.8926,
+      "commit_bij_jf": 0.8926,
+      "prec": 0.036,
+      "rec": 1.0,
+      "n_tracks": 90,
+      "n_commit": 55,
+      "n_gt": 2
+    },
+    "kite-surf": {
+      "oracle_jf": 0.4942,
+      "commit_bij_jf": 0.4339,
+      "prec": 1.0,
+      "rec": 0.667,
+      "n_tracks": 4,
+      "n_commit": 2,
+      "n_gt": 3
+    },
+    "lab-coat": {
+      "oracle_jf": 0.5719,
+      "commit_bij_jf": 0.5492,
+      "prec": 0.231,
+      "rec": 0.6,
+      "n_tracks": 19,
+      "n_commit": 13,
+      "n_gt": 5
+    },
+    "libby": {
+      "oracle_jf": 0.929,
+      "commit_bij_jf": 0.929,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 1,
+      "n_commit": 1,
+      "n_gt": 1
+    },
+    "loading": {
+      "oracle_jf": 0.6594,
+      "commit_bij_jf": 0.6584,
+      "prec": 0.105,
+      "rec": 0.667,
+      "n_tracks": 35,
+      "n_commit": 19,
+      "n_gt": 3
+    },
+    "mbike-trick": {
+      "oracle_jf": 0.8908,
+      "commit_bij_jf": 0.8908,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 2,
+      "n_commit": 2,
+      "n_gt": 2
+    },
+    "motocross-jump": {
+      "oracle_jf": 0.9034,
+      "commit_bij_jf": 0.9034,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 4,
+      "n_commit": 2,
+      "n_gt": 2
+    },
+    "paragliding-launch": {
+      "oracle_jf": 0.3925,
+      "commit_bij_jf": 0.372,
+      "prec": 0.333,
+      "rec": 0.333,
+      "n_tracks": 7,
+      "n_commit": 3,
+      "n_gt": 3
+    },
+    "parkour": {
+      "oracle_jf": 0.9507,
+      "commit_bij_jf": 0.9507,
+      "prec": 0.5,
+      "rec": 1.0,
+      "n_tracks": 3,
+      "n_commit": 2,
+      "n_gt": 1
+    },
+    "pigs": {
+      "oracle_jf": 0.9424,
+      "commit_bij_jf": 0.9425,
+      "prec": 1.0,
+      "rec": 1.0,
+      "n_tracks": 5,
+      "n_commit": 3,
+      "n_gt": 3
+    },
+    "scooter-black": {
+      "oracle_jf": 0.8905,
+      "commit_bij_jf": 0.8905,
+      "prec": 0.067,
+      "rec": 1.0,
+      "n_tracks": 99,
+      "n_commit": 30,
+      "n_gt": 2
+    },
+    "shooting": {
+      "oracle_jf": 0.6298,
+      "commit_bij_jf": 0.6194,
+      "prec": 0.286,
+      "rec": 0.667,
+      "n_tracks": 25,
+      "n_commit": 7,
+      "n_gt": 3
+    },
+    "soapbox": {
+      "oracle_jf": 0.646,
+      "commit_bij_jf": 0.646,
+      "prec": 0.043,
+      "rec": 0.667,
+      "n_tracks": 81,
+      "n_commit": 46,
+      "n_gt": 3
+    }
+  }
+}

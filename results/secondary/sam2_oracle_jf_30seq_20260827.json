@@ -1,0 +1,228 @@
+{
+  "config": {
+    "ROOT": "$HOME/ow_vis",
+    "DAVIS": "/tmp/davis2017/DAVIS",
+    "MAXF": 60,
+    "ckpt": "$HOME/ow_vis/checkpoints/sam2.1_hiera_large.pt",
+    "resolution": [
+      854,
+      480
+    ],
+    "n_seqs": 30
+  },
+  "oracle_mean_J": 0.8957,
+  "oracle_mean_F": 0.9057,
+  "oracle_mean_JF": 0.9007,
+  "per_seq": {
+    "bike-packing": {
+      "J": 0.9025,
+      "F": 0.8947,
+      "JF": 0.8986,
+      "n_obj": 2,
+      "n_frames": 60
+    },
+    "blackswan": {
+      "J": 0.9614,
+      "F": 0.9437,
+      "JF": 0.9525,
+      "n_obj": 1,
+      "n_frames": 50
+    },
+    "bmx-trees": {
+      "J": 0.7427,
+      "F": 0.9238,
+      "JF": 0.8333,
+      "n_obj": 2,
+      "n_frames": 60
+    },
+    "breakdance": {
+      "J": 0.9666,
+      "F": 0.9539,
+      "JF": 0.9603,
+      "n_obj": 1,
+      "n_frames": 60
+    },
+    "camel": {
+      "J": 0.9816,
+      "F": 0.9765,
+      "JF": 0.9791,
+      "n_obj": 1,
+      "n_frames": 60
+    },
+    "car-roundabout": {
+      "J": 0.989,
+      "F": 0.9451,
+      "JF": 0.9671,
+      "n_obj": 1,
+      "n_frames": 60
+    },
+    "car-shadow": {
+      "J": 0.9774,
+      "F": 0.9572,
+      "JF": 0.9673,
+      "n_obj": 1,
+      "n_frames": 40
+    },
+    "cows": {
+      "J": 0.9772,
+      "F": 0.9668,
+      "JF": 0.972,
+      "n_obj": 1,
+      "n_frames": 60
+    },
+    "dance-twirl": {
+      "J": 0.937,
+      "F": 0.9418,
+      "JF": 0.9394,
+      "n_obj": 1,
+      "n_frames": 60
+    },
+    "dog": {
+      "J": 0.9654,
+      "F": 0.9386,
+      "JF": 0.952,
+      "n_obj": 1,
+      "n_frames": 60
+    },
+    "dogs-jump": {
+      "J": 0.9436,
+      "F": 0.9489,
+      "JF": 0.9462,
+      "n_obj": 3,
+      "n_frames": 60
+    },
+    "drift-chicane": {
+      "J": 0.9266,
+      "F": 0.934,
+      "JF": 0.9303,
+      "n_obj": 1,
+      "n_frames": 52
+    },
+    "drift-straight": {
+      "J": 0.9691,
+      "F": 0.9358,
+      "JF": 0.9525,
+      "n_obj": 1,
+      "n_frames": 50
+    },
+    "goat": {
+      "J": 0.9338,
+      "F": 0.9062,
+      "JF": 0.92,
+      "n_obj": 1,
+      "n_frames": 60
+    },
+    "gold-fish": {
+      "J": 0.9468,
+      "F": 0.9403,
+      "JF": 0.9436,
+      "n_obj": 5,
+      "n_frames": 60
+    },
+    "horsejump-high": {
+      "J": 0.8821,
+      "F": 0.9425,
+      "JF": 0.9123,
+      "n_obj": 2,
+      "n_frames": 50
+    },
+    "india": {
+      "J": 0.9145,
+      "F": 0.8775,
+      "JF": 0.896,
+      "n_obj": 3,
+      "n_frames": 60
+    },
+    "judo": {
+      "J": 0.9062,
+      "F": 0.896,
+      "JF": 0.9011,
+      "n_obj": 2,
+      "n_frames": 34
+    },
+    "kite-surf": {
+      "J": 0.5704,
+      "F": 0.6739,
+      "JF": 0.6222,
+      "n_obj": 3,
+      "n_frames": 50
+    },
+    "lab-coat": {
+      "J": 0.5815,
+      "F": 0.5898,
+      "JF": 0.5856,
+      "n_obj": 5,
+      "n_frames": 47
+    },
+    "libby": {
+      "J": 0.9181,
+      "F": 0.9517,
+      "JF": 0.9349,
+      "n_obj": 1,
+      "n_frames": 49
+    },
+    "loading": {
+      "J": 0.9572,
+      "F": 0.95,
+      "JF": 0.9536,
+      "n_obj": 3,
+      "n_frames": 50
+    },
+    "mbike-trick": {
+      "J": 0.8881,
+      "F": 0.915,
+      "JF": 0.9015,
+      "n_obj": 2,
+      "n_frames": 60
+    },
+    "motocross-jump": {
+      "J": 0.9184,
+      "F": 0.8966,
+      "JF": 0.9075,
+      "n_obj": 2,
+      "n_frames": 40
+    },
+    "paragliding-launch": {
+      "J": 0.6051,
+      "F": 0.7443,
+      "JF": 0.6747,
+      "n_obj": 3,
+      "n_frames": 60
+    },
+    "parkour": {
+      "J": 0.9575,
+      "F": 0.9628,
+      "JF": 0.9601,
+      "n_obj": 1,
+      "n_frames": 60
+    },
+    "pigs": {
+      "J": 0.9544,
+      "F": 0.9391,
+      "JF": 0.9468,
+      "n_obj": 3,
+      "n_frames": 60
+    },
+    "scooter-black": {
+      "J": 0.9116,
+      "F": 0.9142,
+      "JF": 0.9129,
+      "n_obj": 2,
+      "n_frames": 43
+    },
+    "shooting": {
+      "J": 0.9033,
+      "F": 0.9015,
+      "JF": 0.9024,
+      "n_obj": 3,
+      "n_frames": 40
+    },
+    "soapbox": {
+      "J": 0.8811,
+      "F": 0.9083,
+      "JF": 0.8947,
+      "n_obj": 3,
+      "n_frames": 60
+    }
+  }
+}

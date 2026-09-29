@@ -1,0 +1,290 @@
+{
+ "0tCWPOrc": {
+  "r0": 1.0,
+  "base": 0.753,
+  "tide": 0.753,
+  "tideg": 0.753
+ },
+ "3Zf4NFzn": {
+  "r0": 1.0,
+  "base": 0.905,
+  "tide": 0.908,
+  "tideg": 0.905
+ },
+ "3nsHQkEK": {
+  "r0": 1.0,
+  "base": 0.861,
+  "tide": 0.861,
+  "tideg": 0.861
+ },
+ "48f9Llhg": {
+  "r0": 1.0,
+  "base": 0.905,
+  "tide": 0.905,
+  "tideg": 0.905
+ },
+ "49TNsJzk": {
+  "r0": 1.0,
+  "base": 0.922,
+  "tide": 0.922,
+  "tideg": 0.922
+ },
+ "7BcOR5aJ": {
+  "r0": 1.0,
+  "base": 0.887,
+  "tide": 0.887,
+  "tideg": 0.887
+ },
+ "7K7WVzGG": {
+  "r0": 0.33,
+  "base": 0.293,
+  "tide": 0.479,
+  "tideg": 0.293
+ },
+ "8MfWMkrt": {
+  "r0": 1.0,
+  "base": 0.934,
+  "tide": 0.934,
+  "tideg": 0.934
+ },
+ "8lxxCA5h": {
+  "r0": 1.0,
+  "base": 0.853,
+  "tide": 0.853,
+  "tideg": 0.853
+ },
+ "9mBuSvT2": {
+  "r0": 1.0,
+  "base": 0.73,
+  "tide": 0.73,
+  "tideg": 0.73
+ },
+ "D4AgqLQL": {
+  "r0": 0.0,
+  "base": 0.109,
+  "tide": 0.79,
+  "tideg": 0.79
+ },
+ "EWCZAcdt": {
+  "r0": 1.0,
+  "base": 0.646,
+  "tide": 0.737,
+  "tideg": 0.646
+ },
+ "FFMl5yqs": {
+  "r0": 1.0,
+  "base": 0.909,
+  "tide": 0.909,
+  "tideg": 0.909
+ },
+ "FiRTBMg2": {
+  "r0": 1.0,
+  "base": 0.842,
+  "tide": 0.842,
+  "tideg": 0.842
+ },
+ "Gy1gwYZD": {
+  "r0": 1.0,
+  "base": 0.836,
+  "tide": 0.836,
+  "tideg": 0.836
+ },
+ "HNrCxhwd": {
+  "r0": 1.0,
+  "base": 0.863,
+  "tide": 0.863,
+  "tideg": 0.863
+ },
+ "JGG6MrhF": {
+  "r0": 1.0,
+  "base": 0.842,
+  "tide": 0.892,
+  "tideg": 0.842
+ },
+ "K3OUeINk": {
+  "r0": 0.0,
+  "base": 0.541,
+  "tide": 0.541,
+  "tideg": 0.541
+ },
+ "KPDIQo5u": {
+  "r0": 1.0,
+  "base": 0.874,
+  "tide": 0.874,
+  "tideg": 0.874
+ },
+ "KfcCU1ma": {
+  "r0": 1.0,
+  "base": 0.813,
+  "tide": 0.888,
+  "tideg": 0.813
+ },
+ "MKnlVo6x": {
+  "r0": 1.0,
+  "base": 0.621,
+  "tide": 0.621,
+  "tideg": 0.621
+ },
+ "N6CONZUW": {
+  "r0": 1.0,
+  "base": 0.745,
+  "tide": 0.745,
+  "tideg": 0.745
+ },
+ "NFbsxmYE": {
+  "r0": 1.0,
+  "base": 0.807,
+  "tide": 0.807,
+  "tideg": 0.807
+ },
+ "Q3kk9fuH": {
+  "r0": 1.0,
+  "base": 0.904,
+  "tide": 0.904,
+  "tideg": 0.904
+ },
+ "ScFTYisJ": {
+  "r0": 0.0,
+  "base": 0.33,
+  "tide": 0.671,
+  "tideg": 0.33
+ },
+ "Vh9NwLSn": {
+  "r0": 1.0,
+  "base": 0.855,
+  "tide": 0.855,
+  "tideg": 0.855
+ },
+ "VhwRKgVS": {
+  "r0": 0.5,
+  "base": 0.443,
+  "tide": 0.856,
+  "tideg": 0.853
+ },
+ "X5U0z8VI": {
+  "r0": 1.0,
+  "base": 0.862,
+  "tide": 0.862,
+  "tideg": 0.862
+ },
+ "aFytsETk": {
+  "r0": 1.0,
+  "base": 0.699,
+  "tide": 0.741,
+  "tideg": 0.699
+ },
+ "aT6JIUVU": {
+  "r0": 1.0,
+  "base": 0.9,
+  "tide": 0.9,
+  "tideg": 0.9
+ },
+ "bl6VuRYE": {
+  "r0": 1.0,
+  "base": 0.831,
+  "tide": 0.831,
+  "tideg": 0.831
+ },
+ "cUD1dwuP": {
+  "r0": 0.75,
+  "base": 0.708,
+  "tide": 0.708,
+  "tideg": 0.708
+ },
+ "cjD5WPSv": {
+  "r0": 1.0,
+  "base": 0.745,
+  "tide": 0.745,
+  "tideg": 0.745
+ },
+ "d83wYdy0": {
+  "r0": 1.0,
+  "base": 0.456,
+  "tide": 0.456,
+  "tideg": 0.456
+ },
+ "dtHbJvYy": {
+  "r0": 1.0,
+  "base": 0.715,
+  "tide": 0.851,
+  "tideg": 0.715
+ },
+ "f4DjwV55": {
+  "r0": 1.0,
+  "base": 0.836,
+  "tide": 0.845,
+  "tideg": 0.836
+ },
+ "gdqCcvs2": {
+  "r0": 1.0,
+  "base": 0.779,
+  "tide": 0.779,
+  "tideg": 0.779
+ },
+ "ikcMMycg": {
+  "r0": 1.0,
+  "base": 0.92,
+  "tide": 0.92,
+  "tideg": 0.92
+ },
+ "kozmQMck": {
+  "r0": 1.0,
+  "base": 0.899,
+  "tide": 0.899,
+  "tideg": 0.899
+ },
+ "nfcT3owb": {
+  "r0": 1.0,
+  "base": 0.732,
+  "tide": 0.864,
+  "tideg": 0.732
+ },
+ "pMntJwSQ": {
+  "r0": 1.0,
+  "base": 0.891,
+  "tide": 0.891,
+  "tideg": 0.891
+ },
+ "q1MSEBkh": {
+  "r0": 1.0,
+  "base": 0.873,
+  "tide": 0.873,
+  "tideg": 0.873
+ },
+ "rUaDdVmD": {
+  "r0": 1.0,
+  "base": 0.902,
+  "tide": 0.902,
+  "tideg": 0.902
+ },
+ "v3uNUctx": {
+  "r0": 1.0,
+  "base": 0.929,
+  "tide": 0.929,
+  "tideg": 0.929
+ },
+ "vJ8W2TO5": {
+  "r0": 1.0,
+  "base": 0.892,
+  "tide": 0.898,
+  "tideg": 0.892
+ },
+ "vjG0jbkQ": {
+  "r0": 1.0,
+  "base": 0.817,
+  "tide": 0.922,
+  "tideg": 0.817
+ },
+ "x3nD3QQ9": {
+  "r0": 0.0,
+  "base": 0.005,
+  "tide": 0.002,
+  "tideg": 0.005
+ },
+ "xpI7xRWN": {
+  "r0": 0.0,
+  "base": 0.484,
+  "tide": 0.484,
+  "tideg": 0.484
+ }
+}

@@ -1,0 +1,44 @@
+{
+  "experiment": "E3_runtime_breakdown",
+  "config": {
+    "dataset": "DAVIS-2017 val",
+    "max_videos": 5
+  },
+  "per_video": {
+    "bike-packing": {
+      "n_frames": 60,
+      "elapsed_s": 78.33,
+      "fps": 0.77,
+      "peak_memory_gb": 4.61
+    },
+    "blackswan": {
+      "n_frames": 50,
+      "elapsed_s": 14.63,
+      "fps": 3.42,
+      "peak_memory_gb": 2.27
+    },
+    "bmx-trees": {
+      "n_frames": 60,
+      "elapsed_s": 19.86,
+      "fps": 3.02,
+      "peak_memory_gb": 2.37
+    },
+    "breakdance": {
+      "n_frames": 60,
+      "elapsed_s": 97.72,
+      "fps": 0.61,
+      "peak_memory_gb": 5.13
+    },
+    "camel": {
+      "n_frames": 60,
+      "elapsed_s": 17.51,
+      "fps": 3.43,
+      "peak_memory_gb": 2.32
+    }
+  },
+  "summary": {
+    "mean_fps": 2.25,
+    "mean_memory_gb": 3.34,
+    "total_time_s": 228.04999999999998
+  }
+}

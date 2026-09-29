@@ -1,0 +1,1201 @@
+{
+  "config": {
+    "ROOT": "/tmp/mose_sub/train",
+    "TAG": "mose118_backbone_small",
+    "MAXF": 60,
+    "MAXVIDS": 0
+  },
+  "summary": {
+    "n": 118,
+    "greedy": 0.5253628603217234,
+    "commit_bij": 0.48182217631758784,
+    "retention": 0.9171226455226165,
+    "precision": 0.2646353332502238,
+    "recall": 0.5143664245359161,
+    "mean_tracks": 21.39830508474576,
+    "mean_commit": 9.525423728813559,
+    "mean_gt": 2.2457627118644066
+  },
+  "per_seq": {
+    "001ca3cb": {
+      "greedy": 0.9217,
+      "commit_bij": 0.9217,
+      "prec": 0.167,
+      "rec": 1.0,
+      "ntrk": 19,
+      "ncommit": 12,
+      "ngt": 2,
+      "nframe": 36
+    },
+    "002b4dce": {
+      "greedy": 0.8948,
+      "commit_bij": 0.8948,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 3,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "00501424": {
+      "greedy": 0.8547,
+      "commit_bij": 0.8547,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 5,
+      "ncommit": 5,
+      "ngt": 5,
+      "nframe": 45
+    },
+    "006e6b64": {
+      "greedy": 0.1914,
+      "commit_bij": 0.189,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 67,
+      "ncommit": 37,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "009acc1a": {
+      "greedy": 0.8818,
+      "commit_bij": 0.6801,
+      "prec": 0.333,
+      "rec": 1.0,
+      "ntrk": 8,
+      "ncommit": 3,
+      "ngt": 1,
+      "nframe": 3
+    },
+    "00aec1e5": {
+      "greedy": 0.5131,
+      "commit_bij": 0.5131,
+      "prec": 0.056,
+      "rec": 1.0,
+      "ntrk": 49,
+      "ncommit": 18,
+      "ngt": 1,
+      "nframe": 6
+    },
+    "00e92ab4": {
+      "greedy": 0.5318,
+      "commit_bij": 0.4768,
+      "prec": 0.167,
+      "rec": 0.667,
+      "ntrk": 30,
+      "ncommit": 12,
+      "ngt": 3,
+      "nframe": 34
+    },
+    "013103f6": {
+      "greedy": 0.9529,
+      "commit_bij": 0.9529,
+      "prec": 0.036,
+      "rec": 1.0,
+      "ntrk": 57,
+      "ncommit": 28,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0165667b": {
+      "greedy": 0.0263,
+      "commit_bij": 0.0263,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 30,
+      "ncommit": 13,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "01e3cec8": {
+      "greedy": 0.539,
+      "commit_bij": 0.5189,
+      "prec": 0.2,
+      "rec": 0.333,
+      "ntrk": 16,
+      "ncommit": 5,
+      "ngt": 3,
+      "nframe": 60
+    },
+    "02221fb0": {
+      "greedy": 0.9418,
+      "commit_bij": 0.9418,
+      "prec": 0.222,
+      "rec": 1.0,
+      "ntrk": 15,
+      "ncommit": 9,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "028f6f64": {
+      "greedy": 0.4594,
+      "commit_bij": 0.4514,
+      "prec": 0.4,
+      "rec": 0.667,
+      "ntrk": 11,
+      "ncommit": 5,
+      "ngt": 3,
+      "nframe": 36
+    },
+    "02a236b4": {
+      "greedy": 0.0405,
+      "commit_bij": 0.0405,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 21,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "02b72b8d": {
+      "greedy": 0.3332,
+      "commit_bij": 0.1885,
+      "prec": 0.2,
+      "rec": 0.2,
+      "ntrk": 10,
+      "ncommit": 5,
+      "ngt": 5,
+      "nframe": 60
+    },
+    "02de2f2a": {
+      "greedy": 0.7038,
+      "commit_bij": 0.6973,
+      "prec": 0.125,
+      "rec": 1.0,
+      "ntrk": 44,
+      "ncommit": 8,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "02deca50": {
+      "greedy": 0.6015,
+      "commit_bij": 0.6015,
+      "prec": 0.8,
+      "rec": 1.0,
+      "ntrk": 8,
+      "ncommit": 5,
+      "ngt": 4,
+      "nframe": 55
+    },
+    "03012cfd": {
+      "greedy": 0.6349,
+      "commit_bij": 0.6349,
+      "prec": 0.034,
+      "rec": 1.0,
+      "ntrk": 57,
+      "ncommit": 29,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "033130b2": {
+      "greedy": 0.5397,
+      "commit_bij": 0.2045,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 26,
+      "ncommit": 9,
+      "ngt": 1,
+      "nframe": 22
+    },
+    "033333fd": {
+      "greedy": 0.8062,
+      "commit_bij": 0.7256,
+      "prec": 0.444,
+      "rec": 0.667,
+      "ntrk": 22,
+      "ncommit": 9,
+      "ngt": 6,
+      "nframe": 50
+    },
+    "035359e5": {
+      "greedy": 0.5562,
+      "commit_bij": 0.5562,
+      "prec": 0.429,
+      "rec": 0.75,
+      "ntrk": 13,
+      "ncommit": 7,
+      "ngt": 4,
+      "nframe": 24
+    },
+    "0367af42": {
+      "greedy": 0.8253,
+      "commit_bij": 0.8253,
+      "prec": 0.125,
+      "rec": 1.0,
+      "ntrk": 15,
+      "ncommit": 8,
+      "ngt": 1,
+      "nframe": 27
+    },
+    "03692b14": {
+      "greedy": 0.9026,
+      "commit_bij": 0.9026,
+      "prec": 0.087,
+      "rec": 1.0,
+      "ntrk": 44,
+      "ncommit": 23,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "03c21af7": {
+      "greedy": 0.8653,
+      "commit_bij": 0.8653,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 4,
+      "ncommit": 4,
+      "ngt": 4,
+      "nframe": 36
+    },
+    "03c99e83": {
+      "greedy": 0.6254,
+      "commit_bij": 0.5282,
+      "prec": 0.4,
+      "rec": 0.5,
+      "ntrk": 13,
+      "ncommit": 5,
+      "ngt": 4,
+      "nframe": 36
+    },
+    "03e0f9b8": {
+      "greedy": 0.3214,
+      "commit_bij": 0.3214,
+      "prec": 0.167,
+      "rec": 0.5,
+      "ntrk": 16,
+      "ncommit": 6,
+      "ngt": 2,
+      "nframe": 45
+    },
+    "03e5f069": {
+      "greedy": 0.5641,
+      "commit_bij": 0.5641,
+      "prec": 0.1,
+      "rec": 0.5,
+      "ntrk": 21,
+      "ncommit": 10,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "0442a954": {
+      "greedy": 0.7827,
+      "commit_bij": 0.7827,
+      "prec": 0.036,
+      "rec": 1.0,
+      "ntrk": 89,
+      "ncommit": 55,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "046ed4f4": {
+      "greedy": 0.2996,
+      "commit_bij": 0.2996,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 11,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 44
+    },
+    "04ae7a6b": {
+      "greedy": 0.5919,
+      "commit_bij": 0.5498,
+      "prec": 0.375,
+      "rec": 0.5,
+      "ntrk": 27,
+      "ncommit": 8,
+      "ngt": 6,
+      "nframe": 60
+    },
+    "051052d8": {
+      "greedy": 0.8861,
+      "commit_bij": 0.8861,
+      "prec": 0.143,
+      "rec": 1.0,
+      "ntrk": 18,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 43
+    },
+    "0558d0ed": {
+      "greedy": 0.6135,
+      "commit_bij": 0.6036,
+      "prec": 0.227,
+      "rec": 0.714,
+      "ntrk": 47,
+      "ncommit": 22,
+      "ngt": 7,
+      "nframe": 60
+    },
+    "055fca57": {
+      "greedy": 0.7723,
+      "commit_bij": 0.7341,
+      "prec": 1.0,
+      "rec": 0.833,
+      "ntrk": 10,
+      "ncommit": 5,
+      "ngt": 6,
+      "nframe": 60
+    },
+    "056e4786": {
+      "greedy": 0.1301,
+      "commit_bij": 0.0993,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 22,
+      "ncommit": 10,
+      "ngt": 1,
+      "nframe": 6
+    },
+    "05a7d84d": {
+      "greedy": 0.2807,
+      "commit_bij": 0.0421,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 21,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 30
+    },
+    "05ed1023": {
+      "greedy": 0.4492,
+      "commit_bij": 0.2946,
+      "prec": 1.0,
+      "rec": 0.333,
+      "ntrk": 2,
+      "ncommit": 1,
+      "ngt": 3,
+      "nframe": 60
+    },
+    "06273084": {
+      "greedy": 0.4924,
+      "commit_bij": 0.1911,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 19,
+      "ncommit": 5,
+      "ngt": 1,
+      "nframe": 27
+    },
+    "0644075b": {
+      "greedy": 0.0284,
+      "commit_bij": 0.0284,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 5,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "06772c9a": {
+      "greedy": 0.5913,
+      "commit_bij": 0.5913,
+      "prec": 0.05,
+      "rec": 1.0,
+      "ntrk": 45,
+      "ncommit": 20,
+      "ngt": 1,
+      "nframe": 23
+    },
+    "069f6a2a": {
+      "greedy": 0.6858,
+      "commit_bij": 0.6534,
+      "prec": 0.019,
+      "rec": 1.0,
+      "ntrk": 68,
+      "ncommit": 52,
+      "ngt": 1,
+      "nframe": 49
+    },
+    "06ad78e0": {
+      "greedy": 0.5862,
+      "commit_bij": 0.5862,
+      "prec": 0.083,
+      "rec": 1.0,
+      "ntrk": 22,
+      "ncommit": 12,
+      "ngt": 1,
+      "nframe": 35
+    },
+    "06ea172e": {
+      "greedy": 0.4567,
+      "commit_bij": 0.3039,
+      "prec": 0.2,
+      "rec": 0.167,
+      "ntrk": 42,
+      "ncommit": 10,
+      "ngt": 12,
+      "nframe": 40
+    },
+    "06ebc138": {
+      "greedy": 0.1172,
+      "commit_bij": 0.1172,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 19,
+      "ncommit": 12,
+      "ngt": 1,
+      "nframe": 22
+    },
+    "072e7b3f": {
+      "greedy": 0.4845,
+      "commit_bij": 0.3585,
+      "prec": 0.5,
+      "rec": 0.25,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 4,
+      "nframe": 36
+    },
+    "073baf48": {
+      "greedy": 0.3879,
+      "commit_bij": 0.246,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 19,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 58
+    },
+    "0770ad03": {
+      "greedy": 0.8725,
+      "commit_bij": 0.8725,
+      "prec": 0.3,
+      "rec": 1.0,
+      "ntrk": 15,
+      "ncommit": 10,
+      "ngt": 3,
+      "nframe": 41
+    },
+    "07779415": {
+      "greedy": 0.6729,
+      "commit_bij": 0.6729,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 50,
+      "ncommit": 27,
+      "ngt": 1,
+      "nframe": 26
+    },
+    "07b00746": {
+      "greedy": 0.8834,
+      "commit_bij": 0.8834,
+      "prec": 0.333,
+      "rec": 1.0,
+      "ntrk": 3,
+      "ncommit": 3,
+      "ngt": 1,
+      "nframe": 48
+    },
+    "07b5d86c": {
+      "greedy": 0.7644,
+      "commit_bij": 0.7606,
+      "prec": 0.556,
+      "rec": 0.833,
+      "ntrk": 14,
+      "ncommit": 9,
+      "ngt": 6,
+      "nframe": 60
+    },
+    "08746283": {
+      "greedy": 0.3378,
+      "commit_bij": 0.3315,
+      "prec": 0.333,
+      "rec": 0.333,
+      "ntrk": 5,
+      "ncommit": 3,
+      "ngt": 3,
+      "nframe": 30
+    },
+    "08a5c662": {
+      "greedy": 0.8755,
+      "commit_bij": 0.8755,
+      "prec": 0.095,
+      "rec": 1.0,
+      "ntrk": 35,
+      "ncommit": 21,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "08ff419c": {
+      "greedy": 0.874,
+      "commit_bij": 0.874,
+      "prec": 0.25,
+      "rec": 1.0,
+      "ntrk": 9,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "093d3d93": {
+      "greedy": 0.866,
+      "commit_bij": 0.866,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 5,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 20
+    },
+    "09d305d1": {
+      "greedy": 0.549,
+      "commit_bij": 0.4904,
+      "prec": 0.111,
+      "rec": 1.0,
+      "ntrk": 25,
+      "ncommit": 9,
+      "ngt": 1,
+      "nframe": 53
+    },
+    "0a43a414": {
+      "greedy": 0.7818,
+      "commit_bij": 0.7838,
+      "prec": 0.143,
+      "rec": 1.0,
+      "ntrk": 30,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 33
+    },
+    "0a7a3629": {
+      "greedy": 0.7681,
+      "commit_bij": 0.7681,
+      "prec": 0.077,
+      "rec": 1.0,
+      "ntrk": 22,
+      "ncommit": 13,
+      "ngt": 1,
+      "nframe": 15
+    },
+    "0a8d7b41": {
+      "greedy": 0.0384,
+      "commit_bij": 0.0384,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 20,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 44
+    },
+    "0ab42ab1": {
+      "greedy": 0.5813,
+      "commit_bij": 0.25,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 4,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0ab68ba2": {
+      "greedy": 0.73,
+      "commit_bij": 0.73,
+      "prec": 0.125,
+      "rec": 1.0,
+      "ntrk": 14,
+      "ncommit": 8,
+      "ngt": 1,
+      "nframe": 8
+    },
+    "0ab75563": {
+      "greedy": 0.3417,
+      "commit_bij": 0.2496,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 14,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0ab807b4": {
+      "greedy": 0.111,
+      "commit_bij": 0.111,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 38,
+      "ncommit": 12,
+      "ngt": 1,
+      "nframe": 19
+    },
+    "0af03282": {
+      "greedy": 0.5101,
+      "commit_bij": 0.3227,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 25,
+      "ncommit": 10,
+      "ngt": 1,
+      "nframe": 19
+    },
+    "0b02886a": {
+      "greedy": 0.6958,
+      "commit_bij": 0.6958,
+      "prec": 0.667,
+      "rec": 0.667,
+      "ntrk": 3,
+      "ncommit": 3,
+      "ngt": 3,
+      "nframe": 30
+    },
+    "0b27d5f7": {
+      "greedy": 0.582,
+      "commit_bij": 0.577,
+      "prec": 0.231,
+      "rec": 0.5,
+      "ntrk": 45,
+      "ncommit": 13,
+      "ngt": 6,
+      "nframe": 54
+    },
+    "0b4b662c": {
+      "greedy": 0.5516,
+      "commit_bij": 0.5516,
+      "prec": 1.0,
+      "rec": 0.667,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 3,
+      "nframe": 60
+    },
+    "0b5e5d29": {
+      "greedy": 0.6564,
+      "commit_bij": 0.6564,
+      "prec": 0.8,
+      "rec": 0.8,
+      "ntrk": 13,
+      "ncommit": 5,
+      "ngt": 5,
+      "nframe": 42
+    },
+    "0b787263": {
+      "greedy": 0.6312,
+      "commit_bij": 0.466,
+      "prec": 0.2,
+      "rec": 0.667,
+      "ntrk": 17,
+      "ncommit": 10,
+      "ngt": 3,
+      "nframe": 60
+    },
+    "0b99f522": {
+      "greedy": 0.7482,
+      "commit_bij": 0.7482,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 4,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 30
+    },
+    "0ba9c5ad": {
+      "greedy": 0.2417,
+      "commit_bij": 0.2,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 25,
+      "ncommit": 13,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0be33bc1": {
+      "greedy": 0.0167,
+      "commit_bij": 0.0167,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 30,
+      "ncommit": 10,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0c13e1e7": {
+      "greedy": 0.5217,
+      "commit_bij": 0.3712,
+      "prec": 0.25,
+      "rec": 0.5,
+      "ntrk": 5,
+      "ncommit": 4,
+      "ngt": 2,
+      "nframe": 36
+    },
+    "0d1575fe": {
+      "greedy": 0.6315,
+      "commit_bij": 0.6315,
+      "prec": 0.053,
+      "rec": 1.0,
+      "ntrk": 54,
+      "ncommit": 19,
+      "ngt": 1,
+      "nframe": 14
+    },
+    "0d1fe009": {
+      "greedy": 0.5085,
+      "commit_bij": 0.2705,
+      "prec": 1.0,
+      "rec": 0.5,
+      "ntrk": 5,
+      "ncommit": 1,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "0d31d3a6": {
+      "greedy": 0.0103,
+      "commit_bij": 0.0052,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 6,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 45
+    },
+    "0d4d88f6": {
+      "greedy": 0.4324,
+      "commit_bij": 0.2432,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 59,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 37
+    },
+    "0d4feda2": {
+      "greedy": 0.1427,
+      "commit_bij": 0.1662,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 7,
+      "ncommit": 3,
+      "ngt": 1,
+      "nframe": 25
+    },
+    "0d6e7177": {
+      "greedy": 0.6424,
+      "commit_bij": 0.0795,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 29,
+      "ncommit": 14,
+      "ngt": 1,
+      "nframe": 44
+    },
+    "0d876a65": {
+      "greedy": 0.8824,
+      "commit_bij": 0.8824,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 5,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 55
+    },
+    "0d8d30ae": {
+      "greedy": 0.1231,
+      "commit_bij": 0.1231,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 8,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0d967fd1": {
+      "greedy": 0.2313,
+      "commit_bij": 0.2182,
+      "prec": 1.0,
+      "rec": 0.25,
+      "ntrk": 4,
+      "ncommit": 2,
+      "ngt": 8,
+      "nframe": 60
+    },
+    "0dc1b78c": {
+      "greedy": 0.4301,
+      "commit_bij": 0.4301,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 27,
+      "ncommit": 9,
+      "ngt": 1,
+      "nframe": 44
+    },
+    "0e05fabe": {
+      "greedy": 0.3569,
+      "commit_bij": 0.3076,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 85,
+      "ncommit": 43,
+      "ngt": 1,
+      "nframe": 32
+    },
+    "0e4aeed9": {
+      "greedy": 0.7407,
+      "commit_bij": 0.7372,
+      "prec": 0.5,
+      "rec": 0.8,
+      "ntrk": 12,
+      "ncommit": 8,
+      "ngt": 5,
+      "nframe": 33
+    },
+    "0e7001dd": {
+      "greedy": 0.6224,
+      "commit_bij": 0.5877,
+      "prec": 0.667,
+      "rec": 0.667,
+      "ntrk": 11,
+      "ncommit": 3,
+      "ngt": 3,
+      "nframe": 60
+    },
+    "0e843fc8": {
+      "greedy": 0.0397,
+      "commit_bij": 0.037,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 5,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 27
+    },
+    "0f3b1fcb": {
+      "greedy": 0.0,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 25,
+      "ncommit": 14,
+      "ngt": 1,
+      "nframe": 10
+    },
+    "0f5255e1": {
+      "greedy": 0.0,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 16,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 7
+    },
+    "0f685e01": {
+      "greedy": 0.733,
+      "commit_bij": 0.733,
+      "prec": 0.167,
+      "rec": 0.333,
+      "ntrk": 10,
+      "ncommit": 6,
+      "ngt": 3,
+      "nframe": 34
+    },
+    "0f809e41": {
+      "greedy": 0.0,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 26
+    },
+    "0f96e2d7": {
+      "greedy": 0.0436,
+      "commit_bij": 0.0395,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 20,
+      "ncommit": 9,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0fc00006": {
+      "greedy": 0.7949,
+      "commit_bij": 0.7949,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "0fdf67f7": {
+      "greedy": 0.1809,
+      "commit_bij": 0.1809,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 3,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 36
+    },
+    "100edaef": {
+      "greedy": 0.0,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 7,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "100f6ecf": {
+      "greedy": 0.7699,
+      "commit_bij": 0.7699,
+      "prec": 0.667,
+      "rec": 1.0,
+      "ntrk": 5,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "103166c7": {
+      "greedy": 0.7519,
+      "commit_bij": 0.7519,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 40
+    },
+    "103b3ca8": {
+      "greedy": 0.0006,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 1,
+      "ncommit": 0,
+      "ngt": 1,
+      "nframe": 55
+    },
+    "103df575": {
+      "greedy": 0.2908,
+      "commit_bij": 0.0437,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 50,
+      "ncommit": 1,
+      "ngt": 2,
+      "nframe": 40
+    },
+    "10552818": {
+      "greedy": 0.2339,
+      "commit_bij": 0.2339,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 10,
+      "ncommit": 8,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "106d33db": {
+      "greedy": 0.7779,
+      "commit_bij": 0.688,
+      "prec": 0.833,
+      "rec": 0.714,
+      "ntrk": 16,
+      "ncommit": 6,
+      "ngt": 7,
+      "nframe": 40
+    },
+    "1106f3a7": {
+      "greedy": 0.9067,
+      "commit_bij": 0.9055,
+      "prec": 0.4,
+      "rec": 1.0,
+      "ntrk": 7,
+      "ncommit": 5,
+      "ngt": 2,
+      "nframe": 36
+    },
+    "110da3cf": {
+      "greedy": 0.0,
+      "commit_bij": 0.0,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 8,
+      "ncommit": 3,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "111bb373": {
+      "greedy": 0.6956,
+      "commit_bij": 0.6956,
+      "prec": 0.143,
+      "rec": 1.0,
+      "ntrk": 22,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 34
+    },
+    "111e0a5c": {
+      "greedy": 0.8205,
+      "commit_bij": 0.8147,
+      "prec": 0.571,
+      "rec": 0.8,
+      "ntrk": 15,
+      "ncommit": 7,
+      "ngt": 5,
+      "nframe": 60
+    },
+    "112a2ef0": {
+      "greedy": 0.9348,
+      "commit_bij": 0.9348,
+      "prec": 0.143,
+      "rec": 1.0,
+      "ntrk": 8,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "1143b3fe": {
+      "greedy": 0.1484,
+      "commit_bij": 0.1484,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 34,
+      "ncommit": 15,
+      "ngt": 1,
+      "nframe": 31
+    },
+    "115348f9": {
+      "greedy": 0.8999,
+      "commit_bij": 0.8967,
+      "prec": 0.667,
+      "rec": 1.0,
+      "ntrk": 8,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 42
+    },
+    "115adda4": {
+      "greedy": 0.192,
+      "commit_bij": 0.192,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 4,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 32
+    },
+    "115da184": {
+      "greedy": 0.7632,
+      "commit_bij": 0.7444,
+      "prec": 0.75,
+      "rec": 1.0,
+      "ntrk": 21,
+      "ncommit": 12,
+      "ngt": 9,
+      "nframe": 60
+    },
+    "118a067e": {
+      "greedy": 0.0137,
+      "commit_bij": 0.0032,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 5,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "11c14893": {
+      "greedy": 0.6606,
+      "commit_bij": 0.2439,
+      "prec": 0.05,
+      "rec": 0.333,
+      "ntrk": 66,
+      "ncommit": 20,
+      "ngt": 3,
+      "nframe": 20
+    },
+    "11cdeb64": {
+      "greedy": 0.7178,
+      "commit_bij": 0.7178,
+      "prec": 0.2,
+      "rec": 1.0,
+      "ntrk": 11,
+      "ncommit": 5,
+      "ngt": 1,
+      "nframe": 28
+    },
+    "12099d59": {
+      "greedy": 0.2827,
+      "commit_bij": 0.2827,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 36,
+      "ncommit": 15,
+      "ngt": 1,
+      "nframe": 4
+    },
+    "1251a1c9": {
+      "greedy": 0.3781,
+      "commit_bij": 0.3781,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 16,
+      "ncommit": 7,
+      "ngt": 1,
+      "nframe": 58
+    },
+    "1291276c": {
+      "greedy": 0.808,
+      "commit_bij": 0.8055,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 8,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 25
+    },
+    "12a42fd9": {
+      "greedy": 0.9328,
+      "commit_bij": 0.9328,
+      "prec": 0.033,
+      "rec": 1.0,
+      "ntrk": 58,
+      "ncommit": 30,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "12a5d0d7": {
+      "greedy": 0.9147,
+      "commit_bij": 0.9147,
+      "prec": 0.038,
+      "rec": 1.0,
+      "ntrk": 88,
+      "ncommit": 53,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "12e509c2": {
+      "greedy": 0.9103,
+      "commit_bij": 0.906,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 34,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "12fdc864": {
+      "greedy": 0.7459,
+      "commit_bij": 0.7459,
+      "prec": 0.75,
+      "rec": 0.75,
+      "ntrk": 5,
+      "ncommit": 4,
+      "ngt": 4,
+      "nframe": 42
+    },
+    "130fcdbe": {
+      "greedy": 0.027,
+      "commit_bij": 0.0284,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 3,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 24
+    }
+  }
+}

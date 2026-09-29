@@ -1,0 +1,178 @@
+{
+  "config": {
+    "ROOT": "/tmp/davis_val30",
+    "TAG": "dv_o4_s1",
+    "MAXF": 9999,
+    "MAXVIDS": 0,
+    "TTA": 0,
+    "ORACLE": 4,
+    "OBJ_THR": 0.05,
+    "COVER_MAX": 0.5,
+    "SAM2_SIZE": "large",
+    "SHARD": 1,
+    "NSHARD": 2
+  },
+  "summary": {
+    "n": 15,
+    "greedy": 0.9169010679443292,
+    "commit_bij": 0.9169010679443292,
+    "retention": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "mean_tracks": 1.8,
+    "mean_commit": 1.8,
+    "mean_gt": 1.8
+  },
+  "per_seq": {
+    "blackswan": {
+      "greedy": 0.9453,
+      "commit_bij": 0.9453,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 50
+    },
+    "breakdance": {
+      "greedy": 0.9546,
+      "commit_bij": 0.9546,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 84
+    },
+    "car-roundabout": {
+      "greedy": 0.9669,
+      "commit_bij": 0.9669,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 75
+    },
+    "cows": {
+      "greedy": 0.9547,
+      "commit_bij": 0.9547,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 104
+    },
+    "dog": {
+      "greedy": 0.9508,
+      "commit_bij": 0.9508,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "drift-chicane": {
+      "greedy": 0.924,
+      "commit_bij": 0.924,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 52
+    },
+    "goat": {
+      "greedy": 0.917,
+      "commit_bij": 0.917,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 90
+    },
+    "horsejump-high": {
+      "greedy": 0.8728,
+      "commit_bij": 0.8728,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 50
+    },
+    "judo": {
+      "greedy": 0.8822,
+      "commit_bij": 0.8822,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 34
+    },
+    "lab-coat": {
+      "greedy": 0.7797,
+      "commit_bij": 0.7797,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 5,
+      "ncommit": 5,
+      "ngt": 5,
+      "nframe": 47
+    },
+    "loading": {
+      "greedy": 0.9275,
+      "commit_bij": 0.9275,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 3,
+      "ncommit": 3,
+      "ngt": 3,
+      "nframe": 50
+    },
+    "motocross-jump": {
+      "greedy": 0.918,
+      "commit_bij": 0.918,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 40
+    },
+    "parkour": {
+      "greedy": 0.9495,
+      "commit_bij": 0.9495,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 100
+    },
+    "scooter-black": {
+      "greedy": 0.9067,
+      "commit_bij": 0.9067,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 43
+    },
+    "soapbox": {
+      "greedy": 0.9037,
+      "commit_bij": 0.9037,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 3,
+      "ncommit": 3,
+      "ngt": 3,
+      "nframe": 99
+    }
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "open_world": {
+    "mean_J": 0.233,
+    "mean_F": 0.2727,
+    "mean_JF": 0.2529,
+    "per_sequence": [
+      {
+        "sequence": "bike-packing",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 4,
+        "n_pred": 1
+      },
+      {
+        "sequence": "blackswan",
+        "mean_J": 0.9546,
+        "mean_F": 0.9322,
+        "mean_JF": 0.9434,
+        "n_gdino": 1,
+        "n_pred": 1
+      },
+      {
+        "sequence": "bmx-trees",
+        "mean_J": 0.0,
+        "mean_F": 0.0754,
+        "mean_JF": 0.0377,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "breakdance",
+        "mean_J": 0.0,
+        "mean_F": 0.0138,
+        "mean_JF": 0.0069,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "camel",
+        "mean_J": 0.9578,
+        "mean_F": 0.9494,
+        "mean_JF": 0.9536,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "car-roundabout",
+        "mean_J": 0.9837,
+        "mean_F": 0.9379,
+        "mean_JF": 0.9608,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "car-shadow",
+        "mean_J": 0.0,
+        "mean_F": 0.0163,
+        "mean_JF": 0.0082,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "cows",
+        "mean_J": 0.9307,
+        "mean_F": 0.8937,
+        "mean_JF": 0.9122,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "dance-twirl",
+        "mean_J": 0.0,
+        "mean_F": 0.0012,
+        "mean_JF": 0.0006,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "dog",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "dogs-jump",
+        "mean_J": 0.3166,
+        "mean_F": 0.3653,
+        "mean_JF": 0.341,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "drift-chicane",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 5,
+        "n_pred": 1
+      },
+      {
+        "sequence": "drift-straight",
+        "mean_J": 0.0001,
+        "mean_F": 0.0323,
+        "mean_JF": 0.0162,
+        "n_gdino": 4,
+        "n_pred": 1
+      },
+      {
+        "sequence": "goat",
+        "mean_J": 0.686,
+        "mean_F": 0.7056,
+        "mean_JF": 0.6958,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "gold-fish",
+        "mean_J": 0.0002,
+        "mean_F": 0.0035,
+        "mean_JF": 0.0018,
+        "n_gdino": 7,
+        "n_pred": 1
+      },
+      {
+        "sequence": "horsejump-high",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "india",
+        "mean_J": 0.0123,
+        "mean_F": 0.0,
+        "mean_JF": 0.0062,
+        "n_gdino": 5,
+        "n_pred": 1
+      },
+      {
+        "sequence": "judo",
+        "mean_J": 0.0005,
+        "mean_F": 0.0224,
+        "mean_JF": 0.0115,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "kite-surf",
+        "mean_J": 0.1088,
+        "mean_F": 0.3449,
+        "mean_JF": 0.2269,
+        "n_gdino": 4,
+        "n_pred": 1
+      },
+      {
+        "sequence": "lab-coat",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "libby",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "loading",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 5,
+        "n_pred": 1
+      },
+      {
+        "sequence": "mbike-trick",
+        "mean_J": 0.4516,
+        "mean_F": 0.6763,
+        "mean_JF": 0.564,
+        "n_gdino": 1,
+        "n_pred": 1
+      },
+      {
+        "sequence": "motocross-jump",
+        "mean_J": 0.454,
+        "mean_F": 0.5793,
+        "mean_JF": 0.5167,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "paragliding-launch",
+        "mean_J": 0.0465,
+        "mean_F": 0.1831,
+        "mean_JF": 0.1148,
+        "n_gdino": 6,
+        "n_pred": 1
+      },
+      {
+        "sequence": "parkour",
+        "mean_J": 0.0,
+        "mean_F": 0.0047,
+        "mean_JF": 0.0024,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "pigs",
+        "mean_J": 0.3191,
+        "mean_F": 0.3769,
+        "mean_JF": 0.348,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "scooter-black",
+        "mean_J": 0.4779,
+        "mean_F": 0.5373,
+        "mean_JF": 0.5076,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "shooting",
+        "mean_J": 0.2091,
+        "mean_F": 0.3409,
+        "mean_JF": 0.275,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "soapbox",
+        "mean_J": 0.0795,
+        "mean_F": 0.1896,
+        "mean_JF": 0.1345,
+        "n_gdino": 5,
+        "n_pred": 1
+      }
+    ]
+  },
+  "coco_80": {
+    "mean_J": 0.1987,
+    "mean_F": 0.2267,
+    "mean_JF": 0.2127,
+    "per_sequence": [
+      {
+        "sequence": "bike-packing",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "blackswan",
+        "mean_J": 0.9543,
+        "mean_F": 0.9315,
+        "mean_JF": 0.9429,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "bmx-trees",
+        "mean_J": 0.0,
+        "mean_F": 0.0738,
+        "mean_JF": 0.0369,
+        "n_gdino": 4,
+        "n_pred": 1
+      },
+      {
+        "sequence": "breakdance",
+        "mean_J": 0.0001,
+        "mean_F": 0.0591,
+        "mean_JF": 0.0296,
+        "n_gdino": 15,
+        "n_pred": 1
+      },
+      {
+        "sequence": "camel",
+        "mean_J": 0.9725,
+        "mean_F": 0.9655,
+        "mean_JF": 0.969,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "car-roundabout",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 10,
+        "n_pred": 1
+      },
+      {
+        "sequence": "car-shadow",
+        "mean_J": 0.004,
+        "mean_F": 0.002,
+        "mean_JF": 0.003,
+        "n_gdino": 4,
+        "n_pred": 1
+      },
+      {
+        "sequence": "cows",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "dance-twirl",
+        "mean_J": 0.0,
+        "mean_F": 0.0081,
+        "mean_JF": 0.004,
+        "n_gdino": 22,
+        "n_pred": 1
+      },
+      {
+        "sequence": "dog",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "dogs-jump",
+        "mean_J": 0.3162,
+        "mean_F": 0.3537,
+        "mean_JF": 0.3349,
+        "n_gdino": 5,
+        "n_pred": 1
+      },
+      {
+        "sequence": "drift-chicane",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 19,
+        "n_pred": 1
+      },
+      {
+        "sequence": "drift-straight",
+        "mean_J": 0.0002,
+        "mean_F": 0.0161,
+        "mean_JF": 0.0082,
+        "n_gdino": 9,
+        "n_pred": 1
+      },
+      {
+        "sequence": "goat",
+        "mean_J": 0.9312,
+        "mean_F": 0.9059,
+        "mean_JF": 0.9186,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "gold-fish",
+        "mean_J": 0.1911,
+        "mean_F": 0.2027,
+        "mean_JF": 0.1969,
+        "n_gdino": 12,
+        "n_pred": 1
+      },
+      {
+        "sequence": "horsejump-high",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 4,
+        "n_pred": 1
+      },
+      {
+        "sequence": "india",
+        "mean_J": 0.0247,
+        "mean_F": 0.0,
+        "mean_JF": 0.0123,
+        "n_gdino": 10,
+        "n_pred": 1
+      },
+      {
+        "sequence": "judo",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 8,
+        "n_pred": 1
+      },
+      {
+        "sequence": "kite-surf",
+        "mean_J": 0.2834,
+        "mean_F": 0.3845,
+        "mean_JF": 0.334,
+        "n_gdino": 1,
+        "n_pred": 1
+      },
+      {
+        "sequence": "lab-coat",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 9,
+        "n_pred": 1
+      },
+      {
+        "sequence": "libby",
+        "mean_J": 0.9098,
+        "mean_F": 0.9479,
+        "mean_JF": 0.9288,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "loading",
+        "mean_J": 0.0,
+        "mean_F": 0.0059,
+        "mean_JF": 0.003,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "mbike-trick",
+        "mean_J": 0.4479,
+        "mean_F": 0.6929,
+        "mean_JF": 0.5704,
+        "n_gdino": 1,
+        "n_pred": 1
+      },
+      {
+        "sequence": "motocross-jump",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "paragliding-launch",
+        "mean_J": 0.3127,
+        "mean_F": 0.4419,
+        "mean_JF": 0.3773,
+        "n_gdino": 1,
+        "n_pred": 1
+      },
+      {
+        "sequence": "parkour",
+        "mean_J": 0.0,
+        "mean_F": 0.0,
+        "mean_JF": 0.0,
+        "n_gdino": 3,
+        "n_pred": 1
+      },
+      {
+        "sequence": "pigs",
+        "mean_J": 0.3128,
+        "mean_F": 0.3603,
+        "mean_JF": 0.3366,
+        "n_gdino": 5,
+        "n_pred": 1
+      },
+      {
+        "sequence": "scooter-black",
+        "mean_J": 0.0,
+        "mean_F": 0.0026,
+        "mean_JF": 0.0013,
+        "n_gdino": 26,
+        "n_pred": 1
+      },
+      {
+        "sequence": "shooting",
+        "mean_J": 0.2993,
+        "mean_F": 0.4445,
+        "mean_JF": 0.3719,
+        "n_gdino": 2,
+        "n_pred": 1
+      },
+      {
+        "sequence": "soapbox",
+        "mean_J": 0.0,
+        "mean_F": 0.0012,
+        "mean_JF": 0.0006,
+        "n_gdino": 14,
+        "n_pred": 1
+      }
+    ]
+  },
+  "ow_vis_comparison": 0.8256
+}

@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "seq": "bike-packing",
+      "n_frames": 69,
+      "total_sec": 38.15,
+      "fps": 1.81
+    },
+    {
+      "seq": "blackswan",
+      "n_frames": 50,
+      "total_sec": 7.52,
+      "fps": 6.65
+    },
+    {
+      "seq": "bmx-trees",
+      "n_frames": 80,
+      "total_sec": 15.17,
+      "fps": 5.27
+    },
+    {
+      "seq": "breakdance",
+      "n_frames": 84,
+      "total_sec": 57.87,
+      "fps": 1.45
+    },
+    {
+      "seq": "camel",
+      "n_frames": 90,
+      "total_sec": 14.47,
+      "fps": 6.22
+    },
+    {
+      "seq": "car-roundabout",
+      "n_frames": 75,
+      "total_sec": 34.21,
+      "fps": 2.19
+    },
+    {
+      "seq": "car-shadow",
+      "n_frames": 40,
+      "total_sec": 13.12,
+      "fps": 3.05
+    },
+    {
+      "seq": "cows",
+      "n_frames": 104,
+      "total_sec": 16.13,
+      "fps": 6.45
+    },
+    {
+      "seq": "dance-twirl",
+      "n_frames": 90,
+      "total_sec": 70.52,
+      "fps": 1.28
+    },
+    {
+      "seq": "dog",
+      "n_frames": 60,
+      "total_sec": 8.94,
+      "fps": 6.71
+    }
+  ],
+  "mean_fps": 4.11,
+  "note": "SAM2 Large, A6000 GPU, 854x480"
+}

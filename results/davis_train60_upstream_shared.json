@@ -1,0 +1,616 @@
+{
+  "config": {
+    "ROOT": "/tmp/davis2017/DAVIS",
+    "MAXF": 9999,
+    "MAXVIDS": 0,
+    "split": "DAVIS-2017 train (60 sequences)",
+    "source_tags": [
+      "ho_area_s0..s3",
+      "ho_quality_s0..s3"
+    ],
+    "merged_from": "4 shards of 15 sequences each"
+  },
+  "note": "Upstream run shared by BOTH arms of the area-vs-quality ranking comparison. The ranking is applied downstream, when the top-20 proposals are written out for the official DAVIS evaluator; it does not change the tracks this harness produces, so the eight server runs (ho_area_s0..s3 and ho_quality_s0..s3) are bit-identical per sequence. The two arms' official-protocol scores quoted in the article (81.24% area, 78.44% quality) come from the official evaluator applied to the two differently-ranked submissions and are NOT in this archive; make_ledger.py declares them as unarchived. This file was previously stored twice, as davis_train60_rank_area.json and davis_train60_rank_quality.json, whose names wrongly implied they held the two separate arms.",
+  "per_seq": {
+    "bear": {
+      "greedy": 0.9556,
+      "commit_bij": 0.9556,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 82
+    },
+    "breakdance-flare": {
+      "greedy": 0.9627,
+      "commit_bij": 0.9627,
+      "prec": 0.167,
+      "rec": 1.0,
+      "ntrk": 9,
+      "ncommit": 6,
+      "ngt": 1,
+      "nframe": 71
+    },
+    "classic-car": {
+      "greedy": 0.777,
+      "commit_bij": 0.3542,
+      "prec": 0.0,
+      "rec": 0.0,
+      "ntrk": 100,
+      "ncommit": 4,
+      "ngt": 3,
+      "nframe": 63
+    },
+    "dancing": {
+      "greedy": 0.9253,
+      "commit_bij": 0.9253,
+      "prec": 0.044,
+      "rec": 1.0,
+      "ntrk": 96,
+      "ncommit": 68,
+      "ngt": 3,
+      "nframe": 62
+    },
+    "dogs-scale": {
+      "greedy": 0.8626,
+      "commit_bij": 0.8626,
+      "prec": 0.571,
+      "rec": 1.0,
+      "ntrk": 10,
+      "ncommit": 7,
+      "ngt": 4,
+      "nframe": 83
+    },
+    "flamingo": {
+      "greedy": 0.9591,
+      "commit_bij": 0.9591,
+      "prec": 0.25,
+      "rec": 1.0,
+      "ntrk": 12,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 80
+    },
+    "kid-football": {
+      "greedy": 0.945,
+      "commit_bij": 0.945,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 68
+    },
+    "lindy-hop": {
+      "greedy": 0.8886,
+      "commit_bij": 0.8883,
+      "prec": 0.296,
+      "rec": 1.0,
+      "ntrk": 61,
+      "ncommit": 27,
+      "ngt": 8,
+      "nframe": 73
+    },
+    "mallard-water": {
+      "greedy": 0.9332,
+      "commit_bij": 0.9332,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 80
+    },
+    "night-race": {
+      "greedy": 0.8969,
+      "commit_bij": 0.8969,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 46
+    },
+    "rhino": {
+      "greedy": 0.9667,
+      "commit_bij": 0.9667,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 90
+    },
+    "scooter-gray": {
+      "greedy": 0.9111,
+      "commit_bij": 0.9111,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 8,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 75
+    },
+    "soccerball": {
+      "greedy": 0.9271,
+      "commit_bij": 0.9271,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 48
+    },
+    "swing": {
+      "greedy": 0.7471,
+      "commit_bij": 0.7434,
+      "prec": 0.222,
+      "rec": 0.667,
+      "ntrk": 14,
+      "ncommit": 9,
+      "ngt": 3,
+      "nframe": 60
+    },
+    "tuk-tuk": {
+      "greedy": 0.8946,
+      "commit_bij": 0.8946,
+      "prec": 0.136,
+      "rec": 1.0,
+      "ntrk": 70,
+      "ncommit": 22,
+      "ngt": 3,
+      "nframe": 59
+    },
+    "bmx-bumps": {
+      "greedy": 0.7513,
+      "commit_bij": 0.7513,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 90
+    },
+    "bus": {
+      "greedy": 0.884,
+      "commit_bij": 0.884,
+      "prec": 0.077,
+      "rec": 1.0,
+      "ntrk": 13,
+      "ncommit": 13,
+      "ngt": 1,
+      "nframe": 80
+    },
+    "color-run": {
+      "greedy": 0.7273,
+      "commit_bij": 0.7273,
+      "prec": 0.2,
+      "rec": 1.0,
+      "ntrk": 52,
+      "ncommit": 15,
+      "ngt": 3,
+      "nframe": 84
+    },
+    "disc-jockey": {
+      "greedy": 0.6171,
+      "commit_bij": 0.6149,
+      "prec": 0.286,
+      "rec": 0.667,
+      "ntrk": 25,
+      "ncommit": 7,
+      "ngt": 3,
+      "nframe": 76
+    },
+    "drift-turn": {
+      "greedy": 0.9481,
+      "commit_bij": 0.9481,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 95,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 64
+    },
+    "hike": {
+      "greedy": 0.9564,
+      "commit_bij": 0.9564,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 4,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 80
+    },
+    "kite-walk": {
+      "greedy": 0.6057,
+      "commit_bij": 0.5554,
+      "prec": 1.0,
+      "rec": 0.667,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 3,
+      "nframe": 80
+    },
+    "longboard": {
+      "greedy": 0.7738,
+      "commit_bij": 0.7708,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 9,
+      "ncommit": 5,
+      "ngt": 5,
+      "nframe": 52
+    },
+    "miami-surf": {
+      "greedy": 0.6328,
+      "commit_bij": 0.4303,
+      "prec": 0.8,
+      "rec": 0.667,
+      "ntrk": 22,
+      "ncommit": 5,
+      "ngt": 6,
+      "nframe": 70
+    },
+    "paragliding": {
+      "greedy": 0.8935,
+      "commit_bij": 0.8935,
+      "prec": 0.667,
+      "rec": 1.0,
+      "ntrk": 3,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 70
+    },
+    "rollerblade": {
+      "greedy": 0.9385,
+      "commit_bij": 0.9385,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 35
+    },
+    "sheep": {
+      "greedy": 0.8566,
+      "commit_bij": 0.8561,
+      "prec": 0.714,
+      "rec": 1.0,
+      "ntrk": 18,
+      "ncommit": 7,
+      "ngt": 5,
+      "nframe": 68
+    },
+    "stroller": {
+      "greedy": 0.8949,
+      "commit_bij": 0.8949,
+      "prec": 0.069,
+      "rec": 1.0,
+      "ntrk": 53,
+      "ncommit": 29,
+      "ngt": 2,
+      "nframe": 91
+    },
+    "tennis": {
+      "greedy": 0.6108,
+      "commit_bij": 0.6073,
+      "prec": 1.0,
+      "rec": 0.667,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 3,
+      "nframe": 70
+    },
+    "upside-down": {
+      "greedy": 0.8708,
+      "commit_bij": 0.8708,
+      "prec": 0.222,
+      "rec": 1.0,
+      "ntrk": 17,
+      "ncommit": 9,
+      "ngt": 2,
+      "nframe": 65
+    },
+    "boat": {
+      "greedy": 0.8548,
+      "commit_bij": 0.8523,
+      "prec": 0.25,
+      "rec": 1.0,
+      "ntrk": 5,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 75
+    },
+    "car-turn": {
+      "greedy": 0.9617,
+      "commit_bij": 0.9617,
+      "prec": 0.125,
+      "rec": 1.0,
+      "ntrk": 25,
+      "ncommit": 8,
+      "ngt": 1,
+      "nframe": 80
+    },
+    "crossing": {
+      "greedy": 0.9479,
+      "commit_bij": 0.9479,
+      "prec": 0.083,
+      "rec": 1.0,
+      "ntrk": 67,
+      "ncommit": 36,
+      "ngt": 3,
+      "nframe": 52
+    },
+    "dog-agility": {
+      "greedy": 0.9246,
+      "commit_bij": 0.9246,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 25
+    },
+    "drone": {
+      "greedy": 0.561,
+      "commit_bij": 0.4291,
+      "prec": 0.4,
+      "rec": 0.4,
+      "ntrk": 34,
+      "ncommit": 5,
+      "ngt": 5,
+      "nframe": 91
+    },
+    "hockey": {
+      "greedy": 0.8362,
+      "commit_bij": 0.8362,
+      "prec": 0.094,
+      "rec": 1.0,
+      "ntrk": 48,
+      "ncommit": 32,
+      "ngt": 3,
+      "nframe": 75
+    },
+    "koala": {
+      "greedy": 0.9184,
+      "commit_bij": 0.9184,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 100
+    },
+    "lucia": {
+      "greedy": 0.8741,
+      "commit_bij": 0.8741,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 17,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 70
+    },
+    "motocross-bumps": {
+      "greedy": 0.7666,
+      "commit_bij": 0.6311,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 13,
+      "ncommit": 4,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "planes-water": {
+      "greedy": 0.5013,
+      "commit_bij": 0.4738,
+      "prec": 1.0,
+      "rec": 0.5,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 2,
+      "nframe": 38
+    },
+    "schoolgirls": {
+      "greedy": 0.8524,
+      "commit_bij": 0.8517,
+      "prec": 0.304,
+      "rec": 1.0,
+      "ntrk": 55,
+      "ncommit": 23,
+      "ngt": 7,
+      "nframe": 80
+    },
+    "skate-park": {
+      "greedy": 0.7562,
+      "commit_bij": 0.7562,
+      "prec": 0.024,
+      "rec": 0.5,
+      "ntrk": 99,
+      "ncommit": 41,
+      "ngt": 2,
+      "nframe": 80
+    },
+    "stunt": {
+      "greedy": 0.8435,
+      "commit_bij": 0.8078,
+      "prec": 0.667,
+      "rec": 1.0,
+      "ntrk": 4,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 71
+    },
+    "tractor-sand": {
+      "greedy": 0.6033,
+      "commit_bij": 0.5359,
+      "prec": 0.182,
+      "rec": 0.667,
+      "ntrk": 17,
+      "ncommit": 11,
+      "ngt": 3,
+      "nframe": 76
+    },
+    "varanus-cage": {
+      "greedy": 0.8651,
+      "commit_bij": 0.8651,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 2,
+      "ncommit": 2,
+      "ngt": 1,
+      "nframe": 67
+    },
+    "boxing-fisheye": {
+      "greedy": 0.924,
+      "commit_bij": 0.924,
+      "prec": 0.055,
+      "rec": 1.0,
+      "ntrk": 94,
+      "ncommit": 55,
+      "ngt": 3,
+      "nframe": 87
+    },
+    "cat-girl": {
+      "greedy": 0.9119,
+      "commit_bij": 0.9115,
+      "prec": 0.4,
+      "rec": 1.0,
+      "ntrk": 7,
+      "ncommit": 5,
+      "ngt": 2,
+      "nframe": 89
+    },
+    "dance-jump": {
+      "greedy": 0.823,
+      "commit_bij": 0.823,
+      "prec": 0.031,
+      "rec": 1.0,
+      "ntrk": 63,
+      "ncommit": 32,
+      "ngt": 1,
+      "nframe": 60
+    },
+    "dog-gooses": {
+      "greedy": 0.8525,
+      "commit_bij": 0.8551,
+      "prec": 0.135,
+      "rec": 1.0,
+      "ntrk": 97,
+      "ncommit": 37,
+      "ngt": 5,
+      "nframe": 86
+    },
+    "elephant": {
+      "greedy": 0.8973,
+      "commit_bij": 0.8973,
+      "prec": 0.25,
+      "rec": 1.0,
+      "ntrk": 14,
+      "ncommit": 4,
+      "ngt": 1,
+      "nframe": 80
+    },
+    "horsejump-low": {
+      "greedy": 0.8782,
+      "commit_bij": 0.8782,
+      "prec": 0.286,
+      "rec": 1.0,
+      "ntrk": 13,
+      "ncommit": 7,
+      "ngt": 2,
+      "nframe": 60
+    },
+    "lady-running": {
+      "greedy": 0.8159,
+      "commit_bij": 0.8162,
+      "prec": 0.074,
+      "rec": 1.0,
+      "ntrk": 89,
+      "ncommit": 27,
+      "ngt": 2,
+      "nframe": 65
+    },
+    "mallard-fly": {
+      "greedy": 0.8958,
+      "commit_bij": 0.8958,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 1,
+      "ncommit": 1,
+      "ngt": 1,
+      "nframe": 70
+    },
+    "motorbike": {
+      "greedy": 0.8482,
+      "commit_bij": 0.8482,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 6,
+      "ncommit": 6,
+      "ngt": 3,
+      "nframe": 43
+    },
+    "rallye": {
+      "greedy": 0.9382,
+      "commit_bij": 0.9382,
+      "prec": 0.02,
+      "rec": 1.0,
+      "ntrk": 89,
+      "ncommit": 49,
+      "ngt": 1,
+      "nframe": 50
+    },
+    "scooter-board": {
+      "greedy": 0.6457,
+      "commit_bij": 0.6457,
+      "prec": 0.667,
+      "rec": 1.0,
+      "ntrk": 52,
+      "ncommit": 3,
+      "ngt": 2,
+      "nframe": 91
+    },
+    "snowboard": {
+      "greedy": 0.8041,
+      "commit_bij": 0.8041,
+      "prec": 1.0,
+      "rec": 1.0,
+      "ntrk": 4,
+      "ncommit": 2,
+      "ngt": 2,
+      "nframe": 66
+    },
+    "surf": {
+      "greedy": 0.807,
+      "commit_bij": 0.7215,
+      "prec": 0.5,
+      "rec": 1.0,
+      "ntrk": 14,
+      "ncommit": 6,
+      "ngt": 3,
+      "nframe": 55
+    },
+    "train": {
+      "greedy": 0.7747,
+      "commit_bij": 0.6895,
+      "prec": 0.105,
+      "rec": 1.0,
+      "ntrk": 68,
+      "ncommit": 38,
+      "ngt": 4,
+      "nframe": 80
+    },
+    "walking": {
+      "greedy": 0.8962,
+      "commit_bij": 0.8962,
+      "prec": 0.154,
+      "rec": 1.0,
+      "ntrk": 87,
+      "ncommit": 13,
+      "ngt": 2,
+      "nframe": 72
+    }
+  }
+}

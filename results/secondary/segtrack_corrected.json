@@ -1,0 +1,108 @@
+{
+  "threshold": 0.25,
+  "n_seqs": 14,
+  "mean_J": 0.7847,
+  "mean_F": 0.7793,
+  "mean_JF": 0.782,
+  "eval_protocol": "dilation=False DETR, SegTrack v2",
+  "per_sequence": [
+    {
+      "sequence": "bird_of_paradise",
+      "mean_J": 0.9699,
+      "mean_F": 0.9279,
+      "mean_JF": 0.9489,
+      "n_pred": 1
+    },
+    {
+      "sequence": "birdfall",
+      "mean_J": 0.0001,
+      "mean_F": 0.0295,
+      "mean_JF": 0.0148,
+      "n_pred": 2
+    },
+    {
+      "sequence": "bmx",
+      "mean_J": 0.9436,
+      "mean_F": 0.9494,
+      "mean_JF": 0.9465,
+      "n_pred": 6
+    },
+    {
+      "sequence": "drift",
+      "mean_J": 0.9538,
+      "mean_F": 0.9277,
+      "mean_JF": 0.9408,
+      "n_pred": 17
+    },
+    {
+      "sequence": "frog",
+      "mean_J": 0.9178,
+      "mean_F": 0.9365,
+      "mean_JF": 0.9272,
+      "n_pred": 2
+    },
+    {
+      "sequence": "hummingbird",
+      "mean_J": 0.8577,
+      "mean_F": 0.864,
+      "mean_JF": 0.8608,
+      "n_pred": 2
+    },
+    {
+      "sequence": "monkey",
+      "mean_J": 0.9228,
+      "mean_F": 0.8954,
+      "mean_JF": 0.9091,
+      "n_pred": 1
+    },
+    {
+      "sequence": "parachute",
+      "mean_J": 0.9269,
+      "mean_F": 0.9099,
+      "mean_JF": 0.9184,
+      "n_pred": 1
+    },
+    {
+      "sequence": "soldier",
+      "mean_J": 0.8982,
+      "mean_F": 0.8845,
+      "mean_JF": 0.8914,
+      "n_pred": 8
+    },
+    {
+      "sequence": "worm",
+      "mean_J": 0.0,
+      "mean_F": 0.0,
+      "mean_JF": 0.0,
+      "n_pred": 1
+    },
+    {
+      "sequence": "cheetah",
+      "mean_J": 0.84,
+      "mean_F": 0.8596,
+      "mean_JF": 0.8498,
+      "n_pred": 5
+    },
+    {
+      "sequence": "girl",
+      "mean_J": 0.928,
+      "mean_F": 0.9235,
+      "mean_JF": 0.9257,
+      "n_pred": 1
+    },
+    {
+      "sequence": "monkeydog",
+      "mean_J": 0.8639,
+      "mean_F": 0.8942,
+      "mean_JF": 0.879,
+      "n_pred": 9
+    },
+    {
+      "sequence": "penguin",
+      "mean_J": 0.9638,
+      "mean_F": 0.9079,
+      "mean_JF": 0.9358,
+      "n_pred": 22
+    }
+  ]
+}

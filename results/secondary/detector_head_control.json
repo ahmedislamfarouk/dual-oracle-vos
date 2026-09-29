@@ -1,0 +1,263 @@
+{
+  "experiment": "injection3_finetuned_head_evaluation",
+  "timestamp": "2026-07-16 20:58:05",
+  "results": {
+    "mean_J": 0.8283,
+    "mean_F": 0.8454,
+    "mean_JF": 0.8368,
+    "mean_JF_pct": 83.68
+  },
+  "gap_analysis": {
+    "baseline_jf": 82.81,
+    "oracle_jf": 89.86,
+    "cutie_jf": 87.4,
+    "finetuned_jf": 83.68,
+    "gap_pp": 7.05,
+    "closure_pp": 0.87,
+    "closure_pct": 12.3,
+    "hypothesis_met": false
+  },
+  "per_sequence": [
+    {
+      "seq": "bike-packing",
+      "J": 0.7996,
+      "F": 0.8268,
+      "JF": 0.8132,
+      "n_dets": 58,
+      "n_gt": 2
+    },
+    {
+      "seq": "blackswan",
+      "J": 0.9507,
+      "F": 0.9232,
+      "JF": 0.937,
+      "n_dets": 1,
+      "n_gt": 1
+    },
+    {
+      "seq": "bmx-trees",
+      "J": 0.6476,
+      "F": 0.8796,
+      "JF": 0.7636,
+      "n_dets": 3,
+      "n_gt": 2
+    },
+    {
+      "seq": "breakdance",
+      "J": 0.9613,
+      "F": 0.9482,
+      "JF": 0.9547,
+      "n_dets": 74,
+      "n_gt": 1
+    },
+    {
+      "seq": "camel",
+      "J": 0.9742,
+      "F": 0.9672,
+      "JF": 0.9707,
+      "n_dets": 2,
+      "n_gt": 1
+    },
+    {
+      "seq": "car-roundabout",
+      "J": 0.9859,
+      "F": 0.9369,
+      "JF": 0.9614,
+      "n_dets": 55,
+      "n_gt": 1
+    },
+    {
+      "seq": "car-shadow",
+      "J": 0.9771,
+      "F": 0.9565,
+      "JF": 0.9668,
+      "n_dets": 26,
+      "n_gt": 1
+    },
+    {
+      "seq": "cows",
+      "J": 0.9734,
+      "F": 0.9608,
+      "JF": 0.9671,
+      "n_dets": 1,
+      "n_gt": 1
+    },
+    {
+      "seq": "dance-twirl",
+      "J": 0.9195,
+      "F": 0.9275,
+      "JF": 0.9235,
+      "n_dets": 97,
+      "n_gt": 1
+    },
+    {
+      "seq": "dog",
+      "J": 0.9642,
+      "F": 0.9365,
+      "JF": 0.9503,
+      "n_dets": 1,
+      "n_gt": 1
+    },
+    {
+      "seq": "dogs-jump",
+      "J": 0.9429,
+      "F": 0.9492,
+      "JF": 0.9461,
+      "n_dets": 3,
+      "n_gt": 3
+    },
+    {
+      "seq": "drift-chicane",
+      "J": 0.9236,
+      "F": 0.9334,
+      "JF": 0.9285,
+      "n_dets": 68,
+      "n_gt": 1
+    },
+    {
+      "seq": "drift-straight",
+      "J": 0.9633,
+      "F": 0.9274,
+      "JF": 0.9453,
+      "n_dets": 61,
+      "n_gt": 1
+    },
+    {
+      "seq": "goat",
+      "J": 0.9327,
+      "F": 0.9055,
+      "JF": 0.9191,
+      "n_dets": 1,
+      "n_gt": 1
+    },
+    {
+      "seq": "gold-fish",
+      "J": 0.5675,
+      "F": 0.6149,
+      "JF": 0.5912,
+      "n_dets": 12,
+      "n_gt": 5
+    },
+    {
+      "seq": "horsejump-high",
+      "J": 0.8349,
+      "F": 0.9188,
+      "JF": 0.8768,
+      "n_dets": 9,
+      "n_gt": 2
+    },
+    {
+      "seq": "india",
+      "J": 0.8857,
+      "F": 0.7552,
+      "JF": 0.8205,
+      "n_dets": 93,
+      "n_gt": 3
+    },
+    {
+      "seq": "judo",
+      "J": 0.8846,
+      "F": 0.877,
+      "JF": 0.8808,
+      "n_dets": 75,
+      "n_gt": 2
+    },
+    {
+      "seq": "kite-surf",
+      "J": 0.413,
+      "F": 0.4611,
+      "JF": 0.4371,
+      "n_dets": 3,
+      "n_gt": 3
+    },
+    {
+      "seq": "lab-coat",
+      "J": 0.5653,
+      "F": 0.5662,
+      "JF": 0.5658,
+      "n_dets": 14,
+      "n_gt": 5
+    },
+    {
+      "seq": "libby",
+      "J": 0.9125,
+      "F": 0.9489,
+      "JF": 0.9307,
+      "n_dets": 1,
+      "n_gt": 1
+    },
+    {
+      "seq": "loading",
+      "J": 0.6467,
+      "F": 0.746,
+      "JF": 0.6964,
+      "n_dets": 25,
+      "n_gt": 3
+    },
+    {
+      "seq": "mbike-trick",
+      "J": 0.8663,
+      "F": 0.9152,
+      "JF": 0.8908,
+      "n_dets": 2,
+      "n_gt": 2
+    },
+    {
+      "seq": "motocross-jump",
+      "J": 0.9082,
+      "F": 0.8903,
+      "JF": 0.8993,
+      "n_dets": 4,
+      "n_gt": 2
+    },
+    {
+      "seq": "paragliding-launch",
+      "J": 0.3309,
+      "F": 0.4865,
+      "JF": 0.4087,
+      "n_dets": 6,
+      "n_gt": 3
+    },
+    {
+      "seq": "parkour",
+      "J": 0.952,
+      "F": 0.9596,
+      "JF": 0.9558,
+      "n_dets": 2,
+      "n_gt": 1
+    },
+    {
+      "seq": "pigs",
+      "J": 0.9467,
+      "F": 0.9291,
+      "JF": 0.9379,
+      "n_dets": 5,
+      "n_gt": 3
+    },
+    {
+      "seq": "scooter-black",
+      "J": 0.8771,
+      "F": 0.8916,
+      "JF": 0.8843,
+      "n_dets": 99,
+      "n_gt": 2
+    },
+    {
+      "seq": "shooting",
+      "J": 0.738,
+      "F": 0.7478,
+      "JF": 0.7429,
+      "n_dets": 24,
+      "n_gt": 3
+    },
+    {
+      "seq": "soapbox",
+      "J": 0.6029,
+      "F": 0.6747,
+      "JF": 0.6388,
+      "n_dets": 72,
+      "n_gt": 3
+    }
+  ],
+  "total_time_s": 1939.1
+}

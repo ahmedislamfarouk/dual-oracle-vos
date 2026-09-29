@@ -1,0 +1,172 @@
+{
+  "per_seq": {
+    "blackswan": {
+      "J": 0.9546,
+      "F": 0.9322,
+      "JF": 0.9434,
+      "n_boxes": 1,
+      "n_known": 1,
+      "n_unknown": 0
+    },
+    "bmx-trees": {
+      "J": 0.5697,
+      "F": 0.9044,
+      "JF": 0.737,
+      "n_boxes": 3,
+      "n_known": 2,
+      "n_unknown": 1
+    },
+    "breakdance": {
+      "J": 0.9613,
+      "F": 0.9499,
+      "JF": 0.9556,
+      "n_boxes": 80,
+      "n_known": 37,
+      "n_unknown": 43
+    },
+    "camel": {
+      "J": 0.972,
+      "F": 0.9651,
+      "JF": 0.9686,
+      "n_boxes": 2,
+      "n_known": 1,
+      "n_unknown": 1
+    },
+    "car-roundabout": {
+      "J": 0.9868,
+      "F": 0.9422,
+      "JF": 0.9645,
+      "n_boxes": 69,
+      "n_known": 18,
+      "n_unknown": 51
+    },
+    "car-shadow": {
+      "J": 0.974,
+      "F": 0.951,
+      "JF": 0.9625,
+      "n_boxes": 48,
+      "n_known": 10,
+      "n_unknown": 38
+    },
+    "cows": {
+      "J": 0.9506,
+      "F": 0.9243,
+      "JF": 0.9374,
+      "n_boxes": 1,
+      "n_known": 1,
+      "n_unknown": 0
+    },
+    "dance-twirl": {
+      "J": 0.9307,
+      "F": 0.9243,
+      "JF": 0.9275,
+      "n_boxes": 98,
+      "n_known": 38,
+      "n_unknown": 60
+    },
+    "dog": {
+      "J": 0.9644,
+      "F": 0.9371,
+      "JF": 0.9507,
+      "n_boxes": 1,
+      "n_known": 1,
+      "n_unknown": 0
+    },
+    "drift-chicane": {
+      "J": 0.9206,
+      "F": 0.9294,
+      "JF": 0.925,
+      "n_boxes": 82,
+      "n_known": 20,
+      "n_unknown": 62
+    },
+    "drift-straight": {
+      "J": 0.9644,
+      "F": 0.9297,
+      "JF": 0.9471,
+      "n_boxes": 75,
+      "n_known": 17,
+      "n_unknown": 58
+    },
+    "goat": {
+      "J": 0.9311,
+      "F": 0.9061,
+      "JF": 0.9186,
+      "n_boxes": 1,
+      "n_known": 1,
+      "n_unknown": 0
+    },
+    "horsejump-high": {
+      "J": 0.8223,
+      "F": 0.8961,
+      "JF": 0.8592,
+      "n_boxes": 13,
+      "n_known": 2,
+      "n_unknown": 11
+    },
+    "kite-surf": {
+      "J": 0.1263,
+      "F": 0.2564,
+      "JF": 0.1913,
+      "n_boxes": 4,
+      "n_known": 2,
+      "n_unknown": 2
+    },
+    "libby": {
+      "J": 0.9099,
+      "F": 0.9481,
+      "JF": 0.929,
+      "n_boxes": 1,
+      "n_known": 1,
+      "n_unknown": 0
+    },
+    "motocross-jump": {
+      "J": 0.9301,
+      "F": 0.9329,
+      "JF": 0.9315,
+      "n_boxes": 4,
+      "n_known": 1,
+      "n_unknown": 3
+    },
+    "paragliding-launch": {
+      "J": 0.5827,
+      "F": 0.558,
+      "JF": 0.5703,
+      "n_boxes": 7,
+      "n_known": 4,
+      "n_unknown": 3
+    },
+    "parkour": {
+      "J": 0.9501,
+      "F": 0.9493,
+      "JF": 0.9497,
+      "n_boxes": 3,
+      "n_known": 2,
+      "n_unknown": 1
+    },
+    "scooter-black": {
+      "J": 0.8551,
+      "F": 0.9202,
+      "JF": 0.8877,
+      "n_boxes": 99,
+      "n_known": 59,
+      "n_unknown": 40
+    },
+    "soapbox": {
+      "J": 0.1144,
+      "F": 0.2121,
+      "JF": 0.1633,
+      "n_boxes": 81,
+      "n_known": 26,
+      "n_unknown": 55
+    }
+  },
+  "mean_J": 0.8186,
+  "mean_F": 0.8434,
+  "mean_JF": 0.831,
+  "n_seqs": 20,
+  "total_s": 1249.3,
+  "model": "detr-resnet-50+sam2-large",
+  "tau": 0.5,
+  "note": "all boxes (known+unknown), single-object GT=ID1, DAVIS 2016 val 20 seqs"
+}

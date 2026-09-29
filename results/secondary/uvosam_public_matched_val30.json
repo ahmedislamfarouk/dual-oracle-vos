@@ -1,0 +1,220 @@
+{
+  "method": "UVOSAM (IDOL prompts + SAM ViT-H)",
+  "pred_dir": "uvosam_masks",
+  "n_seqs": 30,
+  "mean_greedy_JF": 0.8018,
+  "mean_bijective_JF": 0.8015,
+  "mean_pred_tracks": 4.4,
+  "per_seq": {
+    "bike-packing": {
+      "greedy": 0.7473,
+      "bij": 0.7473,
+      "n_gt": 2,
+      "n_pred": 2,
+      "n_frames": 69
+    },
+    "blackswan": {
+      "greedy": 0.9404,
+      "bij": 0.9404,
+      "n_gt": 1,
+      "n_pred": 1,
+      "n_frames": 50
+    },
+    "bmx-trees": {
+      "greedy": 0.669,
+      "bij": 0.669,
+      "n_gt": 2,
+      "n_pred": 3,
+      "n_frames": 80
+    },
+    "breakdance": {
+      "greedy": 0.8889,
+      "bij": 0.8889,
+      "n_gt": 1,
+      "n_pred": 2,
+      "n_frames": 84
+    },
+    "camel": {
+      "greedy": 0.972,
+      "bij": 0.972,
+      "n_gt": 1,
+      "n_pred": 2,
+      "n_frames": 90
+    },
+    "car-roundabout": {
+      "greedy": 0.9491,
+      "bij": 0.9491,
+      "n_gt": 1,
+      "n_pred": 3,
+      "n_frames": 75
+    },
+    "car-shadow": {
+      "greedy": 0.9623,
+      "bij": 0.9623,
+      "n_gt": 1,
+      "n_pred": 2,
+      "n_frames": 40
+    },
+    "cows": {
+      "greedy": 0.9329,
+      "bij": 0.9329,
+      "n_gt": 1,
+      "n_pred": 1,
+      "n_frames": 104
+    },
+    "dance-twirl": {
+      "greedy": 0.7585,
+      "bij": 0.7585,
+      "n_gt": 1,
+      "n_pred": 7,
+      "n_frames": 90
+    },
+    "dog": {
+      "greedy": 0.9475,
+      "bij": 0.9475,
+      "n_gt": 1,
+      "n_pred": 1,
+      "n_frames": 60
+    },
+    "dogs-jump": {
+      "greedy": 0.9282,
+      "bij": 0.9282,
+      "n_gt": 3,
+      "n_pred": 4,
+      "n_frames": 66
+    },
+    "drift-chicane": {
+      "greedy": 0.9363,
+      "bij": 0.9363,
+      "n_gt": 1,
+      "n_pred": 2,
+      "n_frames": 52
+    },
+    "drift-straight": {
+      "greedy": 0.9447,
+      "bij": 0.9447,
+      "n_gt": 1,
+      "n_pred": 1,
+      "n_frames": 50
+    },
+    "goat": {
+      "greedy": 0.9053,
+      "bij": 0.9053,
+      "n_gt": 1,
+      "n_pred": 1,
+      "n_frames": 90
+    },
+    "gold-fish": {
+      "greedy": 0.8455,
+      "bij": 0.8455,
+      "n_gt": 5,
+      "n_pred": 13,
+      "n_frames": 78
+    },
+    "horsejump-high": {
+      "greedy": 0.8708,
+      "bij": 0.8708,
+      "n_gt": 2,
+      "n_pred": 2,
+      "n_frames": 50
+    },
+    "india": {
+      "greedy": 0.4221,
+      "bij": 0.4221,
+      "n_gt": 3,
+      "n_pred": 13,
+      "n_frames": 81
+    },
+    "judo": {
+      "greedy": 0.8196,
+      "bij": 0.8196,
+      "n_gt": 2,
+      "n_pred": 6,
+      "n_frames": 34
+    },
+    "kite-surf": {
+      "greedy": 0.3601,
+      "bij": 0.3601,
+      "n_gt": 3,
+      "n_pred": 8,
+      "n_frames": 50
+    },
+    "lab-coat": {
+      "greedy": 0.6188,
+      "bij": 0.6188,
+      "n_gt": 5,
+      "n_pred": 10,
+      "n_frames": 47
+    },
+    "libby": {
+      "greedy": 0.9221,
+      "bij": 0.9221,
+      "n_gt": 1,
+      "n_pred": 2,
+      "n_frames": 49
+    },
+    "loading": {
+      "greedy": 0.8566,
+      "bij": 0.8566,
+      "n_gt": 3,
+      "n_pred": 6,
+      "n_frames": 50
+    },
+    "mbike-trick": {
+      "greedy": 0.7968,
+      "bij": 0.7968,
+      "n_gt": 2,
+      "n_pred": 4,
+      "n_frames": 79
+    },
+    "motocross-jump": {
+      "greedy": 0.8129,
+      "bij": 0.8129,
+      "n_gt": 2,
+      "n_pred": 2,
+      "n_frames": 40
+    },
+    "paragliding-launch": {
+      "greedy": 0.3695,
+      "bij": 0.3695,
+      "n_gt": 3,
+      "n_pred": 9,
+      "n_frames": 80
+    },
+    "parkour": {
+      "greedy": 0.8895,
+      "bij": 0.8895,
+      "n_gt": 1,
+      "n_pred": 5,
+      "n_frames": 100
+    },
+    "pigs": {
+      "greedy": 0.8176,
+      "bij": 0.8176,
+      "n_gt": 3,
+      "n_pred": 6,
+      "n_frames": 79
+    },
+    "scooter-black": {
+      "greedy": 0.8935,
+      "bij": 0.8935,
+      "n_gt": 2,
+      "n_pred": 3,
+      "n_frames": 43
+    },
+    "shooting": {
+      "greedy": 0.4265,
+      "bij": 0.4168,
+      "n_gt": 3,
+      "n_pred": 6,
+      "n_frames": 40
+    },
+    "soapbox": {
+      "greedy": 0.8496,
+      "bij": 0.8496,
+      "n_gt": 3,
+      "n_pred": 5,
+      "n_frames": 99
+    }
+  }
+}
