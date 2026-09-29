@@ -1,0 +1,147 @@
+{
+  "bootstrap_unit": "eligible query-visible-object video",
+  "cells": [
+    {
+      "discovery_minus_larger_downstream": {
+        "bootstrap_95": [
+          -0.08503401360544219,
+          0.15306122448979592
+        ],
+        "bootstrap_fraction_positive": 0.67805,
+        "discovery_dominant_at_95": false,
+        "larger_downstream_stage": "propagation_loss",
+        "video_macro": 0.03401360544217685
+      },
+      "eligible_video_count": 49,
+      "path": "results/detector_controls/lvos_full_stageA/detr_merged.json",
+      "pooled_object_level": {
+        "commitment_loss": 0.031746031746031744,
+        "discovery_loss": 0.1111111111111111,
+        "propagation_loss": 0.09523809523809523
+      },
+      "proposer": "detr",
+      "total_counts": {
+        "A": 56,
+        "B": 50,
+        "C": 48,
+        "N": 63
+      },
+      "video_bootstrap_95": {
+        "commitment_loss": [
+          0.0,
+          0.10204081632653061
+        ],
+        "discovery_loss": [
+          0.04081632653061224,
+          0.21428571428571427
+        ],
+        "propagation_loss": [
+          0.023809523809523808,
+          0.17006802721088432
+        ]
+      },
+      "video_macro": {
+        "commitment_loss": 0.04081632653061224,
+        "discovery_loss": 0.12244897959183673,
+        "propagation_loss": 0.08843537414965988
+      },
+      "zero_denominator_video_count": 1
+    },
+    {
+      "discovery_minus_larger_downstream": {
+        "bootstrap_95": [
+          -0.15306122448979592,
+          0.12244897959183673
+        ],
+        "bootstrap_fraction_positive": 0.3979,
+        "discovery_dominant_at_95": false,
+        "larger_downstream_stage": "propagation_loss",
+        "video_macro": -0.017006802721088426
+      },
+      "eligible_video_count": 49,
+      "path": "results/detector_controls/lvos_full_stageA/maskrcnn_merged.json",
+      "pooled_object_level": {
+        "commitment_loss": 0.015873015873015872,
+        "discovery_loss": 0.1111111111111111,
+        "propagation_loss": 0.14285714285714285
+      },
+      "proposer": "maskrcnn",
+      "total_counts": {
+        "A": 56,
+        "B": 47,
+        "C": 46,
+        "N": 63
+      },
+      "video_bootstrap_95": {
+        "commitment_loss": [
+          0.0,
+          0.061224489795918366
+        ],
+        "discovery_loss": [
+          0.04081632653061224,
+          0.22448979591836735
+        ],
+        "propagation_loss": [
+          0.057823129251700675,
+          0.23469387755102042
+        ]
+      },
+      "video_macro": {
+        "commitment_loss": 0.02040816326530612,
+        "discovery_loss": 0.12244897959183673,
+        "propagation_loss": 0.13945578231292516
+      },
+      "zero_denominator_video_count": 1
+    },
+    {
+      "discovery_minus_larger_downstream": {
+        "bootstrap_95": [
+          0.2755102040816326,
+          0.6428571428571429
+        ],
+        "bootstrap_fraction_positive": 1.0,
+        "discovery_dominant_at_95": true,
+        "larger_downstream_stage": "propagation_loss",
+        "video_macro": 0.4642857142857143
+      },
+      "eligible_video_count": 49,
+      "path": "results/detector_controls/lvos_full_stageB/amg_merged.json",
+      "pooled_object_level": {
+        "commitment_loss": 0.0,
+        "discovery_loss": 0.6190476190476191,
+        "propagation_loss": 0.09523809523809523
+      },
+      "proposer": "amg",
+      "total_counts": {
+        "A": 24,
+        "B": 18,
+        "C": 18,
+        "N": 63
+      },
+      "video_bootstrap_95": {
+        "commitment_loss": [
+          0.0,
+          0.0
+        ],
+        "discovery_loss": [
+          0.44387755102040816,
+          0.7091836734693877
+        ],
+        "propagation_loss": [
+          0.04081632653061224,
+          0.20408163265306123
+        ]
+      },
+      "video_macro": {
+        "commitment_loss": 0.0,
+        "discovery_loss": 0.576530612244898,
+        "propagation_loss": 0.11224489795918367
+      },
+      "zero_denominator_video_count": 1
+    }
+  ],
+  "dataset": "lvos",
+  "resamples": 20000,
+  "schema_version": "cpd1-bootstrap-v1",
+  "seed": 20260822
+}

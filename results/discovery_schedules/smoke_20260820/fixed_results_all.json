@@ -1,0 +1,114 @@
+{
+  "per_video": {
+    "0062f687f1": {
+      "greedy_JF_A": 0.5544,
+      "greedy_JF_B": 0.5544,
+      "bij_JF_A": 0.5544,
+      "bij_JF_B": 0.5544,
+      "bij_delta": 0.0,
+      "n_gt": 3,
+      "n_track_A": 19,
+      "n_track_B": 19,
+      "n_box_f0": 19,
+      "n_redet_new": 0,
+      "redet_frames": [
+        4,
+        9,
+        14
+      ],
+      "redet_scores": {
+        "4": null,
+        "9": null,
+        "14": null
+      },
+      "late_total": 0,
+      "late_recovered": 0
+    },
+    "00f88c4f0a": {
+      "greedy_JF_A": 0.0515,
+      "greedy_JF_B": 0.61,
+      "bij_JF_A": 0.0511,
+      "bij_JF_B": 0.61,
+      "bij_delta": 0.5589,
+      "n_gt": 2,
+      "n_track_A": 4,
+      "n_track_B": 10,
+      "n_box_f0": 4,
+      "n_redet_new": 6,
+      "redet_frames": [
+        9,
+        18,
+        27
+      ],
+      "redet_scores": {
+        "9": null,
+        "18": null,
+        "27": null
+      },
+      "late_total": 1,
+      "late_recovered": 0
+    },
+    "01057faacf": {
+      "greedy_JF_A": 0.079,
+      "greedy_JF_B": 0.079,
+      "bij_JF_A": 0.079,
+      "bij_JF_B": 0.079,
+      "bij_delta": 0.0,
+      "n_gt": 1,
+      "n_track_A": 4,
+      "n_track_B": 5,
+      "n_box_f0": 4,
+      "n_redet_new": 1,
+      "redet_frames": [
+        9,
+        18,
+        27
+      ],
+      "redet_scores": {
+        "9": null,
+        "18": null,
+        "27": null
+      },
+      "late_total": 0,
+      "late_recovered": 0
+    },
+    "01c88b5b60": {
+      "greedy_JF_A": 0.81,
+      "greedy_JF_B": 0.81,
+      "bij_JF_A": 0.81,
+      "bij_JF_B": 0.81,
+      "bij_delta": 0.0,
+      "n_gt": 3,
+      "n_track_A": 14,
+      "n_track_B": 14,
+      "n_box_f0": 14,
+      "n_redet_new": 0,
+      "redet_frames": [
+        7,
+        15,
+        22
+      ],
+      "redet_scores": {
+        "7": null,
+        "15": null,
+        "22": null
+      },
+      "late_total": 0,
+      "late_recovered": 0
+    }
+  },
+  "n_videos": 4,
+  "subset": "all",
+  "schedule": "fixed",
+  "redetection_calls_per_video": 3,
+  "bij_mean_A": 0.3736,
+  "bij_mean_B": 0.5133,
+  "bij_delta": 0.1397,
+  "greedy_mean_A": 0.3737,
+  "greedy_mean_B": 0.5133,
+  "greedy_delta": 0.1396,
+  "mean_tracks_A": 10.25,
+  "mean_tracks_B": 12.0,
+  "late_recovered": 0,
+  "late_total": 1
+}

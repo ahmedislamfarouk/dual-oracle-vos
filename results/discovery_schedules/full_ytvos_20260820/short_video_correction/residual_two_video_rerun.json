@@ -1,0 +1,68 @@
+{
+  "per_video": {
+    "209d4e0c67": {
+      "greedy_JF_A": 0.4463,
+      "greedy_JF_B": 0.6643,
+      "bij_JF_A": 0.4463,
+      "bij_JF_B": 0.6643,
+      "bij_delta": 0.218,
+      "n_gt": 3,
+      "n_track_A": 6,
+      "n_track_B": 69,
+      "n_box_f0": 6,
+      "n_redet_new": 63,
+      "redet_frames": [
+        1,
+        2,
+        3
+      ],
+      "redet_scores": {
+        "1": 15.534827,
+        "2": 12.65253,
+        "3": 29.271643
+      },
+      "late_total": 0,
+      "late_recovered": 0
+    },
+    "67add1386d": {
+      "greedy_JF_A": 0.8595,
+      "greedy_JF_B": 0.8595,
+      "bij_JF_A": 0.8595,
+      "bij_JF_B": 0.8595,
+      "bij_delta": 0.0,
+      "n_gt": 1,
+      "n_track_A": 1,
+      "n_track_B": 1,
+      "n_box_f0": 1,
+      "n_redet_new": 0,
+      "redet_frames": [
+        2,
+        3,
+        4
+      ],
+      "redet_scores": {
+        "2": 15.490615,
+        "3": 11.535184,
+        "4": 14.963377
+      },
+      "late_total": 0,
+      "late_recovered": 0
+    }
+  },
+  "n_videos": 2,
+  "subset": "all",
+  "schedule": "residual",
+  "redetection_calls_per_video": 3,
+  "shard_index": 0,
+  "num_shards": 1,
+  "bij_mean_A": 0.6529,
+  "bij_mean_B": 0.7619,
+  "bij_delta": 0.109,
+  "greedy_mean_A": 0.6529,
+  "greedy_mean_B": 0.7619,
+  "greedy_delta": 0.109,
+  "mean_tracks_A": 3.5,
+  "mean_tracks_B": 35.0,
+  "late_recovered": 0,
+  "late_total": 0
+}

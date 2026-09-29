@@ -1,0 +1,2704 @@
+{
+  "config": {
+    "boundary_cache": "canonical_private_boundary_v1",
+    "boundary_cache_verified": true,
+    "dataset": "davis",
+    "dataset_root": "/tmp/davis2017/DAVIS",
+    "num_shards": 1,
+    "offload_video_to_cpu": true,
+    "proposer": "amg",
+    "proposer_id": "SAM2-AMG:$HOME/ow_vis/checkpoints/sam2.1_hiera_large.pt",
+    "query_policy": "explicit_manifest",
+    "runtime_allocator": {
+      "pytorch_alloc_conf": "",
+      "pytorch_no_cuda_memory_caching": "1"
+    },
+    "sam2_checkpoint": "$HOME/ow_vis/checkpoints/sam2.1_hiera_large.pt",
+    "sam2_checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+    "selected_video_count": 5,
+    "shard_index": 0,
+    "split": "val"
+  },
+  "frozen_constants": {
+    "amg": {
+      "box_nms_thresh": 0.5,
+      "min_mask_region_area": 400,
+      "points_per_side": 16,
+      "pred_iou_thresh": 0.8,
+      "stability_score_thresh": 0.9
+    },
+    "commitment": {
+      "area_max": 0.5,
+      "dedup_temporal_iou": 0.5,
+      "persistence_min": 0.5
+    },
+    "proposal_threshold": 0.05,
+    "resolution": [
+      854,
+      480
+    ],
+    "topk": 10
+  },
+  "run_status": "complete",
+  "schema_version": "cpd1-v1",
+  "videos": [
+    {
+      "committed_track_ids": [
+        "bike-packing:track:00",
+        "bike-packing:track:01",
+        "bike-packing:track:02",
+        "bike-packing:track:03",
+        "bike-packing:track:04",
+        "bike-packing:track:05",
+        "bike-packing:track:06",
+        "bike-packing:track:07",
+        "bike-packing:track:08",
+        "bike-packing:track:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 2,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 10,
+        "committed_precision": 0.1,
+        "committed_recall": 0.5,
+        "gt_count": 2,
+        "query_annotation_available": true,
+        "strict_jf": 0.49365346196261983,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 24,
+      "native_proposals": [
+        {
+          "box": [
+            563.0,
+            237.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9881364107131958
+        },
+        {
+          "box": [
+            0.0,
+            199.0,
+            92.0,
+            350.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9704142212867737
+        },
+        {
+          "box": [
+            0.0,
+            339.0,
+            281.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9629788398742676
+        },
+        {
+          "box": [
+            107.0,
+            7.0,
+            194.0,
+            183.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9588881731033325
+        },
+        {
+          "box": [
+            675.0,
+            40.0,
+            725.0,
+            88.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9518110752105713
+        },
+        {
+          "box": [
+            184.0,
+            0.0,
+            385.0,
+            247.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.949590265750885
+        },
+        {
+          "box": [
+            803.0,
+            0.0,
+            853.0,
+            46.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9362245798110962
+        },
+        {
+          "box": [
+            368.0,
+            86.0,
+            585.0,
+            479.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9304448366165161
+        },
+        {
+          "box": [
+            184.0,
+            0.0,
+            215.0,
+            247.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9254472255706787
+        },
+        {
+          "box": [
+            278.0,
+            0.0,
+            478.0,
+            103.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9252508282661438
+        },
+        {
+          "box": [
+            216.0,
+            69.0,
+            381.0,
+            116.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9250682592391968
+        },
+        {
+          "box": [
+            659.0,
+            329.0,
+            676.0,
+            358.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.9250138401985168
+        },
+        {
+          "box": [
+            547.0,
+            0.0,
+            680.0,
+            174.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.9198440313339233
+        },
+        {
+          "box": [
+            533.0,
+            0.0,
+            598.0,
+            38.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.9187297224998474
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            34.0,
+            146.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.9156226515769958
+        },
+        {
+          "box": [
+            778.0,
+            11.0,
+            853.0,
+            337.0
+          ],
+          "native_id": "amg:15",
+          "score": 0.8986664414405823
+        },
+        {
+          "box": [
+            367.0,
+            120.0,
+            428.0,
+            207.0
+          ],
+          "native_id": "amg:16",
+          "score": 0.8894546627998352
+        },
+        {
+          "box": [
+            122.0,
+            183.0,
+            198.0,
+            308.0
+          ],
+          "native_id": "amg:17",
+          "score": 0.8852424621582031
+        },
+        {
+          "box": [
+            37.0,
+            391.0,
+            103.0,
+            479.0
+          ],
+          "native_id": "amg:18",
+          "score": 0.8823587894439697
+        },
+        {
+          "box": [
+            48.0,
+            0.0,
+            89.0,
+            139.0
+          ],
+          "native_id": "amg:19",
+          "score": 0.8803852200508118
+        },
+        {
+          "box": [
+            299.0,
+            182.0,
+            432.0,
+            256.0
+          ],
+          "native_id": "amg:20",
+          "score": 0.8598657846450806
+        },
+        {
+          "box": [
+            671.0,
+            131.0,
+            744.0,
+            164.0
+          ],
+          "native_id": "amg:21",
+          "score": 0.8509646654129028
+        },
+        {
+          "box": [
+            670.0,
+            239.0,
+            758.0,
+            265.0
+          ],
+          "native_id": "amg:22",
+          "score": 0.8420877456665039
+        },
+        {
+          "box": [
+            490.0,
+            0.0,
+            514.0,
+            82.0
+          ],
+          "native_id": "amg:23",
+          "score": 0.8344442248344421
+        }
+      ],
+      "objects": [
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bike-packing:track:00": 0.06073638567969314,
+            "bike-packing:track:01": 0.0,
+            "bike-packing:track:02": 0.027348261635860564,
+            "bike-packing:track:03": 0.0,
+            "bike-packing:track:04": 0.0,
+            "bike-packing:track:05": 0.0007324561435090159,
+            "bike-packing:track:06": 0.0,
+            "bike-packing:track:07": 0.14265792362879928,
+            "bike-packing:track:08": 0.0008503436925728613,
+            "bike-packing:track:09": 2.504010229580877e-05
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bike-packing:track:00": 0.023673491812099524,
+            "bike-packing:track:01": 0.0,
+            "bike-packing:track:02": 0.0,
+            "bike-packing:track:03": 0.0,
+            "bike-packing:track:04": 3.277346424365891e-06,
+            "bike-packing:track:05": 0.0021181889054400177,
+            "bike-packing:track:06": 0.0,
+            "bike-packing:track:07": 0.9265705382455466,
+            "bike-packing:track:08": 0.0,
+            "bike-packing:track:09": 0.04037961679784063
+          }
+        }
+      ],
+      "ordinal": 1,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            563.0,
+            237.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9881364107131958,
+          "track_id": "bike-packing:track:00"
+        },
+        {
+          "box": [
+            0.0,
+            199.0,
+            92.0,
+            350.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9704142212867737,
+          "track_id": "bike-packing:track:01"
+        },
+        {
+          "box": [
+            0.0,
+            339.0,
+            281.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9629788398742676,
+          "track_id": "bike-packing:track:02"
+        },
+        {
+          "box": [
+            107.0,
+            7.0,
+            194.0,
+            183.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9588881731033325,
+          "track_id": "bike-packing:track:03"
+        },
+        {
+          "box": [
+            675.0,
+            40.0,
+            725.0,
+            88.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9518110752105713,
+          "track_id": "bike-packing:track:04"
+        },
+        {
+          "box": [
+            184.0,
+            0.0,
+            385.0,
+            247.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.949590265750885,
+          "track_id": "bike-packing:track:05"
+        },
+        {
+          "box": [
+            803.0,
+            0.0,
+            853.0,
+            46.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9362245798110962,
+          "track_id": "bike-packing:track:06"
+        },
+        {
+          "box": [
+            368.0,
+            86.0,
+            585.0,
+            479.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9304448366165161,
+          "track_id": "bike-packing:track:07"
+        },
+        {
+          "box": [
+            184.0,
+            0.0,
+            215.0,
+            247.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9254472255706787,
+          "track_id": "bike-packing:track:08"
+        },
+        {
+          "box": [
+            278.0,
+            0.0,
+            478.0,
+            103.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9252508282661438,
+          "track_id": "bike-packing:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "bike-packing:track:00": {
+          "mean_area": 0.1369930788899071,
+          "mean_confidence": 8.96512041921201,
+          "persistence": 1.0,
+          "quality": 8.96512041921201
+        },
+        "bike-packing:track:01": {
+          "mean_area": 0.014286138546651733,
+          "mean_confidence": 14.641898956851684,
+          "persistence": 1.0,
+          "quality": 14.641898956851684
+        },
+        "bike-packing:track:02": {
+          "mean_area": 0.049032048671214745,
+          "mean_confidence": 11.69993201546047,
+          "persistence": 1.0,
+          "quality": 11.69993201546047
+        },
+        "bike-packing:track:03": {
+          "mean_area": 0.030159295839980088,
+          "mean_confidence": 13.653629862743875,
+          "persistence": 1.0,
+          "quality": 13.653629862743875
+        },
+        "bike-packing:track:04": {
+          "mean_area": 0.005846421783253572,
+          "mean_confidence": 14.759046768796617,
+          "persistence": 1.0,
+          "quality": 14.759046768796617
+        },
+        "bike-packing:track:05": {
+          "mean_area": 0.028448605030037676,
+          "mean_confidence": 11.127914440804634,
+          "persistence": 1.0,
+          "quality": 11.127914440804634
+        },
+        "bike-packing:track:06": {
+          "mean_area": 0.0034896169206575477,
+          "mean_confidence": 16.477531861567844,
+          "persistence": 1.0,
+          "quality": 16.477531861567844
+        },
+        "bike-packing:track:07": {
+          "mean_area": 0.09226285934901401,
+          "mean_confidence": 8.000765524048736,
+          "persistence": 1.0,
+          "quality": 8.000765524048736
+        },
+        "bike-packing:track:08": {
+          "mean_area": 0.010556389935399202,
+          "mean_confidence": 13.666308085123697,
+          "persistence": 1.0,
+          "quality": 13.666308085123697
+        },
+        "bike-packing:track:09": {
+          "mean_area": 0.014966476314926066,
+          "mean_confidence": 12.206883257713871,
+          "persistence": 1.0,
+          "quality": 12.206883257713871
+        }
+      },
+      "video_id": "bike-packing",
+      "wall_seconds": 446.158322095871
+    },
+    {
+      "committed_track_ids": [
+        "blackswan:track:00",
+        "blackswan:track:01",
+        "blackswan:track:02",
+        "blackswan:track:03",
+        "blackswan:track:05",
+        "blackswan:track:07",
+        "blackswan:track:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 7,
+        "committed_precision": 0.14285714285714285,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9434555848397553,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 11,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            143.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9897170066833496
+        },
+        {
+          "box": [
+            142.0,
+            72.0,
+            509.0,
+            383.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9817575812339783
+        },
+        {
+          "box": [
+            453.0,
+            360.0,
+            513.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9304493069648743
+        },
+        {
+          "box": [
+            449.0,
+            91.0,
+            489.0,
+            131.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.8802242875099182
+        },
+        {
+          "box": [
+            61.0,
+            188.0,
+            97.0,
+            216.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.8743119835853577
+        },
+        {
+          "box": [
+            175.0,
+            217.0,
+            208.0,
+            225.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.8737193942070007
+        },
+        {
+          "box": [
+            608.0,
+            464.0,
+            628.0,
+            479.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.8569105863571167
+        },
+        {
+          "box": [
+            331.0,
+            36.0,
+            357.0,
+            60.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.8369511365890503
+        },
+        {
+          "box": [
+            19.0,
+            14.0,
+            29.0,
+            34.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.8244588971138
+        },
+        {
+          "box": [
+            604.0,
+            40.0,
+            618.0,
+            51.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.8067591786384583
+        },
+        {
+          "box": [
+            173.0,
+            244.0,
+            197.0,
+            266.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.8032953143119812
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "blackswan:track:01"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "blackswan:track:01"
+          ],
+          "proposal_hit_track_ids": [
+            "blackswan:track:01"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "blackswan:track:00": 0.22539497208311268,
+            "blackswan:track:01": 0.9434555848397553,
+            "blackswan:track:02": 0.016182432778016054,
+            "blackswan:track:03": 0.06893010077566332,
+            "blackswan:track:04": 0.0,
+            "blackswan:track:05": 0.0,
+            "blackswan:track:06": 0.0,
+            "blackswan:track:07": 0.0,
+            "blackswan:track:08": 0.0,
+            "blackswan:track:09": 0.0011594822405139125
+          }
+        }
+      ],
+      "ordinal": 2,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            143.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9897170066833496,
+          "track_id": "blackswan:track:00"
+        },
+        {
+          "box": [
+            142.0,
+            72.0,
+            509.0,
+            383.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9817575812339783,
+          "track_id": "blackswan:track:01"
+        },
+        {
+          "box": [
+            453.0,
+            360.0,
+            513.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9304493069648743,
+          "track_id": "blackswan:track:02"
+        },
+        {
+          "box": [
+            449.0,
+            91.0,
+            489.0,
+            131.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.8802242875099182,
+          "track_id": "blackswan:track:03"
+        },
+        {
+          "box": [
+            61.0,
+            188.0,
+            97.0,
+            216.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.8743119835853577,
+          "track_id": "blackswan:track:04"
+        },
+        {
+          "box": [
+            175.0,
+            217.0,
+            208.0,
+            225.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.8737193942070007,
+          "track_id": "blackswan:track:05"
+        },
+        {
+          "box": [
+            608.0,
+            464.0,
+            628.0,
+            479.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.8569105863571167,
+          "track_id": "blackswan:track:06"
+        },
+        {
+          "box": [
+            331.0,
+            36.0,
+            357.0,
+            60.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.8369511365890503,
+          "track_id": "blackswan:track:07"
+        },
+        {
+          "box": [
+            19.0,
+            14.0,
+            29.0,
+            34.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.8244588971138,
+          "track_id": "blackswan:track:08"
+        },
+        {
+          "box": [
+            604.0,
+            40.0,
+            618.0,
+            51.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.8067591786384583,
+          "track_id": "blackswan:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "blackswan:track:00": {
+          "mean_area": 0.4372909348165495,
+          "mean_confidence": 9.75818868637085,
+          "persistence": 1.0,
+          "quality": 9.75818868637085
+        },
+        "blackswan:track:01": {
+          "mean_area": 0.10029254488680718,
+          "mean_confidence": 11.44985948562622,
+          "persistence": 1.0,
+          "quality": 11.44985948562622
+        },
+        "blackswan:track:02": {
+          "mean_area": 0.010490144418423107,
+          "mean_confidence": 10.293220672607422,
+          "persistence": 1.0,
+          "quality": 10.293220672607422
+        },
+        "blackswan:track:03": {
+          "mean_area": 0.0017449258391881342,
+          "mean_confidence": 17.517021808624268,
+          "persistence": 1.0,
+          "quality": 17.517021808624268
+        },
+        "blackswan:track:04": {
+          "mean_area": 0.0015433324969331994,
+          "mean_confidence": 4.25034194946289,
+          "persistence": 0.28,
+          "quality": 1.1900957458496093
+        },
+        "blackswan:track:05": {
+          "mean_area": 0.0005535714285714286,
+          "mean_confidence": 11.348319931030273,
+          "persistence": 0.5,
+          "quality": 5.674159965515137
+        },
+        "blackswan:track:06": {
+          "mean_area": 0.0008869326419092227,
+          "mean_confidence": 3.559945459365845,
+          "persistence": 0.28,
+          "quality": 0.9967847286224366
+        },
+        "blackswan:track:07": {
+          "mean_area": 0.0010690500585480095,
+          "mean_confidence": 15.082494430541992,
+          "persistence": 0.8,
+          "quality": 12.065995544433594
+        },
+        "blackswan:track:08": {
+          "mean_area": 0.0003836114363778298,
+          "mean_confidence": 1.18601224899292,
+          "persistence": 0.08,
+          "quality": 0.09488097991943359
+        },
+        "blackswan:track:09": {
+          "mean_area": 0.0003632416081186573,
+          "mean_confidence": 25.991914672851564,
+          "persistence": 1.0,
+          "quality": 25.991914672851564
+        }
+      },
+      "video_id": "blackswan",
+      "wall_seconds": 231.90058755874634
+    },
+    {
+      "committed_track_ids": [
+        "bmx-trees:track:02",
+        "bmx-trees:track:04"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 2,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 2,
+        "committed_precision": 0.0,
+        "committed_recall": 0.0,
+        "gt_count": 2,
+        "query_annotation_available": true,
+        "strict_jf": 0.04347403813835562,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 15,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            90.0,
+            39.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9791791439056396
+        },
+        {
+          "box": [
+            801.0,
+            0.0,
+            853.0,
+            389.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9774408936500549
+        },
+        {
+          "box": [
+            0.0,
+            304.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9722116589546204
+        },
+        {
+          "box": [
+            91.0,
+            0.0,
+            203.0,
+            33.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9715402722358704
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            805.0,
+            324.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9629350900650024
+        },
+        {
+          "box": [
+            206.0,
+            0.0,
+            419.0,
+            29.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9590718150138855
+        },
+        {
+          "box": [
+            132.0,
+            191.0,
+            225.0,
+            238.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9579450488090515
+        },
+        {
+          "box": [
+            730.0,
+            114.0,
+            807.0,
+            198.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9559535384178162
+        },
+        {
+          "box": [
+            419.0,
+            0.0,
+            518.0,
+            16.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9543554782867432
+        },
+        {
+          "box": [
+            686.0,
+            112.0,
+            769.0,
+            176.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9439550042152405
+        },
+        {
+          "box": [
+            2.0,
+            169.0,
+            81.0,
+            261.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9380604028701782
+        },
+        {
+          "box": [
+            203.0,
+            237.0,
+            245.0,
+            255.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.8786289691925049
+        },
+        {
+          "box": [
+            247.0,
+            0.0,
+            316.0,
+            26.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.8733696341514587
+        },
+        {
+          "box": [
+            615.0,
+            280.0,
+            685.0,
+            292.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.8668579459190369
+        },
+        {
+          "box": [
+            112.0,
+            143.0,
+            226.0,
+            238.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.8199533224105835
+        }
+      ],
+      "objects": [
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bmx-trees:track:00": 0.0,
+            "bmx-trees:track:01": 0.009427754447353645,
+            "bmx-trees:track:02": 0.02765972654103921,
+            "bmx-trees:track:03": 0.0,
+            "bmx-trees:track:04": 0.01796762406622457,
+            "bmx-trees:track:05": 0.0,
+            "bmx-trees:track:06": 0.0,
+            "bmx-trees:track:07": 0.0013226020446886035,
+            "bmx-trees:track:08": 0.0,
+            "bmx-trees:track:09": 8.105154484195387e-06
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bmx-trees:track:00": 0.0,
+            "bmx-trees:track:01": 0.008286650709786831,
+            "bmx-trees:track:02": 0.0008859009790283402,
+            "bmx-trees:track:03": 0.0,
+            "bmx-trees:track:04": 0.05928834973567203,
+            "bmx-trees:track:05": 0.0,
+            "bmx-trees:track:06": 0.0,
+            "bmx-trees:track:07": 0.01034712242956925,
+            "bmx-trees:track:08": 0.0,
+            "bmx-trees:track:09": 0.008232940628142284
+          }
+        }
+      ],
+      "ordinal": 3,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            90.0,
+            39.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9791791439056396,
+          "track_id": "bmx-trees:track:00"
+        },
+        {
+          "box": [
+            801.0,
+            0.0,
+            853.0,
+            389.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9774408936500549,
+          "track_id": "bmx-trees:track:01"
+        },
+        {
+          "box": [
+            0.0,
+            304.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9722116589546204,
+          "track_id": "bmx-trees:track:02"
+        },
+        {
+          "box": [
+            91.0,
+            0.0,
+            203.0,
+            33.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9715402722358704,
+          "track_id": "bmx-trees:track:03"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            805.0,
+            324.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9629350900650024,
+          "track_id": "bmx-trees:track:04"
+        },
+        {
+          "box": [
+            206.0,
+            0.0,
+            419.0,
+            29.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9590718150138855,
+          "track_id": "bmx-trees:track:05"
+        },
+        {
+          "box": [
+            132.0,
+            191.0,
+            225.0,
+            238.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9579450488090515,
+          "track_id": "bmx-trees:track:06"
+        },
+        {
+          "box": [
+            730.0,
+            114.0,
+            807.0,
+            198.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9559535384178162,
+          "track_id": "bmx-trees:track:07"
+        },
+        {
+          "box": [
+            419.0,
+            0.0,
+            518.0,
+            16.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9543554782867432,
+          "track_id": "bmx-trees:track:08"
+        },
+        {
+          "box": [
+            686.0,
+            112.0,
+            769.0,
+            176.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9439550042152405,
+          "track_id": "bmx-trees:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "bmx-trees:track:00": {
+          "mean_area": 0.004383172326307572,
+          "mean_confidence": 0.7278578102588653,
+          "persistence": 0.05,
+          "quality": 0.03639289051294327
+        },
+        "bmx-trees:track:01": {
+          "mean_area": 0.04785337518431781,
+          "mean_confidence": 3.5024770736694335,
+          "persistence": 0.45,
+          "quality": 1.5761146831512451
+        },
+        "bmx-trees:track:02": {
+          "mean_area": 0.31375472653200626,
+          "mean_confidence": 9.203511273860931,
+          "persistence": 1.0,
+          "quality": 9.203511273860931
+        },
+        "bmx-trees:track:03": {
+          "mean_area": 0.007713700234192038,
+          "mean_confidence": 1.4479693531990052,
+          "persistence": 0.1,
+          "quality": 0.14479693531990054
+        },
+        "bmx-trees:track:04": {
+          "mean_area": 0.2740184637213326,
+          "mean_confidence": 5.422264651954174,
+          "persistence": 0.925,
+          "quality": 5.015594803057612
+        },
+        "bmx-trees:track:05": {
+          "mean_area": 0.019533892792089513,
+          "mean_confidence": 3.0840261578559875,
+          "persistence": 0.225,
+          "quality": 0.6939058855175972
+        },
+        "bmx-trees:track:06": {
+          "mean_area": 0.005084650663544106,
+          "mean_confidence": 1.9576919794082641,
+          "persistence": 0.125,
+          "quality": 0.24471149742603301
+        },
+        "bmx-trees:track:07": {
+          "mean_area": 0.0072620230407115655,
+          "mean_confidence": 6.150123238563538,
+          "persistence": 0.4125,
+          "quality": 2.536925835907459
+        },
+        "bmx-trees:track:08": {
+          "mean_area": 0.010723579049105982,
+          "mean_confidence": 3.54027179479599,
+          "persistence": 0.2625,
+          "quality": 0.9293213461339475
+        },
+        "bmx-trees:track:09": {
+          "mean_area": 0.006924826795472287,
+          "mean_confidence": 5.849327182769775,
+          "persistence": 0.4,
+          "quality": 2.3397308731079103
+        }
+      },
+      "video_id": "bmx-trees",
+      "wall_seconds": 498.2612543106079
+    },
+    {
+      "committed_track_ids": [
+        "breakdance:track:01",
+        "breakdance:track:02",
+        "breakdance:track:03",
+        "breakdance:track:04",
+        "breakdance:track:05",
+        "breakdance:track:06",
+        "breakdance:track:07",
+        "breakdance:track:08",
+        "breakdance:track:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg",
+        "00080.jpg",
+        "00081.jpg",
+        "00082.jpg",
+        "00083.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 9,
+        "committed_precision": 0.0,
+        "committed_recall": 0.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.06628535553294278,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 37,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            432.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9719979763031006
+        },
+        {
+          "box": [
+            506.0,
+            40.0,
+            548.0,
+            126.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9687187075614929
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            387.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9675028920173645
+        },
+        {
+          "box": [
+            0.0,
+            112.0,
+            77.0,
+            434.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9637696743011475
+        },
+        {
+          "box": [
+            740.0,
+            87.0,
+            853.0,
+            441.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9628311991691589
+        },
+        {
+          "box": [
+            757.0,
+            0.0,
+            820.0,
+            73.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9610925316810608
+        },
+        {
+          "box": [
+            0.0,
+            376.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9586944580078125
+        },
+        {
+          "box": [
+            529.0,
+            373.0,
+            570.0,
+            435.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9549441933631897
+        },
+        {
+          "box": [
+            629.0,
+            115.0,
+            718.0,
+            438.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9535692930221558
+        },
+        {
+          "box": [
+            546.0,
+            120.0,
+            632.0,
+            438.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9445701837539673
+        },
+        {
+          "box": [
+            107.0,
+            150.0,
+            222.0,
+            437.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9440742135047913
+        },
+        {
+          "box": [
+            0.0,
+            462.0,
+            205.0,
+            479.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.940224826335907
+        },
+        {
+          "box": [
+            442.0,
+            268.0,
+            531.0,
+            437.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.9385353922843933
+        },
+        {
+          "box": [
+            220.0,
+            99.0,
+            244.0,
+            169.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.9302107691764832
+        },
+        {
+          "box": [
+            38.0,
+            173.0,
+            120.0,
+            431.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.9299821257591248
+        },
+        {
+          "box": [
+            620.0,
+            7.0,
+            672.0,
+            102.0
+          ],
+          "native_id": "amg:15",
+          "score": 0.9280601143836975
+        },
+        {
+          "box": [
+            610.0,
+            417.0,
+            631.0,
+            438.0
+          ],
+          "native_id": "amg:16",
+          "score": 0.9125204682350159
+        },
+        {
+          "box": [
+            780.0,
+            87.0,
+            833.0,
+            113.0
+          ],
+          "native_id": "amg:17",
+          "score": 0.9124017357826233
+        },
+        {
+          "box": [
+            709.0,
+            98.0,
+            779.0,
+            440.0
+          ],
+          "native_id": "amg:18",
+          "score": 0.9123409986495972
+        },
+        {
+          "box": [
+            550.0,
+            415.0,
+            588.0,
+            439.0
+          ],
+          "native_id": "amg:19",
+          "score": 0.9094288349151611
+        },
+        {
+          "box": [
+            70.0,
+            73.0,
+            120.0,
+            120.0
+          ],
+          "native_id": "amg:20",
+          "score": 0.9050707221031189
+        },
+        {
+          "box": [
+            484.0,
+            167.0,
+            559.0,
+            351.0
+          ],
+          "native_id": "amg:21",
+          "score": 0.8832597732543945
+        },
+        {
+          "box": [
+            474.0,
+            268.0,
+            512.0,
+            301.0
+          ],
+          "native_id": "amg:22",
+          "score": 0.8825504779815674
+        },
+        {
+          "box": [
+            327.0,
+            28.0,
+            362.0,
+            101.0
+          ],
+          "native_id": "amg:23",
+          "score": 0.8757901787757874
+        },
+        {
+          "box": [
+            118.0,
+            53.0,
+            136.0,
+            93.0
+          ],
+          "native_id": "amg:24",
+          "score": 0.8748567700386047
+        },
+        {
+          "box": [
+            495.0,
+            1.0,
+            550.0,
+            36.0
+          ],
+          "native_id": "amg:25",
+          "score": 0.8643217086791992
+        },
+        {
+          "box": [
+            226.0,
+            7.0,
+            419.0,
+            451.0
+          ],
+          "native_id": "amg:26",
+          "score": 0.8622442483901978
+        },
+        {
+          "box": [
+            638.0,
+            421.0,
+            678.0,
+            437.0
+          ],
+          "native_id": "amg:27",
+          "score": 0.8437854051589966
+        },
+        {
+          "box": [
+            250.0,
+            42.0,
+            418.0,
+            225.0
+          ],
+          "native_id": "amg:28",
+          "score": 0.8437656164169312
+        },
+        {
+          "box": [
+            301.0,
+            211.0,
+            376.0,
+            253.0
+          ],
+          "native_id": "amg:29",
+          "score": 0.8310438990592957
+        },
+        {
+          "box": [
+            561.0,
+            0.0,
+            598.0,
+            174.0
+          ],
+          "native_id": "amg:30",
+          "score": 0.8244019150733948
+        },
+        {
+          "box": [
+            0.0,
+            419.0,
+            50.0,
+            435.0
+          ],
+          "native_id": "amg:31",
+          "score": 0.8240335583686829
+        },
+        {
+          "box": [
+            11.0,
+            42.0,
+            25.0,
+            97.0
+          ],
+          "native_id": "amg:32",
+          "score": 0.8222483396530151
+        },
+        {
+          "box": [
+            392.0,
+            5.0,
+            418.0,
+            47.0
+          ],
+          "native_id": "amg:33",
+          "score": 0.8093343377113342
+        },
+        {
+          "box": [
+            819.0,
+            0.0,
+            842.0,
+            62.0
+          ],
+          "native_id": "amg:34",
+          "score": 0.8071578145027161
+        },
+        {
+          "box": [
+            709.0,
+            418.0,
+            747.0,
+            441.0
+          ],
+          "native_id": "amg:35",
+          "score": 0.8061038851737976
+        },
+        {
+          "box": [
+            119.0,
+            424.0,
+            150.0,
+            437.0
+          ],
+          "native_id": "amg:36",
+          "score": 0.8029161095619202
+        }
+      ],
+      "objects": [
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "breakdance:track:00": 0.05315313805232658,
+            "breakdance:track:01": 0.0035317795659701736,
+            "breakdance:track:02": 0.06628535553294278,
+            "breakdance:track:03": 0.0,
+            "breakdance:track:04": 0.0,
+            "breakdance:track:05": 0.0,
+            "breakdance:track:06": 0.054231566995098325,
+            "breakdance:track:07": 0.015940307240515924,
+            "breakdance:track:08": 0.0,
+            "breakdance:track:09": 0.03029845491216871
+          }
+        }
+      ],
+      "ordinal": 4,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            432.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9719979763031006,
+          "track_id": "breakdance:track:00"
+        },
+        {
+          "box": [
+            506.0,
+            40.0,
+            548.0,
+            126.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9687187075614929,
+          "track_id": "breakdance:track:01"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            387.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9675028920173645,
+          "track_id": "breakdance:track:02"
+        },
+        {
+          "box": [
+            0.0,
+            112.0,
+            77.0,
+            434.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9637696743011475,
+          "track_id": "breakdance:track:03"
+        },
+        {
+          "box": [
+            740.0,
+            87.0,
+            853.0,
+            441.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9628311991691589,
+          "track_id": "breakdance:track:04"
+        },
+        {
+          "box": [
+            757.0,
+            0.0,
+            820.0,
+            73.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9610925316810608,
+          "track_id": "breakdance:track:05"
+        },
+        {
+          "box": [
+            0.0,
+            376.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9586944580078125,
+          "track_id": "breakdance:track:06"
+        },
+        {
+          "box": [
+            529.0,
+            373.0,
+            570.0,
+            435.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9549441933631897,
+          "track_id": "breakdance:track:07"
+        },
+        {
+          "box": [
+            629.0,
+            115.0,
+            718.0,
+            438.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9535692930221558,
+          "track_id": "breakdance:track:08"
+        },
+        {
+          "box": [
+            546.0,
+            120.0,
+            632.0,
+            438.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9445701837539673,
+          "track_id": "breakdance:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "breakdance:track:00": {
+          "mean_area": 0.08172093974201702,
+          "mean_confidence": 8.809039025079636,
+          "persistence": 1.0,
+          "quality": 8.809039025079636
+        },
+        "breakdance:track:01": {
+          "mean_area": 0.007936856436563696,
+          "mean_confidence": 14.930008161635627,
+          "persistence": 1.0,
+          "quality": 14.930008161635627
+        },
+        "breakdance:track:02": {
+          "mean_area": 0.30369293892420357,
+          "mean_confidence": 9.80470882143293,
+          "persistence": 1.0,
+          "quality": 9.80470882143293
+        },
+        "breakdance:track:03": {
+          "mean_area": 0.03760742514218802,
+          "mean_confidence": 10.209875998042879,
+          "persistence": 1.0,
+          "quality": 10.209875998042879
+        },
+        "breakdance:track:04": {
+          "mean_area": 0.06112406369651686,
+          "mean_confidence": 10.809202602931432,
+          "persistence": 1.0,
+          "quality": 10.809202602931432
+        },
+        "breakdance:track:05": {
+          "mean_area": 0.010318621984312852,
+          "mean_confidence": 14.860961766470046,
+          "persistence": 1.0,
+          "quality": 14.860961766470046
+        },
+        "breakdance:track:06": {
+          "mean_area": 0.08251734949444259,
+          "mean_confidence": 9.71838288647788,
+          "persistence": 1.0,
+          "quality": 9.71838288647788
+        },
+        "breakdance:track:07": {
+          "mean_area": 0.0036664776053864172,
+          "mean_confidence": 16.419227197056724,
+          "persistence": 0.9523809523809523,
+          "quality": 15.637359235292116
+        },
+        "breakdance:track:08": {
+          "mean_area": 0.044758355869670266,
+          "mean_confidence": 10.297985570771354,
+          "persistence": 1.0,
+          "quality": 10.297985570771354
+        },
+        "breakdance:track:09": {
+          "mean_area": 0.044200058780342735,
+          "mean_confidence": 9.333448353267851,
+          "persistence": 1.0,
+          "quality": 9.333448353267851
+        }
+      },
+      "video_id": "breakdance",
+      "wall_seconds": 386.73437237739563
+    },
+    {
+      "committed_track_ids": [
+        "camel:track:00",
+        "camel:track:01",
+        "camel:track:02",
+        "camel:track:03",
+        "camel:track:05",
+        "camel:track:07",
+        "camel:track:08"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg",
+        "00080.jpg",
+        "00081.jpg",
+        "00082.jpg",
+        "00083.jpg",
+        "00084.jpg",
+        "00085.jpg",
+        "00086.jpg",
+        "00087.jpg",
+        "00088.jpg",
+        "00089.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 7,
+        "committed_precision": 0.14285714285714285,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9688111959338647,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 14,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            244.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9843541383743286
+        },
+        {
+          "box": [
+            262.0,
+            85.0,
+            708.0,
+            429.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9835994243621826
+        },
+        {
+          "box": [
+            417.0,
+            55.0,
+            853.0,
+            350.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9699149131774902
+        },
+        {
+          "box": [
+            725.0,
+            0.0,
+            853.0,
+            95.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9669708013534546
+        },
+        {
+          "box": [
+            0.0,
+            184.0,
+            202.0,
+            281.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9564001560211182
+        },
+        {
+          "box": [
+            588.0,
+            463.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9116768836975098
+        },
+        {
+          "box": [
+            126.0,
+            0.0,
+            160.0,
+            101.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9069284796714783
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            786.0,
+            104.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9036446213722229
+        },
+        {
+          "box": [
+            461.0,
+            0.0,
+            787.0,
+            92.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.8954610228538513
+        },
+        {
+          "box": [
+            453.0,
+            462.0,
+            559.0,
+            479.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.8938130736351013
+        },
+        {
+          "box": [
+            180.0,
+            223.0,
+            277.0,
+            236.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.8838792443275452
+        },
+        {
+          "box": [
+            0.0,
+            96.0,
+            420.0,
+            115.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.8632619976997375
+        },
+        {
+          "box": [
+            262.0,
+            185.0,
+            302.0,
+            298.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.8584994077682495
+        },
+        {
+          "box": [
+            10.0,
+            0.0,
+            29.0,
+            104.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.8097684383392334
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "camel:track:00",
+            "camel:track:02"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "camel:track:00": 0.19262382749062534,
+            "camel:track:01": 0.9688111959338647,
+            "camel:track:02": 0.1664015749853077,
+            "camel:track:03": 0.00859160255186504,
+            "camel:track:04": 0.0,
+            "camel:track:05": 0.0,
+            "camel:track:06": 0.0,
+            "camel:track:07": 0.021795850269269817,
+            "camel:track:08": 0.013758837872189974,
+            "camel:track:09": 0.0
+          }
+        }
+      ],
+      "ordinal": 5,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            244.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9843541383743286,
+          "track_id": "camel:track:00"
+        },
+        {
+          "box": [
+            262.0,
+            85.0,
+            708.0,
+            429.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9835994243621826,
+          "track_id": "camel:track:01"
+        },
+        {
+          "box": [
+            417.0,
+            55.0,
+            853.0,
+            350.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9699149131774902,
+          "track_id": "camel:track:02"
+        },
+        {
+          "box": [
+            725.0,
+            0.0,
+            853.0,
+            95.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9669708013534546,
+          "track_id": "camel:track:03"
+        },
+        {
+          "box": [
+            0.0,
+            184.0,
+            202.0,
+            281.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9564001560211182,
+          "track_id": "camel:track:04"
+        },
+        {
+          "box": [
+            588.0,
+            463.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9116768836975098,
+          "track_id": "camel:track:05"
+        },
+        {
+          "box": [
+            126.0,
+            0.0,
+            160.0,
+            101.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9069284796714783,
+          "track_id": "camel:track:06"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            786.0,
+            104.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9036446213722229,
+          "track_id": "camel:track:07"
+        },
+        {
+          "box": [
+            461.0,
+            0.0,
+            787.0,
+            92.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.8954610228538513,
+          "track_id": "camel:track:08"
+        },
+        {
+          "box": [
+            453.0,
+            462.0,
+            559.0,
+            479.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.8938130736351013,
+          "track_id": "camel:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "camel:track:00": {
+          "mean_area": 0.2809343557550525,
+          "mean_confidence": 9.950830920537312,
+          "persistence": 1.0,
+          "quality": 9.950830920537312
+        },
+        "camel:track:01": {
+          "mean_area": 0.12302611891751236,
+          "mean_confidence": 10.235046651628283,
+          "persistence": 1.0,
+          "quality": 10.235046651628283
+        },
+        "camel:track:02": {
+          "mean_area": 0.2467924364645676,
+          "mean_confidence": 8.993554480870564,
+          "persistence": 1.0,
+          "quality": 8.993554480870564
+        },
+        "camel:track:03": {
+          "mean_area": 0.05686551305403764,
+          "mean_confidence": 11.79039061334398,
+          "persistence": 1.0,
+          "quality": 11.79039061334398
+        },
+        "camel:track:04": {
+          "mean_area": 0.005109391736107329,
+          "mean_confidence": 8.017696449491712,
+          "persistence": 0.4777777777777778,
+          "quality": 3.8306771925349294
+        },
+        "camel:track:05": {
+          "mean_area": 0.007148115621476278,
+          "mean_confidence": 11.520803085962932,
+          "persistence": 1.0,
+          "quality": 11.520803085962932
+        },
+        "camel:track:06": {
+          "mean_area": 0.00609488142345689,
+          "mean_confidence": 3.287236473295424,
+          "persistence": 0.32222222222222224,
+          "quality": 1.0592206413951921
+        },
+        "camel:track:07": {
+          "mean_area": 0.1575696341833637,
+          "mean_confidence": 9.562818063629997,
+          "persistence": 1.0,
+          "quality": 9.562818063629997
+        },
+        "camel:track:08": {
+          "mean_area": 0.06799746834070604,
+          "mean_confidence": 8.31730548010932,
+          "persistence": 1.0,
+          "quality": 8.31730548010932
+        },
+        "camel:track:09": {
+          "mean_area": 0.0020141285591026748,
+          "mean_confidence": 4.966295803917779,
+          "persistence": 0.4222222222222222,
+          "quality": 2.0968804505430625
+        }
+      },
+      "video_id": "camel",
+      "wall_seconds": 419.4122211933136
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "all_pairwise": [
+    {
+      "contrast": "fixed - random",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.011881188118811892,
+          0.008580858085808551
+        ],
+        "bootstrap_fraction_positive": 0.37105,
+        "resolved_at_95": false,
+        "video_macro": -0.0016501650165016701
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          0.0018728954373683215,
+          0.012958878730434406
+        ],
+        "bootstrap_fraction_positive": 0.99655,
+        "resolved_at_95": true,
+        "video_macro": 0.00734654315388894
+      }
+    },
+    {
+      "contrast": "fixed - global",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.006930693069306909,
+          0.013136138613861316
+        ],
+        "bootstrap_fraction_positive": 0.71495,
+        "resolved_at_95": false,
+        "video_macro": 0.002871287128712846
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          0.002225836358296751,
+          0.011981943436526806
+        ],
+        "bootstrap_fraction_positive": 0.99845,
+        "resolved_at_95": true,
+        "video_macro": 0.00698536979399933
+      }
+    },
+    {
+      "contrast": "fixed - residual",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.007095709570957093,
+          0.013102310231023068
+        ],
+        "bootstrap_fraction_positive": 0.7142,
+        "resolved_at_95": false,
+        "video_macro": 0.002871287128712846
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          0.0028007374808709353,
+          0.01230896012317204
+        ],
+        "bootstrap_fraction_positive": 0.99945,
+        "resolved_at_95": true,
+        "video_macro": 0.007442058553304154
+      }
+    },
+    {
+      "contrast": "random - global",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.004950495049504955,
+          0.01435643564356437
+        ],
+        "bootstrap_fraction_positive": 0.82365,
+        "resolved_at_95": false,
+        "video_macro": 0.004521452145214516
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          -0.006187440853073553,
+          0.005470725298578877
+        ],
+        "bootstrap_fraction_positive": 0.45385,
+        "resolved_at_95": false,
+        "video_macro": -0.0003611733598896105
+      }
+    },
+    {
+      "contrast": "random - residual",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.005412541254125409,
+          0.014851485148514837
+        ],
+        "bootstrap_fraction_positive": 0.8123,
+        "resolved_at_95": false,
+        "video_macro": 0.004521452145214516
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          -0.005734371614597622,
+          0.005967997842001628
+        ],
+        "bootstrap_fraction_positive": 0.51345,
+        "resolved_at_95": false,
+        "video_macro": 9.551539941521359e-05
+      }
+    },
+    {
+      "contrast": "global - residual",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.0033003300330033125,
+          0.003630363036303652
+        ],
+        "bootstrap_fraction_positive": 0.4603,
+        "resolved_at_95": false,
+        "video_macro": 0.0
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          -0.0011802077360805851,
+          0.0021472226071536865
+        ],
+        "bootstrap_fraction_positive": 0.71215,
+        "resolved_at_95": false,
+        "video_macro": 0.0004566887593048241
+      }
+    }
+  ],
+  "arm_means": {
+    "fixed": {
+      "discovery_loss": 0.14805280528052803,
+      "strict_jf": 0.6446959508955352
+    },
+    "global": {
+      "discovery_loss": 0.14518151815181518,
+      "strict_jf": 0.6377105811015359
+    },
+    "random": {
+      "discovery_loss": 0.1497029702970297,
+      "strict_jf": 0.6373494077416463
+    },
+    "residual": {
+      "discovery_loss": 0.14518151815181518,
+      "strict_jf": 0.6372538923422311
+    }
+  },
+  "baseline_mean": {
+    "discovery_loss": 0.19112211221122108,
+    "strict_jf": 0.6061318452116942
+  },
+  "bootstrap_unit": "video, paired across arms",
+  "dataset": "ytvos",
+  "discovery_eligible_video_count": 505,
+  "primary": {
+    "contrast": "residual - fixed",
+    "discovery_loss": {
+      "bootstrap_95": [
+        -0.013102310231023068,
+        0.007095709570957093
+      ],
+      "bootstrap_fraction_positive": 0.2828,
+      "resolved_at_95": false,
+      "video_macro": -0.002871287128712846
+    },
+    "strict_jf": {
+      "bootstrap_95": [
+        -0.01230896012317204,
+        -0.002800737480870954
+      ],
+      "bootstrap_fraction_positive": 0.00055,
+      "resolved_at_95": true,
+      "video_macro": -0.007442058553304154
+    }
+  },
+  "resamples": 20000,
+  "schema_version": "cpd2-bootstrap-v1",
+  "secondary": [
+    {
+      "contrast": "residual - random",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.014851485148514837,
+          0.005412541254125409
+        ],
+        "bootstrap_fraction_positive": 0.18545,
+        "resolved_at_95": false,
+        "video_macro": -0.004521452145214516
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          -0.005967997842001629,
+          0.005734371614597618
+        ],
+        "bootstrap_fraction_positive": 0.48655,
+        "resolved_at_95": false,
+        "video_macro": -9.551539941521359e-05
+      }
+    },
+    {
+      "contrast": "residual - global",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.003630363036303652,
+          0.0033003300330033125
+        ],
+        "bootstrap_fraction_positive": 0.48445,
+        "resolved_at_95": false,
+        "video_macro": 0.0
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          -0.002147222607153687,
+          0.0011802077360805838
+        ],
+        "bootstrap_fraction_positive": 0.28785,
+        "resolved_at_95": false,
+        "video_macro": -0.0004566887593048241
+      }
+    }
+  ],
+  "seed": 20260824,
+  "versus_baseline": [
+    {
+      "contrast": "fixed - _baseline",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.05792079207920792,
+          -0.029702970297029674
+        ],
+        "bootstrap_fraction_positive": 0.0,
+        "resolved_at_95": true,
+        "video_macro": -0.04306930693069305
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          0.030131537777700893,
+          0.047642638902950056
+        ],
+        "bootstrap_fraction_positive": 1.0,
+        "resolved_at_95": true,
+        "video_macro": 0.038564105683841055
+      }
+    },
+    {
+      "contrast": "random - _baseline",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.05594059405940596,
+          -0.02805280528052806
+        ],
+        "bootstrap_fraction_positive": 0.0,
+        "resolved_at_95": true,
+        "video_macro": -0.04141914191419138
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          0.023367639488769628,
+          0.03975583886799094
+        ],
+        "bootstrap_fraction_positive": 1.0,
+        "resolved_at_95": true,
+        "video_macro": 0.031217562529952114
+      }
+    },
+    {
+      "contrast": "global - _baseline",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.06112211221122113,
+          -0.03214521452145214
+        ],
+        "bootstrap_fraction_positive": 0.0,
+        "resolved_at_95": true,
+        "video_macro": -0.0459405940594059
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          0.023795053917495628,
+          0.039987817755776096
+        ],
+        "bootstrap_fraction_positive": 1.0,
+        "resolved_at_95": true,
+        "video_macro": 0.031578735889841725
+      }
+    },
+    {
+      "contrast": "residual - _baseline",
+      "discovery_loss": {
+        "bootstrap_95": [
+          -0.0612211221122112,
+          -0.03217821782178218
+        ],
+        "bootstrap_fraction_positive": 0.0,
+        "resolved_at_95": true,
+        "video_macro": -0.0459405940594059
+      },
+      "strict_jf": {
+        "bootstrap_95": [
+          0.023301056869734042,
+          0.0396387167530395
+        ],
+        "bootstrap_fraction_positive": 1.0,
+        "resolved_at_95": true,
+        "video_macro": 0.0311220471305369
+      }
+    }
+  ],
+  "video_count": 507
+}

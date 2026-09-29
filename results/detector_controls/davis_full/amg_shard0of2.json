@@ -1,0 +1,7736 @@
+{
+  "config": {
+    "boundary_cache": "canonical_private_boundary_v1",
+    "boundary_cache_verified": false,
+    "dataset": "davis",
+    "dataset_root": "/tmp/davis2017/DAVIS",
+    "num_shards": 2,
+    "offload_video_to_cpu": true,
+    "proposer": "amg",
+    "proposer_id": "SAM2-AMG:$HOME/ow_vis/checkpoints/sam2.1_hiera_large.pt",
+    "query_policy": "fixed_frame_index:0",
+    "runtime_allocator": {
+      "pytorch_alloc_conf": "",
+      "pytorch_no_cuda_memory_caching": "1"
+    },
+    "sam2_checkpoint": "$HOME/ow_vis/checkpoints/sam2.1_hiera_large.pt",
+    "sam2_checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+    "selected_video_count": 15,
+    "shard_index": 0,
+    "split": "val"
+  },
+  "frozen_constants": {
+    "amg": {
+      "box_nms_thresh": 0.5,
+      "min_mask_region_area": 400,
+      "points_per_side": 16,
+      "pred_iou_thresh": 0.8,
+      "stability_score_thresh": 0.9
+    },
+    "commitment": {
+      "area_max": 0.5,
+      "dedup_temporal_iou": 0.5,
+      "persistence_min": 0.5
+    },
+    "proposal_threshold": 0.05,
+    "resolution": [
+      854,
+      480
+    ],
+    "topk": 10
+  },
+  "run_status": "complete",
+  "schema_version": "cpd1-v1",
+  "videos": [
+    {
+      "committed_track_ids": [
+        "bike-packing:track:00",
+        "bike-packing:track:01",
+        "bike-packing:track:02",
+        "bike-packing:track:03",
+        "bike-packing:track:04",
+        "bike-packing:track:05",
+        "bike-packing:track:06",
+        "bike-packing:track:07",
+        "bike-packing:track:08",
+        "bike-packing:track:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 2,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 10,
+        "committed_precision": 0.1,
+        "committed_recall": 0.5,
+        "gt_count": 2,
+        "query_annotation_available": true,
+        "strict_jf": 0.49365346196261983,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 24,
+      "native_proposals": [
+        {
+          "box": [
+            563.0,
+            237.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9881364107131958
+        },
+        {
+          "box": [
+            0.0,
+            199.0,
+            92.0,
+            350.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9704142212867737
+        },
+        {
+          "box": [
+            0.0,
+            339.0,
+            281.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9629788398742676
+        },
+        {
+          "box": [
+            107.0,
+            7.0,
+            194.0,
+            183.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9588881731033325
+        },
+        {
+          "box": [
+            675.0,
+            40.0,
+            725.0,
+            88.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9518110752105713
+        },
+        {
+          "box": [
+            184.0,
+            0.0,
+            385.0,
+            247.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.949590265750885
+        },
+        {
+          "box": [
+            803.0,
+            0.0,
+            853.0,
+            46.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9362245798110962
+        },
+        {
+          "box": [
+            368.0,
+            86.0,
+            585.0,
+            479.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9304448366165161
+        },
+        {
+          "box": [
+            184.0,
+            0.0,
+            215.0,
+            247.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9254472255706787
+        },
+        {
+          "box": [
+            278.0,
+            0.0,
+            478.0,
+            103.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9252508282661438
+        },
+        {
+          "box": [
+            216.0,
+            69.0,
+            381.0,
+            116.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9250682592391968
+        },
+        {
+          "box": [
+            659.0,
+            329.0,
+            676.0,
+            358.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.9250138401985168
+        },
+        {
+          "box": [
+            547.0,
+            0.0,
+            680.0,
+            174.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.9198440313339233
+        },
+        {
+          "box": [
+            533.0,
+            0.0,
+            598.0,
+            38.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.9187297224998474
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            34.0,
+            146.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.9156226515769958
+        },
+        {
+          "box": [
+            778.0,
+            11.0,
+            853.0,
+            337.0
+          ],
+          "native_id": "amg:15",
+          "score": 0.8986664414405823
+        },
+        {
+          "box": [
+            367.0,
+            120.0,
+            428.0,
+            207.0
+          ],
+          "native_id": "amg:16",
+          "score": 0.8894546627998352
+        },
+        {
+          "box": [
+            122.0,
+            183.0,
+            198.0,
+            308.0
+          ],
+          "native_id": "amg:17",
+          "score": 0.8852424621582031
+        },
+        {
+          "box": [
+            37.0,
+            391.0,
+            103.0,
+            479.0
+          ],
+          "native_id": "amg:18",
+          "score": 0.8823587894439697
+        },
+        {
+          "box": [
+            48.0,
+            0.0,
+            89.0,
+            139.0
+          ],
+          "native_id": "amg:19",
+          "score": 0.8803852200508118
+        },
+        {
+          "box": [
+            299.0,
+            182.0,
+            432.0,
+            256.0
+          ],
+          "native_id": "amg:20",
+          "score": 0.8598657846450806
+        },
+        {
+          "box": [
+            671.0,
+            131.0,
+            744.0,
+            164.0
+          ],
+          "native_id": "amg:21",
+          "score": 0.8509646654129028
+        },
+        {
+          "box": [
+            670.0,
+            239.0,
+            758.0,
+            265.0
+          ],
+          "native_id": "amg:22",
+          "score": 0.8420877456665039
+        },
+        {
+          "box": [
+            490.0,
+            0.0,
+            514.0,
+            82.0
+          ],
+          "native_id": "amg:23",
+          "score": 0.8344442248344421
+        }
+      ],
+      "objects": [
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bike-packing:track:00": 0.06073638567969314,
+            "bike-packing:track:01": 0.0,
+            "bike-packing:track:02": 0.027348261635860564,
+            "bike-packing:track:03": 0.0,
+            "bike-packing:track:04": 0.0,
+            "bike-packing:track:05": 0.0007324561435090159,
+            "bike-packing:track:06": 0.0,
+            "bike-packing:track:07": 0.14265792362879928,
+            "bike-packing:track:08": 0.0008503436925728613,
+            "bike-packing:track:09": 2.504010229580877e-05
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bike-packing:track:00": 0.023673491812099524,
+            "bike-packing:track:01": 0.0,
+            "bike-packing:track:02": 0.0,
+            "bike-packing:track:03": 0.0,
+            "bike-packing:track:04": 3.277346424365891e-06,
+            "bike-packing:track:05": 0.0021181889054400177,
+            "bike-packing:track:06": 0.0,
+            "bike-packing:track:07": 0.9265705382455466,
+            "bike-packing:track:08": 0.0,
+            "bike-packing:track:09": 0.04037961679784063
+          }
+        }
+      ],
+      "ordinal": 1,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            563.0,
+            237.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9881364107131958,
+          "track_id": "bike-packing:track:00"
+        },
+        {
+          "box": [
+            0.0,
+            199.0,
+            92.0,
+            350.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9704142212867737,
+          "track_id": "bike-packing:track:01"
+        },
+        {
+          "box": [
+            0.0,
+            339.0,
+            281.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9629788398742676,
+          "track_id": "bike-packing:track:02"
+        },
+        {
+          "box": [
+            107.0,
+            7.0,
+            194.0,
+            183.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9588881731033325,
+          "track_id": "bike-packing:track:03"
+        },
+        {
+          "box": [
+            675.0,
+            40.0,
+            725.0,
+            88.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9518110752105713,
+          "track_id": "bike-packing:track:04"
+        },
+        {
+          "box": [
+            184.0,
+            0.0,
+            385.0,
+            247.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.949590265750885,
+          "track_id": "bike-packing:track:05"
+        },
+        {
+          "box": [
+            803.0,
+            0.0,
+            853.0,
+            46.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9362245798110962,
+          "track_id": "bike-packing:track:06"
+        },
+        {
+          "box": [
+            368.0,
+            86.0,
+            585.0,
+            479.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9304448366165161,
+          "track_id": "bike-packing:track:07"
+        },
+        {
+          "box": [
+            184.0,
+            0.0,
+            215.0,
+            247.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9254472255706787,
+          "track_id": "bike-packing:track:08"
+        },
+        {
+          "box": [
+            278.0,
+            0.0,
+            478.0,
+            103.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9252508282661438,
+          "track_id": "bike-packing:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "bike-packing:track:00": {
+          "mean_area": 0.1369930788899071,
+          "mean_confidence": 8.96512041921201,
+          "persistence": 1.0,
+          "quality": 8.96512041921201
+        },
+        "bike-packing:track:01": {
+          "mean_area": 0.014286138546651733,
+          "mean_confidence": 14.641898956851684,
+          "persistence": 1.0,
+          "quality": 14.641898956851684
+        },
+        "bike-packing:track:02": {
+          "mean_area": 0.049032048671214745,
+          "mean_confidence": 11.69993201546047,
+          "persistence": 1.0,
+          "quality": 11.69993201546047
+        },
+        "bike-packing:track:03": {
+          "mean_area": 0.030159295839980088,
+          "mean_confidence": 13.653629862743875,
+          "persistence": 1.0,
+          "quality": 13.653629862743875
+        },
+        "bike-packing:track:04": {
+          "mean_area": 0.005846421783253572,
+          "mean_confidence": 14.759046768796617,
+          "persistence": 1.0,
+          "quality": 14.759046768796617
+        },
+        "bike-packing:track:05": {
+          "mean_area": 0.028448605030037676,
+          "mean_confidence": 11.127914440804634,
+          "persistence": 1.0,
+          "quality": 11.127914440804634
+        },
+        "bike-packing:track:06": {
+          "mean_area": 0.0034896169206575477,
+          "mean_confidence": 16.477531861567844,
+          "persistence": 1.0,
+          "quality": 16.477531861567844
+        },
+        "bike-packing:track:07": {
+          "mean_area": 0.09226285934901401,
+          "mean_confidence": 8.000765524048736,
+          "persistence": 1.0,
+          "quality": 8.000765524048736
+        },
+        "bike-packing:track:08": {
+          "mean_area": 0.010556389935399202,
+          "mean_confidence": 13.666308085123697,
+          "persistence": 1.0,
+          "quality": 13.666308085123697
+        },
+        "bike-packing:track:09": {
+          "mean_area": 0.014966476314926066,
+          "mean_confidence": 12.206883257713871,
+          "persistence": 1.0,
+          "quality": 12.206883257713871
+        }
+      },
+      "video_id": "bike-packing",
+      "wall_seconds": 278.92310190200806
+    },
+    {
+      "committed_track_ids": [
+        "bmx-trees:track:02",
+        "bmx-trees:track:04"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 2,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 2,
+        "committed_precision": 0.0,
+        "committed_recall": 0.0,
+        "gt_count": 2,
+        "query_annotation_available": true,
+        "strict_jf": 0.04347403813835562,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 15,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            90.0,
+            39.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9791791439056396
+        },
+        {
+          "box": [
+            801.0,
+            0.0,
+            853.0,
+            389.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9774408936500549
+        },
+        {
+          "box": [
+            0.0,
+            304.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9722116589546204
+        },
+        {
+          "box": [
+            91.0,
+            0.0,
+            203.0,
+            33.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9715402722358704
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            805.0,
+            324.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9629350900650024
+        },
+        {
+          "box": [
+            206.0,
+            0.0,
+            419.0,
+            29.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9590718150138855
+        },
+        {
+          "box": [
+            132.0,
+            191.0,
+            225.0,
+            238.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9579450488090515
+        },
+        {
+          "box": [
+            730.0,
+            114.0,
+            807.0,
+            198.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9559535384178162
+        },
+        {
+          "box": [
+            419.0,
+            0.0,
+            518.0,
+            16.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9543554782867432
+        },
+        {
+          "box": [
+            686.0,
+            112.0,
+            769.0,
+            176.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9439550042152405
+        },
+        {
+          "box": [
+            2.0,
+            169.0,
+            81.0,
+            261.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9380604028701782
+        },
+        {
+          "box": [
+            203.0,
+            237.0,
+            245.0,
+            255.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.8786289691925049
+        },
+        {
+          "box": [
+            247.0,
+            0.0,
+            316.0,
+            26.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.8733696341514587
+        },
+        {
+          "box": [
+            615.0,
+            280.0,
+            685.0,
+            292.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.8668579459190369
+        },
+        {
+          "box": [
+            112.0,
+            143.0,
+            226.0,
+            238.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.8199533224105835
+        }
+      ],
+      "objects": [
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bmx-trees:track:00": 0.0,
+            "bmx-trees:track:01": 0.009427754447353645,
+            "bmx-trees:track:02": 0.02765972654103921,
+            "bmx-trees:track:03": 0.0,
+            "bmx-trees:track:04": 0.01796762406622457,
+            "bmx-trees:track:05": 0.0,
+            "bmx-trees:track:06": 0.0,
+            "bmx-trees:track:07": 0.0013226020446886035,
+            "bmx-trees:track:08": 0.0,
+            "bmx-trees:track:09": 8.105154484195387e-06
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bmx-trees:track:00": 0.0,
+            "bmx-trees:track:01": 0.008286650709786831,
+            "bmx-trees:track:02": 0.0008859009790283402,
+            "bmx-trees:track:03": 0.0,
+            "bmx-trees:track:04": 0.05928834973567203,
+            "bmx-trees:track:05": 0.0,
+            "bmx-trees:track:06": 0.0,
+            "bmx-trees:track:07": 0.01034712242956925,
+            "bmx-trees:track:08": 0.0,
+            "bmx-trees:track:09": 0.008232940628142284
+          }
+        }
+      ],
+      "ordinal": 3,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            90.0,
+            39.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9791791439056396,
+          "track_id": "bmx-trees:track:00"
+        },
+        {
+          "box": [
+            801.0,
+            0.0,
+            853.0,
+            389.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9774408936500549,
+          "track_id": "bmx-trees:track:01"
+        },
+        {
+          "box": [
+            0.0,
+            304.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9722116589546204,
+          "track_id": "bmx-trees:track:02"
+        },
+        {
+          "box": [
+            91.0,
+            0.0,
+            203.0,
+            33.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9715402722358704,
+          "track_id": "bmx-trees:track:03"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            805.0,
+            324.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9629350900650024,
+          "track_id": "bmx-trees:track:04"
+        },
+        {
+          "box": [
+            206.0,
+            0.0,
+            419.0,
+            29.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9590718150138855,
+          "track_id": "bmx-trees:track:05"
+        },
+        {
+          "box": [
+            132.0,
+            191.0,
+            225.0,
+            238.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9579450488090515,
+          "track_id": "bmx-trees:track:06"
+        },
+        {
+          "box": [
+            730.0,
+            114.0,
+            807.0,
+            198.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9559535384178162,
+          "track_id": "bmx-trees:track:07"
+        },
+        {
+          "box": [
+            419.0,
+            0.0,
+            518.0,
+            16.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9543554782867432,
+          "track_id": "bmx-trees:track:08"
+        },
+        {
+          "box": [
+            686.0,
+            112.0,
+            769.0,
+            176.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9439550042152405,
+          "track_id": "bmx-trees:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "bmx-trees:track:00": {
+          "mean_area": 0.004383172326307572,
+          "mean_confidence": 0.7278578102588653,
+          "persistence": 0.05,
+          "quality": 0.03639289051294327
+        },
+        "bmx-trees:track:01": {
+          "mean_area": 0.04785337518431781,
+          "mean_confidence": 3.5024770736694335,
+          "persistence": 0.45,
+          "quality": 1.5761146831512451
+        },
+        "bmx-trees:track:02": {
+          "mean_area": 0.31375472653200626,
+          "mean_confidence": 9.203511273860931,
+          "persistence": 1.0,
+          "quality": 9.203511273860931
+        },
+        "bmx-trees:track:03": {
+          "mean_area": 0.007713700234192038,
+          "mean_confidence": 1.4479693531990052,
+          "persistence": 0.1,
+          "quality": 0.14479693531990054
+        },
+        "bmx-trees:track:04": {
+          "mean_area": 0.2740184637213326,
+          "mean_confidence": 5.422264651954174,
+          "persistence": 0.925,
+          "quality": 5.015594803057612
+        },
+        "bmx-trees:track:05": {
+          "mean_area": 0.019533892792089513,
+          "mean_confidence": 3.0840261578559875,
+          "persistence": 0.225,
+          "quality": 0.6939058855175972
+        },
+        "bmx-trees:track:06": {
+          "mean_area": 0.005084650663544106,
+          "mean_confidence": 1.9576919794082641,
+          "persistence": 0.125,
+          "quality": 0.24471149742603301
+        },
+        "bmx-trees:track:07": {
+          "mean_area": 0.0072620230407115655,
+          "mean_confidence": 6.150123238563538,
+          "persistence": 0.4125,
+          "quality": 2.536925835907459
+        },
+        "bmx-trees:track:08": {
+          "mean_area": 0.010723579049105982,
+          "mean_confidence": 3.54027179479599,
+          "persistence": 0.2625,
+          "quality": 0.9293213461339475
+        },
+        "bmx-trees:track:09": {
+          "mean_area": 0.006924826795472287,
+          "mean_confidence": 5.849327182769775,
+          "persistence": 0.4,
+          "quality": 2.3397308731079103
+        }
+      },
+      "video_id": "bmx-trees",
+      "wall_seconds": 315.7245228290558
+    },
+    {
+      "committed_track_ids": [
+        "camel:track:00",
+        "camel:track:01",
+        "camel:track:02",
+        "camel:track:03",
+        "camel:track:05",
+        "camel:track:07",
+        "camel:track:08"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg",
+        "00080.jpg",
+        "00081.jpg",
+        "00082.jpg",
+        "00083.jpg",
+        "00084.jpg",
+        "00085.jpg",
+        "00086.jpg",
+        "00087.jpg",
+        "00088.jpg",
+        "00089.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 7,
+        "committed_precision": 0.14285714285714285,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9688111959338647,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 14,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            244.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9843541383743286
+        },
+        {
+          "box": [
+            262.0,
+            85.0,
+            708.0,
+            429.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9835994243621826
+        },
+        {
+          "box": [
+            417.0,
+            55.0,
+            853.0,
+            350.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9699149131774902
+        },
+        {
+          "box": [
+            725.0,
+            0.0,
+            853.0,
+            95.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9669708013534546
+        },
+        {
+          "box": [
+            0.0,
+            184.0,
+            202.0,
+            281.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9564001560211182
+        },
+        {
+          "box": [
+            588.0,
+            463.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9116768836975098
+        },
+        {
+          "box": [
+            126.0,
+            0.0,
+            160.0,
+            101.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9069284796714783
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            786.0,
+            104.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9036446213722229
+        },
+        {
+          "box": [
+            461.0,
+            0.0,
+            787.0,
+            92.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.8954610228538513
+        },
+        {
+          "box": [
+            453.0,
+            462.0,
+            559.0,
+            479.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.8938130736351013
+        },
+        {
+          "box": [
+            180.0,
+            223.0,
+            277.0,
+            236.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.8838792443275452
+        },
+        {
+          "box": [
+            0.0,
+            96.0,
+            420.0,
+            115.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.8632619976997375
+        },
+        {
+          "box": [
+            262.0,
+            185.0,
+            302.0,
+            298.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.8584994077682495
+        },
+        {
+          "box": [
+            10.0,
+            0.0,
+            29.0,
+            104.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.8097684383392334
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "camel:track:00",
+            "camel:track:02"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "camel:track:00": 0.19262382749062534,
+            "camel:track:01": 0.9688111959338647,
+            "camel:track:02": 0.1664015749853077,
+            "camel:track:03": 0.00859160255186504,
+            "camel:track:04": 0.0,
+            "camel:track:05": 0.0,
+            "camel:track:06": 0.0,
+            "camel:track:07": 0.021795850269269817,
+            "camel:track:08": 0.013758837872189974,
+            "camel:track:09": 0.0
+          }
+        }
+      ],
+      "ordinal": 5,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            244.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9843541383743286,
+          "track_id": "camel:track:00"
+        },
+        {
+          "box": [
+            262.0,
+            85.0,
+            708.0,
+            429.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9835994243621826,
+          "track_id": "camel:track:01"
+        },
+        {
+          "box": [
+            417.0,
+            55.0,
+            853.0,
+            350.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9699149131774902,
+          "track_id": "camel:track:02"
+        },
+        {
+          "box": [
+            725.0,
+            0.0,
+            853.0,
+            95.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9669708013534546,
+          "track_id": "camel:track:03"
+        },
+        {
+          "box": [
+            0.0,
+            184.0,
+            202.0,
+            281.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9564001560211182,
+          "track_id": "camel:track:04"
+        },
+        {
+          "box": [
+            588.0,
+            463.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9116768836975098,
+          "track_id": "camel:track:05"
+        },
+        {
+          "box": [
+            126.0,
+            0.0,
+            160.0,
+            101.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9069284796714783,
+          "track_id": "camel:track:06"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            786.0,
+            104.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9036446213722229,
+          "track_id": "camel:track:07"
+        },
+        {
+          "box": [
+            461.0,
+            0.0,
+            787.0,
+            92.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.8954610228538513,
+          "track_id": "camel:track:08"
+        },
+        {
+          "box": [
+            453.0,
+            462.0,
+            559.0,
+            479.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.8938130736351013,
+          "track_id": "camel:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "camel:track:00": {
+          "mean_area": 0.2809343557550525,
+          "mean_confidence": 9.950830920537312,
+          "persistence": 1.0,
+          "quality": 9.950830920537312
+        },
+        "camel:track:01": {
+          "mean_area": 0.12302611891751236,
+          "mean_confidence": 10.235046651628283,
+          "persistence": 1.0,
+          "quality": 10.235046651628283
+        },
+        "camel:track:02": {
+          "mean_area": 0.2467924364645676,
+          "mean_confidence": 8.993554480870564,
+          "persistence": 1.0,
+          "quality": 8.993554480870564
+        },
+        "camel:track:03": {
+          "mean_area": 0.05686551305403764,
+          "mean_confidence": 11.79039061334398,
+          "persistence": 1.0,
+          "quality": 11.79039061334398
+        },
+        "camel:track:04": {
+          "mean_area": 0.005109391736107329,
+          "mean_confidence": 8.017696449491712,
+          "persistence": 0.4777777777777778,
+          "quality": 3.8306771925349294
+        },
+        "camel:track:05": {
+          "mean_area": 0.007148115621476278,
+          "mean_confidence": 11.520803085962932,
+          "persistence": 1.0,
+          "quality": 11.520803085962932
+        },
+        "camel:track:06": {
+          "mean_area": 0.00609488142345689,
+          "mean_confidence": 3.287236473295424,
+          "persistence": 0.32222222222222224,
+          "quality": 1.0592206413951921
+        },
+        "camel:track:07": {
+          "mean_area": 0.1575696341833637,
+          "mean_confidence": 9.562818063629997,
+          "persistence": 1.0,
+          "quality": 9.562818063629997
+        },
+        "camel:track:08": {
+          "mean_area": 0.06799746834070604,
+          "mean_confidence": 8.31730548010932,
+          "persistence": 1.0,
+          "quality": 8.31730548010932
+        },
+        "camel:track:09": {
+          "mean_area": 0.0020141285591026748,
+          "mean_confidence": 4.966295803917779,
+          "persistence": 0.4222222222222222,
+          "quality": 2.0968804505430625
+        }
+      },
+      "video_id": "camel",
+      "wall_seconds": 332.24236822128296
+    },
+    {
+      "committed_track_ids": [
+        "car-shadow:track:00",
+        "car-shadow:track:01",
+        "car-shadow:track:02",
+        "car-shadow:track:03",
+        "car-shadow:track:04",
+        "car-shadow:track:06",
+        "car-shadow:track:08",
+        "car-shadow:track:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 8,
+        "committed_precision": 0.125,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9629099699114393,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 27,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            146.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9891564846038818
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            393.0,
+            182.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9873461127281189
+        },
+        {
+          "box": [
+            314.0,
+            99.0,
+            654.0,
+            281.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.981164813041687
+        },
+        {
+          "box": [
+            329.0,
+            217.0,
+            383.0,
+            271.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9665348529815674
+        },
+        {
+          "box": [
+            59.0,
+            70.0,
+            84.0,
+            136.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9570680856704712
+        },
+        {
+          "box": [
+            604.0,
+            295.0,
+            703.0,
+            324.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9510915875434875
+        },
+        {
+          "box": [
+            546.0,
+            217.0,
+            614.0,
+            281.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.948390543460846
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            778.0,
+            203.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9440428614616394
+        },
+        {
+          "box": [
+            225.0,
+            158.0,
+            244.0,
+            206.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9384756684303284
+        },
+        {
+          "box": [
+            391.0,
+            0.0,
+            589.0,
+            69.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9380761384963989
+        },
+        {
+          "box": [
+            66.0,
+            159.0,
+            89.0,
+            218.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9310833215713501
+        },
+        {
+          "box": [
+            180.0,
+            75.0,
+            194.0,
+            127.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.9274826049804688
+        },
+        {
+          "box": [
+            117.0,
+            72.0,
+            137.0,
+            132.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.9240735173225403
+        },
+        {
+          "box": [
+            707.0,
+            42.0,
+            724.0,
+            91.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.922550618648529
+        },
+        {
+          "box": [
+            589.0,
+            0.0,
+            697.0,
+            135.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.9174792170524597
+        },
+        {
+          "box": [
+            665.0,
+            58.0,
+            677.0,
+            86.0
+          ],
+          "native_id": "amg:15",
+          "score": 0.9070094227790833
+        },
+        {
+          "box": [
+            525.0,
+            20.0,
+            591.0,
+            75.0
+          ],
+          "native_id": "amg:16",
+          "score": 0.9049035310745239
+        },
+        {
+          "box": [
+            0.0,
+            353.0,
+            853.0,
+            377.0
+          ],
+          "native_id": "amg:17",
+          "score": 0.891202449798584
+        },
+        {
+          "box": [
+            666.0,
+            0.0,
+            680.0,
+            39.0
+          ],
+          "native_id": "amg:18",
+          "score": 0.8674837946891785
+        },
+        {
+          "box": [
+            816.0,
+            42.0,
+            837.0,
+            75.0
+          ],
+          "native_id": "amg:19",
+          "score": 0.8653591275215149
+        },
+        {
+          "box": [
+            674.0,
+            216.0,
+            736.0,
+            234.0
+          ],
+          "native_id": "amg:20",
+          "score": 0.8477679491043091
+        },
+        {
+          "box": [
+            604.0,
+            114.0,
+            623.0,
+            197.0
+          ],
+          "native_id": "amg:21",
+          "score": 0.8322641253471375
+        },
+        {
+          "box": [
+            435.0,
+            37.0,
+            455.0,
+            58.0
+          ],
+          "native_id": "amg:22",
+          "score": 0.8236793875694275
+        },
+        {
+          "box": [
+            717.0,
+            0.0,
+            818.0,
+            27.0
+          ],
+          "native_id": "amg:23",
+          "score": 0.8193776607513428
+        },
+        {
+          "box": [
+            588.0,
+            0.0,
+            853.0,
+            148.0
+          ],
+          "native_id": "amg:24",
+          "score": 0.8191578388214111
+        },
+        {
+          "box": [
+            672.0,
+            252.0,
+            853.0,
+            261.0
+          ],
+          "native_id": "amg:25",
+          "score": 0.810981273651123
+        },
+        {
+          "box": [
+            285.0,
+            80.0,
+            294.0,
+            121.0
+          ],
+          "native_id": "amg:26",
+          "score": 0.8089370727539062
+        }
+      ],
+      "objects": [
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "car-shadow:track:00": 0.09345770651653897,
+            "car-shadow:track:01": 0.07954242998835995,
+            "car-shadow:track:02": 0.9629099699114393,
+            "car-shadow:track:03": 0.1261894984001226,
+            "car-shadow:track:04": 0.007946063382075446,
+            "car-shadow:track:05": 0.0,
+            "car-shadow:track:06": 0.14311645038103968,
+            "car-shadow:track:07": 0.07800739610949639,
+            "car-shadow:track:08": 0.007483074209509432,
+            "car-shadow:track:09": 0.0
+          }
+        }
+      ],
+      "ordinal": 7,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            146.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9891564846038818,
+          "track_id": "car-shadow:track:00"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            393.0,
+            182.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9873461127281189,
+          "track_id": "car-shadow:track:01"
+        },
+        {
+          "box": [
+            314.0,
+            99.0,
+            654.0,
+            281.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.981164813041687,
+          "track_id": "car-shadow:track:02"
+        },
+        {
+          "box": [
+            329.0,
+            217.0,
+            383.0,
+            271.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9665348529815674,
+          "track_id": "car-shadow:track:03"
+        },
+        {
+          "box": [
+            59.0,
+            70.0,
+            84.0,
+            136.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9570680856704712,
+          "track_id": "car-shadow:track:04"
+        },
+        {
+          "box": [
+            604.0,
+            295.0,
+            703.0,
+            324.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9510915875434875,
+          "track_id": "car-shadow:track:05"
+        },
+        {
+          "box": [
+            546.0,
+            217.0,
+            614.0,
+            281.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.948390543460846,
+          "track_id": "car-shadow:track:06"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            778.0,
+            203.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9440428614616394,
+          "track_id": "car-shadow:track:07"
+        },
+        {
+          "box": [
+            225.0,
+            158.0,
+            244.0,
+            206.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9384756684303284,
+          "track_id": "car-shadow:track:08"
+        },
+        {
+          "box": [
+            391.0,
+            0.0,
+            589.0,
+            69.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9380761384963989,
+          "track_id": "car-shadow:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "car-shadow:track:00": {
+          "mean_area": 0.47757184328649493,
+          "mean_confidence": 10.705978453159332,
+          "persistence": 1.0,
+          "quality": 10.705978453159332
+        },
+        "car-shadow:track:01": {
+          "mean_area": 0.25772022589773613,
+          "mean_confidence": 9.88689295053482,
+          "persistence": 1.0,
+          "quality": 9.88689295053482
+        },
+        "car-shadow:track:02": {
+          "mean_area": 0.061756684231069475,
+          "mean_confidence": 11.345510351657868,
+          "persistence": 1.0,
+          "quality": 11.345510351657868
+        },
+        "car-shadow:track:03": {
+          "mean_area": 0.0031381733021077288,
+          "mean_confidence": 17.586994433403014,
+          "persistence": 1.0,
+          "quality": 17.586994433403014
+        },
+        "car-shadow:track:04": {
+          "mean_area": 0.0024963407494145197,
+          "mean_confidence": 16.881151270866393,
+          "persistence": 1.0,
+          "quality": 16.881151270866393
+        },
+        "car-shadow:track:05": {
+          "mean_area": 0.005119612555980114,
+          "mean_confidence": 6.501829743385315,
+          "persistence": 0.475,
+          "quality": 3.0883691281080243
+        },
+        "car-shadow:track:06": {
+          "mean_area": 0.004616144613583138,
+          "mean_confidence": 15.734665155410767,
+          "persistence": 1.0,
+          "quality": 15.734665155410767
+        },
+        "car-shadow:track:07": {
+          "mean_area": 0.2569466603239656,
+          "mean_confidence": 9.366078069806099,
+          "persistence": 1.0,
+          "quality": 9.366078069806099
+        },
+        "car-shadow:track:08": {
+          "mean_area": 0.0016515417642466823,
+          "mean_confidence": 11.983425760269165,
+          "persistence": 0.675,
+          "quality": 8.088812388181687
+        },
+        "car-shadow:track:09": {
+          "mean_area": 0.01407585131970378,
+          "mean_confidence": 13.00993583202362,
+          "persistence": 0.925,
+          "quality": 12.03419064462185
+        }
+      },
+      "video_id": "car-shadow",
+      "wall_seconds": 169.7360701560974
+    },
+    {
+      "committed_track_ids": [
+        "dance-twirl:track:00",
+        "dance-twirl:track:01",
+        "dance-twirl:track:02",
+        "dance-twirl:track:04",
+        "dance-twirl:track:06",
+        "dance-twirl:track:08"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg",
+        "00080.jpg",
+        "00081.jpg",
+        "00082.jpg",
+        "00083.jpg",
+        "00084.jpg",
+        "00085.jpg",
+        "00086.jpg",
+        "00087.jpg",
+        "00088.jpg",
+        "00089.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 6,
+        "committed_precision": 0.16666666666666666,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9275689606475549,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 27,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            125.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9927776455879211
+        },
+        {
+          "box": [
+            0.0,
+            20.0,
+            113.0,
+            186.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9621580839157104
+        },
+        {
+          "box": [
+            107.0,
+            0.0,
+            280.0,
+            137.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9542248845100403
+        },
+        {
+          "box": [
+            720.0,
+            0.0,
+            853.0,
+            92.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9473114609718323
+        },
+        {
+          "box": [
+            335.0,
+            58.0,
+            504.0,
+            432.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9449268579483032
+        },
+        {
+          "box": [
+            490.0,
+            0.0,
+            700.0,
+            107.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9423578977584839
+        },
+        {
+          "box": [
+            454.0,
+            98.0,
+            527.0,
+            228.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9398366808891296
+        },
+        {
+          "box": [
+            794.0,
+            51.0,
+            853.0,
+            287.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.934371829032898
+        },
+        {
+          "box": [
+            502.0,
+            208.0,
+            577.0,
+            248.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9304419755935669
+        },
+        {
+          "box": [
+            800.0,
+            61.0,
+            842.0,
+            186.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9295731782913208
+        },
+        {
+          "box": [
+            69.0,
+            123.0,
+            129.0,
+            296.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9189223647117615
+        },
+        {
+          "box": [
+            658.0,
+            0.0,
+            739.0,
+            122.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.9092062711715698
+        },
+        {
+          "box": [
+            115.0,
+            107.0,
+            200.0,
+            285.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.9050301909446716
+        },
+        {
+          "box": [
+            713.0,
+            106.0,
+            777.0,
+            205.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.901512861251831
+        },
+        {
+          "box": [
+            0.0,
+            206.0,
+            104.0,
+            308.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.900494396686554
+        },
+        {
+          "box": [
+            383.0,
+            134.0,
+            451.0,
+            177.0
+          ],
+          "native_id": "amg:15",
+          "score": 0.8792622685432434
+        },
+        {
+          "box": [
+            793.0,
+            262.0,
+            838.0,
+            287.0
+          ],
+          "native_id": "amg:16",
+          "score": 0.8679580688476562
+        },
+        {
+          "box": [
+            201.0,
+            72.0,
+            247.0,
+            138.0
+          ],
+          "native_id": "amg:17",
+          "score": 0.8583171963691711
+        },
+        {
+          "box": [
+            539.0,
+            234.0,
+            567.0,
+            254.0
+          ],
+          "native_id": "amg:18",
+          "score": 0.8559157848358154
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            144.0,
+            26.0
+          ],
+          "native_id": "amg:19",
+          "score": 0.8511542081832886
+        },
+        {
+          "box": [
+            280.0,
+            4.0,
+            318.0,
+            154.0
+          ],
+          "native_id": "amg:20",
+          "score": 0.8493053913116455
+        },
+        {
+          "box": [
+            322.0,
+            139.0,
+            397.0,
+            241.0
+          ],
+          "native_id": "amg:21",
+          "score": 0.8443475961685181
+        },
+        {
+          "box": [
+            738.0,
+            77.0,
+            790.0,
+            114.0
+          ],
+          "native_id": "amg:22",
+          "score": 0.8431203961372375
+        },
+        {
+          "box": [
+            522.0,
+            130.0,
+            591.0,
+            253.0
+          ],
+          "native_id": "amg:23",
+          "score": 0.8286349773406982
+        },
+        {
+          "box": [
+            663.0,
+            111.0,
+            752.0,
+            223.0
+          ],
+          "native_id": "amg:24",
+          "score": 0.8197459578514099
+        },
+        {
+          "box": [
+            446.0,
+            0.0,
+            478.0,
+            63.0
+          ],
+          "native_id": "amg:25",
+          "score": 0.8147827982902527
+        },
+        {
+          "box": [
+            754.0,
+            130.0,
+            803.0,
+            180.0
+          ],
+          "native_id": "amg:26",
+          "score": 0.8112871050834656
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "dance-twirl:track:04"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "dance-twirl:track:04"
+          ],
+          "proposal_hit_track_ids": [
+            "dance-twirl:track:04",
+            "dance-twirl:track:06"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "dance-twirl:track:00": 0.15699430699891181,
+            "dance-twirl:track:01": 0.03476699104326092,
+            "dance-twirl:track:02": 0.01170701403539104,
+            "dance-twirl:track:03": 0.0,
+            "dance-twirl:track:04": 0.9275689606475549,
+            "dance-twirl:track:05": 0.0,
+            "dance-twirl:track:06": 0.012623931848974736,
+            "dance-twirl:track:07": 0.0,
+            "dance-twirl:track:08": 0.005624431691231011,
+            "dance-twirl:track:09": 0.0
+          }
+        }
+      ],
+      "ordinal": 9,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            125.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9927776455879211,
+          "track_id": "dance-twirl:track:00"
+        },
+        {
+          "box": [
+            0.0,
+            20.0,
+            113.0,
+            186.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9621580839157104,
+          "track_id": "dance-twirl:track:01"
+        },
+        {
+          "box": [
+            107.0,
+            0.0,
+            280.0,
+            137.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9542248845100403,
+          "track_id": "dance-twirl:track:02"
+        },
+        {
+          "box": [
+            720.0,
+            0.0,
+            853.0,
+            92.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9473114609718323,
+          "track_id": "dance-twirl:track:03"
+        },
+        {
+          "box": [
+            335.0,
+            58.0,
+            504.0,
+            432.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9449268579483032,
+          "track_id": "dance-twirl:track:04"
+        },
+        {
+          "box": [
+            490.0,
+            0.0,
+            700.0,
+            107.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9423578977584839,
+          "track_id": "dance-twirl:track:05"
+        },
+        {
+          "box": [
+            454.0,
+            98.0,
+            527.0,
+            228.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9398366808891296,
+          "track_id": "dance-twirl:track:06"
+        },
+        {
+          "box": [
+            794.0,
+            51.0,
+            853.0,
+            287.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.934371829032898,
+          "track_id": "dance-twirl:track:07"
+        },
+        {
+          "box": [
+            502.0,
+            208.0,
+            577.0,
+            248.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9304419755935669,
+          "track_id": "dance-twirl:track:08"
+        },
+        {
+          "box": [
+            800.0,
+            61.0,
+            842.0,
+            186.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9295731782913208,
+          "track_id": "dance-twirl:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "dance-twirl:track:00": {
+          "mean_area": 0.31673852350594156,
+          "mean_confidence": 10.770542918311225,
+          "persistence": 1.0,
+          "quality": 10.770542918311225
+        },
+        "dance-twirl:track:01": {
+          "mean_area": 0.025895676121085957,
+          "mean_confidence": 9.179702679316202,
+          "persistence": 1.0,
+          "quality": 9.179702679316202
+        },
+        "dance-twirl:track:02": {
+          "mean_area": 0.020369936681412088,
+          "mean_confidence": 11.063819328943888,
+          "persistence": 1.0,
+          "quality": 11.063819328943888
+        },
+        "dance-twirl:track:03": {
+          "mean_area": 0.013077385387836206,
+          "mean_confidence": 2.7998011800977918,
+          "persistence": 0.24444444444444444,
+          "quality": 0.6843958440239046
+        },
+        "dance-twirl:track:04": {
+          "mean_area": 0.08715638281724347,
+          "mean_confidence": 8.759922891192966,
+          "persistence": 1.0,
+          "quality": 8.759922891192966
+        },
+        "dance-twirl:track:05": {
+          "mean_area": 0.02863032508085201,
+          "mean_confidence": 5.470756059222751,
+          "persistence": 0.4666666666666667,
+          "quality": 2.5530194943039506
+        },
+        "dance-twirl:track:06": {
+          "mean_area": 0.007983516721807119,
+          "mean_confidence": 8.174895689222549,
+          "persistence": 0.7,
+          "quality": 5.722426982455784
+        },
+        "dance-twirl:track:07": {
+          "mean_area": 0.004764615317894006,
+          "mean_confidence": 1.3519276830885145,
+          "persistence": 0.1,
+          "quality": 0.13519276830885146
+        },
+        "dance-twirl:track:08": {
+          "mean_area": 0.003508391881342701,
+          "mean_confidence": 9.251099406348334,
+          "persistence": 0.5555555555555556,
+          "quality": 5.139499670193519
+        },
+        "dance-twirl:track:09": {
+          "mean_area": 0.004507586846213895,
+          "mean_confidence": 1.2265275266435411,
+          "persistence": 0.08888888888888889,
+          "quality": 0.10902466903498144
+        }
+      },
+      "video_id": "dance-twirl",
+      "wall_seconds": 325.8462860584259
+    },
+    {
+      "committed_track_ids": [
+        "dogs-jump:track:01",
+        "dogs-jump:track:02",
+        "dogs-jump:track:03",
+        "dogs-jump:track:04",
+        "dogs-jump:track:05",
+        "dogs-jump:track:06"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 3,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 6,
+        "committed_precision": 0.5,
+        "committed_recall": 1.0,
+        "gt_count": 3,
+        "query_annotation_available": true,
+        "strict_jf": 0.9423306660972584,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 7,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            357.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9960035681724548
+        },
+        {
+          "box": [
+            0.0,
+            332.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9939312934875488
+        },
+        {
+          "box": [
+            451.0,
+            250.0,
+            551.0,
+            377.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9728512167930603
+        },
+        {
+          "box": [
+            391.0,
+            262.0,
+            446.0,
+            362.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9478722810745239
+        },
+        {
+          "box": [
+            348.0,
+            127.0,
+            455.0,
+            360.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.917740523815155
+        },
+        {
+          "box": [
+            552.0,
+            368.0,
+            563.0,
+            377.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.8587844371795654
+        },
+        {
+          "box": [
+            564.0,
+            368.0,
+            853.0,
+            402.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.8437623977661133
+        }
+      ],
+      "objects": [
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "dogs-jump:track:00": 0.08941438808483082,
+            "dogs-jump:track:01": 0.03226032501793439,
+            "dogs-jump:track:02": 0.019081552506631703,
+            "dogs-jump:track:03": 0.9314089116753559,
+            "dogs-jump:track:04": 0.030794759227674932,
+            "dogs-jump:track:05": 0.0015747822944731378,
+            "dogs-jump:track:06": 0.026623835718199453
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "dogs-jump:track:00": 0.11431971944637329,
+            "dogs-jump:track:01": 0.05119847164539716,
+            "dogs-jump:track:02": 0.9453090634907073,
+            "dogs-jump:track:03": 0.018824879591963703,
+            "dogs-jump:track:04": 0.03914205665857459,
+            "dogs-jump:track:05": 0.013814843935249605,
+            "dogs-jump:track:06": 0.005969217375538522
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 3,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "dogs-jump:track:00": 0.14865953888582512,
+            "dogs-jump:track:01": 0.029631896365341262,
+            "dogs-jump:track:02": 0.04215770047264492,
+            "dogs-jump:track:03": 0.03313284594876493,
+            "dogs-jump:track:04": 0.9502740231257117,
+            "dogs-jump:track:05": 0.0,
+            "dogs-jump:track:06": 0.0
+          }
+        }
+      ],
+      "ordinal": 11,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            357.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9960035681724548,
+          "track_id": "dogs-jump:track:00"
+        },
+        {
+          "box": [
+            0.0,
+            332.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9939312934875488,
+          "track_id": "dogs-jump:track:01"
+        },
+        {
+          "box": [
+            451.0,
+            250.0,
+            551.0,
+            377.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9728512167930603,
+          "track_id": "dogs-jump:track:02"
+        },
+        {
+          "box": [
+            391.0,
+            262.0,
+            446.0,
+            362.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9478722810745239,
+          "track_id": "dogs-jump:track:03"
+        },
+        {
+          "box": [
+            348.0,
+            127.0,
+            455.0,
+            360.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.917740523815155,
+          "track_id": "dogs-jump:track:04"
+        },
+        {
+          "box": [
+            552.0,
+            368.0,
+            563.0,
+            377.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.8587844371795654,
+          "track_id": "dogs-jump:track:05"
+        },
+        {
+          "box": [
+            564.0,
+            368.0,
+            853.0,
+            402.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.8437623977661133,
+          "track_id": "dogs-jump:track:06"
+        }
+      ],
+      "retained_topk_count": 7,
+      "track_signals": {
+        "dogs-jump:track:00": {
+          "mean_area": 0.659756153454924,
+          "mean_confidence": 12.72911262512207,
+          "persistence": 1.0,
+          "quality": 12.72911262512207
+        },
+        "dogs-jump:track:01": {
+          "mean_area": 0.19976521656849525,
+          "mean_confidence": 11.592329502105713,
+          "persistence": 1.0,
+          "quality": 11.592329502105713
+        },
+        "dogs-jump:track:02": {
+          "mean_area": 0.03614637298038938,
+          "mean_confidence": 10.045055606148459,
+          "persistence": 1.0,
+          "quality": 10.045055606148459
+        },
+        "dogs-jump:track:03": {
+          "mean_area": 0.026319806673290282,
+          "mean_confidence": 10.056760123281768,
+          "persistence": 1.0,
+          "quality": 10.056760123281768
+        },
+        "dogs-jump:track:04": {
+          "mean_area": 0.019771041799730327,
+          "mean_confidence": 11.614709854125977,
+          "persistence": 1.0,
+          "quality": 11.614709854125977
+        },
+        "dogs-jump:track:05": {
+          "mean_area": 0.0002565171622548672,
+          "mean_confidence": 29.201161514629018,
+          "persistence": 1.0,
+          "quality": 29.201161514629018
+        },
+        "dogs-jump:track:06": {
+          "mean_area": 0.008230393809287253,
+          "mean_confidence": 7.2948346643736866,
+          "persistence": 1.0,
+          "quality": 7.2948346643736866
+        }
+      },
+      "video_id": "dogs-jump",
+      "wall_seconds": 207.1363492012024
+    },
+    {
+      "committed_track_ids": [
+        "drift-straight:track:03",
+        "drift-straight:track:05",
+        "drift-straight:track:06",
+        "drift-straight:track:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 4,
+        "committed_precision": 0.25,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9474649811440233,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 29,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            233.0,
+            853.0,
+            478.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9829568862915039
+        },
+        {
+          "box": [
+            0.0,
+            24.0,
+            149.0,
+            109.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9628245830535889
+        },
+        {
+          "box": [
+            390.0,
+            0.0,
+            853.0,
+            64.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9620078206062317
+        },
+        {
+          "box": [
+            589.0,
+            199.0,
+            689.0,
+            259.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9552837014198303
+        },
+        {
+          "box": [
+            685.0,
+            439.0,
+            853.0,
+            478.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9528497457504272
+        },
+        {
+          "box": [
+            0.0,
+            207.0,
+            65.0,
+            237.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9420762658119202
+        },
+        {
+          "box": [
+            0.0,
+            160.0,
+            36.0,
+            203.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9356871247291565
+        },
+        {
+          "box": [
+            255.0,
+            67.0,
+            347.0,
+            130.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9330225586891174
+        },
+        {
+          "box": [
+            534.0,
+            78.0,
+            849.0,
+            171.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9253002405166626
+        },
+        {
+          "box": [
+            0.0,
+            126.0,
+            31.0,
+            161.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9247440695762634
+        },
+        {
+          "box": [
+            488.0,
+            259.0,
+            853.0,
+            478.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9240856170654297
+        },
+        {
+          "box": [
+            164.0,
+            248.0,
+            189.0,
+            262.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.9212957620620728
+        },
+        {
+          "box": [
+            308.0,
+            187.0,
+            390.0,
+            234.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.9098532795906067
+        },
+        {
+          "box": [
+            771.0,
+            268.0,
+            812.0,
+            288.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.909170389175415
+        },
+        {
+          "box": [
+            115.0,
+            78.0,
+            299.0,
+            128.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.9058105945587158
+        },
+        {
+          "box": [
+            401.0,
+            219.0,
+            512.0,
+            240.0
+          ],
+          "native_id": "amg:15",
+          "score": 0.9013938307762146
+        },
+        {
+          "box": [
+            234.0,
+            178.0,
+            358.0,
+            228.0
+          ],
+          "native_id": "amg:16",
+          "score": 0.8967000842094421
+        },
+        {
+          "box": [
+            74.0,
+            214.0,
+            126.0,
+            235.0
+          ],
+          "native_id": "amg:17",
+          "score": 0.8938348889350891
+        },
+        {
+          "box": [
+            612.0,
+            106.0,
+            626.0,
+            165.0
+          ],
+          "native_id": "amg:18",
+          "score": 0.8923028707504272
+        },
+        {
+          "box": [
+            806.0,
+            35.0,
+            853.0,
+            119.0
+          ],
+          "native_id": "amg:19",
+          "score": 0.8840917944908142
+        },
+        {
+          "box": [
+            595.0,
+            183.0,
+            615.0,
+            207.0
+          ],
+          "native_id": "amg:20",
+          "score": 0.8825505971908569
+        },
+        {
+          "box": [
+            259.0,
+            204.0,
+            313.0,
+            229.0
+          ],
+          "native_id": "amg:21",
+          "score": 0.8812839388847351
+        },
+        {
+          "box": [
+            715.0,
+            222.0,
+            725.0,
+            235.0
+          ],
+          "native_id": "amg:22",
+          "score": 0.8738765716552734
+        },
+        {
+          "box": [
+            57.0,
+            252.0,
+            89.0,
+            269.0
+          ],
+          "native_id": "amg:23",
+          "score": 0.8620052933692932
+        },
+        {
+          "box": [
+            227.0,
+            246.0,
+            244.0,
+            257.0
+          ],
+          "native_id": "amg:24",
+          "score": 0.8471130132675171
+        },
+        {
+          "box": [
+            336.0,
+            221.0,
+            400.0,
+            238.0
+          ],
+          "native_id": "amg:25",
+          "score": 0.8436766862869263
+        },
+        {
+          "box": [
+            26.0,
+            118.0,
+            244.0,
+            214.0
+          ],
+          "native_id": "amg:26",
+          "score": 0.8421000242233276
+        },
+        {
+          "box": [
+            0.0,
+            236.0,
+            408.0,
+            400.0
+          ],
+          "native_id": "amg:27",
+          "score": 0.8094594478607178
+        },
+        {
+          "box": [
+            0.0,
+            236.0,
+            409.0,
+            289.0
+          ],
+          "native_id": "amg:28",
+          "score": 0.8033472895622253
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "drift-straight:track:03"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "drift-straight:track:03"
+          ],
+          "proposal_hit_track_ids": [
+            "drift-straight:track:03"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "drift-straight:track:00": 0.11103571574560682,
+            "drift-straight:track:01": 0.0,
+            "drift-straight:track:02": 0.0,
+            "drift-straight:track:03": 0.9474649811440233,
+            "drift-straight:track:04": 0.0,
+            "drift-straight:track:05": 0.009793056013284587,
+            "drift-straight:track:06": 0.0012435055903438725,
+            "drift-straight:track:07": 0.0,
+            "drift-straight:track:08": 0.0,
+            "drift-straight:track:09": 0.0
+          }
+        }
+      ],
+      "ordinal": 13,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            233.0,
+            853.0,
+            478.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9829568862915039,
+          "track_id": "drift-straight:track:00"
+        },
+        {
+          "box": [
+            0.0,
+            24.0,
+            149.0,
+            109.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9628245830535889,
+          "track_id": "drift-straight:track:01"
+        },
+        {
+          "box": [
+            390.0,
+            0.0,
+            853.0,
+            64.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9620078206062317,
+          "track_id": "drift-straight:track:02"
+        },
+        {
+          "box": [
+            589.0,
+            199.0,
+            689.0,
+            259.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9552837014198303,
+          "track_id": "drift-straight:track:03"
+        },
+        {
+          "box": [
+            685.0,
+            439.0,
+            853.0,
+            478.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9528497457504272,
+          "track_id": "drift-straight:track:04"
+        },
+        {
+          "box": [
+            0.0,
+            207.0,
+            65.0,
+            237.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9420762658119202,
+          "track_id": "drift-straight:track:05"
+        },
+        {
+          "box": [
+            0.0,
+            160.0,
+            36.0,
+            203.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9356871247291565,
+          "track_id": "drift-straight:track:06"
+        },
+        {
+          "box": [
+            255.0,
+            67.0,
+            347.0,
+            130.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9330225586891174,
+          "track_id": "drift-straight:track:07"
+        },
+        {
+          "box": [
+            534.0,
+            78.0,
+            849.0,
+            171.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9253002405166626,
+          "track_id": "drift-straight:track:08"
+        },
+        {
+          "box": [
+            0.0,
+            126.0,
+            31.0,
+            161.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9247440695762634,
+          "track_id": "drift-straight:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "drift-straight:track:00": {
+          "mean_area": 0.5462693208430913,
+          "mean_confidence": 10.464834775924682,
+          "persistence": 1.0,
+          "quality": 10.464834775924682
+        },
+        "drift-straight:track:01": {
+          "mean_area": 0.008535811865729898,
+          "mean_confidence": 6.346940765380859,
+          "persistence": 0.4,
+          "quality": 2.538776306152344
+        },
+        "drift-straight:track:02": {
+          "mean_area": 0.0125060987509758,
+          "mean_confidence": 1.4142638301849366,
+          "persistence": 0.12,
+          "quality": 0.1697116596221924
+        },
+        "drift-straight:track:03": {
+          "mean_area": 0.10184406713505073,
+          "mean_confidence": 11.136277160644532,
+          "persistence": 1.0,
+          "quality": 11.136277160644532
+        },
+        "drift-straight:track:04": {
+          "mean_area": 0.012006094997898278,
+          "mean_confidence": 3.054847602844238,
+          "persistence": 0.26,
+          "quality": 0.794260376739502
+        },
+        "drift-straight:track:05": {
+          "mean_area": 0.016647760538641688,
+          "mean_confidence": 5.269678535461426,
+          "persistence": 0.56,
+          "quality": 2.951019979858399
+        },
+        "drift-straight:track:06": {
+          "mean_area": 0.004511762144958867,
+          "mean_confidence": 8.497649154663087,
+          "persistence": 0.52,
+          "quality": 4.418777560424806
+        },
+        "drift-straight:track:07": {
+          "mean_area": 0.004554059328649492,
+          "mean_confidence": 6.9932770156860355,
+          "persistence": 0.4,
+          "quality": 2.7973108062744143
+        },
+        "drift-straight:track:08": {
+          "mean_area": 0.03670213987234238,
+          "mean_confidence": 3.366895122528076,
+          "persistence": 0.34,
+          "quality": 1.144744341659546
+        },
+        "drift-straight:track:09": {
+          "mean_area": 0.020211418120923672,
+          "mean_confidence": 5.019640655517578,
+          "persistence": 0.62,
+          "quality": 3.112177206420898
+        }
+      },
+      "video_id": "drift-straight",
+      "wall_seconds": 210.28853750228882
+    },
+    {
+      "committed_track_ids": [
+        "gold-fish:track:00",
+        "gold-fish:track:01",
+        "gold-fish:track:02",
+        "gold-fish:track:03",
+        "gold-fish:track:04",
+        "gold-fish:track:06",
+        "gold-fish:track:07",
+        "gold-fish:track:08",
+        "gold-fish:track:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 5,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 9,
+        "committed_precision": 0.5555555555555556,
+        "committed_recall": 1.0,
+        "gt_count": 5,
+        "query_annotation_available": true,
+        "strict_jf": 0.9302514154948127,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 21,
+      "native_proposals": [
+        {
+          "box": [
+            537.0,
+            353.0,
+            817.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.985795259475708
+        },
+        {
+          "box": [
+            86.0,
+            157.0,
+            338.0,
+            312.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9771811962127686
+        },
+        {
+          "box": [
+            495.0,
+            136.0,
+            790.0,
+            418.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9747545719146729
+        },
+        {
+          "box": [
+            712.0,
+            0.0,
+            853.0,
+            108.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9702292680740356
+        },
+        {
+          "box": [
+            310.0,
+            216.0,
+            520.0,
+            406.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9685922861099243
+        },
+        {
+          "box": [
+            546.0,
+            0.0,
+            584.0,
+            37.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9685506820678711
+        },
+        {
+          "box": [
+            444.0,
+            426.0,
+            513.0,
+            473.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9624195098876953
+        },
+        {
+          "box": [
+            367.0,
+            409.0,
+            447.0,
+            454.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9620157480239868
+        },
+        {
+          "box": [
+            426.0,
+            171.0,
+            540.0,
+            294.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.957102358341217
+        },
+        {
+          "box": [
+            673.0,
+            310.0,
+            747.0,
+            346.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.939805269241333
+        },
+        {
+          "box": [
+            13.0,
+            260.0,
+            122.0,
+            342.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9301415681838989
+        },
+        {
+          "box": [
+            810.0,
+            130.0,
+            850.0,
+            178.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.9155066609382629
+        },
+        {
+          "box": [
+            825.0,
+            54.0,
+            853.0,
+            115.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.9131057858467102
+        },
+        {
+          "box": [
+            184.0,
+            55.0,
+            306.0,
+            184.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.8965917229652405
+        },
+        {
+          "box": [
+            299.0,
+            397.0,
+            595.0,
+            479.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.8962888121604919
+        },
+        {
+          "box": [
+            168.0,
+            462.0,
+            214.0,
+            479.0
+          ],
+          "native_id": "amg:15",
+          "score": 0.8903862237930298
+        },
+        {
+          "box": [
+            359.0,
+            153.0,
+            473.0,
+            250.0
+          ],
+          "native_id": "amg:16",
+          "score": 0.8873811960220337
+        },
+        {
+          "box": [
+            512.0,
+            418.0,
+            583.0,
+            479.0
+          ],
+          "native_id": "amg:17",
+          "score": 0.86323082447052
+        },
+        {
+          "box": [
+            0.0,
+            381.0,
+            62.0,
+            479.0
+          ],
+          "native_id": "amg:18",
+          "score": 0.8444557189941406
+        },
+        {
+          "box": [
+            648.0,
+            34.0,
+            721.0,
+            129.0
+          ],
+          "native_id": "amg:19",
+          "score": 0.843883752822876
+        },
+        {
+          "box": [
+            575.0,
+            165.0,
+            646.0,
+            217.0
+          ],
+          "native_id": "amg:20",
+          "score": 0.8087452054023743
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "gold-fish:track:00",
+            "gold-fish:track:08"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "gold-fish:track:00": 0.0011189200275316712,
+            "gold-fish:track:01": 0.009677176212509263,
+            "gold-fish:track:02": 0.9091967306893566,
+            "gold-fish:track:03": 0.009294634794345929,
+            "gold-fish:track:04": 0.01194112075003685,
+            "gold-fish:track:05": 0.0,
+            "gold-fish:track:06": 4.565360621059988e-05,
+            "gold-fish:track:07": 0.0,
+            "gold-fish:track:08": 0.04529775856329096,
+            "gold-fish:track:09": 0.0003240645282493107
+          }
+        },
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "gold-fish:track:08"
+          ],
+          "object_id": 2,
+          "propagation_hit_track_ids": [
+            "gold-fish:track:08"
+          ],
+          "proposal_hit_track_ids": [
+            "gold-fish:track:08"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "gold-fish:track:00": 0.0,
+            "gold-fish:track:01": 0.0011626153539654508,
+            "gold-fish:track:02": 0.034876920859205296,
+            "gold-fish:track:03": 0.0,
+            "gold-fish:track:04": 0.12051927498317137,
+            "gold-fish:track:05": 0.0,
+            "gold-fish:track:06": 0.0,
+            "gold-fish:track:07": 0.0,
+            "gold-fish:track:08": 0.9275816004147668,
+            "gold-fish:track:09": 0.0
+          }
+        },
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 3,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "gold-fish:track:08"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "gold-fish:track:00": 0.0383027254698817,
+            "gold-fish:track:01": 0.0016691222096826143,
+            "gold-fish:track:02": 0.011156829898258048,
+            "gold-fish:track:03": 0.0,
+            "gold-fish:track:04": 0.9228662431009161,
+            "gold-fish:track:05": 0.0,
+            "gold-fish:track:06": 0.003359490176741905,
+            "gold-fish:track:07": 0.003819048525467833,
+            "gold-fish:track:08": 0.12022119462055719,
+            "gold-fish:track:09": 0.020055279584524712
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 4,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "gold-fish:track:00": 0.0,
+            "gold-fish:track:01": 0.9437933703526252,
+            "gold-fish:track:02": 0.01099425857251059,
+            "gold-fish:track:03": 0.0,
+            "gold-fish:track:04": 0.00045635629250780405,
+            "gold-fish:track:05": 0.0,
+            "gold-fish:track:06": 0.0,
+            "gold-fish:track:07": 0.0,
+            "gold-fish:track:08": 0.0,
+            "gold-fish:track:09": 0.0
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 5,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "gold-fish:track:00": 0.9478191329163987,
+            "gold-fish:track:01": 0.0,
+            "gold-fish:track:02": 0.0017836230687065602,
+            "gold-fish:track:03": 0.0,
+            "gold-fish:track:04": 0.03783185084526785,
+            "gold-fish:track:05": 0.0,
+            "gold-fish:track:06": 0.01068067593742891,
+            "gold-fish:track:07": 0.0,
+            "gold-fish:track:08": 0.0,
+            "gold-fish:track:09": 0.01714326272271136
+          }
+        }
+      ],
+      "ordinal": 15,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            537.0,
+            353.0,
+            817.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.985795259475708,
+          "track_id": "gold-fish:track:00"
+        },
+        {
+          "box": [
+            86.0,
+            157.0,
+            338.0,
+            312.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9771811962127686,
+          "track_id": "gold-fish:track:01"
+        },
+        {
+          "box": [
+            495.0,
+            136.0,
+            790.0,
+            418.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9747545719146729,
+          "track_id": "gold-fish:track:02"
+        },
+        {
+          "box": [
+            712.0,
+            0.0,
+            853.0,
+            108.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9702292680740356,
+          "track_id": "gold-fish:track:03"
+        },
+        {
+          "box": [
+            310.0,
+            216.0,
+            520.0,
+            406.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9685922861099243,
+          "track_id": "gold-fish:track:04"
+        },
+        {
+          "box": [
+            546.0,
+            0.0,
+            584.0,
+            37.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9685506820678711,
+          "track_id": "gold-fish:track:05"
+        },
+        {
+          "box": [
+            444.0,
+            426.0,
+            513.0,
+            473.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9624195098876953,
+          "track_id": "gold-fish:track:06"
+        },
+        {
+          "box": [
+            367.0,
+            409.0,
+            447.0,
+            454.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9620157480239868,
+          "track_id": "gold-fish:track:07"
+        },
+        {
+          "box": [
+            426.0,
+            171.0,
+            540.0,
+            294.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.957102358341217,
+          "track_id": "gold-fish:track:08"
+        },
+        {
+          "box": [
+            673.0,
+            310.0,
+            747.0,
+            346.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.939805269241333,
+          "track_id": "gold-fish:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "gold-fish:track:00": {
+          "mean_area": 0.03886264862186994,
+          "mean_confidence": 10.74843657322419,
+          "persistence": 1.0,
+          "quality": 10.74843657322419
+        },
+        "gold-fish:track:01": {
+          "mean_area": 0.04053795987709922,
+          "mean_confidence": 10.464844508048815,
+          "persistence": 1.0,
+          "quality": 10.464844508048815
+        },
+        "gold-fish:track:02": {
+          "mean_area": 0.06296991658159691,
+          "mean_confidence": 9.243843420957907,
+          "persistence": 1.0,
+          "quality": 9.243843420957907
+        },
+        "gold-fish:track:03": {
+          "mean_area": 0.012853537465656904,
+          "mean_confidence": 7.302281844310271,
+          "persistence": 0.9871794871794872,
+          "quality": 7.208662846306294
+        },
+        "gold-fish:track:04": {
+          "mean_area": 0.038075815919053624,
+          "mean_confidence": 9.726812148705507,
+          "persistence": 1.0,
+          "quality": 9.726812148705507
+        },
+        "gold-fish:track:05": {
+          "mean_area": 0.0007795312610886382,
+          "mean_confidence": 3.045167702894944,
+          "persistence": 0.14102564102564102,
+          "quality": 0.42944672733133826
+        },
+        "gold-fish:track:06": {
+          "mean_area": 0.00464089928741568,
+          "mean_confidence": 14.970202910594452,
+          "persistence": 1.0,
+          "quality": 14.970202910594452
+        },
+        "gold-fish:track:07": {
+          "mean_area": 0.0066217110530635125,
+          "mean_confidence": 16.697485422476745,
+          "persistence": 1.0,
+          "quality": 16.697485422476745
+        },
+        "gold-fish:track:08": {
+          "mean_area": 0.02187378024980484,
+          "mean_confidence": 10.1593368603633,
+          "persistence": 1.0,
+          "quality": 10.1593368603633
+        },
+        "gold-fish:track:09": {
+          "mean_area": 0.0042898614363778296,
+          "mean_confidence": 11.841779574369772,
+          "persistence": 0.8974358974358975,
+          "quality": 10.627238079562616
+        }
+      },
+      "video_id": "gold-fish",
+      "wall_seconds": 302.65935611724854
+    },
+    {
+      "committed_track_ids": [
+        "india:track:00",
+        "india:track:01",
+        "india:track:03",
+        "india:track:05",
+        "india:track:06",
+        "india:track:07",
+        "india:track:08"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg",
+        "00080.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 3,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 7,
+        "committed_precision": 0.42857142857142855,
+        "committed_recall": 1.0,
+        "gt_count": 3,
+        "query_annotation_available": true,
+        "strict_jf": 0.7449912001042275,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 28,
+      "native_proposals": [
+        {
+          "box": [
+            346.0,
+            271.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9768482446670532
+        },
+        {
+          "box": [
+            131.0,
+            137.0,
+            261.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9668556451797485
+        },
+        {
+          "box": [
+            787.0,
+            184.0,
+            853.0,
+            380.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9622085094451904
+        },
+        {
+          "box": [
+            732.0,
+            0.0,
+            822.0,
+            44.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9603195190429688
+        },
+        {
+          "box": [
+            752.0,
+            368.0,
+            853.0,
+            471.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9512168169021606
+        },
+        {
+          "box": [
+            795.0,
+            0.0,
+            853.0,
+            150.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9492441415786743
+        },
+        {
+          "box": [
+            368.0,
+            153.0,
+            475.0,
+            472.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9380046129226685
+        },
+        {
+          "box": [
+            245.0,
+            164.0,
+            376.0,
+            479.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9301241040229797
+        },
+        {
+          "box": [
+            287.0,
+            164.0,
+            327.0,
+            217.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9158331751823425
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            32.0,
+            106.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9139408469200134
+        },
+        {
+          "box": [
+            0.0,
+            261.0,
+            95.0,
+            383.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9128202199935913
+        },
+        {
+          "box": [
+            615.0,
+            124.0,
+            637.0,
+            154.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.9108076691627502
+        },
+        {
+          "box": [
+            615.0,
+            262.0,
+            706.0,
+            373.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.9072279334068298
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            252.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.8887461423873901
+        },
+        {
+          "box": [
+            765.0,
+            183.0,
+            790.0,
+            231.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.8819723129272461
+        },
+        {
+          "box": [
+            565.0,
+            269.0,
+            621.0,
+            372.0
+          ],
+          "native_id": "amg:15",
+          "score": 0.8781179189682007
+        },
+        {
+          "box": [
+            824.0,
+            308.0,
+            853.0,
+            381.0
+          ],
+          "native_id": "amg:16",
+          "score": 0.8738946914672852
+        },
+        {
+          "box": [
+            448.0,
+            314.0,
+            504.0,
+            423.0
+          ],
+          "native_id": "amg:17",
+          "score": 0.8688462376594543
+        },
+        {
+          "box": [
+            390.0,
+            152.0,
+            423.0,
+            180.0
+          ],
+          "native_id": "amg:18",
+          "score": 0.8654484152793884
+        },
+        {
+          "box": [
+            541.0,
+            182.0,
+            628.0,
+            370.0
+          ],
+          "native_id": "amg:19",
+          "score": 0.8648850917816162
+        },
+        {
+          "box": [
+            61.0,
+            171.0,
+            100.0,
+            213.0
+          ],
+          "native_id": "amg:20",
+          "score": 0.8615922927856445
+        },
+        {
+          "box": [
+            707.0,
+            374.0,
+            728.0,
+            391.0
+          ],
+          "native_id": "amg:21",
+          "score": 0.8614142537117004
+        },
+        {
+          "box": [
+            622.0,
+            168.0,
+            714.0,
+            370.0
+          ],
+          "native_id": "amg:22",
+          "score": 0.8603360056877136
+        },
+        {
+          "box": [
+            61.0,
+            249.0,
+            92.0,
+            273.0
+          ],
+          "native_id": "amg:23",
+          "score": 0.8580816388130188
+        },
+        {
+          "box": [
+            392.0,
+            442.0,
+            409.0,
+            464.0
+          ],
+          "native_id": "amg:24",
+          "score": 0.8551477789878845
+        },
+        {
+          "box": [
+            0.0,
+            320.0,
+            52.0,
+            430.0
+          ],
+          "native_id": "amg:25",
+          "score": 0.8466795682907104
+        },
+        {
+          "box": [
+            495.0,
+            190.0,
+            517.0,
+            220.0
+          ],
+          "native_id": "amg:26",
+          "score": 0.8361837863922119
+        },
+        {
+          "box": [
+            595.0,
+            0.0,
+            664.0,
+            51.0
+          ],
+          "native_id": "amg:27",
+          "score": 0.8234670758247375
+        }
+      ],
+      "objects": [
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "india:track:00": 7.263690110226498e-05,
+            "india:track:01": 0.8054560724657297,
+            "india:track:02": 0.11728395061728394,
+            "india:track:03": 0.0,
+            "india:track:04": 0.11728395061728394,
+            "india:track:05": 0.0,
+            "india:track:06": 0.0,
+            "india:track:07": 0.15699863036531175,
+            "india:track:08": 0.11728395061728394,
+            "india:track:09": 0.11728395061728394
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "india:track:00": 0.01762412466719819,
+            "india:track:01": 0.06503482057598717,
+            "india:track:02": 0.08641975308641975,
+            "india:track:03": 0.0,
+            "india:track:04": 0.08641975308641975,
+            "india:track:05": 0.012345679012345678,
+            "india:track:06": 0.0558145740961449,
+            "india:track:07": 0.6538692877862181,
+            "india:track:08": 0.2058181932357766,
+            "india:track:09": 0.08641975308641975
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 3,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "india:track:00": 0.06288737462575503,
+            "india:track:01": 0.0,
+            "india:track:02": 0.06172839506172839,
+            "india:track:03": 0.006172839506172839,
+            "india:track:04": 0.043209876543209874,
+            "india:track:05": 0.05555555555555555,
+            "india:track:06": 0.7756482400607346,
+            "india:track:07": 0.051758869891735414,
+            "india:track:08": 0.037037037037037035,
+            "india:track:09": 0.06172839506172839
+          }
+        }
+      ],
+      "ordinal": 17,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            346.0,
+            271.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9768482446670532,
+          "track_id": "india:track:00"
+        },
+        {
+          "box": [
+            131.0,
+            137.0,
+            261.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9668556451797485,
+          "track_id": "india:track:01"
+        },
+        {
+          "box": [
+            787.0,
+            184.0,
+            853.0,
+            380.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9622085094451904,
+          "track_id": "india:track:02"
+        },
+        {
+          "box": [
+            732.0,
+            0.0,
+            822.0,
+            44.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9603195190429688,
+          "track_id": "india:track:03"
+        },
+        {
+          "box": [
+            752.0,
+            368.0,
+            853.0,
+            471.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9512168169021606,
+          "track_id": "india:track:04"
+        },
+        {
+          "box": [
+            795.0,
+            0.0,
+            853.0,
+            150.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9492441415786743,
+          "track_id": "india:track:05"
+        },
+        {
+          "box": [
+            368.0,
+            153.0,
+            475.0,
+            472.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9380046129226685,
+          "track_id": "india:track:06"
+        },
+        {
+          "box": [
+            245.0,
+            164.0,
+            376.0,
+            479.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9301241040229797,
+          "track_id": "india:track:07"
+        },
+        {
+          "box": [
+            287.0,
+            164.0,
+            327.0,
+            217.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9158331751823425,
+          "track_id": "india:track:08"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            32.0,
+            106.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9139408469200134,
+          "track_id": "india:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "india:track:00": {
+          "mean_area": 0.035380658266539126,
+          "mean_confidence": 9.129606617821587,
+          "persistence": 0.8765432098765432,
+          "quality": 8.002494689695466
+        },
+        "india:track:01": {
+          "mean_area": 0.07503966155473295,
+          "mean_confidence": 8.279584531430844,
+          "persistence": 0.7654320987654321,
+          "quality": 6.3374597647989175
+        },
+        "india:track:02": {
+          "mean_area": 0.01898873837910723,
+          "mean_confidence": 3.181314668537658,
+          "persistence": 0.2716049382716049,
+          "quality": 0.8640607741707219
+        },
+        "india:track:03": {
+          "mean_area": 0.011292303806768609,
+          "mean_confidence": 11.555857364042305,
+          "persistence": 0.8395061728395061,
+          "quality": 9.701213589566379
+        },
+        "india:track:04": {
+          "mean_area": 0.01095074300211888,
+          "mean_confidence": 4.3696978651447065,
+          "persistence": 0.345679012345679,
+          "quality": 1.510512842272244
+        },
+        "india:track:05": {
+          "mean_area": 0.020033690784337897,
+          "mean_confidence": 9.45763776331772,
+          "persistence": 0.7037037037037037,
+          "quality": 6.655374722334692
+        },
+        "india:track:06": {
+          "mean_area": 0.05006147540983607,
+          "mean_confidence": 9.098325187777295,
+          "persistence": 0.8641975308641975,
+          "quality": 7.862750162276674
+        },
+        "india:track:07": {
+          "mean_area": 0.058745655812766466,
+          "mean_confidence": 6.647152947790829,
+          "persistence": 0.6419753086419753,
+          "quality": 4.267308065248433
+        },
+        "india:track:08": {
+          "mean_area": 0.0056551252346072715,
+          "mean_confidence": 8.632537100050184,
+          "persistence": 0.5802469135802469,
+          "quality": 5.009003008671095
+        },
+        "india:track:09": {
+          "mean_area": 0.002451697892271663,
+          "mean_confidence": 2.6624739905934276,
+          "persistence": 0.16049382716049382,
+          "quality": 0.4273106404656118
+        }
+      },
+      "video_id": "india",
+      "wall_seconds": 333.9573338031769
+    },
+    {
+      "committed_track_ids": [
+        "kite-surf:track:01",
+        "kite-surf:track:02",
+        "kite-surf:track:03",
+        "kite-surf:track:04"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 3,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 4,
+        "committed_precision": 0.25,
+        "committed_recall": 0.3333333333333333,
+        "gt_count": 3,
+        "query_annotation_available": true,
+        "strict_jf": 0.2973962293329785,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 6,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9952303171157837
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            274.0,
+            27.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.967585563659668
+        },
+        {
+          "box": [
+            74.0,
+            0.0,
+            606.0,
+            25.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9172974228858948
+        },
+        {
+          "box": [
+            288.0,
+            77.0,
+            323.0,
+            110.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.908747673034668
+        },
+        {
+          "box": [
+            282.0,
+            77.0,
+            417.0,
+            240.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.8422965407371521
+        },
+        {
+          "box": [
+            27.0,
+            45.0,
+            47.0,
+            49.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.8254883289337158
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "kite-surf:track:02",
+            "kite-surf:track:04"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "kite-surf:track:00": 0.24529950323957306,
+            "kite-surf:track:01": 0.0571375584420598,
+            "kite-surf:track:02": 0.08510302091966374,
+            "kite-surf:track:03": 0.0,
+            "kite-surf:track:04": 0.19142821423192263,
+            "kite-surf:track:05": 0.0
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "kite-surf:track:00": 0.012857953296273497,
+            "kite-surf:track:01": 0.0,
+            "kite-surf:track:02": 0.0,
+            "kite-surf:track:03": 0.0,
+            "kite-surf:track:04": 0.003843703132667869,
+            "kite-surf:track:05": 0.12
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 3,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "kite-surf:track:00": 0.1299170048392892,
+            "kite-surf:track:01": 0.0,
+            "kite-surf:track:02": 0.0,
+            "kite-surf:track:03": 0.190976920712268,
+            "kite-surf:track:04": 0.8070856670792718,
+            "kite-surf:track:05": 0.0
+          }
+        }
+      ],
+      "ordinal": 19,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9952303171157837,
+          "track_id": "kite-surf:track:00"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            274.0,
+            27.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.967585563659668,
+          "track_id": "kite-surf:track:01"
+        },
+        {
+          "box": [
+            74.0,
+            0.0,
+            606.0,
+            25.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9172974228858948,
+          "track_id": "kite-surf:track:02"
+        },
+        {
+          "box": [
+            288.0,
+            77.0,
+            323.0,
+            110.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.908747673034668,
+          "track_id": "kite-surf:track:03"
+        },
+        {
+          "box": [
+            282.0,
+            77.0,
+            417.0,
+            240.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.8422965407371521,
+          "track_id": "kite-surf:track:04"
+        },
+        {
+          "box": [
+            27.0,
+            45.0,
+            47.0,
+            49.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.8254883289337158,
+          "track_id": "kite-surf:track:05"
+        }
+      ],
+      "retained_topk_count": 6,
+      "track_signals": {
+        "kite-surf:track:00": {
+          "mean_area": 0.8302803961748634,
+          "mean_confidence": 11.570611181259155,
+          "persistence": 1.0,
+          "quality": 11.570611181259155
+        },
+        "kite-surf:track:01": {
+          "mean_area": 0.0700236143637783,
+          "mean_confidence": 10.427339773178101,
+          "persistence": 1.0,
+          "quality": 10.427339773178101
+        },
+        "kite-surf:track:02": {
+          "mean_area": 0.051265320062451214,
+          "mean_confidence": 5.3352593898773195,
+          "persistence": 1.0,
+          "quality": 5.3352593898773195
+        },
+        "kite-surf:track:03": {
+          "mean_area": 0.0018856850117096018,
+          "mean_confidence": 18.17907060623169,
+          "persistence": 1.0,
+          "quality": 18.17907060623169
+        },
+        "kite-surf:track:04": {
+          "mean_area": 0.017299521857923498,
+          "mean_confidence": 9.607424125671386,
+          "persistence": 1.0,
+          "quality": 9.607424125671386
+        },
+        "kite-surf:track:05": {
+          "mean_area": 0.00022809328649492583,
+          "mean_confidence": 0.905755615234375,
+          "persistence": 0.04,
+          "quality": 0.036230224609375
+        }
+      },
+      "video_id": "kite-surf",
+      "wall_seconds": 152.75867199897766
+    },
+    {
+      "committed_track_ids": [
+        "libby:track:01",
+        "libby:track:02",
+        "libby:track:04",
+        "libby:track:08"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 4,
+        "committed_precision": 0.25,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9286362435950917,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 22,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            247.0,
+            71.0,
+            414.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.975938618183136
+        },
+        {
+          "box": [
+            822.0,
+            383.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9672799706459045
+        },
+        {
+          "box": [
+            292.0,
+            171.0,
+            564.0,
+            348.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9642213582992554
+        },
+        {
+          "box": [
+            234.0,
+            0.0,
+            277.0,
+            41.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9524459838867188
+        },
+        {
+          "box": [
+            485.0,
+            0.0,
+            734.0,
+            47.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9521490335464478
+        },
+        {
+          "box": [
+            0.0,
+            56.0,
+            38.0,
+            80.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.948235273361206
+        },
+        {
+          "box": [
+            85.0,
+            0.0,
+            411.0,
+            438.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9356526732444763
+        },
+        {
+          "box": [
+            73.0,
+            250.0,
+            108.0,
+            293.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.92922443151474
+        },
+        {
+          "box": [
+            810.0,
+            96.0,
+            853.0,
+            161.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.9280434846878052
+        },
+        {
+          "box": [
+            443.0,
+            0.0,
+            470.0,
+            232.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.9277908802032471
+        },
+        {
+          "box": [
+            0.0,
+            110.0,
+            29.0,
+            148.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.9233220815658569
+        },
+        {
+          "box": [
+            0.0,
+            56.0,
+            139.0,
+            291.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.9209272265434265
+        },
+        {
+          "box": [
+            668.0,
+            140.0,
+            707.0,
+            173.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.9099370837211609
+        },
+        {
+          "box": [
+            808.0,
+            24.0,
+            836.0,
+            57.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.9077170491218567
+        },
+        {
+          "box": [
+            0.0,
+            189.0,
+            34.0,
+            241.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.8998534083366394
+        },
+        {
+          "box": [
+            238.0,
+            244.0,
+            265.0,
+            264.0
+          ],
+          "native_id": "amg:15",
+          "score": 0.8766061663627625
+        },
+        {
+          "box": [
+            451.0,
+            286.0,
+            493.0,
+            321.0
+          ],
+          "native_id": "amg:16",
+          "score": 0.8489954471588135
+        },
+        {
+          "box": [
+            342.0,
+            431.0,
+            348.0,
+            442.0
+          ],
+          "native_id": "amg:17",
+          "score": 0.8435576558113098
+        },
+        {
+          "box": [
+            652.0,
+            140.0,
+            731.0,
+            243.0
+          ],
+          "native_id": "amg:18",
+          "score": 0.835921049118042
+        },
+        {
+          "box": [
+            72.0,
+            453.0,
+            89.0,
+            467.0
+          ],
+          "native_id": "amg:19",
+          "score": 0.832430362701416
+        },
+        {
+          "box": [
+            288.0,
+            342.0,
+            297.0,
+            351.0
+          ],
+          "native_id": "amg:20",
+          "score": 0.8264518976211548
+        },
+        {
+          "box": [
+            440.0,
+            303.0,
+            459.0,
+            349.0
+          ],
+          "native_id": "amg:21",
+          "score": 0.8103551864624023
+        }
+      ],
+      "objects": [
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "libby:track:00": 0.0,
+            "libby:track:01": 0.018086446896375275,
+            "libby:track:02": 0.9286362435950917,
+            "libby:track:03": 0.0,
+            "libby:track:04": 0.0,
+            "libby:track:05": 0.0,
+            "libby:track:06": 0.0,
+            "libby:track:07": 0.0,
+            "libby:track:08": 0.0,
+            "libby:track:09": 0.0033463940531009047
+          }
+        }
+      ],
+      "ordinal": 21,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            247.0,
+            71.0,
+            414.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.975938618183136,
+          "track_id": "libby:track:00"
+        },
+        {
+          "box": [
+            822.0,
+            383.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9672799706459045,
+          "track_id": "libby:track:01"
+        },
+        {
+          "box": [
+            292.0,
+            171.0,
+            564.0,
+            348.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9642213582992554,
+          "track_id": "libby:track:02"
+        },
+        {
+          "box": [
+            234.0,
+            0.0,
+            277.0,
+            41.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9524459838867188,
+          "track_id": "libby:track:03"
+        },
+        {
+          "box": [
+            485.0,
+            0.0,
+            734.0,
+            47.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9521490335464478,
+          "track_id": "libby:track:04"
+        },
+        {
+          "box": [
+            0.0,
+            56.0,
+            38.0,
+            80.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.948235273361206,
+          "track_id": "libby:track:05"
+        },
+        {
+          "box": [
+            85.0,
+            0.0,
+            411.0,
+            438.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9356526732444763,
+          "track_id": "libby:track:06"
+        },
+        {
+          "box": [
+            73.0,
+            250.0,
+            108.0,
+            293.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.92922443151474,
+          "track_id": "libby:track:07"
+        },
+        {
+          "box": [
+            810.0,
+            96.0,
+            853.0,
+            161.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.9280434846878052,
+          "track_id": "libby:track:08"
+        },
+        {
+          "box": [
+            443.0,
+            0.0,
+            470.0,
+            232.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.9277908802032471,
+          "track_id": "libby:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "libby:track:00": {
+          "mean_area": 0.009659608378870673,
+          "mean_confidence": 0.8328380195461974,
+          "persistence": 0.061224489795918366,
+          "quality": 0.050990082829359025
+        },
+        "libby:track:01": {
+          "mean_area": 0.020958425492236966,
+          "mean_confidence": 7.364932590601396,
+          "persistence": 0.7346938775510204,
+          "quality": 5.410970882890822
+        },
+        "libby:track:02": {
+          "mean_area": 0.03128415300546448,
+          "mean_confidence": 10.752875328063965,
+          "persistence": 1.0,
+          "quality": 10.752875328063965
+        },
+        "libby:track:03": {
+          "mean_area": 0.005417317200104085,
+          "mean_confidence": 2.610145598041768,
+          "persistence": 0.30612244897959184,
+          "quality": 0.7990241626658473
+        },
+        "libby:track:04": {
+          "mean_area": 0.0299438762441452,
+          "mean_confidence": 4.935365696342624,
+          "persistence": 0.6530612244897959,
+          "quality": 3.2230959649584476
+        },
+        "libby:track:05": {
+          "mean_area": 0.0012551229508196721,
+          "mean_confidence": 0.871966147909359,
+          "persistence": 0.04081632653061224,
+          "quality": 0.03559045501670853
+        },
+        "libby:track:06": {
+          "mean_area": 0.049707259953161595,
+          "mean_confidence": 2.8749524330606264,
+          "persistence": 0.2653061224489796,
+          "quality": 0.7627424822405744
+        },
+        "libby:track:07": {
+          "mean_area": 0.00233216237314598,
+          "mean_confidence": 1.424737988686075,
+          "persistence": 0.10204081632653061,
+          "quality": 0.14538142741694643
+        },
+        "libby:track:08": {
+          "mean_area": 0.004715484554477529,
+          "mean_confidence": 9.497011145766901,
+          "persistence": 0.7142857142857143,
+          "quality": 6.783579389833501
+        },
+        "libby:track:09": {
+          "mean_area": 0.009497110547315465,
+          "mean_confidence": 3.1588631698063443,
+          "persistence": 0.3673469387755102,
+          "quality": 1.1603987154390654
+        }
+      },
+      "video_id": "libby",
+      "wall_seconds": 184.31484937667847
+    },
+    {
+      "committed_track_ids": [
+        "mbike-trick:track:00",
+        "mbike-trick:track:01",
+        "mbike-trick:track:02",
+        "mbike-trick:track:03",
+        "mbike-trick:track:04",
+        "mbike-trick:track:05",
+        "mbike-trick:track:06",
+        "mbike-trick:track:07",
+        "mbike-trick:track:08"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 2,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 9,
+        "committed_precision": 0.1111111111111111,
+        "committed_recall": 0.5,
+        "gt_count": 2,
+        "query_annotation_available": true,
+        "strict_jf": 0.5557954156019289,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 9,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            200.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9936109185218811
+        },
+        {
+          "box": [
+            0.0,
+            225.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9878702759742737
+        },
+        {
+          "box": [
+            528.0,
+            171.0,
+            673.0,
+            260.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9544546008110046
+        },
+        {
+          "box": [
+            673.0,
+            155.0,
+            853.0,
+            178.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9327929615974426
+        },
+        {
+          "box": [
+            824.0,
+            212.0,
+            853.0,
+            250.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.8801195025444031
+        },
+        {
+          "box": [
+            672.0,
+            155.0,
+            853.0,
+            265.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.874760627746582
+        },
+        {
+          "box": [
+            420.0,
+            212.0,
+            481.0,
+            304.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.8673783540725708
+        },
+        {
+          "box": [
+            435.0,
+            171.0,
+            456.0,
+            201.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.8585407137870789
+        },
+        {
+          "box": [
+            263.0,
+            221.0,
+            298.0,
+            262.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.810612678527832
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "mbike-trick:track:06"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "mbike-trick:track:00": 0.08479891001996658,
+            "mbike-trick:track:01": 0.019230492242929605,
+            "mbike-trick:track:02": 0.0016231250982395742,
+            "mbike-trick:track:03": 0.0,
+            "mbike-trick:track:04": 0.0,
+            "mbike-trick:track:05": 0.0,
+            "mbike-trick:track:06": 0.25624374591416665,
+            "mbike-trick:track:07": 0.23880173976468788,
+            "mbike-trick:track:08": 0.0
+          }
+        },
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "mbike-trick:track:06"
+          ],
+          "object_id": 2,
+          "propagation_hit_track_ids": [
+            "mbike-trick:track:06"
+          ],
+          "proposal_hit_track_ids": [
+            "mbike-trick:track:06"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "mbike-trick:track:00": 0.012752491497857218,
+            "mbike-trick:track:01": 0.08328952580755541,
+            "mbike-trick:track:02": 0.0,
+            "mbike-trick:track:03": 0.0,
+            "mbike-trick:track:04": 0.0,
+            "mbike-trick:track:05": 0.0,
+            "mbike-trick:track:06": 0.8727890914391698,
+            "mbike-trick:track:07": 0.0025062611133672696,
+            "mbike-trick:track:08": 0.0
+          }
+        }
+      ],
+      "ordinal": 23,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            200.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9936109185218811,
+          "track_id": "mbike-trick:track:00"
+        },
+        {
+          "box": [
+            0.0,
+            225.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9878702759742737,
+          "track_id": "mbike-trick:track:01"
+        },
+        {
+          "box": [
+            528.0,
+            171.0,
+            673.0,
+            260.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9544546008110046,
+          "track_id": "mbike-trick:track:02"
+        },
+        {
+          "box": [
+            673.0,
+            155.0,
+            853.0,
+            178.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9327929615974426,
+          "track_id": "mbike-trick:track:03"
+        },
+        {
+          "box": [
+            824.0,
+            212.0,
+            853.0,
+            250.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.8801195025444031,
+          "track_id": "mbike-trick:track:04"
+        },
+        {
+          "box": [
+            672.0,
+            155.0,
+            853.0,
+            265.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.874760627746582,
+          "track_id": "mbike-trick:track:05"
+        },
+        {
+          "box": [
+            420.0,
+            212.0,
+            481.0,
+            304.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.8673783540725708,
+          "track_id": "mbike-trick:track:06"
+        },
+        {
+          "box": [
+            435.0,
+            171.0,
+            456.0,
+            201.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.8585407137870789,
+          "track_id": "mbike-trick:track:07"
+        },
+        {
+          "box": [
+            263.0,
+            221.0,
+            298.0,
+            262.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.810612678527832,
+          "track_id": "mbike-trick:track:08"
+        }
+      ],
+      "retained_topk_count": 9,
+      "track_signals": {
+        "mbike-trick:track:00": {
+          "mean_area": 0.3285969970058992,
+          "mean_confidence": 10.75434782535215,
+          "persistence": 1.0,
+          "quality": 10.75434782535215
+        },
+        "mbike-trick:track:01": {
+          "mean_area": 0.3921363476911827,
+          "mean_confidence": 8.246933182583579,
+          "persistence": 1.0,
+          "quality": 8.246933182583579
+        },
+        "mbike-trick:track:02": {
+          "mean_area": 0.015943761384335155,
+          "mean_confidence": 10.25210943704919,
+          "persistence": 0.9493670886075949,
+          "quality": 9.733015288337839
+        },
+        "mbike-trick:track:03": {
+          "mean_area": 0.004658644195383072,
+          "mean_confidence": 12.995521448835541,
+          "persistence": 0.8860759493670886,
+          "quality": 11.515019005297315
+        },
+        "mbike-trick:track:04": {
+          "mean_area": 0.0020804420736114724,
+          "mean_confidence": 9.382724665388276,
+          "persistence": 0.6835443037974683,
+          "quality": 6.413507999126163
+        },
+        "mbike-trick:track:05": {
+          "mean_area": 0.03646314263410282,
+          "mean_confidence": 10.472183619873434,
+          "persistence": 0.8860759493670886,
+          "quality": 9.279150042925826
+        },
+        "mbike-trick:track:06": {
+          "mean_area": 0.049394015751143786,
+          "mean_confidence": 8.504863032811805,
+          "persistence": 1.0,
+          "quality": 8.504863032811805
+        },
+        "mbike-trick:track:07": {
+          "mean_area": 0.0031974498198111493,
+          "mean_confidence": 14.769575613963452,
+          "persistence": 0.9240506329113924,
+          "quality": 13.647835693915596
+        },
+        "mbike-trick:track:08": {
+          "mean_area": 0.001891019385896435,
+          "mean_confidence": 5.827042157136941,
+          "persistence": 0.5316455696202531,
+          "quality": 3.097921146832298
+        }
+      },
+      "video_id": "mbike-trick",
+      "wall_seconds": 297.0087819099426
+    },
+    {
+      "committed_track_ids": [
+        "paragliding-launch:track:00",
+        "paragliding-launch:track:02",
+        "paragliding-launch:track:03",
+        "paragliding-launch:track:05",
+        "paragliding-launch:track:06",
+        "paragliding-launch:track:07",
+        "paragliding-launch:track:08",
+        "paragliding-launch:track:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 3,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 8,
+        "committed_precision": 0.125,
+        "committed_recall": 0.3333333333333333,
+        "gt_count": 3,
+        "query_annotation_available": true,
+        "strict_jf": 0.3298062074676176,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 12,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            224.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9799492955207825
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            138.0,
+            42.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9502663016319275
+        },
+        {
+          "box": [
+            736.0,
+            155.0,
+            784.0,
+            186.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9135939478874207
+        },
+        {
+          "box": [
+            797.0,
+            0.0,
+            853.0,
+            35.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.8927502632141113
+        },
+        {
+          "box": [
+            0.0,
+            138.0,
+            139.0,
+            178.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.891928493976593
+        },
+        {
+          "box": [
+            708.0,
+            90.0,
+            786.0,
+            150.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.8867290019989014
+        },
+        {
+          "box": [
+            346.0,
+            138.0,
+            496.0,
+            399.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.8863320350646973
+        },
+        {
+          "box": [
+            384.0,
+            137.0,
+            421.0,
+            178.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.8751395344734192
+        },
+        {
+          "box": [
+            648.0,
+            145.0,
+            697.0,
+            190.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.8734763264656067
+        },
+        {
+          "box": [
+            368.0,
+            261.0,
+            433.0,
+            337.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.8495298027992249
+        },
+        {
+          "box": [
+            699.0,
+            128.0,
+            735.0,
+            149.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.8394612073898315
+        },
+        {
+          "box": [
+            810.0,
+            73.0,
+            839.0,
+            108.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.8255993723869324
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "paragliding-launch:track:06"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "paragliding-launch:track:06"
+          ],
+          "proposal_hit_track_ids": [
+            "paragliding-launch:track:06"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "paragliding-launch:track:00": 0.03913443747926185,
+            "paragliding-launch:track:01": 0.0,
+            "paragliding-launch:track:02": 0.0002797420965058236,
+            "paragliding-launch:track:03": 0.0,
+            "paragliding-launch:track:04": 0.0,
+            "paragliding-launch:track:05": 0.0,
+            "paragliding-launch:track:06": 0.5707472273709275,
+            "paragliding-launch:track:07": 0.07177300508580323,
+            "paragliding-launch:track:08": 0.0004828263160387039,
+            "paragliding-launch:track:09": 0.4382048519997344
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "paragliding-launch:track:00": 0.051342147952234074,
+            "paragliding-launch:track:01": 0.0,
+            "paragliding-launch:track:02": 0.004038536183081122,
+            "paragliding-launch:track:03": 0.0,
+            "paragliding-launch:track:04": 0.0,
+            "paragliding-launch:track:05": 0.0,
+            "paragliding-launch:track:06": 0.5273536315314953,
+            "paragliding-launch:track:07": 0.2391701441543604,
+            "paragliding-launch:track:08": 0.00416694799587751,
+            "paragliding-launch:track:09": 0.03808123457292954
+          }
+        },
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 3,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "paragliding-launch:track:06"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "paragliding-launch:track:00": 9.221025041213124e-06,
+            "paragliding-launch:track:01": 0.0,
+            "paragliding-launch:track:02": 0.00913534024912804,
+            "paragliding-launch:track:03": 0.020581601153358987,
+            "paragliding-launch:track:04": 0.0,
+            "paragliding-launch:track:05": 0.023860138871623034,
+            "paragliding-launch:track:06": 0.03385506930624099,
+            "paragliding-launch:track:07": 0.009076149344920733,
+            "paragliding-launch:track:08": 0.00760939347782646,
+            "paragliding-launch:track:09": 0.0008112465721578615
+          }
+        }
+      ],
+      "ordinal": 25,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            224.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9799492955207825,
+          "track_id": "paragliding-launch:track:00"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            138.0,
+            42.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9502663016319275,
+          "track_id": "paragliding-launch:track:01"
+        },
+        {
+          "box": [
+            736.0,
+            155.0,
+            784.0,
+            186.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9135939478874207,
+          "track_id": "paragliding-launch:track:02"
+        },
+        {
+          "box": [
+            797.0,
+            0.0,
+            853.0,
+            35.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.8927502632141113,
+          "track_id": "paragliding-launch:track:03"
+        },
+        {
+          "box": [
+            0.0,
+            138.0,
+            139.0,
+            178.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.891928493976593,
+          "track_id": "paragliding-launch:track:04"
+        },
+        {
+          "box": [
+            708.0,
+            90.0,
+            786.0,
+            150.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.8867290019989014,
+          "track_id": "paragliding-launch:track:05"
+        },
+        {
+          "box": [
+            346.0,
+            138.0,
+            496.0,
+            399.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.8863320350646973,
+          "track_id": "paragliding-launch:track:06"
+        },
+        {
+          "box": [
+            384.0,
+            137.0,
+            421.0,
+            178.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.8751395344734192,
+          "track_id": "paragliding-launch:track:07"
+        },
+        {
+          "box": [
+            648.0,
+            145.0,
+            697.0,
+            190.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.8734763264656067,
+          "track_id": "paragliding-launch:track:08"
+        },
+        {
+          "box": [
+            368.0,
+            261.0,
+            433.0,
+            337.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.8495298027992249,
+          "track_id": "paragliding-launch:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "paragliding-launch:track:00": {
+          "mean_area": 0.27901374048594846,
+          "mean_confidence": 11.324553030729295,
+          "persistence": 1.0,
+          "quality": 11.324553030729295
+        },
+        "paragliding-launch:track:01": {
+          "mean_area": 0.005337931791569087,
+          "mean_confidence": 3.11327548623085,
+          "persistence": 0.2,
+          "quality": 0.6226550972461701
+        },
+        "paragliding-launch:track:02": {
+          "mean_area": 0.0023957723458235755,
+          "mean_confidence": 13.257712930440903,
+          "persistence": 1.0,
+          "quality": 13.257712930440903
+        },
+        "paragliding-launch:track:03": {
+          "mean_area": 0.005395911133616052,
+          "mean_confidence": 7.019726374745369,
+          "persistence": 0.925,
+          "quality": 6.493246896639467
+        },
+        "paragliding-launch:track:04": {
+          "mean_area": 0.004849726775956284,
+          "mean_confidence": 2.212720066308975,
+          "persistence": 0.1625,
+          "quality": 0.3595670107752085
+        },
+        "paragliding-launch:track:05": {
+          "mean_area": 0.004809048106947697,
+          "mean_confidence": 9.951338082551956,
+          "persistence": 1.0,
+          "quality": 9.951338082551956
+        },
+        "paragliding-launch:track:06": {
+          "mean_area": 0.031545362509758,
+          "mean_confidence": 9.915554565191268,
+          "persistence": 1.0,
+          "quality": 9.915554565191268
+        },
+        "paragliding-launch:track:07": {
+          "mean_area": 0.0017353995901639345,
+          "mean_confidence": 14.862220227718353,
+          "persistence": 1.0,
+          "quality": 14.862220227718353
+        },
+        "paragliding-launch:track:08": {
+          "mean_area": 0.003494835434173669,
+          "mean_confidence": 10.002677595615387,
+          "persistence": 0.85,
+          "quality": 8.502275956273078
+        },
+        "paragliding-launch:track:09": {
+          "mean_area": 0.008550357386807182,
+          "mean_confidence": 7.223624742031097,
+          "persistence": 1.0,
+          "quality": 7.223624742031097
+        }
+      },
+      "video_id": "paragliding-launch",
+      "wall_seconds": 313.980614900589
+    },
+    {
+      "committed_track_ids": [
+        "pigs:track:00",
+        "pigs:track:01",
+        "pigs:track:02",
+        "pigs:track:03",
+        "pigs:track:04",
+        "pigs:track:06",
+        "pigs:track:08",
+        "pigs:track:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 3,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 8,
+        "committed_precision": 0.375,
+        "committed_recall": 1.0,
+        "gt_count": 3,
+        "query_annotation_available": true,
+        "strict_jf": 0.922696523822094,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 15,
+      "native_proposals": [
+        {
+          "box": [
+            186.0,
+            51.0,
+            702.0,
+            381.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9873151779174805
+        },
+        {
+          "box": [
+            105.0,
+            191.0,
+            375.0,
+            420.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.9818516969680786
+        },
+        {
+          "box": [
+            4.0,
+            162.0,
+            112.0,
+            407.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.9738023281097412
+        },
+        {
+          "box": [
+            0.0,
+            304.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9599406123161316
+        },
+        {
+          "box": [
+            0.0,
+            83.0,
+            64.0,
+            106.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9589653611183167
+        },
+        {
+          "box": [
+            0.0,
+            70.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.953392744064331
+        },
+        {
+          "box": [
+            594.0,
+            279.0,
+            753.0,
+            321.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.9530627727508545
+        },
+        {
+          "box": [
+            449.0,
+            248.0,
+            535.0,
+            363.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.9312808513641357
+        },
+        {
+          "box": [
+            495.0,
+            262.0,
+            535.0,
+            355.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.89908367395401
+        },
+        {
+          "box": [
+            716.0,
+            96.0,
+            744.0,
+            105.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.8822569251060486
+        },
+        {
+          "box": [
+            819.0,
+            193.0,
+            832.0,
+            201.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.8449904322624207
+        },
+        {
+          "box": [
+            748.0,
+            425.0,
+            783.0,
+            435.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.8415254950523376
+        },
+        {
+          "box": [
+            813.0,
+            282.0,
+            829.0,
+            290.0
+          ],
+          "native_id": "amg:12",
+          "score": 0.8330037593841553
+        },
+        {
+          "box": [
+            338.0,
+            370.0,
+            351.0,
+            381.0
+          ],
+          "native_id": "amg:13",
+          "score": 0.810978889465332
+        },
+        {
+          "box": [
+            555.0,
+            42.0,
+            568.0,
+            49.0
+          ],
+          "native_id": "amg:14",
+          "score": 0.8039453029632568
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "pigs:track:02"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "pigs:track:02"
+          ],
+          "proposal_hit_track_ids": [
+            "pigs:track:02"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "pigs:track:00": 0.04791178477059658,
+            "pigs:track:01": 0.09928264090528335,
+            "pigs:track:02": 0.9507162662557943,
+            "pigs:track:03": 0.03629308502445228,
+            "pigs:track:04": 0.0,
+            "pigs:track:05": 0.028997792685182867,
+            "pigs:track:06": 0.0,
+            "pigs:track:07": 0.004546934386679148,
+            "pigs:track:08": 0.005531082827329897,
+            "pigs:track:09": 0.0
+          }
+        },
+        {
+          "A": false,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "pigs:track:00": 0.11767248908085452,
+            "pigs:track:01": 0.8851530688089985,
+            "pigs:track:02": 0.11891244968029335,
+            "pigs:track:03": 0.035080858131806114,
+            "pigs:track:04": 0.0,
+            "pigs:track:05": 0.032589987434741896,
+            "pigs:track:06": 0.0,
+            "pigs:track:07": 0.0,
+            "pigs:track:08": 0.0,
+            "pigs:track:09": 0.0
+          }
+        },
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 3,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "pigs:track:01",
+            "pigs:track:05",
+            "pigs:track:06"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "pigs:track:00": 0.9322202364014892,
+            "pigs:track:01": 0.09785670411699718,
+            "pigs:track:02": 0.04493994152752315,
+            "pigs:track:03": 0.03593197109483793,
+            "pigs:track:04": 0.0,
+            "pigs:track:05": 0.03918472788470386,
+            "pigs:track:06": 0.05746380191295959,
+            "pigs:track:07": 0.1597501432325714,
+            "pigs:track:08": 0.09606354692150326,
+            "pigs:track:09": 0.0
+          }
+        }
+      ],
+      "ordinal": 27,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            186.0,
+            51.0,
+            702.0,
+            381.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9873151779174805,
+          "track_id": "pigs:track:00"
+        },
+        {
+          "box": [
+            105.0,
+            191.0,
+            375.0,
+            420.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.9818516969680786,
+          "track_id": "pigs:track:01"
+        },
+        {
+          "box": [
+            4.0,
+            162.0,
+            112.0,
+            407.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.9738023281097412,
+          "track_id": "pigs:track:02"
+        },
+        {
+          "box": [
+            0.0,
+            304.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9599406123161316,
+          "track_id": "pigs:track:03"
+        },
+        {
+          "box": [
+            0.0,
+            83.0,
+            64.0,
+            106.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9589653611183167,
+          "track_id": "pigs:track:04"
+        },
+        {
+          "box": [
+            0.0,
+            70.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.953392744064331,
+          "track_id": "pigs:track:05"
+        },
+        {
+          "box": [
+            594.0,
+            279.0,
+            753.0,
+            321.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.9530627727508545,
+          "track_id": "pigs:track:06"
+        },
+        {
+          "box": [
+            449.0,
+            248.0,
+            535.0,
+            363.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.9312808513641357,
+          "track_id": "pigs:track:07"
+        },
+        {
+          "box": [
+            495.0,
+            262.0,
+            535.0,
+            355.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.89908367395401,
+          "track_id": "pigs:track:08"
+        },
+        {
+          "box": [
+            716.0,
+            96.0,
+            744.0,
+            105.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.8822569251060486,
+          "track_id": "pigs:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "pigs:track:00": {
+          "mean_area": 0.1747167400369569,
+          "mean_confidence": 11.034860447992253,
+          "persistence": 1.0,
+          "quality": 11.034860447992253
+        },
+        "pigs:track:01": {
+          "mean_area": 0.039970472781351594,
+          "mean_confidence": 8.339170302016825,
+          "persistence": 1.0,
+          "quality": 8.339170302016825
+        },
+        "pigs:track:02": {
+          "mean_area": 0.07545325299657112,
+          "mean_confidence": 10.390066816836972,
+          "persistence": 1.0,
+          "quality": 10.390066816836972
+        },
+        "pigs:track:03": {
+          "mean_area": 0.22319921639541893,
+          "mean_confidence": 10.52473527570314,
+          "persistence": 1.0,
+          "quality": 10.52473527570314
+        },
+        "pigs:track:04": {
+          "mean_area": 0.0008790686623901164,
+          "mean_confidence": 15.494445342051831,
+          "persistence": 0.5822784810126582,
+          "quality": 9.022082097903597
+        },
+        "pigs:track:05": {
+          "mean_area": 0.23776516442850226,
+          "mean_confidence": 6.927463739733152,
+          "persistence": 1.0,
+          "quality": 6.927463739733152
+        },
+        "pigs:track:06": {
+          "mean_area": 0.008340466555993636,
+          "mean_confidence": 13.457058248640616,
+          "persistence": 1.0,
+          "quality": 13.457058248640616
+        },
+        "pigs:track:07": {
+          "mean_area": 0.008290039921343096,
+          "mean_confidence": 7.587974385370182,
+          "persistence": 1.0,
+          "quality": 7.587974385370182
+        },
+        "pigs:track:08": {
+          "mean_area": 0.004607320724513088,
+          "mean_confidence": 13.667300345022467,
+          "persistence": 1.0,
+          "quality": 13.667300345022467
+        },
+        "pigs:track:09": {
+          "mean_area": 0.0005291554264370201,
+          "mean_confidence": 18.731918383248246,
+          "persistence": 1.0,
+          "quality": 18.731918383248246
+        }
+      },
+      "video_id": "pigs",
+      "wall_seconds": 331.49305629730225
+    },
+    {
+      "committed_track_ids": [
+        "shooting:track:01",
+        "shooting:track:02",
+        "shooting:track:03",
+        "shooting:track:07"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg"
+      ],
+      "metrics": {
+        "all_annotated_object_count": 3,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 4,
+        "committed_precision": 0.25,
+        "committed_recall": 0.3333333333333333,
+        "gt_count": 3,
+        "query_annotation_available": true,
+        "strict_jf": 0.4272819576127806,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "native_proposal_count": 12,
+      "native_proposals": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            135.0
+          ],
+          "native_id": "amg:0",
+          "score": 0.9860893487930298
+        },
+        {
+          "box": [
+            706.0,
+            124.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "score": 0.950842022895813
+        },
+        {
+          "box": [
+            320.0,
+            0.0,
+            378.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "score": 0.946033239364624
+        },
+        {
+          "box": [
+            326.0,
+            36.0,
+            388.0,
+            153.0
+          ],
+          "native_id": "amg:3",
+          "score": 0.9376652240753174
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            307.0
+          ],
+          "native_id": "amg:4",
+          "score": 0.9269751906394958
+        },
+        {
+          "box": [
+            10.0,
+            245.0,
+            147.0,
+            318.0
+          ],
+          "native_id": "amg:5",
+          "score": 0.9205294251441956
+        },
+        {
+          "box": [
+            0.0,
+            133.0,
+            160.0,
+            479.0
+          ],
+          "native_id": "amg:6",
+          "score": 0.8981569409370422
+        },
+        {
+          "box": [
+            557.0,
+            375.0,
+            598.0,
+            468.0
+          ],
+          "native_id": "amg:7",
+          "score": 0.8842789530754089
+        },
+        {
+          "box": [
+            705.0,
+            203.0,
+            731.0,
+            479.0
+          ],
+          "native_id": "amg:8",
+          "score": 0.8729687333106995
+        },
+        {
+          "box": [
+            509.0,
+            60.0,
+            652.0,
+            184.0
+          ],
+          "native_id": "amg:9",
+          "score": 0.8696736693382263
+        },
+        {
+          "box": [
+            24.0,
+            414.0,
+            64.0,
+            479.0
+          ],
+          "native_id": "amg:10",
+          "score": 0.8657144904136658
+        },
+        {
+          "box": [
+            60.0,
+            354.0,
+            80.0,
+            402.0
+          ],
+          "native_id": "amg:11",
+          "score": 0.8268555402755737
+        }
+      ],
+      "objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "shooting:track:02"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "shooting:track:00": 0.00019378113342417405,
+            "shooting:track:01": 0.03171901244395004,
+            "shooting:track:02": 0.028930941176682583,
+            "shooting:track:03": 0.0007391219691837472,
+            "shooting:track:04": 0.001229672186725993,
+            "shooting:track:05": 0.0,
+            "shooting:track:06": 0.0,
+            "shooting:track:07": 0.3046480289580198,
+            "shooting:track:08": 0.0,
+            "shooting:track:09": 0.001084127119581412
+          }
+        },
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 2,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "shooting:track:02",
+            "shooting:track:09"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "shooting:track:00": 0.0058584590541760975,
+            "shooting:track:01": 0.08339612920338099,
+            "shooting:track:02": 0.196093840732096,
+            "shooting:track:03": 0.0919526323429544,
+            "shooting:track:04": 0.008691837990571393,
+            "shooting:track:05": 0.0,
+            "shooting:track:06": 0.0,
+            "shooting:track:07": 0.031134767941655078,
+            "shooting:track:08": 0.00026169102498063164,
+            "shooting:track:09": 0.001971342794718222
+          }
+        },
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "shooting:track:02"
+          ],
+          "object_id": 3,
+          "propagation_hit_track_ids": [
+            "shooting:track:02"
+          ],
+          "proposal_hit_track_ids": [
+            "shooting:track:02",
+            "shooting:track:03"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "shooting:track:00": 0.00172707813108332,
+            "shooting:track:01": 0.011440614828941657,
+            "shooting:track:02": 0.8852452115373677,
+            "shooting:track:03": 0.04551876339364176,
+            "shooting:track:04": 0.0033980198288556447,
+            "shooting:track:05": 0.0,
+            "shooting:track:06": 0.0,
+            "shooting:track:07": 0.0021694456287570814,
+            "shooting:track:08": 0.0,
+            "shooting:track:09": 0.0021047659512610528
+          }
+        }
+      ],
+      "ordinal": 29,
+      "peak_gpu_bytes": 0,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "retained_topk": [
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            135.0
+          ],
+          "native_id": "amg:0",
+          "query_frame_index": 0,
+          "score": 0.9860893487930298,
+          "track_id": "shooting:track:00"
+        },
+        {
+          "box": [
+            706.0,
+            124.0,
+            853.0,
+            479.0
+          ],
+          "native_id": "amg:1",
+          "query_frame_index": 0,
+          "score": 0.950842022895813,
+          "track_id": "shooting:track:01"
+        },
+        {
+          "box": [
+            320.0,
+            0.0,
+            378.0,
+            479.0
+          ],
+          "native_id": "amg:2",
+          "query_frame_index": 0,
+          "score": 0.946033239364624,
+          "track_id": "shooting:track:02"
+        },
+        {
+          "box": [
+            326.0,
+            36.0,
+            388.0,
+            153.0
+          ],
+          "native_id": "amg:3",
+          "query_frame_index": 0,
+          "score": 0.9376652240753174,
+          "track_id": "shooting:track:03"
+        },
+        {
+          "box": [
+            0.0,
+            0.0,
+            853.0,
+            307.0
+          ],
+          "native_id": "amg:4",
+          "query_frame_index": 0,
+          "score": 0.9269751906394958,
+          "track_id": "shooting:track:04"
+        },
+        {
+          "box": [
+            10.0,
+            245.0,
+            147.0,
+            318.0
+          ],
+          "native_id": "amg:5",
+          "query_frame_index": 0,
+          "score": 0.9205294251441956,
+          "track_id": "shooting:track:05"
+        },
+        {
+          "box": [
+            0.0,
+            133.0,
+            160.0,
+            479.0
+          ],
+          "native_id": "amg:6",
+          "query_frame_index": 0,
+          "score": 0.8981569409370422,
+          "track_id": "shooting:track:06"
+        },
+        {
+          "box": [
+            557.0,
+            375.0,
+            598.0,
+            468.0
+          ],
+          "native_id": "amg:7",
+          "query_frame_index": 0,
+          "score": 0.8842789530754089,
+          "track_id": "shooting:track:07"
+        },
+        {
+          "box": [
+            705.0,
+            203.0,
+            731.0,
+            479.0
+          ],
+          "native_id": "amg:8",
+          "query_frame_index": 0,
+          "score": 0.8729687333106995,
+          "track_id": "shooting:track:08"
+        },
+        {
+          "box": [
+            509.0,
+            60.0,
+            652.0,
+            184.0
+          ],
+          "native_id": "amg:9",
+          "query_frame_index": 0,
+          "score": 0.8696736693382263,
+          "track_id": "shooting:track:09"
+        }
+      ],
+      "retained_topk_count": 10,
+      "track_signals": {
+        "shooting:track:00": {
+          "mean_area": 0.08333723653395785,
+          "mean_confidence": 1.2428029119968413,
+          "persistence": 0.25,
+          "quality": 0.31070072799921034
+        },
+        "shooting:track:01": {
+          "mean_area": 0.09655255903590944,
+          "mean_confidence": 5.976842534542084,
+          "persistence": 1.0,
+          "quality": 5.976842534542084
+        },
+        "shooting:track:02": {
+          "mean_area": 0.021451014832162375,
+          "mean_confidence": 9.533043539524078,
+          "persistence": 1.0,
+          "quality": 9.533043539524078
+        },
+        "shooting:track:03": {
+          "mean_area": 0.006735521565183451,
+          "mean_confidence": 13.551429867744446,
+          "persistence": 1.0,
+          "quality": 13.551429867744446
+        },
+        "shooting:track:04": {
+          "mean_area": 0.08881346766848816,
+          "mean_confidence": 1.6463858544826508,
+          "persistence": 0.3,
+          "quality": 0.49391575634479523
+        },
+        "shooting:track:05": {
+          "mean_area": 0.013820176294561542,
+          "mean_confidence": 0.9246389508247376,
+          "persistence": 0.15,
+          "quality": 0.13869584262371062
+        },
+        "shooting:track:06": {
+          "mean_area": 0.0734503751409489,
+          "mean_confidence": 1.5909344971179962,
+          "persistence": 0.225,
+          "quality": 0.35796026185154917
+        },
+        "shooting:track:07": {
+          "mean_area": 0.026554512603560728,
+          "mean_confidence": 5.121390491724014,
+          "persistence": 0.775,
+          "quality": 3.9690776310861113
+        },
+        "shooting:track:08": {
+          "mean_area": 0.014681455460143985,
+          "mean_confidence": 3.3783017873764036,
+          "persistence": 0.45,
+          "quality": 1.5202358043193818
+        },
+        "shooting:track:09": {
+          "mean_area": 0.010789368115187787,
+          "mean_confidence": 1.6706445455551147,
+          "persistence": 0.225,
+          "quality": 0.37589502274990083
+        }
+      },
+      "video_id": "shooting",
+      "wall_seconds": 142.1163330078125
+    }
+  ]
+}

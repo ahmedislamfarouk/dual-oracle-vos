@@ -1,0 +1,69 @@
+{
+  "protocol": "PROTOCOL_RESIDUAL_GUIDED_DISCOVERY_20260820.md",
+  "aggregation": "macro mean over 507 matched YouTube-VOS validation videos",
+  "coverage": {
+    "fixed_videos": 507,
+    "residual_videos": 507,
+    "same_video_ids": true,
+    "baseline_identity": "exact stored per-video equality",
+    "redetection_calls_per_video": 3,
+    "fixed_shards": [
+      "results_fixed_all_shard0of4.json",
+      "results_fixed_all_shard1of4.json",
+      "results_fixed_all_shard2of4.json",
+      "results_fixed_all_shard3of4.json"
+    ],
+    "residual_shards": [
+      "results_residual_all_shard0of4.json",
+      "results_residual_all_shard1of4.json",
+      "results_residual_all_shard2of4.json",
+      "results_residual_all_shard3of4.json"
+    ]
+  },
+  "fixed": {
+    "mean_baseline_bijective_jf": 0.6754595660749507,
+    "mean_schedule_bijective_jf": 0.721830966469428,
+    "mean_baseline_greedy_jf": 0.681651282051282,
+    "mean_schedule_greedy_jf": 0.7256662721893491,
+    "mean_baseline_tracks": 21.449704142011836,
+    "mean_schedule_tracks": 35.38461538461539,
+    "new_tracks": 7065,
+    "late_recovered": 38,
+    "late_total": 114
+  },
+  "residual": {
+    "mean_baseline_bijective_jf": 0.6754595660749507,
+    "mean_schedule_bijective_jf": 0.7249242603550297,
+    "mean_baseline_greedy_jf": 0.681651282051282,
+    "mean_schedule_greedy_jf": 0.7287566074950691,
+    "mean_baseline_tracks": 21.449704142011836,
+    "mean_schedule_tracks": 34.38067061143984,
+    "new_tracks": 6556,
+    "late_recovered": 37,
+    "late_total": 114
+  },
+  "residual_minus_fixed": {
+    "mean_bijective_jf": 0.0030932938856015786,
+    "mean_bijective_jf_pp": 0.30932938856015785,
+    "bootstrap_95_ci_pp": [
+      -0.13998717948717937,
+      0.7686607495069031
+    ],
+    "wilcoxon_greater": {
+      "statistic": 3776.5,
+      "pvalue": 0.03768809388580214
+    }
+  },
+  "runtime_seconds": {
+    "original_fixed_full_jobs_total_gpu_seconds": 25946,
+    "original_residual_full_jobs_total_gpu_seconds": 25665
+  },
+  "implementation_amendment": {
+    "kind": "two-video residual call-budget correction",
+    "source": "residual_two_video_rerun.json",
+    "video_ids": [
+      "209d4e0c67",
+      "67add1386d"
+    ]
+  }
+}

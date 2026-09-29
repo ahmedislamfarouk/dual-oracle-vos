@@ -1,0 +1,19 @@
+{
+  "exact_baseline_parity": true,
+  "inference_completed_before_gt": true,
+  "pre_discovery_masks_empty": true,
+  "schedules": [
+    "fixed",
+    "random",
+    "global",
+    "residual"
+  ],
+  "schema_version": "cpd2-smoke-verify-v1",
+  "three_later_calls_per_video": true,
+  "video_counts": {
+    "fixed": 5,
+    "global": 5,
+    "random": 5,
+    "residual": 5
+  }
+}

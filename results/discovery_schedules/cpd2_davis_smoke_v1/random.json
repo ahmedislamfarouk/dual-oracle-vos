@@ -1,0 +1,1621 @@
+{
+  "config": {
+    "dataset": "davis",
+    "dataset_root": "/tmp/davis2017/DAVIS",
+    "evaluation_workers": 1,
+    "num_shards": 1,
+    "offload_video_to_cpu": true,
+    "proposer": "detr",
+    "proposer_id": "facebook/detr-resnet-50",
+    "query_policy": "explicit_manifest",
+    "random_seed": 20260824,
+    "sam2_checkpoint": "$HOME/ow_vis/checkpoints/sam2.1_hiera_large.pt",
+    "sam2_checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+    "schedule": "random",
+    "selected_video_count": 5,
+    "shard_index": 0,
+    "split": "val"
+  },
+  "frozen_constants": {
+    "commitment": {
+      "area_max": 0.5,
+      "dedup_temporal_iou": 0.5,
+      "persistence_min": 0.5
+    },
+    "first_frame_topk": 10,
+    "later_calls": 3,
+    "later_frame_topk": 10,
+    "proposal_threshold": 0.05,
+    "resolution": [
+      854,
+      480
+    ],
+    "schedule_policy": "offline_baseline_mask_union_v1",
+    "uncovered_min": 0.7
+  },
+  "run_status": "complete",
+  "schema_version": "cpd2-v1",
+  "videos": [
+    {
+      "baseline_committed_track_ids": [
+        "bike-packing:base:00",
+        "bike-packing:base:01",
+        "bike-packing:base:02",
+        "bike-packing:base:03",
+        "bike-packing:base:04",
+        "bike-packing:base:05",
+        "bike-packing:base:07",
+        "bike-packing:base:08",
+        "bike-packing:base:09"
+      ],
+      "baseline_metrics": {
+        "all_annotated_object_count": 2,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 9,
+        "committed_precision": 0.2222222222222222,
+        "committed_recall": 1.0,
+        "gt_count": 2,
+        "query_annotation_available": true,
+        "strict_jf": 0.8380265769385776,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "baseline_native_proposal_count": 69,
+      "baseline_objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "bike-packing:base:00"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bike-packing:base:00": 0.14270741193376074,
+            "bike-packing:base:01": 0.06072403308864809,
+            "bike-packing:base:02": 0.7493827392865483,
+            "bike-packing:base:03": 0.0,
+            "bike-packing:base:04": 0.0,
+            "bike-packing:base:05": 0.0,
+            "bike-packing:base:06": 0.0,
+            "bike-packing:base:07": 0.0,
+            "bike-packing:base:08": 0.0,
+            "bike-packing:base:09": 0.0
+          }
+        },
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "bike-packing:base:00"
+          ],
+          "object_id": 2,
+          "propagation_hit_track_ids": [
+            "bike-packing:base:00"
+          ],
+          "proposal_hit_track_ids": [
+            "bike-packing:base:00",
+            "bike-packing:base:02"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bike-packing:base:00": 0.926670414590607,
+            "bike-packing:base:01": 0.023707202997228775,
+            "bike-packing:base:02": 0.14503818396811932,
+            "bike-packing:base:03": 0.0,
+            "bike-packing:base:04": 0.0,
+            "bike-packing:base:05": 0.0,
+            "bike-packing:base:06": 0.0011667784900328863,
+            "bike-packing:base:07": 0.0011429135168947698,
+            "bike-packing:base:08": 0.00038822541243056015,
+            "bike-packing:base:09": 0.0010222447861969672
+          }
+        }
+      ],
+      "baseline_retained_topk_count": 10,
+      "baseline_track_signals": {
+        "bike-packing:base:00": {
+          "mean_area": 0.09228294103338651,
+          "mean_confidence": 7.976320847221043,
+          "persistence": 1.0,
+          "quality": 7.976320847221043
+        },
+        "bike-packing:base:01": {
+          "mean_area": 0.13696189571100476,
+          "mean_confidence": 9.077276720516924,
+          "persistence": 1.0,
+          "quality": 9.077276720516924
+        },
+        "bike-packing:base:02": {
+          "mean_area": 0.10084884007059701,
+          "mean_confidence": 3.8916825729867686,
+          "persistence": 1.0,
+          "quality": 3.8916825729867686
+        },
+        "bike-packing:base:03": {
+          "mean_area": 0.0074361982260236,
+          "mean_confidence": 11.643013726110043,
+          "persistence": 1.0,
+          "quality": 11.643013726110043
+        },
+        "bike-packing:base:04": {
+          "mean_area": 0.07810615574336173,
+          "mean_confidence": 9.516865336376688,
+          "persistence": 1.0,
+          "quality": 9.516865336376688
+        },
+        "bike-packing:base:05": {
+          "mean_area": 0.014871017604000497,
+          "mean_confidence": 11.770242055257162,
+          "persistence": 1.0,
+          "quality": 11.770242055257162
+        },
+        "bike-packing:base:06": {
+          "mean_area": 0.0006951869010849767,
+          "mean_confidence": 6.910977563996246,
+          "persistence": 1.0,
+          "quality": 6.910977563996246
+        },
+        "bike-packing:base:07": {
+          "mean_area": 0.0006612460260892192,
+          "mean_confidence": 11.52053145394809,
+          "persistence": 1.0,
+          "quality": 11.52053145394809
+        },
+        "bike-packing:base:08": {
+          "mean_area": 0.0006530790030433651,
+          "mean_confidence": 10.276148215584133,
+          "persistence": 1.0,
+          "quality": 10.276148215584133
+        },
+        "bike-packing:base:09": {
+          "mean_area": 0.0009726431556229049,
+          "mean_confidence": 10.948009788126186,
+          "persistence": 0.9855072463768116,
+          "quality": 10.789342979602619
+        }
+      },
+      "committed_track_ids": [
+        "bike-packing:base:00",
+        "bike-packing:base:01",
+        "bike-packing:base:02",
+        "bike-packing:base:03",
+        "bike-packing:base:04",
+        "bike-packing:base:05",
+        "bike-packing:base:07",
+        "bike-packing:base:08",
+        "bike-packing:base:09"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg"
+      ],
+      "later_admitted_track_count": 4,
+      "later_native_proposal_counts": {
+        "37": 76,
+        "48": 72,
+        "9": 60
+      },
+      "metrics": {
+        "all_annotated_object_count": 2,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 9,
+        "committed_precision": 0.2222222222222222,
+        "committed_recall": 1.0,
+        "gt_count": 2,
+        "query_annotation_available": true,
+        "strict_jf": 0.8380265769385776,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "bike-packing:base:00",
+            "bike-packing:later:02:03"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bike-packing:base:00": 0.14270741193376074,
+            "bike-packing:base:01": 0.06072403308864809,
+            "bike-packing:base:02": 0.7493827392865483,
+            "bike-packing:base:03": 0.0,
+            "bike-packing:base:04": 0.0,
+            "bike-packing:base:05": 0.0,
+            "bike-packing:base:06": 0.0,
+            "bike-packing:base:07": 0.0,
+            "bike-packing:base:08": 0.0,
+            "bike-packing:base:09": 0.0,
+            "bike-packing:later:01:00": 0.037358592837056614,
+            "bike-packing:later:02:01": 0.0,
+            "bike-packing:later:02:02": 0.008301107770051835,
+            "bike-packing:later:02:03": 0.029205406023469854
+          }
+        },
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "bike-packing:base:00"
+          ],
+          "object_id": 2,
+          "propagation_hit_track_ids": [
+            "bike-packing:base:00"
+          ],
+          "proposal_hit_track_ids": [
+            "bike-packing:base:00",
+            "bike-packing:base:02",
+            "bike-packing:later:01:00",
+            "bike-packing:later:02:03"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bike-packing:base:00": 0.926670414590607,
+            "bike-packing:base:01": 0.023707202997228775,
+            "bike-packing:base:02": 0.14503818396811932,
+            "bike-packing:base:03": 0.0,
+            "bike-packing:base:04": 0.0,
+            "bike-packing:base:05": 0.0,
+            "bike-packing:base:06": 0.0011667784900328863,
+            "bike-packing:base:07": 0.0011429135168947698,
+            "bike-packing:base:08": 0.00038822541243056015,
+            "bike-packing:base:09": 0.0010222447861969672,
+            "bike-packing:later:01:00": 0.020773669236515045,
+            "bike-packing:later:02:01": 0.0,
+            "bike-packing:later:02:02": 0.0,
+            "bike-packing:later:02:03": 0.010579923354511257
+          }
+        }
+      ],
+      "ordinal": 1,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "redetection_frame_indices": [
+        9,
+        37,
+        48
+      ],
+      "redetection_selection_scores": {},
+      "schedule": "random",
+      "track_signals": {
+        "bike-packing:base:00": {
+          "mean_area": 0.09228294103338651,
+          "mean_confidence": 7.976320847221043,
+          "persistence": 1.0,
+          "quality": 7.976320847221043
+        },
+        "bike-packing:base:01": {
+          "mean_area": 0.13696189571100476,
+          "mean_confidence": 9.077276720516924,
+          "persistence": 1.0,
+          "quality": 9.077276720516924
+        },
+        "bike-packing:base:02": {
+          "mean_area": 0.10084884007059701,
+          "mean_confidence": 3.8916825729867686,
+          "persistence": 1.0,
+          "quality": 3.8916825729867686
+        },
+        "bike-packing:base:03": {
+          "mean_area": 0.0074361982260236,
+          "mean_confidence": 11.643013726110043,
+          "persistence": 1.0,
+          "quality": 11.643013726110043
+        },
+        "bike-packing:base:04": {
+          "mean_area": 0.07810615574336173,
+          "mean_confidence": 9.516865336376688,
+          "persistence": 1.0,
+          "quality": 9.516865336376688
+        },
+        "bike-packing:base:05": {
+          "mean_area": 0.014871017604000497,
+          "mean_confidence": 11.770242055257162,
+          "persistence": 1.0,
+          "quality": 11.770242055257162
+        },
+        "bike-packing:base:06": {
+          "mean_area": 0.0006951869010849767,
+          "mean_confidence": 6.910977563996246,
+          "persistence": 1.0,
+          "quality": 6.910977563996246
+        },
+        "bike-packing:base:07": {
+          "mean_area": 0.0006612460260892192,
+          "mean_confidence": 11.52053145394809,
+          "persistence": 1.0,
+          "quality": 11.52053145394809
+        },
+        "bike-packing:base:08": {
+          "mean_area": 0.0006530790030433651,
+          "mean_confidence": 10.276148215584133,
+          "persistence": 1.0,
+          "quality": 10.276148215584133
+        },
+        "bike-packing:base:09": {
+          "mean_area": 0.0009726431556229049,
+          "mean_confidence": 10.948009788126186,
+          "persistence": 0.9855072463768116,
+          "quality": 10.789342979602619
+        },
+        "bike-packing:later:01:00": {
+          "mean_area": 0.016983191842310695,
+          "mean_confidence": 8.293879002332687,
+          "persistence": 0.463768115942029,
+          "quality": 3.8464366387629854
+        },
+        "bike-packing:later:02:01": {
+          "mean_area": 0.010510529348351363,
+          "mean_confidence": 10.540092840790749,
+          "persistence": 0.30434782608695654,
+          "quality": 3.2078543428493584
+        },
+        "bike-packing:later:02:02": {
+          "mean_area": 0.0023768865469685142,
+          "mean_confidence": 8.193414762616158,
+          "persistence": 0.30434782608695654,
+          "quality": 2.4936479712310047
+        },
+        "bike-packing:later:02:03": {
+          "mean_area": 0.01678097468495595,
+          "mean_confidence": 6.833091601729393,
+          "persistence": 0.30434782608695654,
+          "quality": 2.0796365744393808
+        }
+      },
+      "video_id": "bike-packing",
+      "wall_seconds": 231.18801927566528
+    },
+    {
+      "baseline_committed_track_ids": [
+        "blackswan:base:00"
+      ],
+      "baseline_metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 1,
+        "committed_precision": 1.0,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9434006097830189,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "baseline_native_proposal_count": 1,
+      "baseline_objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "blackswan:base:00"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "blackswan:base:00"
+          ],
+          "proposal_hit_track_ids": [
+            "blackswan:base:00"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "blackswan:base:00": 0.9434006097830189
+          }
+        }
+      ],
+      "baseline_retained_topk_count": 1,
+      "baseline_track_signals": {
+        "blackswan:base:00": {
+          "mean_area": 0.100400956284153,
+          "mean_confidence": 11.460042304992676,
+          "persistence": 1.0,
+          "quality": 11.460042304992676
+        }
+      },
+      "committed_track_ids": [
+        "blackswan:base:00"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg"
+      ],
+      "later_admitted_track_count": 4,
+      "later_native_proposal_counts": {
+        "15": 2,
+        "33": 4,
+        "47": 1
+      },
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 1,
+        "committed_precision": 1.0,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9434006097830189,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "blackswan:base:00"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "blackswan:base:00",
+            "blackswan:later:00:00"
+          ],
+          "proposal_hit_track_ids": [
+            "blackswan:base:00",
+            "blackswan:later:00:00",
+            "blackswan:later:01:01",
+            "blackswan:later:01:02",
+            "blackswan:later:01:03"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "blackswan:base:00": 0.9434006097830189,
+            "blackswan:later:00:00": 0.6541317450017716,
+            "blackswan:later:01:01": 0.3117603557394355,
+            "blackswan:later:01:02": 0.31411004436089246,
+            "blackswan:later:01:03": 0.3135154529789458
+          }
+        }
+      ],
+      "ordinal": 2,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "redetection_frame_indices": [
+        15,
+        33,
+        47
+      ],
+      "redetection_selection_scores": {},
+      "schedule": "random",
+      "track_signals": {
+        "blackswan:base:00": {
+          "mean_area": 0.100400956284153,
+          "mean_confidence": 11.460042304992676,
+          "persistence": 1.0,
+          "quality": 11.460042304992676
+        },
+        "blackswan:later:00:00": {
+          "mean_area": 0.10009033121445299,
+          "mean_confidence": 11.504673317500524,
+          "persistence": 0.7,
+          "quality": 8.053271322250366
+        },
+        "blackswan:later:01:01": {
+          "mean_area": 0.10008208201313312,
+          "mean_confidence": 11.888097654070172,
+          "persistence": 0.34,
+          "quality": 4.0419532023838585
+        },
+        "blackswan:later:01:02": {
+          "mean_area": 0.09894986683197869,
+          "mean_confidence": 11.482652037484305,
+          "persistence": 0.34,
+          "quality": 3.904101692744664
+        },
+        "blackswan:later:01:03": {
+          "mean_area": 0.09931909239105478,
+          "mean_confidence": 11.539142308916364,
+          "persistence": 0.34,
+          "quality": 3.9233083850315644
+        }
+      },
+      "video_id": "blackswan",
+      "wall_seconds": 55.3864586353302
+    },
+    {
+      "baseline_committed_track_ids": [
+        "bmx-trees:base:00",
+        "bmx-trees:base:01",
+        "bmx-trees:base:02"
+      ],
+      "baseline_metrics": {
+        "all_annotated_object_count": 2,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 3,
+        "committed_precision": 0.6666666666666666,
+        "committed_recall": 1.0,
+        "gt_count": 2,
+        "query_annotation_available": true,
+        "strict_jf": 0.7973134130748956,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "baseline_native_proposal_count": 3,
+      "baseline_objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "bmx-trees:base:00"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bmx-trees:base:00": 0.19321432982685496,
+            "bmx-trees:base:01": 0.7370104098179151,
+            "bmx-trees:base:02": 0.007274263902450231
+          }
+        },
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "bmx-trees:base:00"
+          ],
+          "object_id": 2,
+          "propagation_hit_track_ids": [
+            "bmx-trees:base:00"
+          ],
+          "proposal_hit_track_ids": [
+            "bmx-trees:base:00",
+            "bmx-trees:base:01"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bmx-trees:base:00": 0.857616416331876,
+            "bmx-trees:base:01": 0.18285686586103927,
+            "bmx-trees:base:02": 0.021104875291619425
+          }
+        }
+      ],
+      "baseline_retained_topk_count": 3,
+      "baseline_track_signals": {
+        "bmx-trees:base:00": {
+          "mean_area": 0.012055888953942231,
+          "mean_confidence": 9.886928284168244,
+          "persistence": 1.0,
+          "quality": 9.886928284168244
+        },
+        "bmx-trees:base:01": {
+          "mean_area": 0.010125024395003903,
+          "mean_confidence": 5.256830632686615,
+          "persistence": 1.0,
+          "quality": 5.256830632686615
+        },
+        "bmx-trees:base:02": {
+          "mean_area": 0.23949965846994534,
+          "mean_confidence": 3.2135721266269686,
+          "persistence": 0.5,
+          "quality": 1.6067860633134843
+        }
+      },
+      "committed_track_ids": [
+        "bmx-trees:base:00",
+        "bmx-trees:base:01",
+        "bmx-trees:base:02"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg"
+      ],
+      "later_admitted_track_count": 9,
+      "later_native_proposal_counts": {
+        "31": 24,
+        "5": 3,
+        "67": 6
+      },
+      "metrics": {
+        "all_annotated_object_count": 2,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 3,
+        "committed_precision": 0.6666666666666666,
+        "committed_recall": 1.0,
+        "gt_count": 2,
+        "query_annotation_available": true,
+        "strict_jf": 0.7973134130748956,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "objects": [
+        {
+          "A": true,
+          "B": false,
+          "C": false,
+          "commitment_hit_track_ids": [],
+          "object_id": 1,
+          "propagation_hit_track_ids": [],
+          "proposal_hit_track_ids": [
+            "bmx-trees:base:00"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bmx-trees:base:00": 0.19321432982685496,
+            "bmx-trees:base:01": 0.7370104098179151,
+            "bmx-trees:base:02": 0.007274263902450231,
+            "bmx-trees:later:01:00": 0.0,
+            "bmx-trees:later:01:01": 0.0,
+            "bmx-trees:later:01:02": 0.0003309874917588704,
+            "bmx-trees:later:01:03": 0.0007498286723634365,
+            "bmx-trees:later:02:04": 0.0,
+            "bmx-trees:later:02:05": 0.07982165721738431,
+            "bmx-trees:later:02:06": 0.08064150653915796,
+            "bmx-trees:later:02:07": 0.0802964110677715,
+            "bmx-trees:later:02:08": 0.10994097661064894
+          }
+        },
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "bmx-trees:base:00"
+          ],
+          "object_id": 2,
+          "propagation_hit_track_ids": [
+            "bmx-trees:base:00"
+          ],
+          "proposal_hit_track_ids": [
+            "bmx-trees:base:00",
+            "bmx-trees:base:01"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "bmx-trees:base:00": 0.857616416331876,
+            "bmx-trees:base:01": 0.18285686586103927,
+            "bmx-trees:base:02": 0.021104875291619425,
+            "bmx-trees:later:01:00": 0.005566635518864409,
+            "bmx-trees:later:01:01": 0.0,
+            "bmx-trees:later:01:02": 0.011575779261239719,
+            "bmx-trees:later:01:03": 0.011387215809430798,
+            "bmx-trees:later:02:04": 0.0,
+            "bmx-trees:later:02:05": 0.09501941923284446,
+            "bmx-trees:later:02:06": 0.0966025325234349,
+            "bmx-trees:later:02:07": 0.09577502192260026,
+            "bmx-trees:later:02:08": 0.035041163642631344
+          }
+        }
+      ],
+      "ordinal": 3,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "redetection_frame_indices": [
+        5,
+        31,
+        67
+      ],
+      "redetection_selection_scores": {},
+      "schedule": "random",
+      "track_signals": {
+        "bmx-trees:base:00": {
+          "mean_area": 0.012055888953942231,
+          "mean_confidence": 9.886928284168244,
+          "persistence": 1.0,
+          "quality": 9.886928284168244
+        },
+        "bmx-trees:base:01": {
+          "mean_area": 0.010125024395003903,
+          "mean_confidence": 5.256830632686615,
+          "persistence": 1.0,
+          "quality": 5.256830632686615
+        },
+        "bmx-trees:base:02": {
+          "mean_area": 0.23949965846994534,
+          "mean_confidence": 3.2135721266269686,
+          "persistence": 0.5,
+          "quality": 1.6067860633134843
+        },
+        "bmx-trees:later:01:00": {
+          "mean_area": 0.021086092679330384,
+          "mean_confidence": 1.6303459770825444,
+          "persistence": 0.225,
+          "quality": 0.3668278448435725
+        },
+        "bmx-trees:later:01:01": {
+          "mean_area": 0.004988473360655738,
+          "mean_confidence": 1.8069577265758903,
+          "persistence": 0.2,
+          "quality": 0.3613915453151781
+        },
+        "bmx-trees:later:01:02": {
+          "mean_area": 0.018647467059352305,
+          "mean_confidence": 4.73402214050293,
+          "persistence": 0.4125,
+          "quality": 1.9527841329574585
+        },
+        "bmx-trees:later:01:03": {
+          "mean_area": 0.025142997772879642,
+          "mean_confidence": 5.386317146067717,
+          "persistence": 0.425,
+          "quality": 2.2891847870787796
+        },
+        "bmx-trees:later:02:04": {
+          "mean_area": 0.0044854906022938805,
+          "mean_confidence": 9.102771194613709,
+          "persistence": 0.1625,
+          "quality": 1.4792003191247278
+        },
+        "bmx-trees:later:02:05": {
+          "mean_area": 0.011550283732660782,
+          "mean_confidence": 6.463183909046407,
+          "persistence": 0.1625,
+          "quality": 1.0502673852200413
+        },
+        "bmx-trees:later:02:06": {
+          "mean_area": 0.011306521347504954,
+          "mean_confidence": 6.328647837346914,
+          "persistence": 0.1625,
+          "quality": 1.0284052735688736
+        },
+        "bmx-trees:later:02:07": {
+          "mean_area": 0.011443508677115235,
+          "mean_confidence": 6.394312586103167,
+          "persistence": 0.1625,
+          "quality": 1.0390757952417646
+        },
+        "bmx-trees:later:02:08": {
+          "mean_area": 0.005532223923617367,
+          "mean_confidence": 5.782523700169155,
+          "persistence": 0.1625,
+          "quality": 0.9396601012774877
+        }
+      },
+      "video_id": "bmx-trees",
+      "wall_seconds": 179.1561622619629
+    },
+    {
+      "baseline_committed_track_ids": [
+        "breakdance:base:00",
+        "breakdance:base:01",
+        "breakdance:base:02",
+        "breakdance:base:03",
+        "breakdance:base:04",
+        "breakdance:base:05",
+        "breakdance:base:06",
+        "breakdance:base:07",
+        "breakdance:base:08",
+        "breakdance:base:09"
+      ],
+      "baseline_metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 10,
+        "committed_precision": 0.1,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9556007179623152,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "baseline_native_proposal_count": 80,
+      "baseline_objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "breakdance:base:00"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "breakdance:base:00"
+          ],
+          "proposal_hit_track_ids": [
+            "breakdance:base:00",
+            "breakdance:base:09"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "breakdance:base:00": 0.9556007179623152,
+            "breakdance:base:01": 0.0,
+            "breakdance:base:02": 0.03063495653643859,
+            "breakdance:base:03": 0.009987508634614239,
+            "breakdance:base:04": 0.07465360955807768,
+            "breakdance:base:05": 0.0,
+            "breakdance:base:06": 0.0,
+            "breakdance:base:07": 0.0,
+            "breakdance:base:08": 0.0,
+            "breakdance:base:09": 0.05702449314237651
+          }
+        }
+      ],
+      "baseline_retained_topk_count": 10,
+      "baseline_track_signals": {
+        "breakdance:base:00": {
+          "mean_area": 0.09049596785435486,
+          "mean_confidence": 9.22441790217445,
+          "persistence": 1.0,
+          "quality": 9.22441790217445
+        },
+        "breakdance:base:01": {
+          "mean_area": 0.06108567060704063,
+          "mean_confidence": 10.823179386910939,
+          "persistence": 1.0,
+          "quality": 10.823179386910939
+        },
+        "breakdance:base:02": {
+          "mean_area": 0.044273098583695776,
+          "mean_confidence": 9.660314151218959,
+          "persistence": 1.0,
+          "quality": 9.660314151218959
+        },
+        "breakdance:base:03": {
+          "mean_area": 0.040152404882718117,
+          "mean_confidence": 9.08085096450079,
+          "persistence": 1.0,
+          "quality": 9.08085096450079
+        },
+        "breakdance:base:04": {
+          "mean_area": 0.01687207840786588,
+          "mean_confidence": 10.079380750656128,
+          "persistence": 1.0,
+          "quality": 10.079380750656128
+        },
+        "breakdance:base:05": {
+          "mean_area": 0.044782663748559534,
+          "mean_confidence": 10.371282072294326,
+          "persistence": 1.0,
+          "quality": 10.371282072294326
+        },
+        "breakdance:base:06": {
+          "mean_area": 0.04332805355748857,
+          "mean_confidence": 10.136082927385965,
+          "persistence": 1.0,
+          "quality": 10.136082927385965
+        },
+        "breakdance:base:07": {
+          "mean_area": 0.03293630464480874,
+          "mean_confidence": 9.901313685235523,
+          "persistence": 1.0,
+          "quality": 9.901313685235523
+        },
+        "breakdance:base:08": {
+          "mean_area": 0.03765365948291885,
+          "mean_confidence": 10.307942123640151,
+          "persistence": 1.0,
+          "quality": 10.307942123640151
+        },
+        "breakdance:base:09": {
+          "mean_area": 0.008779203464913518,
+          "mean_confidence": 8.97033943448748,
+          "persistence": 0.9880952380952381,
+          "quality": 8.86354967931501
+        }
+      },
+      "committed_track_ids": [
+        "breakdance:base:00",
+        "breakdance:base:01",
+        "breakdance:base:02",
+        "breakdance:base:03",
+        "breakdance:base:04",
+        "breakdance:base:05",
+        "breakdance:base:06",
+        "breakdance:base:07",
+        "breakdance:base:08",
+        "breakdance:base:09",
+        "breakdance:later:00:00",
+        "breakdance:later:00:01"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg",
+        "00080.jpg",
+        "00081.jpg",
+        "00082.jpg",
+        "00083.jpg"
+      ],
+      "later_admitted_track_count": 5,
+      "later_native_proposal_counts": {
+        "28": 82,
+        "43": 80,
+        "79": 73
+      },
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 12,
+        "committed_precision": 0.08333333333333333,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9556007179623152,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "breakdance:base:00"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "breakdance:base:00"
+          ],
+          "proposal_hit_track_ids": [
+            "breakdance:base:00",
+            "breakdance:base:09",
+            "breakdance:later:00:01",
+            "breakdance:later:01:03",
+            "breakdance:later:02:04"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "breakdance:base:00": 0.9556007179623152,
+            "breakdance:base:01": 0.0,
+            "breakdance:base:02": 0.03063495653643859,
+            "breakdance:base:03": 0.009987508634614239,
+            "breakdance:base:04": 0.07465360955807768,
+            "breakdance:base:05": 0.0,
+            "breakdance:base:06": 0.0,
+            "breakdance:base:07": 0.0,
+            "breakdance:base:08": 0.0,
+            "breakdance:base:09": 0.05702449314237651,
+            "breakdance:later:00:00": 0.054934183663282156,
+            "breakdance:later:00:01": 0.06327892292431378,
+            "breakdance:later:01:02": 0.054843443510070665,
+            "breakdance:later:01:03": 0.023201446303065164,
+            "breakdance:later:02:04": 0.004606299903948144
+          }
+        }
+      ],
+      "ordinal": 4,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "redetection_frame_indices": [
+        28,
+        43,
+        79
+      ],
+      "redetection_selection_scores": {},
+      "schedule": "random",
+      "track_signals": {
+        "breakdance:base:00": {
+          "mean_area": 0.09049596785435486,
+          "mean_confidence": 9.22441790217445,
+          "persistence": 1.0,
+          "quality": 9.22441790217445
+        },
+        "breakdance:base:01": {
+          "mean_area": 0.06108567060704063,
+          "mean_confidence": 10.823179386910939,
+          "persistence": 1.0,
+          "quality": 10.823179386910939
+        },
+        "breakdance:base:02": {
+          "mean_area": 0.044273098583695776,
+          "mean_confidence": 9.660314151218959,
+          "persistence": 1.0,
+          "quality": 9.660314151218959
+        },
+        "breakdance:base:03": {
+          "mean_area": 0.040152404882718117,
+          "mean_confidence": 9.08085096450079,
+          "persistence": 1.0,
+          "quality": 9.08085096450079
+        },
+        "breakdance:base:04": {
+          "mean_area": 0.01687207840786588,
+          "mean_confidence": 10.079380750656128,
+          "persistence": 1.0,
+          "quality": 10.079380750656128
+        },
+        "breakdance:base:05": {
+          "mean_area": 0.044782663748559534,
+          "mean_confidence": 10.371282072294326,
+          "persistence": 1.0,
+          "quality": 10.371282072294326
+        },
+        "breakdance:base:06": {
+          "mean_area": 0.04332805355748857,
+          "mean_confidence": 10.136082927385965,
+          "persistence": 1.0,
+          "quality": 10.136082927385965
+        },
+        "breakdance:base:07": {
+          "mean_area": 0.03293630464480874,
+          "mean_confidence": 9.901313685235523,
+          "persistence": 1.0,
+          "quality": 9.901313685235523
+        },
+        "breakdance:base:08": {
+          "mean_area": 0.03765365948291885,
+          "mean_confidence": 10.307942123640151,
+          "persistence": 1.0,
+          "quality": 10.307942123640151
+        },
+        "breakdance:base:09": {
+          "mean_area": 0.008779203464913518,
+          "mean_confidence": 8.97033943448748,
+          "persistence": 0.9880952380952381,
+          "quality": 8.86354967931501
+        },
+        "breakdance:later:00:00": {
+          "mean_area": 0.020206948045611687,
+          "mean_confidence": 9.89545875787735,
+          "persistence": 0.6666666666666666,
+          "quality": 6.596972505251566
+        },
+        "breakdance:later:00:01": {
+          "mean_area": 0.014345786982825917,
+          "mean_confidence": 8.187152990273066,
+          "persistence": 0.6666666666666666,
+          "quality": 5.458101993515378
+        },
+        "breakdance:later:01:02": {
+          "mean_area": 0.015956653053064488,
+          "mean_confidence": 10.460321843624115,
+          "persistence": 0.4880952380952381,
+          "quality": 5.105633280816532
+        },
+        "breakdance:later:01:03": {
+          "mean_area": 0.020084882713581234,
+          "mean_confidence": 6.972673186234066,
+          "persistence": 0.4880952380952381,
+          "quality": 3.4033285789951986
+        },
+        "breakdance:later:02:04": {
+          "mean_area": 0.028796350507416083,
+          "mean_confidence": 10.245214223861694,
+          "persistence": 0.05952380952380952,
+          "quality": 0.6098341799917675
+        }
+      },
+      "video_id": "breakdance",
+      "wall_seconds": 268.7716898918152
+    },
+    {
+      "baseline_committed_track_ids": [
+        "camel:base:00"
+      ],
+      "baseline_metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 1,
+        "committed_precision": 1.0,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9685711972357561,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "baseline_native_proposal_count": 2,
+      "baseline_objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "camel:base:00"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "camel:base:00",
+            "camel:base:01"
+          ],
+          "proposal_hit_track_ids": [
+            "camel:base:00",
+            "camel:base:01"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "camel:base:00": 0.9685711972357561,
+            "camel:base:01": 0.8774290759156677
+          }
+        }
+      ],
+      "baseline_retained_topk_count": 2,
+      "baseline_track_signals": {
+        "camel:base:00": {
+          "mean_area": 0.12307604735883425,
+          "mean_confidence": 10.261806366178725,
+          "persistence": 1.0,
+          "quality": 10.261806366178725
+        },
+        "camel:base:01": {
+          "mean_area": 0.10640127612975973,
+          "mean_confidence": 8.297242495748732,
+          "persistence": 1.0,
+          "quality": 8.297242495748732
+        }
+      },
+      "committed_track_ids": [
+        "camel:base:00",
+        "camel:later:01:00",
+        "camel:later:01:02"
+      ],
+      "frame_names": [
+        "00000.jpg",
+        "00001.jpg",
+        "00002.jpg",
+        "00003.jpg",
+        "00004.jpg",
+        "00005.jpg",
+        "00006.jpg",
+        "00007.jpg",
+        "00008.jpg",
+        "00009.jpg",
+        "00010.jpg",
+        "00011.jpg",
+        "00012.jpg",
+        "00013.jpg",
+        "00014.jpg",
+        "00015.jpg",
+        "00016.jpg",
+        "00017.jpg",
+        "00018.jpg",
+        "00019.jpg",
+        "00020.jpg",
+        "00021.jpg",
+        "00022.jpg",
+        "00023.jpg",
+        "00024.jpg",
+        "00025.jpg",
+        "00026.jpg",
+        "00027.jpg",
+        "00028.jpg",
+        "00029.jpg",
+        "00030.jpg",
+        "00031.jpg",
+        "00032.jpg",
+        "00033.jpg",
+        "00034.jpg",
+        "00035.jpg",
+        "00036.jpg",
+        "00037.jpg",
+        "00038.jpg",
+        "00039.jpg",
+        "00040.jpg",
+        "00041.jpg",
+        "00042.jpg",
+        "00043.jpg",
+        "00044.jpg",
+        "00045.jpg",
+        "00046.jpg",
+        "00047.jpg",
+        "00048.jpg",
+        "00049.jpg",
+        "00050.jpg",
+        "00051.jpg",
+        "00052.jpg",
+        "00053.jpg",
+        "00054.jpg",
+        "00055.jpg",
+        "00056.jpg",
+        "00057.jpg",
+        "00058.jpg",
+        "00059.jpg",
+        "00060.jpg",
+        "00061.jpg",
+        "00062.jpg",
+        "00063.jpg",
+        "00064.jpg",
+        "00065.jpg",
+        "00066.jpg",
+        "00067.jpg",
+        "00068.jpg",
+        "00069.jpg",
+        "00070.jpg",
+        "00071.jpg",
+        "00072.jpg",
+        "00073.jpg",
+        "00074.jpg",
+        "00075.jpg",
+        "00076.jpg",
+        "00077.jpg",
+        "00078.jpg",
+        "00079.jpg",
+        "00080.jpg",
+        "00081.jpg",
+        "00082.jpg",
+        "00083.jpg",
+        "00084.jpg",
+        "00085.jpg",
+        "00086.jpg",
+        "00087.jpg",
+        "00088.jpg",
+        "00089.jpg"
+      ],
+      "later_admitted_track_count": 4,
+      "later_native_proposal_counts": {
+        "34": 8,
+        "6": 1,
+        "87": 2
+      },
+      "metrics": {
+        "all_annotated_object_count": 1,
+        "assignment_metric": "mean_annotated_frame_JF",
+        "committed_count": 3,
+        "committed_precision": 0.3333333333333333,
+        "committed_recall": 1.0,
+        "gt_count": 1,
+        "query_annotation_available": true,
+        "strict_jf": 0.9685711972357561,
+        "structural_single_shot_blind_spot_count": 0,
+        "structural_single_shot_blind_spot_object_ids": []
+      },
+      "objects": [
+        {
+          "A": true,
+          "B": true,
+          "C": true,
+          "commitment_hit_track_ids": [
+            "camel:base:00"
+          ],
+          "object_id": 1,
+          "propagation_hit_track_ids": [
+            "camel:base:00",
+            "camel:base:01"
+          ],
+          "proposal_hit_track_ids": [
+            "camel:base:00",
+            "camel:base:01"
+          ],
+          "query_frame_index": 0,
+          "query_visible": true,
+          "track_mean_jf": {
+            "camel:base:00": 0.9685711972357561,
+            "camel:base:01": 0.8774290759156677,
+            "camel:later:01:00": 0.01226212795648418,
+            "camel:later:01:01": 0.0,
+            "camel:later:01:02": 0.004142936467353455,
+            "camel:later:02:03": 0.0
+          }
+        }
+      ],
+      "ordinal": 5,
+      "query_frame": "00000.jpg",
+      "query_frame_index": 0,
+      "redetection_frame_indices": [
+        6,
+        34,
+        87
+      ],
+      "redetection_selection_scores": {},
+      "schedule": "random",
+      "track_signals": {
+        "camel:base:00": {
+          "mean_area": 0.12307604735883425,
+          "mean_confidence": 10.261806366178725,
+          "persistence": 1.0,
+          "quality": 10.261806366178725
+        },
+        "camel:base:01": {
+          "mean_area": 0.10640127612975973,
+          "mean_confidence": 8.297242495748732,
+          "persistence": 1.0,
+          "quality": 8.297242495748732
+        },
+        "camel:later:01:00": {
+          "mean_area": 0.026283656392885026,
+          "mean_confidence": 8.568963357380458,
+          "persistence": 0.6222222222222222,
+          "quality": 5.331799422370063
+        },
+        "camel:later:01:01": {
+          "mean_area": 0.0012723349813513747,
+          "mean_confidence": 3.067667688642229,
+          "persistence": 0.1,
+          "quality": 0.30676676886422294
+        },
+        "camel:later:01:02": {
+          "mean_area": 0.008601286313705811,
+          "mean_confidence": 4.704243174621037,
+          "persistence": 0.6222222222222222,
+          "quality": 2.927084641986423
+        },
+        "camel:later:02:03": {
+          "mean_area": 0.02826486468904502,
+          "mean_confidence": 9.348874969141823,
+          "persistence": 0.03333333333333333,
+          "quality": 0.31162916563806076
+        }
+      },
+      "video_id": "camel",
+      "wall_seconds": 115.36597967147827
+    }
+  ]
+}

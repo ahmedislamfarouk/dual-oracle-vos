@@ -1,0 +1,147 @@
+{
+  "bootstrap_unit": "eligible query-visible-object video",
+  "cells": [
+    {
+      "discovery_minus_larger_downstream": {
+        "bootstrap_95": [
+          -0.2233333333333333,
+          0.0022222222222222365
+        ],
+        "bootstrap_fraction_positive": 0.02725,
+        "discovery_dominant_at_95": false,
+        "larger_downstream_stage": "propagation_loss",
+        "video_macro": -0.10666666666666665
+      },
+      "eligible_video_count": 30,
+      "path": "reproducibility/ijcv_extension/results_20260822/davis_full/detr_shard0of1.json",
+      "pooled_object_level": {
+        "commitment_loss": 0.0,
+        "discovery_loss": 0.09836065573770492,
+        "propagation_loss": 0.18032786885245902
+      },
+      "proposer": "detr",
+      "total_counts": {
+        "A": 55,
+        "B": 44,
+        "C": 44,
+        "N": 61
+      },
+      "video_bootstrap_95": {
+        "commitment_loss": [
+          0.0,
+          0.0
+        ],
+        "discovery_loss": [
+          0.01111111111111111,
+          0.09777777777777778
+        ],
+        "propagation_loss": [
+          0.07222222222222222,
+          0.25555555555555554
+        ]
+      },
+      "video_macro": {
+        "commitment_loss": 0.0,
+        "discovery_loss": 0.048888888888888885,
+        "propagation_loss": 0.15555555555555553
+      },
+      "zero_denominator_video_count": 0
+    },
+    {
+      "discovery_minus_larger_downstream": {
+        "bootstrap_95": [
+          -0.12444444444444444,
+          0.1111111111111111
+        ],
+        "bootstrap_fraction_positive": 0.46365,
+        "discovery_dominant_at_95": false,
+        "larger_downstream_stage": "propagation_loss",
+        "video_macro": -0.0022222222222222365
+      },
+      "eligible_video_count": 30,
+      "path": "reproducibility/ijcv_extension/results_20260822/davis_full/maskrcnn_shard0of1.json",
+      "pooled_object_level": {
+        "commitment_loss": 0.04918032786885246,
+        "discovery_loss": 0.11475409836065574,
+        "propagation_loss": 0.13114754098360656
+      },
+      "proposer": "maskrcnn",
+      "total_counts": {
+        "A": 54,
+        "B": 46,
+        "C": 43,
+        "N": 61
+      },
+      "video_bootstrap_95": {
+        "commitment_loss": [
+          0.0,
+          0.09000000000000001
+        ],
+        "discovery_loss": [
+          0.016666666666666666,
+          0.17555555555555552
+        ],
+        "propagation_loss": [
+          0.017777777777777778,
+          0.18000000000000002
+        ]
+      },
+      "video_macro": {
+        "commitment_loss": 0.04,
+        "discovery_loss": 0.08777777777777777,
+        "propagation_loss": 0.09000000000000001
+      },
+      "zero_denominator_video_count": 0
+    },
+    {
+      "discovery_minus_larger_downstream": {
+        "bootstrap_95": [
+          0.1611111111111111,
+          0.5944444444444444
+        ],
+        "bootstrap_fraction_positive": 0.9995,
+        "discovery_dominant_at_95": true,
+        "larger_downstream_stage": "propagation_loss",
+        "video_macro": 0.38
+      },
+      "eligible_video_count": 30,
+      "path": "reproducibility/ijcv_extension/results_20260822/davis_full/amg_merged.json",
+      "pooled_object_level": {
+        "commitment_loss": 0.0,
+        "discovery_loss": 0.5737704918032787,
+        "propagation_loss": 0.22950819672131148
+      },
+      "proposer": "amg",
+      "total_counts": {
+        "A": 26,
+        "B": 12,
+        "C": 12,
+        "N": 61
+      },
+      "video_bootstrap_95": {
+        "commitment_loss": [
+          0.0,
+          0.0
+        ],
+        "discovery_loss": [
+          0.4144444444444444,
+          0.7188888888888888
+        ],
+        "propagation_loss": [
+          0.09888888888888889,
+          0.2833333333333333
+        ]
+      },
+      "video_macro": {
+        "commitment_loss": 0.0,
+        "discovery_loss": 0.5666666666666667,
+        "propagation_loss": 0.18666666666666668
+      },
+      "zero_denominator_video_count": 0
+    }
+  ],
+  "dataset": "davis",
+  "resamples": 20000,
+  "schema_version": "cpd1-bootstrap-v1",
+  "seed": 20260822
+}
