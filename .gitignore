@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+.ipynb_checkpoints/
+checkpoints/
+data/
+*.pt
+*.pth
+.DS_Store
+sam2/

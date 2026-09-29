@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "A Dual-Oracle Protocol for Annotation-Free Video Object Segmentation: Separating Discovery Quality from Discovery Timing"
+type: software
+license: MIT
+repository-code: "https://github.com/ahmedislamfarouk/dual-oracle-vos"
+authors:
+  - given-names: Ahmed
+    family-names: Islam
+    orcid: "https://orcid.org/0009-0002-0897-9762"
+    affiliation: "Alamein International University"
+  - given-names: Ammar
+    family-names: Toutou
+    orcid: "https://orcid.org/0009-0008-1242-9281"
+    affiliation: "Alamein International University"
+  - given-names: Youssef
+    family-names: Rezk
+    orcid: "https://orcid.org/0009-0008-9218-6485"
+    affiliation: "Alamein International University"
+  - given-names: Belal
+    family-names: Fathy
+    orcid: "https://orcid.org/0009-0000-0627-8538"
+    affiliation: "Alamein International University"
+  - given-names: Abdallah
+    family-names: Zain
+    orcid: "https://orcid.org/0009-0009-5670-7471"
+    affiliation: "Alamein International University"
