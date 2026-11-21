@@ -35,3 +35,8 @@ admission threshold 0.5. A DAVIS-2017 val re-run (frame-0 and QRD) checks agreem
 ## Reporting rule
 Every result is reported whatever its sign. Confirmatory results go in the main text.
 If the DAVIS check differs from the archive by more than 1 pp in either arm, that is reported next to every new result.
+
+## Amendment 1 (2026-11-21, before any R1, R3 or Modal run)
+Kaggle T4 sessions queue one at a time, so R1, R3 and a second DAVIS check run on Modal NVIDIA A10G GPUs
+(SAM 2 commit 2b90b9f, torch 2.7.1, transformers 4.49.0). R2 and the first DAVIS check stay on Kaggle T4.
+Hypotheses, populations, arms, thresholds and statistics are unchanged. Each hardware platform gets its own DAVIS check.
