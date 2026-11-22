@@ -55,3 +55,9 @@ Modal stopped at its spend limit after 39 R1 videos of one arm. Those 39 are not
 A local NVIDIA RTX 4070 Laptop GPU (bfloat16 autocast, same code) runs the 67 LVOS training videos the Kaggle run did not reach
 (`prereg/lvos_rest67.txt`): frame-0, QRD and the three-seed oracle. H5 and H6 are then tested on all 120 videos as planned,
 and also reported separately for the 53 Kaggle videos and the 67 local videos.
+
+## Amendment 4 (2026-11-22, before the three-seed oracle runs on the first 53 LVOS videos)
+To stay inside the Kaggle quota, the three-seed oracle for the 53 Kaggle LVOS videos runs on the local RTX 4070 Laptop
+under bfloat16, the same precision as their QRD arm, instead of Kaggle float16. The remaining 64 local QRD videos run
+one process per video with SAM 2 state offloaded to CPU memory (memory placement only; a re-run of one video gave the
+identical score).
