@@ -61,3 +61,9 @@ To stay inside the Kaggle quota, the three-seed oracle for the 53 Kaggle LVOS vi
 under bfloat16, the same precision as their QRD arm, instead of Kaggle float16. The remaining 64 local QRD videos run
 one process per video with SAM 2 state offloaded to CPU memory (memory placement only; a re-run of one video gave the
 identical score).
+
+## Amendment 5 (2026-11-22, after the first R1 analysis)
+The three-seed oracle arm of R1 lost 13 of its 120 videos to the 11.3-hour Kaggle session cap (one more had no seed).
+Those 13 (`prereg/mose_o4b3_missing.txt`) are run with the same Kaggle T4 float16 setup to complete the planned population.
+This decision was made after H4 had been analysed on the 106 available videos (+3.83 pp, p = 0.010), so both the 106-video
+and the completed result are reported.
