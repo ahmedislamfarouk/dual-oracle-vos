@@ -40,3 +40,13 @@ If the DAVIS check differs from the archive by more than 1 pp in either arm, tha
 Kaggle T4 sessions queue one at a time, so R1, R3 and a second DAVIS check run on Modal NVIDIA A10G GPUs
 (SAM 2 commit 2b90b9f, torch 2.7.1, transformers 4.49.0). R2 and the first DAVIS check stay on Kaggle T4.
 Hypotheses, populations, arms, thresholds and statistics are unchanged. Each hardware platform gets its own DAVIS check.
+
+## Amendment 2 (2026-11-22, before any analysis of R1 data)
+Modal stopped at its spend limit after 39 R1 videos of one arm. Those 39 are not used. Remaining compute is the Kaggle T4 quota, so:
+- R1 runs on the first 120 videos of `prereg/mose_fresh240.txt` (list order, fixed now, before any R1 result is analysed).
+  All five arms run on Kaggle T4 under float16 autocast. A bfloat16 and float16 run of four DAVIS videos on T4 gave the same
+  J&F to three decimals, and float16 is 2.4 times faster on T4. H1 to H4, the margin and the statistics are unchanged.
+- R2: the 120-video LVOS run reached its time cap after 53 videos (frame-0 and QRD, bfloat16). H6 is tested on those 53.
+  H5 is tested on the same 53 videos, with the three-seed oracle run under float16.
+- R3 (Mask R-CNN) is dropped for lack of compute.
+- R4: the T4 DAVIS check covers 26 of 30 videos (time cap). It is reported as is.
