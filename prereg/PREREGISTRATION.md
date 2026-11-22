@@ -50,3 +50,8 @@ Modal stopped at its spend limit after 39 R1 videos of one arm. Those 39 are not
   H5 is tested on the same 53 videos, with the three-seed oracle run under float16.
 - R3 (Mask R-CNN) is dropped for lack of compute.
 - R4: the T4 DAVIS check covers 26 of 30 videos (time cap). It is reported as is.
+
+## Amendment 3 (2026-11-22, before any R2 run on these videos)
+A local NVIDIA RTX 4070 Laptop GPU (bfloat16 autocast, same code) runs the 67 LVOS training videos the Kaggle run did not reach
+(`prereg/lvos_rest67.txt`): frame-0, QRD and the three-seed oracle. H5 and H6 are then tested on all 120 videos as planned,
+and also reported separately for the 53 Kaggle videos and the 67 local videos.
