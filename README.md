@@ -1,8 +1,6 @@
 # A Dual-Oracle Protocol for Annotation-Free Video Object Segmentation
 
-Code and per-video results for **"A Dual-Oracle Protocol for Annotation-Free Video Object Segmentation:
-Separating Discovery Quality from Discovery Timing"** by Ahmed Islam, Ammar Toutou, Youssef Rezk,
-Belal Fathy and Abdallah Zain (Alamein International University).
+Code and per-video results for **"A dual-oracle protocol separates detection quality from detection timing in annotation-free video object segmentation"** by Ahmed Islam (Alamein International University).
 
 An annotation-free video object segmentation pipeline can be built from frozen public models: a
 class-agnostic detector proposes objects on a reference frame and a promptable segmenter propagates
@@ -40,9 +38,24 @@ Committed-track bijective J&F (%), our evaluator. Every comparison is paired ove
 | O4: best frame, one seed | 65.06 | 87.38 | 57.68 | 73.21 |
 | O4: best frames, three seeds | 68.19 | | 60.93 | 77.00 |
 
-No single-seed oracle is resolved above QRD. Three best-frame seeds are resolved above it on capped MOSE
-(+4.23) and on late-appearing YouTube-VOS objects (+5.61), but not on LVOS (+2.20). The full set of 107
-tests, with confidence intervals, is listed in the paper's supplementary material.
+No single-seed oracle is significantly above QRD. Three best-frame seeds are significantly above it on capped MOSE
+(+4.23) and on late-appearing YouTube-VOS objects (+5.61), but not on LVOS (+2.20).
+
+### Pre-registered replication
+
+The plan in `prereg/PREREGISTRATION.md` was committed before any of its runs (commit `fbb244f`, 2026-11-21) and has five
+dated amendments. Per-video results are in `results/prereg/` and the analysis in `analysis/prereg/`.
+
+| Hypothesis | Data | Difference (pp) | Interval | Result |
+|---|---|---|---|---|
+| H1: QRD above frame-0 | 120 new MOSE videos | +13.54 | 95% [+9.06, +18.45] | holds, p = 3.3e-10 |
+| H2: O1 equivalent to QRD, +/-4 pp | 120 new MOSE | +0.89 | 90% [-1.69, +3.37] | equivalent |
+| H3: O4 one seed equivalent to QRD, +/-4 pp | 119 new MOSE | +0.92 | 90% [-1.69, +3.57] | equivalent |
+| H4: O4 three seeds above QRD | 119 new MOSE | +3.67 | 95% [+1.22, +6.29] | holds, p = 0.012 |
+| H6: QRD above frame-0 | 120 LVOS training videos | +1.00 | 95% [+0.22, +2.04] | holds, p = 0.016 |
+| H5: O4 three seeds above QRD | 120 LVOS training videos | +0.14 | 95% [-0.24, +0.54] | does not hold, p = 0.32 |
+
+The full set of 123 tests, with confidence intervals, is listed in the paper's supplementary material.
 
 ## Repository layout
 
@@ -56,6 +69,9 @@ tests, with confidence intervals, is listed in the paper's supplementary materia
 | `analysis/` | Paired bootstrap and Wilcoxon analyses that produce the numbers in the paper |
 | `results/` | Per-video results (`results.json` / `.json` / `.csv`) for every reported arm |
 | `docs/` | Experiment protocols and the DAVIS full-sequence reproduction guide |
+| `dovos/`, `scripts/` | Clean re-implementation used for the pre-registered runs (`run_qrd.py`, `run_seeding.py`) |
+| `prereg/` | Pre-registration plan, amendments, video lists and run harnesses |
+| `results/prereg/`, `analysis/prereg/` | Per-video results and analysis of the pre-registered runs |
 
 ## Installation
 
@@ -104,9 +120,8 @@ running them.
 
 ```bibtex
 @misc{islam2026dualoracle,
-  title  = {A Dual-Oracle Protocol for Annotation-Free Video Object Segmentation:
-            Separating Discovery Quality from Discovery Timing},
-  author = {Islam, Ahmed and Toutou, Ammar and Rezk, Youssef and Fathy, Belal and Zain, Abdallah},
+  title  = {A dual-oracle protocol separates detection quality from detection timing in annotation-free video object segmentation},
+  author = {Islam, Ahmed},
   year   = {2026},
   note   = {Manuscript under review}
 }
