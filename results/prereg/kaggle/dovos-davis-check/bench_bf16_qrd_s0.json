@@ -1,0 +1,126 @@
+{
+ "config": {
+  "root": "/tmp/davis",
+  "out": "/kaggle/working/out/bench_bf16_qrd_s0.json",
+  "max_frames": 0,
+  "spread": false,
+  "video_list": "/tmp/davis_val.txt",
+  "max_videos": 4,
+  "shard": 0,
+  "num_shards": 2,
+  "checkpoint_dir": "/tmp/ckpt",
+  "sam2_size": "large",
+  "objectness": 0.05,
+  "detector": "detr",
+  "device": "cuda",
+  "threads": 2,
+  "cover_max": 0.5,
+  "redetect": "quartile",
+  "tiou_stride": 4
+ },
+ "per_video": {
+  "bike-packing": {
+   "frame0": {
+    "jf": 0.8389,
+    "pool_jf": 0.8823,
+    "precision": 0.0488,
+    "recall": 1.0,
+    "n_tracks": 69,
+    "n_committed": 41,
+    "jf_nonoverlap": 0.7333,
+    "jf_nonoverlap_top20": 0.1529
+   },
+   "qrd": {
+    "jf": 0.8389,
+    "pool_jf": 0.8823,
+    "precision": 0.0417,
+    "recall": 1.0,
+    "n_tracks": 78,
+    "n_committed": 48,
+    "jf_nonoverlap": 0.7332,
+    "jf_nonoverlap_top20": 0.1529
+   },
+   "qrd_gated": {
+    "jf": 0.8389,
+    "pool_jf": 0.8823,
+    "precision": 0.0417,
+    "recall": 1.0,
+    "n_tracks": 77,
+    "n_committed": 48
+   },
+   "n_discovered": 9,
+   "n_objects": 2,
+   "n_frames": 69,
+   "detector_calls": 4,
+   "seconds": 2085.7
+  },
+  "bmx-trees": {
+   "frame0": {
+    "jf": 0.7895,
+    "pool_jf": 0.7895,
+    "precision": 0.6667,
+    "recall": 1.0,
+    "n_tracks": 3,
+    "n_committed": 3,
+    "jf_nonoverlap": 0.7886,
+    "jf_nonoverlap_top20": 0.7886
+   },
+   "qrd": {
+    "jf": 0.7476,
+    "pool_jf": 0.7895,
+    "precision": 0.04,
+    "recall": 0.5,
+    "n_tracks": 74,
+    "n_committed": 25,
+    "jf_nonoverlap": 0.7,
+    "jf_nonoverlap_top20": 0.7
+   },
+   "qrd_gated": {
+    "jf": 0.7895,
+    "pool_jf": 0.7895,
+    "precision": 0.2857,
+    "recall": 1.0,
+    "n_tracks": 7,
+    "n_committed": 7
+   },
+   "n_discovered": 71,
+   "n_objects": 2,
+   "n_frames": 80,
+   "detector_calls": 4,
+   "seconds": 2205.3
+  }
+ },
+ "skipped": {},
+ "summary": {
+  "n_videos": 2,
+  "frame0": {
+   "jf": 0.8142,
+   "pool_jf": 0.8359,
+   "precision": 0.35774999999999996,
+   "recall": 1.0,
+   "n_tracks": 36.0,
+   "n_committed": 22.0,
+   "jf_nonoverlap": 0.76095,
+   "jf_nonoverlap_top20": 0.47075
+  },
+  "qrd": {
+   "jf": 0.79325,
+   "pool_jf": 0.8359,
+   "precision": 0.04085,
+   "recall": 0.75,
+   "n_tracks": 76.0,
+   "n_committed": 36.5,
+   "jf_nonoverlap": 0.7165999999999999,
+   "jf_nonoverlap_top20": 0.42645
+  },
+  "qrd_gated": {
+   "jf": 0.8142,
+   "pool_jf": 0.8359,
+   "precision": 0.1637,
+   "recall": 1.0,
+   "n_tracks": 42.0,
+   "n_committed": 27.5
+  }
+ },
+ "complete": true
+}

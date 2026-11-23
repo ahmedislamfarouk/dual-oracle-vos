@@ -1,0 +1,160 @@
+{
+ "config": {
+  "root": "/home/ahmed/Desktop/SCIREP_SUBMISSION/local_runs/data/lvos67",
+  "out": "/home/ahmed/Desktop/SCIREP_SUBMISSION/local_runs/out/lvos_qrd_local.json",
+  "max_frames": 100,
+  "spread": true,
+  "video_list": null,
+  "max_videos": 0,
+  "shard": 0,
+  "num_shards": 1,
+  "checkpoint_dir": "/home/ahmed/Desktop/SCIREP_SUBMISSION/local_runs/ckpt",
+  "sam2_size": "large",
+  "objectness": 0.05,
+  "detector": "detr",
+  "device": "cuda",
+  "threads": 2,
+  "cover_max": 0.5,
+  "redetect": "quartile",
+  "tiou_stride": 4
+ },
+ "per_video": {
+  "ML7rr9vL": {
+   "frame0": {
+    "jf": 0.9332,
+    "pool_jf": 0.9332,
+    "precision": 0.6667,
+    "recall": 1.0,
+    "n_tracks": 21,
+    "n_committed": 3,
+    "jf_nonoverlap": 0.9326,
+    "jf_nonoverlap_top20": 0.9326
+   },
+   "qrd": {
+    "jf": 0.9332,
+    "pool_jf": 0.9332,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "n_tracks": 31,
+    "n_committed": 6,
+    "jf_nonoverlap": 0.9326,
+    "jf_nonoverlap_top20": 0.9326
+   },
+   "qrd_gated": {
+    "jf": 0.9332,
+    "pool_jf": 0.9332,
+    "precision": 0.5,
+    "recall": 1.0,
+    "n_tracks": 25,
+    "n_committed": 4
+   },
+   "n_discovered": 10,
+   "n_objects": 2,
+   "n_frames": 100,
+   "detector_calls": 4,
+   "seconds": 323.0
+  },
+  "NNkYxBvO": {
+   "frame0": {
+    "jf": 0.832,
+    "pool_jf": 0.832,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "n_tracks": 8,
+    "n_committed": 3,
+    "jf_nonoverlap": 0.8323,
+    "jf_nonoverlap_top20": 0.8323
+   },
+   "qrd": {
+    "jf": 0.832,
+    "pool_jf": 0.832,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "n_tracks": 8,
+    "n_committed": 3,
+    "jf_nonoverlap": 0.8323,
+    "jf_nonoverlap_top20": 0.8323
+   },
+   "qrd_gated": {
+    "jf": 0.832,
+    "pool_jf": 0.832,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "n_tracks": 8,
+    "n_committed": 3
+   },
+   "n_discovered": 0,
+   "n_objects": 1,
+   "n_frames": 100,
+   "detector_calls": 4,
+   "seconds": 112.5
+  },
+  "PEyHFztC": {
+   "frame0": {
+    "jf": 0.7801,
+    "pool_jf": 0.7797,
+    "precision": 0.1,
+    "recall": 1.0,
+    "n_tracks": 57,
+    "n_committed": 20,
+    "jf_nonoverlap": 0.7801,
+    "jf_nonoverlap_top20": 0.7801
+   },
+   "qrd": {
+    "jf": 0.7801,
+    "pool_jf": 0.7797,
+    "precision": 0.0476,
+    "recall": 1.0,
+    "n_tracks": 113,
+    "n_committed": 42,
+    "jf_nonoverlap": 0.7801,
+    "jf_nonoverlap_top20": 0.5046
+   },
+   "qrd_gated": {
+    "jf": 0.7801,
+    "pool_jf": 0.7797,
+    "precision": 0.087,
+    "recall": 1.0,
+    "n_tracks": 64,
+    "n_committed": 23
+   },
+   "n_discovered": 56,
+   "n_objects": 2,
+   "n_frames": 100,
+   "detector_calls": 4,
+   "seconds": 637.8
+  }
+ },
+ "skipped": {},
+ "summary": {
+  "n_videos": 3,
+  "frame0": {
+   "jf": 0.8484333333333334,
+   "pool_jf": 0.8483,
+   "precision": 0.3666666666666667,
+   "recall": 1.0,
+   "n_tracks": 28.666666666666668,
+   "n_committed": 8.666666666666666,
+   "jf_nonoverlap": 0.8483333333333333,
+   "jf_nonoverlap_top20": 0.8483333333333333
+  },
+  "qrd": {
+   "jf": 0.8484333333333334,
+   "pool_jf": 0.8483,
+   "precision": 0.23806666666666665,
+   "recall": 1.0,
+   "n_tracks": 50.666666666666664,
+   "n_committed": 17.0,
+   "jf_nonoverlap": 0.8483333333333333,
+   "jf_nonoverlap_top20": 0.7565
+  },
+  "qrd_gated": {
+   "jf": 0.8484333333333334,
+   "pool_jf": 0.8483,
+   "precision": 0.30676666666666663,
+   "recall": 1.0,
+   "n_tracks": 32.333333333333336,
+   "n_committed": 10.0
+  }
+ }
+}

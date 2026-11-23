@@ -1,0 +1,153 @@
+{
+ "config": {
+  "root": "/kaggle/input/notebooks/dynamicplays/dovos-mose-data2/mose/train",
+  "out": "/kaggle/working/out/mose_o4b3rest_s0.json",
+  "max_frames": 60,
+  "spread": false,
+  "video_list": "/tmp/mose_missing13.txt",
+  "max_videos": 0,
+  "shard": 0,
+  "num_shards": 2,
+  "checkpoint_dir": "/tmp/ckpt",
+  "sam2_size": "large",
+  "objectness": 0.05,
+  "detector": "detr",
+  "device": "cuda",
+  "threads": 2,
+  "seeding": "o4",
+  "seeds": 3,
+  "frames": "best",
+  "random_seed": 0,
+  "cover_max": 0.5,
+  "tiou_stride": 1
+ },
+ "per_video": {
+  "23b9a3ea": {
+   "o4": {
+    "jf": 0.4839,
+    "pool_jf": 0.593,
+    "precision": 0.7,
+    "recall": 0.5,
+    "n_tracks": 35,
+    "n_committed": 10,
+    "jf_nonoverlap": 0.4829,
+    "jf_nonoverlap_top20": 0.4829
+   },
+   "n_seeds": 35,
+   "n_objects": 14,
+   "n_frames": 60,
+   "seconds": 1525.2
+  },
+  "2463609b": {
+   "o4": {
+    "jf": 0.9019,
+    "pool_jf": 0.9024,
+    "precision": 0.8,
+    "recall": 1.0,
+    "n_tracks": 12,
+    "n_committed": 5,
+    "jf_nonoverlap": 0.9019,
+    "jf_nonoverlap_top20": 0.9019
+   },
+   "n_seeds": 12,
+   "n_objects": 4,
+   "n_frames": 60,
+   "seconds": 546.7
+  },
+  "251bf059": {
+   "o4": {
+    "jf": 0.7471,
+    "pool_jf": 0.8138,
+    "precision": 0.8,
+    "recall": 0.8,
+    "n_tracks": 27,
+    "n_committed": 10,
+    "jf_nonoverlap": 0.748,
+    "jf_nonoverlap_top20": 0.748
+   },
+   "n_seeds": 27,
+   "n_objects": 10,
+   "n_frames": 60,
+   "seconds": 1334.0
+  },
+  "25af2eeb": {
+   "o4": {
+    "jf": 0.745,
+    "pool_jf": 0.7513,
+    "precision": 0.7273,
+    "recall": 0.8,
+    "n_tracks": 60,
+    "n_committed": 22,
+    "jf_nonoverlap": 0.7261,
+    "jf_nonoverlap_top20": 0.6917
+   },
+   "n_seeds": 60,
+   "n_objects": 20,
+   "n_frames": 41,
+   "seconds": 1661.3
+  },
+  "265a69f4": {
+   "o4": {
+    "jf": 0.0,
+    "pool_jf": 0.5012,
+    "precision": 0.0,
+    "recall": 0.0,
+    "n_tracks": 1,
+    "n_committed": 0,
+    "jf_nonoverlap": 0.0,
+    "jf_nonoverlap_top20": 0.0
+   },
+   "n_seeds": 1,
+   "n_objects": 1,
+   "n_frames": 60,
+   "seconds": 64.7
+  },
+  "26ed56e6": {
+   "o4": {
+    "jf": 0.8697,
+    "pool_jf": 0.8728,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 9,
+    "n_committed": 3,
+    "jf_nonoverlap": 0.8697,
+    "jf_nonoverlap_top20": 0.8697
+   },
+   "n_seeds": 9,
+   "n_objects": 3,
+   "n_frames": 60,
+   "seconds": 458.3
+  },
+  "277ad883": {
+   "o4": {
+    "jf": 0.7084,
+    "pool_jf": 0.7147,
+    "precision": 0.75,
+    "recall": 1.0,
+    "n_tracks": 9,
+    "n_committed": 4,
+    "jf_nonoverlap": 0.6363,
+    "jf_nonoverlap_top20": 0.6363
+   },
+   "n_seeds": 9,
+   "n_objects": 3,
+   "n_frames": 30,
+   "seconds": 203.8
+  }
+ },
+ "skipped": {},
+ "summary": {
+  "n_videos": 7,
+  "o4": {
+   "jf": 0.6365714285714287,
+   "pool_jf": 0.7355999999999999,
+   "precision": 0.6824714285714286,
+   "recall": 0.7285714285714285,
+   "n_tracks": 21.857142857142858,
+   "n_committed": 7.714285714285714,
+   "jf_nonoverlap": 0.6235571428571429,
+   "jf_nonoverlap_top20": 0.6186428571428572
+  }
+ },
+ "complete": true
+}

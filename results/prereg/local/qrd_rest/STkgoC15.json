@@ -1,0 +1,91 @@
+{
+ "config": {
+  "root": "/home/ahmed/Desktop/SCIREP_SUBMISSION/local_runs/data/lvos67",
+  "out": "/home/ahmed/Desktop/SCIREP_SUBMISSION/local_runs/out/qrd_rest/STkgoC15.json",
+  "max_frames": 100,
+  "spread": true,
+  "video_list": "/tmp/claude-1000/lvos_one.txt",
+  "max_videos": 0,
+  "shard": 0,
+  "num_shards": 1,
+  "checkpoint_dir": "/home/ahmed/Desktop/SCIREP_SUBMISSION/local_runs/ckpt",
+  "sam2_size": "large",
+  "objectness": 0.05,
+  "detector": "detr",
+  "device": "cuda",
+  "threads": 2,
+  "cover_max": 0.5,
+  "redetect": "quartile",
+  "tiou_stride": 4
+ },
+ "per_video": {
+  "STkgoC15": {
+   "frame0": {
+    "jf": 0.888,
+    "pool_jf": 0.8898,
+    "precision": 0.0328,
+    "recall": 1.0,
+    "n_tracks": 98,
+    "n_committed": 61,
+    "jf_nonoverlap": 0.8878,
+    "jf_nonoverlap_top20": 0.461
+   },
+   "qrd": {
+    "jf": 0.888,
+    "pool_jf": 0.8898,
+    "precision": 0.023,
+    "recall": 1.0,
+    "n_tracks": 166,
+    "n_committed": 87,
+    "jf_nonoverlap": 0.8874,
+    "jf_nonoverlap_top20": 0.4609
+   },
+   "qrd_gated": {
+    "jf": 0.888,
+    "pool_jf": 0.8898,
+    "precision": 0.0278,
+    "recall": 1.0,
+    "n_tracks": 112,
+    "n_committed": 72
+   },
+   "n_discovered": 68,
+   "n_objects": 2,
+   "n_frames": 100,
+   "detector_calls": 4,
+   "seconds": 794.2
+  }
+ },
+ "skipped": {},
+ "summary": {
+  "n_videos": 1,
+  "frame0": {
+   "jf": 0.888,
+   "pool_jf": 0.8898,
+   "precision": 0.0328,
+   "recall": 1.0,
+   "n_tracks": 98.0,
+   "n_committed": 61.0,
+   "jf_nonoverlap": 0.8878,
+   "jf_nonoverlap_top20": 0.461
+  },
+  "qrd": {
+   "jf": 0.888,
+   "pool_jf": 0.8898,
+   "precision": 0.023,
+   "recall": 1.0,
+   "n_tracks": 166.0,
+   "n_committed": 87.0,
+   "jf_nonoverlap": 0.8874,
+   "jf_nonoverlap_top20": 0.4609
+  },
+  "qrd_gated": {
+   "jf": 0.888,
+   "pool_jf": 0.8898,
+   "precision": 0.0278,
+   "recall": 1.0,
+   "n_tracks": 112.0,
+   "n_committed": 72.0
+  }
+ },
+ "complete": true
+}

@@ -1,0 +1,475 @@
+{
+ "config": {
+  "root": "/tmp/davis",
+  "out": "/kaggle/working/out/davis_qrd_s0.json",
+  "max_frames": 0,
+  "spread": false,
+  "video_list": "/tmp/davis_val.txt",
+  "max_videos": 0,
+  "shard": 0,
+  "num_shards": 2,
+  "checkpoint_dir": "/tmp/ckpt",
+  "sam2_size": "large",
+  "objectness": 0.05,
+  "detector": "detr",
+  "device": "cuda",
+  "threads": 2,
+  "cover_max": 0.5,
+  "redetect": "quartile",
+  "tiou_stride": 4
+ },
+ "per_video": {
+  "bike-packing": {
+   "frame0": {
+    "jf": 0.8389,
+    "pool_jf": 0.8823,
+    "precision": 0.0488,
+    "recall": 1.0,
+    "n_tracks": 69,
+    "n_committed": 41,
+    "jf_nonoverlap": 0.7333,
+    "jf_nonoverlap_top20": 0.1529
+   },
+   "qrd": {
+    "jf": 0.8389,
+    "pool_jf": 0.8823,
+    "precision": 0.0417,
+    "recall": 1.0,
+    "n_tracks": 78,
+    "n_committed": 48,
+    "jf_nonoverlap": 0.7332,
+    "jf_nonoverlap_top20": 0.1529
+   },
+   "qrd_gated": {
+    "jf": 0.8389,
+    "pool_jf": 0.8823,
+    "precision": 0.0417,
+    "recall": 1.0,
+    "n_tracks": 77,
+    "n_committed": 48
+   },
+   "n_discovered": 9,
+   "n_objects": 2,
+   "n_frames": 69,
+   "detector_calls": 4,
+   "seconds": 2081.1
+  },
+  "bmx-trees": {
+   "frame0": {
+    "jf": 0.7895,
+    "pool_jf": 0.7895,
+    "precision": 0.6667,
+    "recall": 1.0,
+    "n_tracks": 3,
+    "n_committed": 3,
+    "jf_nonoverlap": 0.7886,
+    "jf_nonoverlap_top20": 0.7886
+   },
+   "qrd": {
+    "jf": 0.7476,
+    "pool_jf": 0.7895,
+    "precision": 0.04,
+    "recall": 0.5,
+    "n_tracks": 74,
+    "n_committed": 25,
+    "jf_nonoverlap": 0.7,
+    "jf_nonoverlap_top20": 0.7
+   },
+   "qrd_gated": {
+    "jf": 0.7895,
+    "pool_jf": 0.7895,
+    "precision": 0.2857,
+    "recall": 1.0,
+    "n_tracks": 7,
+    "n_committed": 7
+   },
+   "n_discovered": 71,
+   "n_objects": 2,
+   "n_frames": 80,
+   "detector_calls": 4,
+   "seconds": 2196.3
+  },
+  "camel": {
+   "frame0": {
+    "jf": 0.9686,
+    "pool_jf": 0.9686,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 2,
+    "n_committed": 1,
+    "jf_nonoverlap": 0.9686,
+    "jf_nonoverlap_top20": 0.9686
+   },
+   "qrd": {
+    "jf": 0.9686,
+    "pool_jf": 0.9693,
+    "precision": 0.5,
+    "recall": 1.0,
+    "n_tracks": 6,
+    "n_committed": 2,
+    "jf_nonoverlap": 0.9686,
+    "jf_nonoverlap_top20": 0.9686
+   },
+   "qrd_gated": {
+    "jf": 0.9686,
+    "pool_jf": 0.9686,
+    "precision": 0.5,
+    "recall": 1.0,
+    "n_tracks": 3,
+    "n_committed": 2
+   },
+   "n_discovered": 4,
+   "n_objects": 1,
+   "n_frames": 90,
+   "detector_calls": 4,
+   "seconds": 598.8
+  },
+  "car-shadow": {
+   "frame0": {
+    "jf": 0.963,
+    "pool_jf": 0.963,
+    "precision": 0.0588,
+    "recall": 1.0,
+    "n_tracks": 48,
+    "n_committed": 17,
+    "jf_nonoverlap": 0.9394,
+    "jf_nonoverlap_top20": 0.9394
+   },
+   "qrd": {
+    "jf": 0.963,
+    "pool_jf": 0.963,
+    "precision": 0.0286,
+    "recall": 1.0,
+    "n_tracks": 109,
+    "n_committed": 35,
+    "jf_nonoverlap": 0.9394,
+    "jf_nonoverlap_top20": 0.9394
+   },
+   "qrd_gated": {
+    "jf": 0.963,
+    "pool_jf": 0.963,
+    "precision": 0.04,
+    "recall": 1.0,
+    "n_tracks": 64,
+    "n_committed": 25
+   },
+   "n_discovered": 61,
+   "n_objects": 1,
+   "n_frames": 40,
+   "detector_calls": 4,
+   "seconds": 1394.7
+  },
+  "dance-twirl": {
+   "frame0": {
+    "jf": 0.9279,
+    "pool_jf": 0.9279,
+    "precision": 0.0213,
+    "recall": 1.0,
+    "n_tracks": 98,
+    "n_committed": 47,
+    "jf_nonoverlap": 0.9284,
+    "jf_nonoverlap_top20": 0.0115
+   },
+   "qrd": {
+    "jf": 0.9279,
+    "pool_jf": 0.9279,
+    "precision": 0.0111,
+    "recall": 1.0,
+    "n_tracks": 161,
+    "n_committed": 90,
+    "jf_nonoverlap": 0.9285,
+    "jf_nonoverlap_top20": 0.0115
+   },
+   "qrd_gated": {
+    "jf": 0.9279,
+    "pool_jf": 0.9279,
+    "precision": 0.0137,
+    "recall": 1.0,
+    "n_tracks": 134,
+    "n_committed": 73
+   },
+   "n_discovered": 63,
+   "n_objects": 1,
+   "n_frames": 90,
+   "detector_calls": 4,
+   "seconds": 4700.2
+  },
+  "dogs-jump": {
+   "frame0": {
+    "jf": 0.9425,
+    "pool_jf": 0.9425,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 3,
+    "n_committed": 3,
+    "jf_nonoverlap": 0.9425,
+    "jf_nonoverlap_top20": 0.9425
+   },
+   "qrd": {
+    "jf": 0.9435,
+    "pool_jf": 0.9435,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 5,
+    "n_committed": 3,
+    "jf_nonoverlap": 0.9435,
+    "jf_nonoverlap_top20": 0.9435
+   },
+   "qrd_gated": {
+    "jf": 0.9425,
+    "pool_jf": 0.9425,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 3,
+    "n_committed": 3
+   },
+   "n_discovered": 2,
+   "n_objects": 3,
+   "n_frames": 66,
+   "detector_calls": 4,
+   "seconds": 579.4
+  },
+  "drift-straight": {
+   "frame0": {
+    "jf": 0.9476,
+    "pool_jf": 0.9477,
+    "precision": 0.5,
+    "recall": 1.0,
+    "n_tracks": 75,
+    "n_committed": 2,
+    "jf_nonoverlap": 0.9476,
+    "jf_nonoverlap_top20": 0.9476
+   },
+   "qrd": {
+    "jf": 0.9476,
+    "pool_jf": 0.9477,
+    "precision": 0.2,
+    "recall": 1.0,
+    "n_tracks": 149,
+    "n_committed": 5,
+    "jf_nonoverlap": 0.9476,
+    "jf_nonoverlap_top20": 0.9476
+   },
+   "qrd_gated": {
+    "jf": 0.9476,
+    "pool_jf": 0.9477,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "n_tracks": 78,
+    "n_committed": 3
+   },
+   "n_discovered": 74,
+   "n_objects": 1,
+   "n_frames": 50,
+   "detector_calls": 4,
+   "seconds": 2358.2
+  },
+  "gold-fish": {
+   "frame0": {
+    "jf": 0.5552,
+    "pool_jf": 0.5883,
+    "precision": 0.75,
+    "recall": 0.6,
+    "n_tracks": 14,
+    "n_committed": 4,
+    "jf_nonoverlap": 0.5555,
+    "jf_nonoverlap_top20": 0.5555
+   },
+   "qrd": {
+    "jf": 0.923,
+    "pool_jf": 0.9243,
+    "precision": 0.8333,
+    "recall": 1.0,
+    "n_tracks": 42,
+    "n_committed": 6,
+    "jf_nonoverlap": 0.9214,
+    "jf_nonoverlap_top20": 0.9214
+   },
+   "qrd_gated": {
+    "jf": 0.9231,
+    "pool_jf": 0.9239,
+    "precision": 0.8333,
+    "recall": 1.0,
+    "n_tracks": 18,
+    "n_committed": 6
+   },
+   "n_discovered": 28,
+   "n_objects": 5,
+   "n_frames": 78,
+   "detector_calls": 4,
+   "seconds": 2179.3
+  },
+  "india": {
+   "frame0": {
+    "jf": 0.7442,
+    "pool_jf": 0.7442,
+    "precision": 0.0811,
+    "recall": 1.0,
+    "n_tracks": 98,
+    "n_committed": 37,
+    "jf_nonoverlap": 0.7445,
+    "jf_nonoverlap_top20": 0.562
+   },
+   "qrd": {
+    "jf": 0.7442,
+    "pool_jf": 0.7442,
+    "precision": 0.0556,
+    "recall": 1.0,
+    "n_tracks": 166,
+    "n_committed": 54,
+    "jf_nonoverlap": 0.7445,
+    "jf_nonoverlap_top20": 0.562
+   },
+   "qrd_gated": {
+    "jf": 0.7442,
+    "pool_jf": 0.7442,
+    "precision": 0.075,
+    "recall": 1.0,
+    "n_tracks": 103,
+    "n_committed": 40
+   },
+   "n_discovered": 68,
+   "n_objects": 3,
+   "n_frames": 81,
+   "detector_calls": 4,
+   "seconds": 4595.8
+  },
+  "kite-surf": {
+   "frame0": {
+    "jf": 0.4316,
+    "pool_jf": 0.4944,
+    "precision": 1.0,
+    "recall": 0.6667,
+    "n_tracks": 4,
+    "n_committed": 2,
+    "jf_nonoverlap": 0.4316,
+    "jf_nonoverlap_top20": 0.4316
+   },
+   "qrd": {
+    "jf": 0.4388,
+    "pool_jf": 0.4998,
+    "precision": 0.4,
+    "recall": 0.6667,
+    "n_tracks": 20,
+    "n_committed": 5,
+    "jf_nonoverlap": 0.4389,
+    "jf_nonoverlap_top20": 0.4389
+   },
+   "qrd_gated": {
+    "jf": 0.4316,
+    "pool_jf": 0.4944,
+    "precision": 1.0,
+    "recall": 0.6667,
+    "n_tracks": 4,
+    "n_committed": 2
+   },
+   "n_discovered": 16,
+   "n_objects": 3,
+   "n_frames": 50,
+   "detector_calls": 4,
+   "seconds": 791.4
+  },
+  "libby": {
+   "frame0": {
+    "jf": 0.9285,
+    "pool_jf": 0.9285,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 1,
+    "n_committed": 1,
+    "jf_nonoverlap": 0.9285,
+    "jf_nonoverlap_top20": 0.9285
+   },
+   "qrd": {
+    "jf": 0.9283,
+    "pool_jf": 0.9295,
+    "precision": 0.25,
+    "recall": 1.0,
+    "n_tracks": 12,
+    "n_committed": 4,
+    "jf_nonoverlap": 0.9283,
+    "jf_nonoverlap_top20": 0.9283
+   },
+   "qrd_gated": {
+    "jf": 0.9285,
+    "pool_jf": 0.9285,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 1,
+    "n_committed": 1
+   },
+   "n_discovered": 11,
+   "n_objects": 1,
+   "n_frames": 49,
+   "detector_calls": 4,
+   "seconds": 464.7
+  },
+  "mbike-trick": {
+   "frame0": {
+    "jf": 0.8901,
+    "pool_jf": 0.8901,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 2,
+    "n_committed": 2,
+    "jf_nonoverlap": 0.8913,
+    "jf_nonoverlap_top20": 0.8913
+   },
+   "qrd": {
+    "jf": 0.8901,
+    "pool_jf": 0.8901,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 2,
+    "n_committed": 2,
+    "jf_nonoverlap": 0.8913,
+    "jf_nonoverlap_top20": 0.8913
+   },
+   "qrd_gated": {
+    "jf": 0.8901,
+    "pool_jf": 0.8901,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 2,
+    "n_committed": 2
+   },
+   "n_discovered": 0,
+   "n_objects": 2,
+   "n_frames": 79,
+   "detector_calls": 4,
+   "seconds": 405.9
+  }
+ },
+ "skipped": {},
+ "summary": {
+  "n_videos": 12,
+  "frame0": {
+   "jf": 0.8273,
+   "pool_jf": 0.8389166666666666,
+   "precision": 0.5938916666666667,
+   "recall": 0.9388916666666667,
+   "n_tracks": 34.75,
+   "n_committed": 13.333333333333334,
+   "jf_nonoverlap": 0.81665,
+   "jf_nonoverlap_top20": 0.6766666666666666
+  },
+  "qrd": {
+   "jf": 0.855125,
+   "pool_jf": 0.8675916666666668,
+   "precision": 0.3633583333333334,
+   "recall": 0.9305583333333334,
+   "n_tracks": 68.66666666666667,
+   "n_committed": 23.25,
+   "jf_nonoverlap": 0.8404333333333333,
+   "jf_nonoverlap_top20": 0.70045
+  },
+  "qrd_gated": {
+   "jf": 0.8579583333333333,
+   "pool_jf": 0.8668833333333333,
+   "precision": 0.510225,
+   "recall": 0.972225,
+   "n_tracks": 41.166666666666664,
+   "n_committed": 17.666666666666668
+  }
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "config": {
+  "root": "/home/ahmed/Desktop/SCIREP_SUBMISSION/local_runs/data53/lvos53",
+  "out": "/home/ahmed/Desktop/SCIREP_SUBMISSION/local_runs/out/o4b3_53/65DBEapy.json",
+  "max_frames": 100,
+  "spread": true,
+  "video_list": "/tmp/claude-1000/lvos53_one.txt",
+  "max_videos": 0,
+  "shard": 0,
+  "num_shards": 1,
+  "checkpoint_dir": "/home/ahmed/Desktop/SCIREP_SUBMISSION/local_runs/ckpt",
+  "sam2_size": "large",
+  "objectness": 0.05,
+  "detector": "detr",
+  "device": "cuda",
+  "threads": 2,
+  "seeding": "o4",
+  "seeds": 3,
+  "frames": "best",
+  "random_seed": 0,
+  "cover_max": 0.5,
+  "tiou_stride": 1
+ },
+ "per_video": {
+  "65DBEapy": {
+   "o4": {
+    "jf": 0.9492,
+    "pool_jf": 0.9491,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 3,
+    "n_committed": 1,
+    "jf_nonoverlap": 0.9492,
+    "jf_nonoverlap_top20": 0.9492
+   },
+   "n_seeds": 3,
+   "n_objects": 1,
+   "n_frames": 100,
+   "seconds": 110.2
+  }
+ },
+ "skipped": {},
+ "summary": {
+  "n_videos": 1,
+  "o4": {
+   "jf": 0.9492,
+   "pool_jf": 0.9491,
+   "precision": 1.0,
+   "recall": 1.0,
+   "n_tracks": 3.0,
+   "n_committed": 1.0,
+   "jf_nonoverlap": 0.9492,
+   "jf_nonoverlap_top20": 0.9492
+  }
+ },
+ "complete": true
+}

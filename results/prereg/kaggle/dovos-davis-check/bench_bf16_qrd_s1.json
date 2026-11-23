@@ -1,0 +1,126 @@
+{
+ "config": {
+  "root": "/tmp/davis",
+  "out": "/kaggle/working/out/bench_bf16_qrd_s1.json",
+  "max_frames": 0,
+  "spread": false,
+  "video_list": "/tmp/davis_val.txt",
+  "max_videos": 4,
+  "shard": 1,
+  "num_shards": 2,
+  "checkpoint_dir": "/tmp/ckpt",
+  "sam2_size": "large",
+  "objectness": 0.05,
+  "detector": "detr",
+  "device": "cuda",
+  "threads": 2,
+  "cover_max": 0.5,
+  "redetect": "quartile",
+  "tiou_stride": 4
+ },
+ "per_video": {
+  "blackswan": {
+   "frame0": {
+    "jf": 0.9433,
+    "pool_jf": 0.9433,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 1,
+    "n_committed": 1,
+    "jf_nonoverlap": 0.9433,
+    "jf_nonoverlap_top20": 0.9433
+   },
+   "qrd": {
+    "jf": 0.9433,
+    "pool_jf": 0.9447,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 4,
+    "n_committed": 1,
+    "jf_nonoverlap": 0.9433,
+    "jf_nonoverlap_top20": 0.9433
+   },
+   "qrd_gated": {
+    "jf": 0.9433,
+    "pool_jf": 0.9433,
+    "precision": 1.0,
+    "recall": 1.0,
+    "n_tracks": 1,
+    "n_committed": 1
+   },
+   "n_discovered": 3,
+   "n_objects": 1,
+   "n_frames": 50,
+   "detector_calls": 4,
+   "seconds": 370.1
+  },
+  "breakdance": {
+   "frame0": {
+    "jf": 0.9556,
+    "pool_jf": 0.9556,
+    "precision": 0.0233,
+    "recall": 1.0,
+    "n_tracks": 80,
+    "n_committed": 43,
+    "jf_nonoverlap": 0.9558,
+    "jf_nonoverlap_top20": 0.9558
+   },
+   "qrd": {
+    "jf": 0.9556,
+    "pool_jf": 0.9556,
+    "precision": 0.0175,
+    "recall": 1.0,
+    "n_tracks": 100,
+    "n_committed": 57,
+    "jf_nonoverlap": 0.9558,
+    "jf_nonoverlap_top20": 0.03
+   },
+   "qrd_gated": {
+    "jf": 0.9556,
+    "pool_jf": 0.9556,
+    "precision": 0.0192,
+    "recall": 1.0,
+    "n_tracks": 93,
+    "n_committed": 52
+   },
+   "n_discovered": 20,
+   "n_objects": 1,
+   "n_frames": 84,
+   "detector_calls": 4,
+   "seconds": 2958.0
+  }
+ },
+ "skipped": {},
+ "summary": {
+  "n_videos": 2,
+  "frame0": {
+   "jf": 0.94945,
+   "pool_jf": 0.94945,
+   "precision": 0.51165,
+   "recall": 1.0,
+   "n_tracks": 40.5,
+   "n_committed": 22.0,
+   "jf_nonoverlap": 0.94955,
+   "jf_nonoverlap_top20": 0.94955
+  },
+  "qrd": {
+   "jf": 0.94945,
+   "pool_jf": 0.95015,
+   "precision": 0.50875,
+   "recall": 1.0,
+   "n_tracks": 52.0,
+   "n_committed": 29.0,
+   "jf_nonoverlap": 0.94955,
+   "jf_nonoverlap_top20": 0.48665
+  },
+  "qrd_gated": {
+   "jf": 0.94945,
+   "pool_jf": 0.94945,
+   "precision": 0.5096,
+   "recall": 1.0,
+   "n_tracks": 47.0,
+   "n_committed": 26.5
+  }
+ },
+ "complete": true
+}
